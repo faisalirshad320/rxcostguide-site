@@ -1,0 +1,11 @@
+{
+  "name": "rxcostguide-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RxCostGuide — static drug-cost information site generator",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "update-prices": "node scripts/update-prices.js"
+  },
+  "license": "UNLICENSED"
+}

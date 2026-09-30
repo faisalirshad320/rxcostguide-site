@@ -1,0 +1,166 @@
+# RxCostGuide — full index
+
+Independent, clinician-reviewed guides to US prescription drug prices, copay cards, patient-assistance programs and Medicare coverage.
+All prices approximate, US, verified against manufacturer savings pages and CMS.gov; retrieval date shown per page.
+Reviewer: Dr. Faisal Irshad, MBBS, M.Phil Chemical Pathology (PMDC 54440-S).
+
+## Dupixent (dupilumab)
+URL: https://rxcostguide.com/asthma-allergy-eczema/dupixent-cost/
+Class: IL-4/IL-13 inhibitor biologic
+Short answer: Dupixent costs about $3,800 a month at list price. Commercially insured patients can pay as little as $0 with the Dupixent MyWay copay card. Medicare patients are protected by the $2,100 Part D cap; uninsured patients can apply for free medication.
+
+## Trelegy Ellipta (fluticasone/umeclidinium/vilanterol)
+URL: https://rxcostguide.com/asthma-allergy-eczema/trelegy-cost/
+Class: Triple-therapy inhaler
+Short answer: Trelegy costs about $650 a month at list price. Commercially insured patients can pay as little as $0 with the Trelegy copay card. Trelegy is in the second Medicare negotiation cycle, with a negotiated price effective 2027; until then Medicare patients use Part D and the $2,100 cap.
+
+## Fasenra (benralizumab)
+URL: https://rxcostguide.com/asthma-allergy-eczema/fasenra-cost/
+Class: IL-5 receptor biologic
+Short answer: Fasenra costs about $5,000 per dose at list price (dosed every 8 weeks in maintenance). Commercially insured patients can pay as little as $0 with the Fasenra copay card. Medicare patients are protected by the $2,100 Part D cap.
+
+## Xolair (omalizumab)
+URL: https://rxcostguide.com/asthma-allergy-eczema/xolair-cost/
+Class: Anti-IgE biologic
+Short answer: Xolair costs roughly $1,500 to $3,000 a month depending on your dose and weight. Commercially insured patients can pay as little as $0 with the Xolair Co-pay Card. Medicare patients are protected by the $2,100 Part D cap.
+
+## Symbicort (budesonide/formoterol)
+URL: https://rxcostguide.com/asthma-allergy-eczema/symbicort-cost/
+Class: ICS/LABA inhaler
+Short answer: Branded Symbicort costs about $350 a month at list price, but a generic budesonide/formoterol is available and cheaper — often the best route. Commercially insured patients can also use the Symbicort savings card; uninsured patients should compare the generic with a discount card.
+
+## Rinvoq (upadacitinib)
+URL: https://rxcostguide.com/autoimmune/rinvoq-cost/
+Class: JAK inhibitor
+Short answer: Rinvoq costs about $6,900 a month at list price. Commercially insured patients can pay as little as $5 a month with the Rinvoq Complete copay card. Medicare patients pay plan cost-share up to the $2,100 Part D cap; uninsured patients can apply for free medication through AbbVie.
+
+## Cosentyx (secukinumab)
+URL: https://rxcostguide.com/autoimmune/cosentyx-cost/
+Class: IL-17A inhibitor
+Short answer: Cosentyx costs several thousand dollars a month at list price (roughly $7,000/month-equivalent depending on dosing schedule). Commercially insured patients can pay as little as $0 with the Cosentyx Connect copay card. Medicare patients are protected by the $2,100 Part D cap.
+
+## Taltz (ixekizumab)
+URL: https://rxcostguide.com/autoimmune/taltz-cost/
+Class: IL-17A inhibitor
+Short answer: Taltz costs several thousand dollars a month at list price (roughly $7,000/month-equivalent depending on dosing). Commercially insured patients can pay as little as $0 with the Taltz Together copay card. Medicare patients are protected by the $2,100 Part D cap.
+
+## Enbrel (etanercept)
+URL: https://rxcostguide.com/autoimmune/enbrel-cost/
+Class: TNF inhibitor
+Short answer: Enbrel costs about $7,100 a month at list price. Commercially insured patients can pay as little as $0 with the Enbrel copay card. From 1 January 2026 the Medicare-negotiated price is about $2,355 per month-equivalent — a two-thirds cut. Etanercept biosimilars are also available and cheaper.
+
+## Otezla (apremilast)
+URL: https://rxcostguide.com/autoimmune/otezla-cost/
+Class: PDE4 inhibitor (oral)
+Short answer: Otezla costs about $4,200 a month at list price. Commercially insured patients can pay as little as $0 with the Otezla copay card. Otezla is in the second Medicare negotiation cycle, with a negotiated price effective 2027; until then Medicare patients rely on the $2,100 Part D cap.
+
+## Jardiance (empagliflozin)
+URL: https://rxcostguide.com/diabetes/jardiance-cost/
+Class: SGLT2 inhibitor
+Short answer: Jardiance costs about $640 a month at list price. Commercially insured patients can pay as little as $10 a month with the Jardiance savings card (up to $100 per 30-day or $450 per 90-day supply). From 1 January 2026 the Medicare-negotiated price is about $197 per 30-day supply — a cut of roughly two-thirds.
+
+## Farxiga (dapagliflozin)
+URL: https://rxcostguide.com/diabetes/farxiga-cost/
+Class: SGLT2 inhibitor
+Short answer: Farxiga costs about $600 a month at list price. Commercially insured patients can pay as little as $0 a month with the Farxiga savings card. From 1 January 2026 the Medicare-negotiated price is about $178.50 per 30-day supply.
+
+## Mounjaro (tirzepatide)
+URL: https://rxcostguide.com/diabetes/mounjaro-cost/
+Class: GIP/GLP-1 receptor agonist
+Short answer: Mounjaro costs about $1,080 a month at list price. Commercially insured patients with coverage can pay as little as $25 a month with the Mounjaro savings card; those whose commercial plan doesn't cover it may pay a capped amount instead. Mounjaro is in the second Medicare negotiation cycle, with a negotiated price effective 2027 — not yet in 2026.
+
+## Januvia (sitagliptin)
+URL: https://rxcostguide.com/diabetes/januvia-cost/
+Class: DPP-4 inhibitor
+Short answer: Branded Januvia costs about $620 a month at list price. From 1 January 2026 the Medicare-negotiated price is about $113 per 30-day supply. Generic sitagliptin is beginning to reach pharmacies and will be the cheapest route once widely stocked.
+
+## Wegovy (semaglutide)
+URL: https://rxcostguide.com/glp-1-weight-loss/wegovy-cost/
+Class: GLP-1 receptor agonist
+Short answer: Wegovy costs about $1,350 a month at list price. Commercially insured patients with coverage can pay as little as $0 with the Wegovy savings card. For cash payers, NovoCare self-pay offers Wegovy well below list price. Medicare does not cover Wegovy for weight loss (it may cover it to reduce cardiovascular risk in specific patients).
+
+## Zepbound (tirzepatide)
+URL: https://rxcostguide.com/glp-1-weight-loss/zepbound-cost/
+Class: GIP/GLP-1 receptor agonist
+Short answer: Zepbound costs about $1,060 a month at list price for the pens, but self-pay single-dose vials through LillyDirect are cheaper. Commercially insured patients with coverage can pay as little as $25 with the Zepbound savings card. Medicare does not cover it for weight loss.
+
+## Ozempic (semaglutide)
+URL: https://rxcostguide.com/glp-1-weight-loss/ozempic-cost/
+Class: GLP-1 receptor agonist
+Short answer: Ozempic costs about $970 a month at list price. Commercially insured patients with coverage can pay as little as $25 with the Ozempic savings card. Ozempic (semaglutide) is in the second Medicare negotiation cycle, with a negotiated price effective 2027. Medicare covers it for diabetes, not weight loss.
+
+## Saxenda (liraglutide)
+URL: https://rxcostguide.com/glp-1-weight-loss/saxenda-cost/
+Class: GLP-1 receptor agonist
+Short answer: Branded Saxenda costs about $1,350 a month at list price. Commercially insured patients can use the Saxenda savings card, but the bigger story is generic liraglutide, which is emerging and much cheaper. Medicare does not cover it for weight loss.
+
+## Contrave (naltrexone/bupropion)
+URL: https://rxcostguide.com/glp-1-weight-loss/contrave-cost/
+Class: Combination weight-loss oral
+Short answer: Contrave lists at about $700 a month, but the manufacturer's Contrave Now / cash program offers it far cheaper — often a fixed low monthly price regardless of insurance. That makes it one of the more affordable prescription weight-loss options.
+
+## Eliquis (apixaban)
+URL: https://rxcostguide.com/heart-blood-thinners/eliquis-cost/
+Class: Factor Xa inhibitor anticoagulant
+Short answer: Eliquis costs about $600 a month (roughly $7,100 a year) at list price. Commercially insured patients can pay as little as $10 a month with the Eliquis Co-pay Card. From 1 January 2026 the Medicare-negotiated price is about $231 per 30-day supply, applied automatically at the pharmacy for Part D members.
+
+## Xarelto (rivaroxaban)
+URL: https://rxcostguide.com/heart-blood-thinners/xarelto-cost/
+Class: Factor Xa inhibitor anticoagulant
+Short answer: Xarelto costs about $550 a month at list price. Commercially insured patients can pay as little as $0 with the Janssen CarePath copay card. From 1 January 2026 the Medicare-negotiated price is about $197 per 30-day supply, applied automatically for Part D members.
+
+## Entresto (sacubitril/valsartan)
+URL: https://rxcostguide.com/heart-blood-thinners/entresto-cost/
+Class: ARNI (angiotensin receptor–neprilysin inhibitor)
+Short answer: Entresto costs about $600 a month at list price. Commercially insured patients can pay as little as $10 a month with the Entresto copay card. From 1 January 2026 the Medicare-negotiated price is about $295 per 30-day supply, applied automatically for Part D members.
+
+## Repatha (evolocumab)
+URL: https://rxcostguide.com/heart-blood-thinners/repatha-cost/
+Class: PCSK9 inhibitor
+Short answer: Repatha costs about $650 a month (roughly $7,800 a year) at list price. Commercially insured patients can pay as little as $5 a month with the Repatha copay card. Repatha does not currently have a Medicare-negotiated price, so Medicare patients pay their plan's cost-share up to the $2,100 Part D cap.
+
+## Pradaxa (dabigatran)
+URL: https://rxcostguide.com/heart-blood-thinners/pradaxa-cost/
+Class: Direct thrombin inhibitor anticoagulant
+Short answer: Branded Pradaxa costs about $550 a month at list price, but generic dabigatran is available and much cheaper — often well under $100 a month with a discount card. Commercially insured patients can also use the Pradaxa savings card.
+
+## Biktarvy (bictegravir/emtricitabine/tenofovir alafenamide)
+URL: https://rxcostguide.com/hiv-hepatitis/biktarvy-cost/
+Class: HIV integrase inhibitor single-tablet regimen
+Short answer: Biktarvy costs about $4,000 a month at list price. Commercially insured patients can pay as little as $0 with the Biktarvy copay card. Uninsured and low-income patients can access it through Gilead Advancing Access, Ryan White or state ADAP. Medicare patients are protected by the $2,100 Part D cap.
+
+## Epclusa (sofosbuvir/velpatasvir)
+URL: https://rxcostguide.com/hiv-hepatitis/epclusa-cost/
+Class: Hepatitis C direct-acting antiviral
+Short answer: Branded Epclusa lists around $25,000 for a 12-week course, but an authorized generic (sofosbuvir/velpatasvir) is available at a fraction of that — often a few hundred to a couple of thousand dollars for the full course. Commercially insured patients can use the copay card; assistance programs help others.
+
+## Mavyret (glecaprevir/pibrentasvir)
+URL: https://rxcostguide.com/hiv-hepatitis/mavyret-cost/
+Class: Hepatitis C direct-acting antiviral
+Short answer: Mavyret lists around $13,000 for an 8-week course at list price. Commercially insured patients can pay as little as $5 with the Mavyret copay card. Uninsured, income-eligible patients can get it free through AbbVie; Medicare patients are protected by the $2,100 Part D cap.
+
+## Nurtec ODT (rimegepant)
+URL: https://rxcostguide.com/migraine/nurtec-cost/
+Class: CGRP receptor antagonist (gepant)
+Short answer: Nurtec ODT costs about $1,000 a month at list price. Commercially insured patients can pay as little as $0 with the Nurtec Savings Card. Medicare patients pay plan cost-share up to the $2,100 Part D cap.
+
+## Ubrelvy (ubrogepant)
+URL: https://rxcostguide.com/migraine/ubrelvy-cost/
+Class: CGRP receptor antagonist (gepant)
+Short answer: Ubrelvy costs about $1,000 a month at list price (cost scales with how many tablets you use). Commercially insured patients can pay as little as $0 with the Ubrelvy Savings Card. Medicare patients pay plan cost-share up to the $2,100 cap.
+
+## Qulipta (atogepant)
+URL: https://rxcostguide.com/migraine/qulipta-cost/
+Class: CGRP receptor antagonist (gepant)
+Short answer: Qulipta costs about $1,100 a month at list price. Commercially insured patients can pay as little as $0 with the Qulipta copay card. Medicare patients pay plan cost-share up to the $2,100 Part D cap.
+
+## Ajovy (fremanezumab)
+URL: https://rxcostguide.com/migraine/ajovy-cost/
+Class: CGRP monoclonal antibody
+Short answer: Ajovy costs about $700 a month at list price. Commercially insured patients can pay as little as $0 with the Ajovy copay card. Medicare patients pay plan cost-share up to the $2,100 Part D cap.
+
+## Aimovig (erenumab)
+URL: https://rxcostguide.com/migraine/aimovig-cost/
+Class: CGRP monoclonal antibody
+Short answer: Aimovig costs about $700 a month at list price. Commercially insured patients can pay as little as $0 with the Aimovig Ally copay program. Medicare patients pay plan cost-share up to the $2,100 Part D cap.
+

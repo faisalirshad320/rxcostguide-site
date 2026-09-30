@@ -1,0 +1,60 @@
+# RxCostGuide
+
+> Independent, clinician-reviewed guides to US prescription drug prices, copay cards, patient-assistance programs and Medicare coverage. Reviewed by Dr. Faisal Irshad (PMDC 54440-S). Prices are approximate US figures and are verified against manufacturer pages and CMS.gov, with the retrieval date shown on each page.
+
+## Drug cost pages
+- [Dupixent (dupilumab) cost](https://rxcostguide.com/asthma-allergy-eczema/dupixent-cost/): Dupixent (dupilumab) costs about $3,800/month at list price. See the Dupixent MyWay copay card ($0 for commercial insurance), coupons, Medicare cost and assistance.
+- [Trelegy Ellipta (fluticasone/umeclidinium/vilanterol) cost](https://rxcostguide.com/asthma-allergy-eczema/trelegy-cost/): Trelegy Ellipta costs about $650/month at list price. See the Trelegy copay card ($0 for commercial insurance), coupons, 2027 Medicare price and patient assistance.
+- [Fasenra (benralizumab) cost](https://rxcostguide.com/asthma-allergy-eczema/fasenra-cost/): Fasenra (benralizumab) costs about $5,000 per dose at list price. See the Fasenra copay card ($0 for commercial insurance), coupons, Medicare cost and assistance.
+- [Xolair (omalizumab) cost](https://rxcostguide.com/asthma-allergy-eczema/xolair-cost/): Xolair (omalizumab) costs about $1,500–$3,000/month depending on dose. See the Xolair copay card ($0 for commercial insurance), coupons, Medicare cost and assistance.
+- [Symbicort (budesonide/formoterol) cost](https://rxcostguide.com/asthma-allergy-eczema/symbicort-cost/): Symbicort costs about $350/month at list price, but generic budesonide/formoterol is available and cheaper. See coupons, the copay card and cost without insurance.
+- [Rinvoq (upadacitinib) cost](https://rxcostguide.com/autoimmune/rinvoq-cost/): Rinvoq (upadacitinib) costs about $6,900/month at list price. See the Rinvoq Complete copay card ($5/mo for commercial insurance), coupons, Medicare cost and assistance.
+- [Cosentyx (secukinumab) cost](https://rxcostguide.com/autoimmune/cosentyx-cost/): Cosentyx (secukinumab) costs several thousand dollars a month at list price. See the Cosentyx Connect copay card ($0 for commercial insurance), coupons and assistance.
+- [Taltz (ixekizumab) cost](https://rxcostguide.com/autoimmune/taltz-cost/): Taltz (ixekizumab) costs several thousand dollars a month at list price. See the Taltz Together copay card ($0 for commercial insurance), coupons and patient assistance.
+- [Enbrel (etanercept) cost](https://rxcostguide.com/autoimmune/enbrel-cost/): Enbrel (etanercept) costs about $7,100/month at list price. See the 2026 Medicare-negotiated price (~$2,355), the Enbrel copay card, biosimilars and assistance.
+- [Otezla (apremilast) cost](https://rxcostguide.com/autoimmune/otezla-cost/): Otezla (apremilast) costs about $4,200/month at list price. See the Otezla copay card ($0 for commercial insurance), coupons, 2027 Medicare price and assistance.
+- [Jardiance (empagliflozin) cost](https://rxcostguide.com/diabetes/jardiance-cost/): Jardiance (empagliflozin) costs about $640/month at list price. See the 2026 Medicare-negotiated price (~$197), the Jardiance copay card, coupons and assistance.
+- [Farxiga (dapagliflozin) cost](https://rxcostguide.com/diabetes/farxiga-cost/): Farxiga (dapagliflozin) costs about $600/month at list price. See the 2026 Medicare-negotiated price (~$178.50), the Farxiga savings card, coupons and assistance.
+- [Mounjaro (tirzepatide) cost](https://rxcostguide.com/diabetes/mounjaro-cost/): Mounjaro (tirzepatide) costs about $1,080/month at list price. See the Mounjaro savings card, coupons, cost without insurance, self-pay vials and assistance.
+- [Januvia (sitagliptin) cost](https://rxcostguide.com/diabetes/januvia-cost/): Januvia (sitagliptin) costs about $620/month at list price. See the 2026 Medicare-negotiated price (~$113), generic sitagliptin, coupons and patient assistance.
+- [Wegovy (semaglutide) cost](https://rxcostguide.com/glp-1-weight-loss/wegovy-cost/): Wegovy (semaglutide) costs about $1,350/month at list price. See the Wegovy savings card, NovoCare self-pay price, cost without insurance and coupons.
+- [Zepbound (tirzepatide) cost](https://rxcostguide.com/glp-1-weight-loss/zepbound-cost/): Zepbound (tirzepatide) costs about $1,060/month list, but self-pay vials via LillyDirect are cheaper. See the Zepbound savings card, coupons and cost without insurance.
+- [Ozempic (semaglutide) cost](https://rxcostguide.com/glp-1-weight-loss/ozempic-cost/): Ozempic (semaglutide) costs about $970/month at list price. See the Ozempic savings card, coupons, cost without insurance, Medicare coverage and patient assistance.
+- [Saxenda (liraglutide) cost](https://rxcostguide.com/glp-1-weight-loss/saxenda-cost/): Saxenda (liraglutide) costs about $1,350/month at list price, but generic liraglutide is emerging. See the Saxenda savings card, coupons and cost without insurance.
+- [Contrave (naltrexone/bupropion) cost](https://rxcostguide.com/glp-1-weight-loss/contrave-cost/): Contrave (naltrexone/bupropion) costs about $700/month at list price, but the manufacturer cash program is far cheaper. See coupons and cost without insurance.
+- [Eliquis (apixaban) cost](https://rxcostguide.com/heart-blood-thinners/eliquis-cost/): Eliquis (apixaban) costs about $600/month at list price. See the 2026 Medicare-negotiated price, the Eliquis copay card, coupons and patient assistance.
+- [Xarelto (rivaroxaban) cost](https://rxcostguide.com/heart-blood-thinners/xarelto-cost/): Xarelto (rivaroxaban) costs about $550/month at list price. See the 2026 Medicare-negotiated price, the Xarelto copay card, coupons and patient assistance.
+- [Entresto (sacubitril/valsartan) cost](https://rxcostguide.com/heart-blood-thinners/entresto-cost/): Entresto (sacubitril/valsartan) costs about $600/month at list price. See the 2026 Medicare-negotiated price, the Entresto copay card, coupons and assistance.
+- [Repatha (evolocumab) cost](https://rxcostguide.com/heart-blood-thinners/repatha-cost/): Repatha (evolocumab) costs about $650/month at list price. See the Repatha copay card ($5/mo for commercial insurance), coupons, Medicare cost and patient assistance.
+- [Pradaxa (dabigatran) cost](https://rxcostguide.com/heart-blood-thinners/pradaxa-cost/): Pradaxa (dabigatran) costs about $550/month at list price, but generic dabigatran is available and much cheaper. See coupons, copay card and assistance.
+- [Biktarvy (bictegravir/emtricitabine/tenofovir alafenamide) cost](https://rxcostguide.com/hiv-hepatitis/biktarvy-cost/): Biktarvy costs about $4,000/month at list price. See the Biktarvy copay card ($0 for commercial insurance), Advancing Access, ADAP, Medicare cost and assistance.
+- [Epclusa (sofosbuvir/velpatasvir) cost](https://rxcostguide.com/hiv-hepatitis/epclusa-cost/): Epclusa (sofosbuvir/velpatasvir) lists around $25,000 per 12-week course, but an authorized generic is far cheaper. See copay cards, coupons and patient assistance.
+- [Mavyret (glecaprevir/pibrentasvir) cost](https://rxcostguide.com/hiv-hepatitis/mavyret-cost/): Mavyret (glecaprevir/pibrentasvir) lists around $13,000 for an 8-week course. See the Mavyret copay card ($0 for commercial insurance), coupons and patient assistance.
+- [Nurtec ODT (rimegepant) cost](https://rxcostguide.com/migraine/nurtec-cost/): Nurtec ODT (rimegepant) costs about $1,000/month at list price. See the Nurtec copay card ($0 for commercial insurance), coupons, Medicare cost and assistance.
+- [Ubrelvy (ubrogepant) cost](https://rxcostguide.com/migraine/ubrelvy-cost/): Ubrelvy (ubrogepant) costs about $1,000/month at list price. See the Ubrelvy copay card ($0 for commercial insurance), coupons, Medicare cost and assistance.
+- [Qulipta (atogepant) cost](https://rxcostguide.com/migraine/qulipta-cost/): Qulipta (atogepant) costs about $1,100/month at list price. See the Qulipta copay card ($0 for commercial insurance), coupons, Medicare cost and patient assistance.
+- [Ajovy (fremanezumab) cost](https://rxcostguide.com/migraine/ajovy-cost/): Ajovy (fremanezumab) costs about $700/month at list price. See the Ajovy copay card ($0 for commercial insurance), coupons, Medicare cost and patient assistance.
+- [Aimovig (erenumab) cost](https://rxcostguide.com/migraine/aimovig-cost/): Aimovig (erenumab) costs about $700/month at list price. See the Aimovig copay card ($0 for commercial insurance), coupons, Medicare cost and patient assistance.
+
+## Condition hubs
+- [Asthma, allergy & eczema costs](https://rxcostguide.com/asthma-allergy-eczema/): What Dupixent, Trelegy, Fasenra, Xolair and Symbicort cost in 2026, with copay cards, coupons, cost without insurance, generics and patient assistance.
+- [Autoimmune costs](https://rxcostguide.com/autoimmune/): What Rinvoq, Cosentyx, Taltz, Enbrel and Otezla cost in 2026, with copay cards, Medicare negotiated prices, biosimilars and patient-assistance programs.
+- [Diabetes costs](https://rxcostguide.com/diabetes/): What Jardiance, Farxiga, Mounjaro, Januvia and insulin cost in 2026, with Medicare negotiated prices, copay cards, the $35 insulin cap and patient assistance.
+- [GLP-1 & weight loss costs](https://rxcostguide.com/glp-1-weight-loss/): What Wegovy, Zepbound, Ozempic, Saxenda and Contrave cost in 2026, with savings cards, self-pay vial prices, coupons and how to pay less without insurance.
+- [Heart & blood thinners costs](https://rxcostguide.com/heart-blood-thinners/): What Eliquis, Xarelto, Entresto, Repatha and Pradaxa cost in 2026, with Medicare negotiated prices, copay cards and patient-assistance programs.
+- [HIV & hepatitis costs](https://rxcostguide.com/hiv-hepatitis/): What Biktarvy, Epclusa and Mavyret cost in 2026, with copay cards, coupons, Ready/ADAP assistance, Medicare coverage and cost without insurance.
+- [Migraine costs](https://rxcostguide.com/migraine/): What Nurtec, Ubrelvy, Qulipta, Ajovy and Aimovig cost in 2026, with copay cards, coupons, cost without insurance and patient-assistance programs.
+
+## Guides
+- https://rxcostguide.com/guides/copay-cards/
+- https://rxcostguide.com/guides/patient-assistance/
+- https://rxcostguide.com/guides/prior-authorization/
+- https://rxcostguide.com/guides/medicare-part-d/
+- https://rxcostguide.com/guides/medicare-negotiated-prices/
+- https://rxcostguide.com/guides/biosimilars/
+- https://rxcostguide.com/guides/uninsured/
+
+## About
+- [Our reviewer, Dr. Faisal Irshad](https://rxcostguide.com/about/dr-faisal-irshad/)
+- [How we source prices](https://rxcostguide.com/how-we-source-prices/)
+- [Editorial policy](https://rxcostguide.com/editorial-policy/)
