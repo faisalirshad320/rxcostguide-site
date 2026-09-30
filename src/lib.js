@@ -39,7 +39,8 @@ function mdInline(s = '') {
 function md(s = '') {
   const linkFixed = esc(s)
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a href="$2" rel="noopener">$1</a>');
+    .replace(/\[([^\]]+)\]\(((?:https?:|\/)[^)\s]+)\)/g, (m, t, u) =>
+      u.startsWith('/') ? `<a href="${u}">${t}</a>` : `<a href="${u}" rel="noopener">${t}</a>`);
   return linkFixed;
 }
 function paras(text = '') {

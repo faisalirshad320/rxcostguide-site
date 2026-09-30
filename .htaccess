@@ -1,4 +1,7 @@
 # RxCostGuide — Apache config for Cloudways
+# Serve static index.html ahead of any legacy index.php
+DirectoryIndex index.html index.htm index.php
+
 # Force HTTPS
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
