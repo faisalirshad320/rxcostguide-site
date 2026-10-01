@@ -1,9 +1,19 @@
 <?php
 /**
- * Legacy-router replacement. The site is now a static build (index.html per directory).
- * Cloudways' Nginx picks index.php ahead of index.html at the web root, so this shim
- * simply serves the static homepage. All other pages are served directly as index.html.
+ * Root entry shim. The site is a static build (index.html per directory).
+ * Cloudways' Nginx uses `try_files ... /index.php`, so every unmatched URL
+ * reaches this file. Serve the homepage only for the root; return a real 404
+ * (not the homepage) for anything else, so stale/old URLs de-index cleanly and
+ * we don't create soft-404s.
  */
-http_response_code(200);
+$path = rtrim(parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/', '/');
+
+if ($path === '' || $path === '/index' || $path === '/index.php' || $path === '/index.html') {
+    header('Content-Type: text/html; charset=utf-8');
+    readfile(__DIR__ . '/index.html');
+    exit;
+}
+
+http_response_code(404);
 header('Content-Type: text/html; charset=utf-8');
-readfile(__DIR__ . '/index.html');
+readfile(__DIR__ . '/404.html');
