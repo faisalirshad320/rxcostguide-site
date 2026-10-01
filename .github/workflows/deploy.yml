@@ -21,7 +21,7 @@ jobs:
       CW_APP_ID: "6685750"
       CW_BRANCH: "main"
     steps:
-      - name: Get Cloudways OAuth token
+      - name: Resolve Cloudways bearer token
         id: token
         run: |
           set -e
@@ -29,11 +29,20 @@ jobs:
             echo "::error::CLOUDWAYS_EMAIL and CLOUDWAYS_API_KEY secrets are not set."
             exit 1
           fi
-          TOKEN=$(curl -sf -X POST https://api.cloudways.com/api/v1/oauth/access_token \
+          # Cloudways renamed API Keys to Access Tokens. Handle both auth models:
+          # 1) legacy: exchange email + key for a short-lived access_token
+          # 2) new: the token is already a usable bearer token
+          BEARER=$(curl -s -X POST https://api.cloudways.com/api/v1/oauth/access_token \
             -d "email=${CW_EMAIL}" -d "api_key=${CW_API_KEY}" \
-            | python3 -c "import sys,json; print(json.load(sys.stdin).get('access_token',''))")
-          if [ -z "$TOKEN" ]; then echo "::error::Could not obtain Cloudways access token"; exit 1; fi
-          echo "token=$TOKEN" >> "$GITHUB_OUTPUT"
+            | python3 -c "import sys,json;
+try: print(json.load(sys.stdin).get('access_token',''))
+except Exception: print('')" 2>/dev/null || true)
+          if [ -z "$BEARER" ]; then
+            echo "OAuth exchange returned no token; using the secret directly as a bearer token."
+            BEARER="$CW_API_KEY"
+          fi
+          echo "::add-mask::$BEARER"
+          echo "token=$BEARER" >> "$GITHUB_OUTPUT"
 
       - name: Trigger Git pull (deploy) on Cloudways
         run: |
