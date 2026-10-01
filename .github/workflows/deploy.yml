@@ -1,9 +1,9 @@
 name: Deploy to Cloudways
 
 # Auto-deploys the site to Cloudways on every push to main.
-# Requires two GitHub repo secrets (Settings → Secrets and variables → Actions):
-#   CLOUDWAYS_EMAIL    – your Cloudways account email
-#   CLOUDWAYS_API_KEY  – API key from Cloudways → Account → API Keys
+# Requires two GitHub repo secrets (Settings -> Secrets and variables -> Actions):
+#   CLOUDWAYS_EMAIL    - your Cloudways account email
+#   CLOUDWAYS_API_KEY  - the Access Token from Cloudways -> Account -> API / Access Tokens
 # Server/app IDs are not secret and are set below.
 
 on:
@@ -29,16 +29,10 @@ jobs:
             echo "::error::CLOUDWAYS_EMAIL and CLOUDWAYS_API_KEY secrets are not set."
             exit 1
           fi
-          # Cloudways renamed API Keys to Access Tokens. Handle both auth models:
-          # 1) legacy: exchange email + key for a short-lived access_token
-          # 2) new: the token is already a usable bearer token
-          BEARER=$(curl -s -X POST https://api.cloudways.com/api/v1/oauth/access_token \
-            -d "email=${CW_EMAIL}" -d "api_key=${CW_API_KEY}" \
-            | python3 -c "import sys,json;
-try: print(json.load(sys.stdin).get('access_token',''))
-except Exception: print('')" 2>/dev/null || true)
+          RESP=$(curl -s -X POST https://api.cloudways.com/api/v1/oauth/access_token -d "email=$CW_EMAIL" -d "api_key=$CW_API_KEY" || true)
+          BEARER=$(printf '%s' "$RESP" | grep -o '"access_token"[^,}]*' | head -1 | sed 's/.*"access_token"[^"]*"//; s/"$//')
           if [ -z "$BEARER" ]; then
-            echo "OAuth exchange returned no token; using the secret directly as a bearer token."
+            echo "OAuth exchange returned no access_token; using the secret directly as the bearer token."
             BEARER="$CW_API_KEY"
           fi
           echo "::add-mask::$BEARER"
@@ -47,19 +41,12 @@ except Exception: print('')" 2>/dev/null || true)
       - name: Trigger Git pull (deploy) on Cloudways
         run: |
           set -e
-          RESP=$(curl -sf -X POST https://api.cloudways.com/api/v1/git/pull \
-            -H "Authorization: Bearer ${{ steps.token.outputs.token }}" \
-            -d "server_id=${CW_SERVER_ID}" \
-            -d "app_id=${CW_APP_ID}" \
-            -d "branch_name=${CW_BRANCH}")
+          RESP=$(curl -s -X POST https://api.cloudways.com/api/v1/git/pull -H "Authorization: Bearer ${{ steps.token.outputs.token }}" -d "server_id=$CW_SERVER_ID" -d "app_id=$CW_APP_ID" -d "branch_name=$CW_BRANCH")
           echo "Git pull response: $RESP"
+          echo "$RESP" | grep -qi 'error\|invalid\|unauth' && { echo "::error::Cloudways git pull failed"; exit 1; } || true
 
       - name: Purge application cache (Varnish)
         continue-on-error: true
         run: |
-          RESP=$(curl -s -X POST https://api.cloudways.com/api/v1/app/manage/varnish \
-            -H "Authorization: Bearer ${{ steps.token.outputs.token }}" \
-            -d "server_id=${CW_SERVER_ID}" \
-            -d "app_id=${CW_APP_ID}" \
-            -d "action=purge")
+          RESP=$(curl -s -X POST https://api.cloudways.com/api/v1/app/manage/varnish -H "Authorization: Bearer ${{ steps.token.outputs.token }}" -d "server_id=$CW_SERVER_ID" -d "app_id=$CW_APP_ID" -d "action=purge")
           echo "Varnish purge response: $RESP"
