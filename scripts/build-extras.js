@@ -10,7 +10,7 @@ module.exports = function (ctx) {
 <span class="drug">${esc(m.hub.name)}</span>
 <span class="blurb">${(m.drugs || []).length} drug${(m.drugs || []).length === 1 ? '' : 's'} covered</span>
 <span class="from">See costs &amp; savings →</span></a>`).join('\n');
-  const popular = ['eliquis', 'mounjaro', 'wegovy', 'jardiance', 'repatha', 'rinvoq', 'ozempic', 'farxiga']
+  const popular = ['ozempic', 'mounjaro', 'wegovy', 'humira', 'eliquis', 'jardiance', 'skyrizi', 'trulicity', 'rybelsus', 'vraylar', 'rinvoq', 'descovy']
     .map(s => allDrugs.find(d => d.slug === s)).filter(Boolean)
     .map(d => `<a class="card" href="/${d.hub}/${d.slug}-cost/"><span class="drug">${esc(d.brand)}</span>
 <span class="generic">${esc(d.generic)}</span><span class="from">See ${esc(d.brand)} cost →</span></a>`).join('\n');

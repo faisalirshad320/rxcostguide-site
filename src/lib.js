@@ -18,6 +18,7 @@ const SITE = {
     ['Diabetes', '/diabetes/'],
     ['Weight loss', '/glp-1-weight-loss/'],
     ['Heart', '/heart-blood-thinners/'],
+    ['Mental health', '/mental-health/'],
     ['Guides', '/guides/'],
     ['Price tool', '/tools/drug-cost-estimator/'],
   ],
@@ -107,6 +108,7 @@ function articleSchema({ title, desc, path, published, modified, image }) {
 
 function head({ title, desc, path, schema = [], ogType = 'article', image }) {
   const canonical = SITE.url + path;
+  const ogImage = SITE.url + (image || '/assets/img/og-default.png');
   const graph = { '@context': 'https://schema.org', '@graph': [orgSchema(), websiteSchema(), ...schema] };
   return `<!doctype html>
 <html lang="en-US">
@@ -122,8 +124,11 @@ function head({ title, desc, path, schema = [], ogType = 'article', image }) {
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${canonical}">
-${image ? `<meta property="og:image" content="${SITE.url + image}">` : ''}
+<meta property="og:image" content="${ogImage}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${ogImage}">
 <meta name="author" content="${esc(SITE.author.name)}, ${esc(SITE.author.creds)}">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/css/style.css">
@@ -160,7 +165,7 @@ function footer() {
 <a href="/diabetes/">Diabetes</a><a href="/glp-1-weight-loss/">Weight loss (GLP-1)</a>
 <a href="/heart-blood-thinners/">Heart &amp; blood thinners</a><a href="/migraine/">Migraine</a>
 <a href="/autoimmune/">Autoimmune</a><a href="/asthma-allergy-eczema/">Asthma, allergy &amp; eczema</a>
-<a href="/hiv-hepatitis/">HIV &amp; hepatitis</a></div>
+<a href="/hiv-hepatitis/">HIV &amp; hepatitis</a><a href="/mental-health/">Mental health</a></div>
 <div><h4>Save on drugs</h4>
 <a href="/guides/copay-cards/">Copay cards</a><a href="/guides/patient-assistance/">Patient assistance</a>
 <a href="/guides/medicare-negotiated-prices/">Medicare negotiated prices</a><a href="/guides/uninsured/">No insurance</a>

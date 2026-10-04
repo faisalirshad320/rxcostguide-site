@@ -8,6 +8,7 @@ module.exports = {
     shortAnswer: 'Branded GLP-1 weight-loss drugs run roughly **$1,000 to $1,350 a month** at list price. The cheapest routes have shifted: manufacturers now sell **lower-cost self-pay vials** (Zepbound and Wegovy) that undercut the pen list price, and **savings cards** can bring commercially insured patients to as little as $0–$25. Insurance coverage for weight loss is inconsistent, and **Medicare does not cover these drugs for weight loss** (only for diabetes or, in some cases, heart-disease risk).',
     modified: '2026-10-01',
     comparisons: [
+      { title: 'Ozempic vs Wegovy: cost & coverage', url: '/glp-1-weight-loss/ozempic-vs-wegovy/' },
       { title: 'Mounjaro vs Ozempic: cost & coverage', url: '/glp-1-weight-loss/mounjaro-vs-ozempic/' },
       { title: 'Wegovy vs Zepbound: cost & coverage', url: '/glp-1-weight-loss/wegovy-vs-zepbound/' },
     ],
@@ -265,6 +266,40 @@ module.exports = {
     },
   ],
   comparisons: [
+    {
+      name: 'Ozempic vs Wegovy', path: '/glp-1-weight-loss/ozempic-vs-wegovy/',
+      title: 'Ozempic vs Wegovy: Cost, Coverage & the Difference (2026) | RxCostGuide',
+      metaDesc: 'Ozempic vs Wegovy compared on 2026 cost, insurance coverage, self-pay prices and what actually differs — same drug, different approvals. Which is cheaper for you.',
+      h1: 'Ozempic vs Wegovy: cost, coverage & what’s actually different',
+      lede: 'They are the same molecule (semaglutide) from the same maker — but different approvals mean very different coverage and cost. Here is how to think about it.',
+      shortAnswer: 'Ozempic and Wegovy are **both semaglutide** from Novo Nordisk, but Ozempic is approved for **type 2 diabetes** and Wegovy for **weight loss** (and cardiovascular risk). That difference drives everything: Ozempic (~$970/mo list) is widely covered for diabetes, including by Medicare; Wegovy (~$1,350/mo list) is for weight loss, which **Medicare does not cover** and many commercial plans exclude. Both have savings cards (commercial) and self-pay options. You cannot simply pick the cheaper one — coverage follows your diagnosis.',
+      a: { name: 'Ozempic (diabetes)' }, b: { name: 'Wegovy (weight loss)' },
+      rows: [
+        ['Molecule', 'Semaglutide', 'Semaglutide (same drug)'],
+        ['FDA-approved for', 'Type 2 diabetes', 'Weight loss; cardiovascular risk'],
+        ['List price', '~$970/mo', '~$1,350/mo'],
+        ['Savings card (commercial)', 'As low as $25/mo', 'As low as $0–$25/mo'],
+        ['Self-pay option', 'Limited', 'NovoCare self-pay (lower than list)'],
+        ['Medicare', 'Covered for diabetes', 'Not covered for weight loss'],
+        ['Medicare negotiated price', 'Effective 2027', 'Effective 2027 (semaglutide)'],
+      ],
+      sections: [
+        { h: 'Same drug, different doses and labels', body: 'Both are semaglutide injections, but they are not interchangeable products: Wegovy reaches a higher maintenance dose and is approved specifically for weight management and to reduce cardiovascular risk, while Ozempic is dosed and approved for type 2 diabetes. Prescribing is driven by your diagnosis, not by which is cheaper on a given day.' },
+        { h: 'Why coverage is the whole story', body: 'Because Ozempic is a diabetes drug, it is broadly covered — commercial plans and Medicare Part D both cover it for diabetes, with the savings card bringing commercial patients to ~$25. Wegovy is a weight-loss drug: **Medicare will not pay for it for weight loss**, and many commercial plans exclude or heavily gate it. That is why people with diabetes often pay far less than people using semaglutide purely for weight loss.' },
+        { h: 'Which is cheaper for you?', body: '**If you have diabetes:** Ozempic is usually both appropriate and better covered. **For weight loss:** Wegovy is the approved choice; with commercial coverage the card can reach $0–$25, and without coverage the **NovoCare self-pay price** beats the pen list. **Medicare + weight loss:** not covered — self-pay is the route. Never ask for the diabetes drug purely to save money on weight loss; prescribing to your actual diagnosis is both the rule and what keeps coverage intact. Both get a Medicare-negotiated price in 2027.' },
+      ],
+      faqs: [
+        { q: 'Are Ozempic and Wegovy the same thing?', a: 'They are the same molecule — semaglutide — from Novo Nordisk, but different products: Ozempic is approved for type 2 diabetes, Wegovy for weight loss and cardiovascular risk. They are dosed differently and not interchangeable.' },
+        { q: 'Is Ozempic or Wegovy cheaper?', a: 'Ozempic lists lower (~$970 vs ~$1,350) and is far better covered because it is a diabetes drug. But you cannot choose based on price — coverage follows your diagnosis. For weight loss, Wegovy with its card or NovoCare self-pay is the route.' },
+        { q: 'Does Medicare cover Wegovy or Ozempic?', a: 'Medicare covers Ozempic for diabetes. It does not cover Wegovy (or any drug) for weight loss, though it may cover Wegovy for reducing cardiovascular risk in specific patients. Both get a negotiated price in 2027.' },
+        { q: 'Can I use Ozempic for weight loss to save money?', a: 'Prescribing should match your diagnosis. Using a diabetes drug off-label purely for cost reasons is a decision only your doctor can make, and it can jeopardize coverage. For weight loss, Wegovy is the approved product.' },
+      ],
+      sources: [
+        { name: 'CMS — Medicare Drug Price Negotiation Program', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation' },
+        { name: 'NovoCare', url: 'https://www.novocare.com' },
+      ],
+      published: '2026-10-05',
+    },
     {
       name: 'Mounjaro vs Ozempic', path: '/glp-1-weight-loss/mounjaro-vs-ozempic/',
       title: 'Mounjaro vs Ozempic: Cost, Coverage & Which Is Cheaper (2026) | RxCostGuide',

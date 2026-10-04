@@ -29,6 +29,21 @@ URL: https://rxcostguide.com/asthma-allergy-eczema/symbicort-cost/
 Class: ICS/LABA inhaler
 Short answer: Branded Symbicort costs about $350 a month at list price, but a generic budesonide/formoterol is available and cheaper — often the best route. Commercially insured patients can also use the Symbicort savings card; uninsured patients should compare the generic with a discount card.
 
+## Humira (adalimumab)
+URL: https://rxcostguide.com/autoimmune/humira-cost/
+Class: TNF inhibitor (biologic)
+Short answer: Brand Humira lists around $7,000 a month (two pens). Since 2023 several adalimumab biosimilars (Amjevita, Cyltezo, Hyrimoz, Yuflyma, Simlandi and others) are available at far lower prices — some through low-cost channels for a few hundred dollars a month. Commercially insured patients can still reach $0 with the Humira Complete card; the biggest savings lever is the biosimilar.
+
+## Skyrizi (risankizumab)
+URL: https://rxcostguide.com/autoimmune/skyrizi-cost/
+Class: IL-23 inhibitor (biologic)
+Short answer: Skyrizi lists around $21,000 per dose, but maintenance dosing is only every 8–12 weeks, so the annual figure (roughly $90,000+) matters more than any monthly number. Commercially insured patients can pay as little as $5 per dose with the Skyrizi Complete card. There is no biosimilar. Medicare patients pay plan cost-share under the $2,100 cap.
+
+## Stelara (ustekinumab)
+URL: https://rxcostguide.com/autoimmune/stelara-cost/
+Class: IL-12/23 inhibitor (biologic)
+Short answer: Brand Stelara lists around $25,000 per dose, dosed every 8–12 weeks in maintenance. Since 2025 ustekinumab biosimilars (Wezlana, Selarsdi, Pyzchiva and others) are available at lower prices. Commercially insured patients can reach $5 per dose with the Janssen withMe card; the biggest lever is now the biosimilar.
+
 ## Rinvoq (upadacitinib)
 URL: https://rxcostguide.com/autoimmune/rinvoq-cost/
 Class: JAK inhibitor
@@ -53,6 +68,21 @@ Short answer: Enbrel costs about $7,100 a month at list price. Commercially insu
 URL: https://rxcostguide.com/autoimmune/otezla-cost/
 Class: PDE4 inhibitor (oral)
 Short answer: Otezla costs about $4,200 a month at list price. Commercially insured patients can pay as little as $0 with the Otezla copay card. Otezla is in the second Medicare negotiation cycle, with a negotiated price effective 2027; until then Medicare patients rely on the $2,100 Part D cap.
+
+## Trulicity (dulaglutide)
+URL: https://rxcostguide.com/diabetes/trulicity-cost/
+Class: GLP-1 receptor agonist
+Short answer: Trulicity costs about $990 a month at list price. Commercially insured patients can pay as little as $25 a month with the Trulicity savings card (if their plan covers it). There is no generic. Medicare patients pay plan cost-share under the $2,100 Part D cap; the uninsured can apply to Lilly Cares.
+
+## Rybelsus (semaglutide (oral))
+URL: https://rxcostguide.com/diabetes/rybelsus-cost/
+Class: GLP-1 receptor agonist
+Short answer: Rybelsus costs about $1,000 a month at list price. Commercially insured patients can pay as little as $10 a month with the Rybelsus savings card (if covered). There is no generic. As a semaglutide product it is in the second Medicare negotiation cycle, with a negotiated price effective 2027.
+
+## Victoza (liraglutide)
+URL: https://rxcostguide.com/diabetes/victoza-cost/
+Class: GLP-1 receptor agonist
+Short answer: Branded Victoza lists around $820 a month. A cheaper authorized generic liraglutide is available and is usually the better-value route. Commercially insured patients may also use the Victoza savings card; Medicare patients pay plan cost-share under the $2,100 cap; the uninsured can apply to NovoCare.
 
 ## Jardiance (empagliflozin)
 URL: https://rxcostguide.com/diabetes/jardiance-cost/
@@ -99,6 +129,11 @@ URL: https://rxcostguide.com/glp-1-weight-loss/contrave-cost/
 Class: Combination weight-loss oral
 Short answer: Contrave lists at about $700 a month, but the manufacturer's Contrave Now / cash program offers it far cheaper — often a fixed low monthly price regardless of insurance. That makes it one of the more affordable prescription weight-loss options.
 
+## Brilinta (ticagrelor)
+URL: https://rxcostguide.com/heart-blood-thinners/brilinta-cost/
+Class: P2Y12 antiplatelet
+Short answer: Brand Brilinta lists around $550 a month, but generic ticagrelor is now available and is usually the cheapest route — often well under $100 a month with a discount card. Commercially insured patients may also use the Brilinta savings card; Medicare patients pay plan cost-share under the $2,100 cap.
+
 ## Eliquis (apixaban)
 URL: https://rxcostguide.com/heart-blood-thinners/eliquis-cost/
 Class: Factor Xa inhibitor anticoagulant
@@ -124,6 +159,21 @@ URL: https://rxcostguide.com/heart-blood-thinners/pradaxa-cost/
 Class: Direct thrombin inhibitor anticoagulant
 Short answer: Branded Pradaxa costs about $550 a month at list price, but generic dabigatran is available and much cheaper — often well under $100 a month with a discount card. Commercially insured patients can also use the Pradaxa savings card.
 
+## Descovy (emtricitabine/tenofovir alafenamide)
+URL: https://rxcostguide.com/hiv-hepatitis/descovy-cost/
+Class: HIV NRTI backbone / PrEP
+Short answer: Descovy lists around $2,200 a month. But if you take it for PrEP, the ACA requires most commercial plans to cover PrEP and its associated visits at $0, so you often pay nothing. Commercially insured patients can also use the Gilead Advancing Access copay card ($0); uninsured patients have Ready, Set, PrEP and ADAP. There is no generic Descovy (though generic F/TDF exists for PrEP).
+
+## Dovato (dolutegravir/lamivudine)
+URL: https://rxcostguide.com/hiv-hepatitis/dovato-cost/
+Class: HIV two-drug single-tablet regimen
+Short answer: Dovato costs about $3,100 a month at list price, but almost no one pays that. Commercially insured patients can pay as little as $0 with the ViiVConnect copay card; uninsured patients use ADAP or ViiV patient assistance; Medicare patients pay plan cost-share under the $2,100 Part D cap. There is no generic.
+
+## Genvoya (elvitegravir/cobicistat/emtricitabine/tenofovir alafenamide)
+URL: https://rxcostguide.com/hiv-hepatitis/genvoya-cost/
+Class: HIV single-tablet regimen
+Short answer: Genvoya costs about $3,900 a month at list price, but almost no one pays that. Commercially insured patients can pay as little as $0 with the Gilead Advancing Access card; uninsured patients use ADAP or Gilead assistance; Medicare patients pay plan cost-share under the $2,100 Part D cap. There is no generic.
+
 ## Biktarvy (bictegravir/emtricitabine/tenofovir alafenamide)
 URL: https://rxcostguide.com/hiv-hepatitis/biktarvy-cost/
 Class: HIV integrase inhibitor single-tablet regimen
@@ -138,6 +188,41 @@ Short answer: Branded Epclusa lists around $25,000 for a 12-week course, but an 
 URL: https://rxcostguide.com/hiv-hepatitis/mavyret-cost/
 Class: Hepatitis C direct-acting antiviral
 Short answer: Mavyret lists around $13,000 for an 8-week course at list price. Commercially insured patients can pay as little as $5 with the Mavyret copay card. Uninsured, income-eligible patients can get it free through AbbVie; Medicare patients are protected by the $2,100 Part D cap.
+
+## Vraylar (cariprazine)
+URL: https://rxcostguide.com/mental-health/vraylar-cost/
+Class: Atypical antipsychotic
+Short answer: Vraylar costs about $1,550 a month at list price. Commercially insured patients can pay as little as $0 a month with the Vraylar Savings Card. There is no generic yet. Vraylar is in the second Medicare negotiation cycle, with a negotiated price effective 1 January 2027 — until then Medicare patients pay their plan cost-share under the $2,100 Part D cap.
+
+## Rexulti (brexpiprazole)
+URL: https://rxcostguide.com/mental-health/rexulti-cost/
+Class: Atypical antipsychotic
+Short answer: Rexulti costs about $1,560 a month at list price. Commercially insured patients can pay as little as $0 a month with the Rexulti savings card. There is no generic yet. Medicare patients cannot use the card and pay plan cost-share under the $2,100 Part D cap.
+
+## Caplyta (lumateperone)
+URL: https://rxcostguide.com/mental-health/caplyta-cost/
+Class: Atypical antipsychotic
+Short answer: Caplyta costs about $1,500 a month at list price. Commercially insured patients can pay as little as $0 a month with the Caplyta savings program. There is no generic. Medicare patients cannot use the card and pay plan cost-share under the $2,100 Part D cap.
+
+## Latuda (lurasidone)
+URL: https://rxcostguide.com/mental-health/latuda-cost/
+Class: Atypical antipsychotic
+Short answer: Branded Latuda lists around $1,600 a month, but generic lurasidone is far cheaper — often $30–$60 a month with a discount card — and is the single biggest reason this hub exists. Generic lurasidone is usually the cheapest second-generation antipsychotic, so it is worth asking your prescriber and pharmacist about it first.
+
+## Trintellix (vortioxetine)
+URL: https://rxcostguide.com/mental-health/trintellix-cost/
+Class: Antidepressant (serotonin modulator)
+Short answer: Trintellix costs about $570 a month at list price. Commercially insured patients can usually pay as little as $10 a month with the Trintellix savings card. There is no generic yet. Because many cheap generic antidepressants exist, it is worth asking whether one suits you before paying brand prices.
+
+## Auvelity (dextromethorphan / bupropion)
+URL: https://rxcostguide.com/mental-health/auvelity-cost/
+Class: Antidepressant (NMDA antagonist combination)
+Short answer: Auvelity costs about $1,000 a month at list price. Commercially insured patients can pay as little as $0 a month with the Auvelity savings card. There is no generic. Medicare patients cannot use the card and pay plan cost-share under the $2,100 Part D cap.
+
+## Emgality (galcanezumab)
+URL: https://rxcostguide.com/migraine/emgality-cost/
+Class: CGRP monoclonal antibody (preventive)
+Short answer: Emgality costs about $700 a month at list price. Commercially insured patients can often get the first month free and then pay $0 with the Emgality savings card. There is no biosimilar. Medicare patients pay plan cost-share under the $2,100 Part D cap; the uninsured can apply to Lilly Cares.
 
 ## Nurtec ODT (rimegepant)
 URL: https://rxcostguide.com/migraine/nurtec-cost/
