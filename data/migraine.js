@@ -6,7 +6,10 @@ module.exports = {
     h1: 'What migraine medications cost, and how to pay less',
     lede: 'Modern migraine drugs — the CGRP gepants and antibodies — are highly effective but expensive without help. For most commercially insured patients, the manufacturer copay card is the difference between $0 and hundreds of dollars a month.',
     shortAnswer: 'Branded migraine drugs run roughly **$700 to $1,100 a month** at list price. Commercially insured patients can almost always pay **as little as $0** with the manufacturer copay card. Medicare patients rely on Part D coverage and the **$2,100 out-of-pocket cap**; uninsured patients should look at patient assistance.',
-    modified: '2026-10-01',
+    modified: '2026-10-05',
+    comparisons: [
+      { title: 'Nurtec vs Ubrelvy: cost & coverage', url: '/migraine/nurtec-vs-ubrelvy/' },
+    ],
     sections: [
       { h: 'Acute vs preventive — and why it matters for cost', body: 'Migraine drugs split into **acute** (taken at onset — Nurtec, Ubrelvy) and **preventive** (taken regularly — Qulipta, Ajovy, Aimovig). Acute drugs are often limited by "quantity limits" per month, which affects both coverage and cost. Nurtec is unusual in being approved for both.' },
       { h: 'Copay cards do the heavy lifting', body: 'Every branded drug on this page has a manufacturer copay card that can bring commercially insured patients to $0. As always, these are barred for Medicare and Medicaid patients — the most common reason a card is declined.' },

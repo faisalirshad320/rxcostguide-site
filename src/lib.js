@@ -109,13 +109,17 @@ function articleSchema({ title, desc, path, published, modified, image }) {
 function head({ title, desc, path, schema = [], ogType = 'article', image }) {
   const canonical = SITE.url + path;
   const ogImage = SITE.url + (image || '/assets/img/og-default.png');
+  // SERP title hygiene: drop the redundant generic-name parenthetical before the
+  // brand pipe (the generic is already in the meta description and H1), shortening
+  // long drug titles so they don't truncate in results. Other titles are untouched.
+  const titleTag = title.replace(/\s*\([^()]*\)\s*\|/, ' |');
   const graph = { '@context': 'https://schema.org', '@graph': [orgSchema(), websiteSchema(), ...schema] };
   return `<!doctype html>
 <html lang="en-US">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(title)}</title>
+<title>${esc(titleTag)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${canonical}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">

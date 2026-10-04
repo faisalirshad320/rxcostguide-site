@@ -6,7 +6,11 @@ module.exports = {
     h1: 'What autoimmune medications cost, and how to pay less',
     lede: 'Biologics and targeted immune drugs are among the most expensive prescriptions in America — often several thousand dollars a month. Copay cards, biosimilars and patient assistance are what make them affordable.',
     shortAnswer: 'Branded autoimmune biologics run roughly **$2,000 to $7,600 a month** at list price. Commercially insured patients can usually pay **as little as $0–$5** with the manufacturer copay card. **Enbrel has a Medicare-negotiated price (~$2,355) effective 2026**, and biosimilars now cut the cost of drugs like Humira sharply. Uninsured patients rely on generous manufacturer patient-assistance programs.',
-    modified: '2026-10-01',
+    modified: '2026-10-05',
+    comparisons: [
+      { title: 'Humira vs Skyrizi: cost & coverage', url: '/autoimmune/humira-vs-skyrizi/' },
+      { title: 'Rinvoq vs Humira: cost & coverage', url: '/autoimmune/rinvoq-vs-humira/' },
+    ],
     sections: [
       { h: 'Biosimilars are reshaping this category', body: 'Where a biosimilar exists (notably for Humira and Enbrel), it can cut the cost of the biologic substantially and is often the route your plan will prefer. See our [generics & biosimilars guide](/guides/biosimilars/) and always ask which version your plan places on the best tier.' },
       { h: 'Copay cards and prior authorization', body: 'Every branded biologic here has a copay card that brings commercially insured patients to near $0 — but coverage almost always requires prior authorization, usually with documented step therapy. Getting that paperwork right is what unlocks the drug.' },

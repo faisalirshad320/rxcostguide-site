@@ -6,7 +6,10 @@ module.exports = {
     h1: 'What HIV and hepatitis medications cost, and how to pay less',
     lede: 'HIV and hepatitis C drugs are among the highest-priced prescriptions in America, but they also have some of the most generous assistance — including copay cards, manufacturer programs and government-funded coverage.',
     shortAnswer: 'HIV treatment runs about **$4,000 a month** and a hepatitis C cure course runs **$13,000–$25,000+** at list price. But assistance is unusually strong: manufacturer copay cards can bring commercially insured patients to **$0**, and government programs (Ryan White, ADAP for HIV) plus manufacturer support help uninsured patients. Medicare patients are protected by the **$2,100 Part D cap**.',
-    modified: '2026-10-01',
+    modified: '2026-10-05',
+    comparisons: [
+      { title: 'Biktarvy vs Dovato: cost & coverage', url: '/hiv-hepatitis/biktarvy-vs-dovato/' },
+    ],
     sections: [
       { h: 'HIV: copay cards plus safety-net programs', body: 'For HIV, manufacturer copay cards (Gilead Advancing Access and others) bring commercially insured patients to $0, while the federally funded **Ryan White program and state ADAPs** provide medication to low-income and uninsured patients. Few people should ever pay list price for HIV medication.' },
       { h: 'Hepatitis C: a cure, priced as a course', body: 'Hepatitis C drugs are taken for a fixed course (usually 8–12 weeks) rather than indefinitely, so the price is a one-time course cost, not a monthly bill forever. Manufacturer support and assistance programs are extensive because the treatment is curative.' },

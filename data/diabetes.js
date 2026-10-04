@@ -7,7 +7,10 @@ module.exports = {
     lede: 'Diabetes drugs are taken indefinitely, so annual cost matters more than monthly. Several are now subject to Medicare-negotiated prices that cut what Part D patients pay by up to two-thirds, and insulin is capped at $35 a month.',
     shortAnswer: 'Common branded diabetes drugs run roughly **$550 to $1,080 a month** at list price. Medicare price negotiation changed this category more than any other: **Jardiance (~$197), Farxiga (~$178.50) and Januvia (~$113)** all have negotiated prices effective **1 January 2026**, applied automatically at the counter. Insulin is capped at **$35/month** on Medicare, and savings cards are usually capped per fill — so **90-day prescriptions are meaningfully cheaper** than three monthly ones.',
     modified: '2026-10-01',
-    comparisons: [{ title: 'Jardiance vs Farxiga: cost & coverage', url: '/diabetes/jardiance-vs-farxiga/' }],
+    comparisons: [
+      { title: 'Trulicity vs Ozempic: cost & coverage', url: '/diabetes/trulicity-vs-ozempic/' },
+      { title: 'Jardiance vs Farxiga: cost & coverage', url: '/diabetes/jardiance-vs-farxiga/' },
+    ],
     sections: [
       { h: 'What Medicare negotiation changed', body: 'Jardiance, Farxiga and Januvia were among the first ten drugs selected for Medicare negotiation. The negotiated Maximum Fair Price is not a discount you apply for — it becomes what Part D pays at the counter from 1 January 2026. The Part D out-of-pocket cap is **$2,100 for 2026**, which for most people on a couple of diabetes medications is now the number that decides annual spending.' },
       { h: 'Insulin and continuous glucose monitors', body: 'Insulin is capped at **$35 per month per covered product** on Medicare, and several manufacturers cap out-of-pocket costs for commercially insured patients too. Continuous glucose monitors (Dexcom, Libre) are devices, often billed through durable-medical-equipment benefits rather than pharmacy benefits — which side your plan uses can change what you pay substantially, so it is worth asking.' },
