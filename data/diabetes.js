@@ -1,434 +1,1130 @@
 module.exports = {
-  hub: {
-    slug: 'diabetes', name: 'Diabetes',
-    title: 'Diabetes Drug Costs 2026 — Jardiance, Farxiga, Mounjaro, Januvia | RxCostGuide',
-    metaDesc: 'What Jardiance, Farxiga, Mounjaro, Januvia and insulin cost in 2026, with Medicare negotiated prices, copay cards, the $35 insulin cap and patient assistance.',
-    h1: 'What diabetes medications cost, and how to pay less',
-    lede: 'Diabetes drugs are taken indefinitely, so annual cost matters more than monthly. Several are now subject to Medicare-negotiated prices that cut what Part D patients pay by up to two-thirds, and insulin is capped at $35 a month.',
-    shortAnswer: 'Common branded diabetes drugs run roughly **$550 to $1,080 a month** at list price. Medicare price negotiation changed this category more than any other: **Jardiance (~$197), Farxiga (~$178.50) and Januvia (~$113)** all have negotiated prices effective **1 January 2026**, applied automatically at the counter. Insulin is capped at **$35/month** on Medicare, and savings cards are usually capped per fill — so **90-day prescriptions are meaningfully cheaper** than three monthly ones.',
-    modified: '2026-10-01',
-    comparisons: [
-      { title: 'Trulicity vs Ozempic: cost & coverage', url: '/diabetes/trulicity-vs-ozempic/' },
-      { title: 'Jardiance vs Farxiga: cost & coverage', url: '/diabetes/jardiance-vs-farxiga/' },
+  "hub": {
+    "slug": "diabetes",
+    "name": "Diabetes",
+    "title": "Diabetes Drug Costs 2026 — Jardiance, Farxiga, Mounjaro, Januvia | RxCostGuide",
+    "metaDesc": "What Jardiance, Farxiga, Mounjaro, Januvia and insulin cost in 2026, with Medicare negotiated prices, copay cards, the $35 insulin cap and patient assistance.",
+    "h1": "What diabetes medications cost, and how to pay less",
+    "lede": "Diabetes drugs are taken indefinitely, so annual cost matters more than monthly. Several are now subject to Medicare-negotiated prices that cut what Part D patients pay by up to two-thirds, and insulin is capped at $35 a month.",
+    "shortAnswer": "Common branded diabetes drugs run roughly **$550 to $1,080 a month** at list price. Medicare price negotiation changed this category more than any other: **Jardiance (~$197), Farxiga (~$178.50) and Januvia (~$113)** all have negotiated prices effective **1 January 2026**, applied automatically at the counter. Insulin is capped at **$35/month** on Medicare, and savings cards are usually capped per fill — so **90-day prescriptions are meaningfully cheaper** than three monthly ones.",
+    "modified": "2026-10-01",
+    "comparisons": [
+      {
+        "title": "Trulicity vs Ozempic: cost & coverage",
+        "url": "/diabetes/trulicity-vs-ozempic/"
+      },
+      {
+        "title": "Jardiance vs Farxiga: cost & coverage",
+        "url": "/diabetes/jardiance-vs-farxiga/"
+      }
     ],
-    sections: [
-      { h: 'What Medicare negotiation changed', body: 'Jardiance, Farxiga and Januvia were among the first ten drugs selected for Medicare negotiation. The negotiated Maximum Fair Price is not a discount you apply for — it becomes what Part D pays at the counter from 1 January 2026. The Part D out-of-pocket cap is **$2,100 for 2026**, which for most people on a couple of diabetes medications is now the number that decides annual spending.' },
-      { h: 'Insulin and continuous glucose monitors', body: 'Insulin is capped at **$35 per month per covered product** on Medicare, and several manufacturers cap out-of-pocket costs for commercially insured patients too. Continuous glucose monitors (Dexcom, Libre) are devices, often billed through durable-medical-equipment benefits rather than pharmacy benefits — which side your plan uses can change what you pay substantially, so it is worth asking.' },
+    "sections": [
+      {
+        "h": "What Medicare negotiation changed",
+        "body": "Jardiance, Farxiga and Januvia were among the first ten drugs selected for Medicare negotiation. The negotiated Maximum Fair Price is not a discount you apply for — it becomes what Part D pays at the counter from 1 January 2026. The Part D out-of-pocket cap is **$2,100 for 2026**, which for most people on a couple of diabetes medications is now the number that decides annual spending."
+      },
+      {
+        "h": "Insulin and continuous glucose monitors",
+        "body": "Insulin is capped at **$35 per month per covered product** on Medicare, and several manufacturers cap out-of-pocket costs for commercially insured patients too. Continuous glucose monitors (Dexcom, Libre) are devices, often billed through durable-medical-equipment benefits rather than pharmacy benefits — which side your plan uses can change what you pay substantially, so it is worth asking."
+      }
     ],
-    sources: [{ name: 'CMS — Medicare Drug Price Negotiation Program', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation' }],
+    "sources": [
+      {
+        "name": "CMS — Medicare Drug Price Negotiation Program",
+        "url": "https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation"
+      }
+    ]
   },
-  drugs: [
+  "drugs": [
     {
-      slug: 'trulicity', brand: 'Trulicity', generic: 'dulaglutide', drugClass: 'GLP-1 receptor agonist',
-      manufacturer: 'Eli Lilly', manufacturerUrl: 'https://www.trulicity.com',
-      hub: 'diabetes', conditions: ['Type 2 diabetes'],
-      hasBiosimilar: false, listPriceText: '$990/mo',
-      cardBlurb: 'Once-weekly GLP-1 injection for type 2 diabetes (dulaglutide). Pre-filled, no dose titration of the pen.',
-      title: 'Trulicity Cost 2026: Price, Coupon & Savings Card (dulaglutide) | RxCostGuide',
-      metaDesc: 'Trulicity (dulaglutide) costs about $990/month at list price. See the Trulicity savings card ($25 for commercial insurance), coupons, cost without insurance and assistance.',
-      h1: 'Trulicity cost, coupon & savings card',
-      lede: 'Trulicity (dulaglutide) is a once-weekly GLP-1 injection for type 2 diabetes — one of the most prescribed drugs in its class.',
-      shortAnswer: 'Trulicity costs about **$990 a month** at list price. Commercially insured patients can pay **as little as $25 a month** with the Trulicity savings card (if their plan covers it). There is **no generic**. Medicare patients pay plan cost-share under the $2,100 Part D cap; the uninsured can apply to Lilly Cares.',
-      intro: 'Trulicity is taken once a week and indefinitely, so annual cost is what matters. As with most GLP-1 drugs, whether your commercial plan covers it is the single biggest factor in what you actually pay.',
-      costRows: [
-        { situation: 'Commercial insurance (covered) + card', cost: 'As low as $25/mo', note: 'Trulicity savings card' },
-        { situation: 'Medicare Part D', cost: 'Plan cost-share', note: '$2,100 annual cap applies' },
-        { situation: 'Cash / no insurance', cost: '~$990/mo', note: 'List price; discount cards often lower' },
-        { situation: 'Patient assistance (Lilly Cares)', cost: '$0', note: 'If income-eligible and uninsured' },
+      "slug": "trulicity",
+      "brand": "Trulicity",
+      "generic": "dulaglutide",
+      "drugClass": "GLP-1 receptor agonist",
+      "manufacturer": "Eli Lilly",
+      "manufacturerUrl": "https://www.trulicity.com",
+      "hub": "diabetes",
+      "conditions": [
+        "Type 2 diabetes"
       ],
-      copay: {
-        lead: 'The Trulicity savings card can bring commercially insured patients to as little as $25 per month.',
-        body: 'If your **commercial plan covers** Trulicity, the card can bring you to about $25 a month. Commercial insurance only — never Medicare or Medicaid. A monthly and annual maximum applies, so a 90-day prescription uses the card efficiently.',
-        maxPerFill: 'Down to $25/mo (if covered)', maxPerYear: 'Monthly and annual caps apply',
-        eligibility: 'Commercial insurance only — **not** Medicare or Medicaid',
-        enrollUrl: 'https://www.trulicity.com/savings',
-      },
-      medicare: {
-        negotiated: false, mfp: null,
-        body: 'Trulicity (dulaglutide) does not have a Medicare-negotiated price. For 2026, Medicare patients pay their Part D plan cost-share, capped by the **$2,100 annual out-of-pocket maximum**. Copay cards cannot be used with Medicare.',
-      },
-      assistance: {
-        program: 'Lilly Cares Foundation', url: 'https://www.lillycares.com',
-        body: 'Lilly Cares provides Trulicity free to uninsured, income-eligible patients. Proof of income and a prescription are required.',
-      },
-      cash: 'There is no generic dulaglutide, so cash payers should compare discount-card prices and ask about a 90-day supply. If income-eligible and uninsured, Lilly Cares can provide it free. Other GLP-1 options with their own savings programs may be cheaper depending on your coverage.',
-      alternatives: 'Ozempic (semaglutide) is the main once-weekly GLP-1 alternative for diabetes; Mounjaro (tirzepatide) is a newer dual agonist. See our [Trulicity vs Ozempic comparison](/diabetes/trulicity-vs-ozempic/). Older, cheaper diabetes drugs like metformin work differently; any switch is clinical.',
-      practice: 'Trulicity’s pen is genuinely simple, which patients value, but the coverage lottery is real: the same drug can be $25 or several hundred dollars depending purely on whether a plan lists it. Before assuming a price, I always tell patients to have the pharmacy run it through their specific plan with the savings card applied — the number often surprises people in both directions.',
-      faqs: [
-        { q: 'How much is Trulicity with the savings card?', a: 'As little as $25 a month if your commercial plan covers it. The card cannot be used with Medicare or Medicaid.' },
-        { q: 'Is there a generic for Trulicity?', a: 'No — dulaglutide is brand-only in the US. The savings card (commercial), your Part D plan (Medicare), or Lilly Cares (uninsured) are the main ways to lower cost.' },
-        { q: 'What does Trulicity cost without insurance?', a: 'About $990 a month at list price. Uninsured, income-eligible patients can often get it free through Lilly Cares; otherwise compare discount cards.' },
-        { q: 'Is Trulicity or Ozempic cheaper?', a: 'List prices are similar (~$990 vs ~$970). What you pay depends on which your plan covers and places on a better tier — see our Trulicity vs Ozempic comparison.' },
-        { q: 'Can I use the Trulicity card on Medicare?', a: 'No — commercial insurance only. Medicare patients pay plan cost-share under the $2,100 Part D cap.' },
+      "hasBiosimilar": false,
+      "listPriceText": "$990/mo",
+      "cardBlurb": "Once-weekly GLP-1 injection for type 2 diabetes (dulaglutide). Pre-filled, no dose titration of the pen.",
+      "title": "Trulicity Cost 2026: Price, Coupon & Savings Card (dulaglutide) | RxCostGuide",
+      "metaDesc": "Trulicity (dulaglutide) costs about $990/month at list price. See the Trulicity savings card ($25 for commercial insurance), coupons, cost without insurance and assistance.",
+      "h1": "Trulicity cost, coupon & savings card",
+      "lede": "Trulicity (dulaglutide) is a once-weekly GLP-1 injection for type 2 diabetes — one of the most prescribed drugs in its class.",
+      "shortAnswer": "Trulicity costs about **$990 a month** at list price. Commercially insured patients can pay **as little as $25 a month** with the Trulicity savings card (if their plan covers it). There is **no generic**. Medicare patients pay plan cost-share under the $2,100 Part D cap; the uninsured can apply to Lilly Cares.",
+      "intro": "Trulicity is taken once a week and indefinitely, so annual cost is what matters. As with most GLP-1 drugs, whether your commercial plan covers it is the single biggest factor in what you actually pay.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance (covered) + card",
+          "cost": "As low as $25/mo",
+          "note": "Trulicity savings card"
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Plan cost-share",
+          "note": "$2,100 annual cap applies"
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$990/mo",
+          "note": "List price; discount cards often lower"
+        },
+        {
+          "situation": "Patient assistance (Lilly Cares)",
+          "cost": "$0",
+          "note": "If income-eligible and uninsured"
+        }
       ],
-      sources: [
-        { name: 'Trulicity — official savings', url: 'https://www.trulicity.com/savings' },
-        { name: 'Lilly Cares Foundation', url: 'https://www.lillycares.com' },
+      "copay": {
+        "lead": "The Trulicity savings card can bring commercially insured patients to as little as $25 per month.",
+        "body": "If your **commercial plan covers** Trulicity, the card can bring you to about $25 a month. Commercial insurance only — never Medicare or Medicaid. A monthly and annual maximum applies, so a 90-day prescription uses the card efficiently.",
+        "maxPerFill": "Down to $25/mo (if covered)",
+        "maxPerYear": "Monthly and annual caps apply",
+        "eligibility": "Commercial insurance only — **not** Medicare or Medicaid",
+        "enrollUrl": "https://www.trulicity.com/savings"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Trulicity (dulaglutide) does not have a Medicare-negotiated price. For 2026, Medicare patients pay their Part D plan cost-share, capped by the **$2,100 annual out-of-pocket maximum**. Copay cards cannot be used with Medicare."
+      },
+      "assistance": {
+        "program": "Lilly Cares Foundation",
+        "url": "https://www.lillycares.com",
+        "body": "Lilly Cares provides Trulicity free to uninsured, income-eligible patients. Proof of income and a prescription are required."
+      },
+      "cash": "There is no generic dulaglutide, so cash payers should compare discount-card prices and ask about a 90-day supply. If income-eligible and uninsured, Lilly Cares can provide it free. Other GLP-1 options with their own savings programs may be cheaper depending on your coverage.",
+      "alternatives": "Ozempic (semaglutide) is the main once-weekly GLP-1 alternative for diabetes; Mounjaro (tirzepatide) is a newer dual agonist. See our [Trulicity vs Ozempic comparison](/diabetes/trulicity-vs-ozempic/). Older, cheaper diabetes drugs like metformin work differently; any switch is clinical.",
+      "practice": "Trulicity’s pen is genuinely simple, which patients value, but the coverage lottery is real: the same drug can be $25 or several hundred dollars depending purely on whether a plan lists it. Before assuming a price, I always tell patients to have the pharmacy run it through their specific plan with the savings card applied — the number often surprises people in both directions.",
+      "faqs": [
+        {
+          "q": "How much is Trulicity with the savings card?",
+          "a": "As little as $25 a month if your commercial plan covers it. The card cannot be used with Medicare or Medicaid."
+        },
+        {
+          "q": "Is there a generic for Trulicity?",
+          "a": "No — dulaglutide is brand-only in the US. The savings card (commercial), your Part D plan (Medicare), or Lilly Cares (uninsured) are the main ways to lower cost."
+        },
+        {
+          "q": "What does Trulicity cost without insurance?",
+          "a": "About $990 a month at list price. Uninsured, income-eligible patients can often get it free through Lilly Cares; otherwise compare discount cards."
+        },
+        {
+          "q": "Is Trulicity or Ozempic cheaper?",
+          "a": "List prices are similar (~$990 vs ~$970). What you pay depends on which your plan covers and places on a better tier — see our Trulicity vs Ozempic comparison."
+        },
+        {
+          "q": "Can I use the Trulicity card on Medicare?",
+          "a": "No — commercial insurance only. Medicare patients pay plan cost-share under the $2,100 Part D cap."
+        }
       ],
-      published: '2026-10-05',
+      "sources": [
+        {
+          "name": "Trulicity — official savings",
+          "url": "https://www.trulicity.com/savings"
+        },
+        {
+          "name": "Lilly Cares Foundation",
+          "url": "https://www.lillycares.com"
+        }
+      ],
+      "published": "2026-10-05"
     },
     {
-      slug: 'rybelsus', brand: 'Rybelsus', generic: 'semaglutide (oral)', drugClass: 'GLP-1 receptor agonist',
-      manufacturer: 'Novo Nordisk', manufacturerUrl: 'https://www.rybelsus.com',
-      hub: 'diabetes', conditions: ['Type 2 diabetes'],
-      hasBiosimilar: false, listPriceText: '$1,000/mo',
-      cardBlurb: 'The only oral GLP-1 for type 2 diabetes (oral semaglutide). Semaglutide has a Medicare-negotiated price effective 2027.',
-      title: 'Rybelsus Cost 2026: Price, Coupon & Savings Card (oral semaglutide) | RxCostGuide',
-      metaDesc: 'Rybelsus (oral semaglutide) costs about $1,000/month at list price. See the Rybelsus savings card ($10 for commercial insurance), coupons, the 2027 Medicare price and assistance.',
-      h1: 'Rybelsus cost, coupon & savings card',
-      lede: 'Rybelsus (oral semaglutide) is the only GLP-1 pill for type 2 diabetes — the same molecule as Ozempic and Wegovy, taken by mouth once daily.',
-      shortAnswer: 'Rybelsus costs about **$1,000 a month** at list price. Commercially insured patients can pay **as little as $10 a month** with the Rybelsus savings card (if covered). There is **no generic**. As a **semaglutide** product it is in the **second Medicare negotiation cycle, with a negotiated price effective 2027**.',
-      intro: 'Rybelsus is oral semaglutide — the pill version of the molecule in Ozempic and Wegovy. It is taken daily and long-term, so annual cost matters, and coverage is the main driver of what you pay today.',
-      costRows: [
-        { situation: 'Commercial insurance (covered) + card', cost: 'As low as $10/mo', note: 'Rybelsus savings card' },
-        { situation: 'Medicare Part D (2026)', cost: 'Plan cost-share', note: 'Negotiated price effective 2027; $2,100 cap applies' },
-        { situation: 'Cash / no insurance', cost: '~$1,000/mo', note: 'List price; discount cards often lower' },
-        { situation: 'Patient assistance (NovoCare / NNPAP)', cost: '$0', note: 'If income-eligible and uninsured' },
+      "slug": "rybelsus",
+      "brand": "Rybelsus",
+      "generic": "semaglutide (oral)",
+      "drugClass": "GLP-1 receptor agonist",
+      "manufacturer": "Novo Nordisk",
+      "manufacturerUrl": "https://www.rybelsus.com",
+      "hub": "diabetes",
+      "conditions": [
+        "Type 2 diabetes"
       ],
-      copay: {
-        lead: 'The Rybelsus savings card can bring commercially insured patients to as little as $10 per month.',
-        body: 'If your **commercial plan covers** Rybelsus, the card can bring you to about $10 a month. Commercial insurance only — never Medicare or Medicaid. A monthly and annual maximum applies.',
-        maxPerFill: 'Down to $10/mo (if covered)', maxPerYear: 'Monthly and annual caps apply',
-        eligibility: 'Commercial insurance only — **not** Medicare or Medicaid',
-        enrollUrl: 'https://www.rybelsus.com/savings',
-      },
-      medicare: {
-        negotiated: false, mfp: null,
-        body: 'Semaglutide — the molecule in Rybelsus, Ozempic and Wegovy — was selected in the **second round** of Medicare negotiation, with a Maximum Fair Price effective **1 January 2027**. For 2026, Medicare patients pay plan cost-share under the **$2,100 Part D cap**. Part D covers semaglutide for diabetes, not weight loss.',
-      },
-      assistance: {
-        program: 'Novo Nordisk Patient Assistance Program', url: 'https://www.novocare.com',
-        body: 'Novo Nordisk provides Rybelsus free to uninsured, income-eligible patients through NovoCare / the Novo Nordisk Patient Assistance Program. Proof of income is required.',
-      },
-      cash: 'There is no generic oral semaglutide, so cash payers should compare discount-card prices and ask about NovoCare self-pay options. Income-eligible uninsured patients can apply to the Novo Nordisk Patient Assistance Program. Take Rybelsus on an empty stomach with a small sip of water, 30 minutes before food or other pills, or absorption drops sharply.',
-      alternatives: 'Injectable semaglutide (Ozempic) is the same molecule once weekly; Trulicity (dulaglutide) and Mounjaro (tirzepatide) are other GLP-1 options. See our [Mounjaro vs Ozempic](/glp-1-weight-loss/mounjaro-vs-ozempic/) and [Trulicity vs Ozempic](/diabetes/trulicity-vs-ozempic/) comparisons. Switching is a clinical decision.',
-      practice: 'The detail I always stress with Rybelsus is how it must be taken: on an empty stomach, with no more than a sip of water, then nothing else for 30 minutes. Taken wrong, the body absorbs very little — so a patient paying $1,000 a month could be getting a fraction of the drug. For an expensive pill, dosing technique is part of the cost conversation.',
-      faqs: [
-        { q: 'How much is Rybelsus with the savings card?', a: 'As little as $10 a month if your commercial plan covers it. The card cannot be used with Medicare or Medicaid.' },
-        { q: 'Is Rybelsus the same as Ozempic?', a: 'Same molecule (semaglutide), different form — Rybelsus is a daily pill, Ozempic is a weekly injection. Rybelsus doses are not directly interchangeable with Ozempic doses.' },
-        { q: 'Does Rybelsus get a Medicare-negotiated price?', a: 'Yes — semaglutide is in the second negotiation cycle, with a price effective 2027. For 2026, Medicare patients pay plan cost-share under the $2,100 cap.' },
-        { q: 'What does Rybelsus cost without insurance?', a: 'About $1,000 a month at list price. Uninsured, income-eligible patients can get it free through the Novo Nordisk Patient Assistance Program.' },
-        { q: 'How should Rybelsus be taken?', a: 'On an empty stomach with up to a sip of water, at least 30 minutes before any food, drink or other medication — otherwise much less is absorbed.' },
+      "hasBiosimilar": false,
+      "listPriceText": "$1,000/mo",
+      "cardBlurb": "The only oral GLP-1 for type 2 diabetes (oral semaglutide). Semaglutide has a Medicare-negotiated price effective 2027.",
+      "title": "Rybelsus Cost 2026: Price, Coupon & Savings Card (oral semaglutide) | RxCostGuide",
+      "metaDesc": "Rybelsus (oral semaglutide) costs about $1,000/month at list price. See the Rybelsus savings card ($10 for commercial insurance), coupons, the 2027 Medicare price and assistance.",
+      "h1": "Rybelsus cost, coupon & savings card",
+      "lede": "Rybelsus (oral semaglutide) is the only GLP-1 pill for type 2 diabetes — the same molecule as Ozempic and Wegovy, taken by mouth once daily.",
+      "shortAnswer": "Rybelsus costs about **$1,000 a month** at list price. Commercially insured patients can pay **as little as $10 a month** with the Rybelsus savings card (if covered). There is **no generic**. As a **semaglutide** product it is in the **second Medicare negotiation cycle, with a negotiated price effective 2027**.",
+      "intro": "Rybelsus is oral semaglutide — the pill version of the molecule in Ozempic and Wegovy. It is taken daily and long-term, so annual cost matters, and coverage is the main driver of what you pay today.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance (covered) + card",
+          "cost": "As low as $10/mo",
+          "note": "Rybelsus savings card"
+        },
+        {
+          "situation": "Medicare Part D (2026)",
+          "cost": "Plan cost-share",
+          "note": "Negotiated price effective 2027; $2,100 cap applies"
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$1,000/mo",
+          "note": "List price; discount cards often lower"
+        },
+        {
+          "situation": "Patient assistance (NovoCare / NNPAP)",
+          "cost": "$0",
+          "note": "If income-eligible and uninsured"
+        }
       ],
-      sources: [
-        { name: 'Rybelsus — official savings', url: 'https://www.rybelsus.com/savings' },
-        { name: 'CMS — Medicare negotiated prices (2027 cycle)', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation' },
-        { name: 'NovoCare', url: 'https://www.novocare.com' },
+      "copay": {
+        "lead": "The Rybelsus savings card can bring commercially insured patients to as little as $10 per month.",
+        "body": "If your **commercial plan covers** Rybelsus, the card can bring you to about $10 a month. Commercial insurance only — never Medicare or Medicaid. A monthly and annual maximum applies.",
+        "maxPerFill": "Down to $10/mo (if covered)",
+        "maxPerYear": "Monthly and annual caps apply",
+        "eligibility": "Commercial insurance only — **not** Medicare or Medicaid",
+        "enrollUrl": "https://www.rybelsus.com/savings"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Semaglutide — the molecule in Rybelsus, Ozempic and Wegovy — was selected in the **second round** of Medicare negotiation, with a Maximum Fair Price effective **1 January 2027**. For 2026, Medicare patients pay plan cost-share under the **$2,100 Part D cap**. Part D covers semaglutide for diabetes, not weight loss."
+      },
+      "assistance": {
+        "program": "Novo Nordisk Patient Assistance Program",
+        "url": "https://www.novocare.com",
+        "body": "Novo Nordisk provides Rybelsus free to uninsured, income-eligible patients through NovoCare / the Novo Nordisk Patient Assistance Program. Proof of income is required."
+      },
+      "cash": "There is no generic oral semaglutide, so cash payers should compare discount-card prices and ask about NovoCare self-pay options. Income-eligible uninsured patients can apply to the Novo Nordisk Patient Assistance Program. Take Rybelsus on an empty stomach with a small sip of water, 30 minutes before food or other pills, or absorption drops sharply.",
+      "alternatives": "Injectable semaglutide (Ozempic) is the same molecule once weekly; Trulicity (dulaglutide) and Mounjaro (tirzepatide) are other GLP-1 options. See our [Mounjaro vs Ozempic](/glp-1-weight-loss/mounjaro-vs-ozempic/) and [Trulicity vs Ozempic](/diabetes/trulicity-vs-ozempic/) comparisons. Switching is a clinical decision.",
+      "practice": "The detail I always stress with Rybelsus is how it must be taken: on an empty stomach, with no more than a sip of water, then nothing else for 30 minutes. Taken wrong, the body absorbs very little — so a patient paying $1,000 a month could be getting a fraction of the drug. For an expensive pill, dosing technique is part of the cost conversation.",
+      "faqs": [
+        {
+          "q": "How much is Rybelsus with the savings card?",
+          "a": "As little as $10 a month if your commercial plan covers it. The card cannot be used with Medicare or Medicaid."
+        },
+        {
+          "q": "Is Rybelsus the same as Ozempic?",
+          "a": "Same molecule (semaglutide), different form — Rybelsus is a daily pill, Ozempic is a weekly injection. Rybelsus doses are not directly interchangeable with Ozempic doses."
+        },
+        {
+          "q": "Does Rybelsus get a Medicare-negotiated price?",
+          "a": "Yes — semaglutide is in the second negotiation cycle, with a price effective 2027. For 2026, Medicare patients pay plan cost-share under the $2,100 cap."
+        },
+        {
+          "q": "What does Rybelsus cost without insurance?",
+          "a": "About $1,000 a month at list price. Uninsured, income-eligible patients can get it free through the Novo Nordisk Patient Assistance Program."
+        },
+        {
+          "q": "How should Rybelsus be taken?",
+          "a": "On an empty stomach with up to a sip of water, at least 30 minutes before any food, drink or other medication — otherwise much less is absorbed."
+        }
       ],
-      published: '2026-10-05',
+      "sources": [
+        {
+          "name": "Rybelsus — official savings",
+          "url": "https://www.rybelsus.com/savings"
+        },
+        {
+          "name": "CMS — Medicare negotiated prices (2027 cycle)",
+          "url": "https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation"
+        },
+        {
+          "name": "NovoCare",
+          "url": "https://www.novocare.com"
+        }
+      ],
+      "published": "2026-10-05"
     },
     {
-      slug: 'victoza', brand: 'Victoza', generic: 'liraglutide', drugClass: 'GLP-1 receptor agonist',
-      manufacturer: 'Novo Nordisk', manufacturerUrl: 'https://www.victoza.com',
-      hub: 'diabetes', conditions: ['Type 2 diabetes'],
-      hasBiosimilar: true, listPriceText: '$820/mo (brand)',
-      cardBlurb: 'Once-daily GLP-1 for type 2 diabetes (liraglutide) — now available as a cheaper authorized generic.',
-      title: 'Victoza Cost 2026: Generic Liraglutide Price & Coupons | RxCostGuide',
-      metaDesc: 'Brand Victoza (liraglutide) lists around $820/month, but generic liraglutide is cheaper. See generic prices, the savings card, Medicare cost and patient assistance.',
-      h1: 'Victoza cost & generic liraglutide',
-      lede: 'Victoza (liraglutide) is a once-daily GLP-1 injection for type 2 diabetes — and, unlike newer GLP-1s, it now has a cheaper generic (authorized) liraglutide.',
-      shortAnswer: 'Branded Victoza lists around **$820 a month**. A cheaper **authorized generic liraglutide** is available and is usually the better-value route. Commercially insured patients may also use the Victoza savings card; Medicare patients pay plan cost-share under the $2,100 cap; the uninsured can apply to NovoCare.',
-      intro: 'Victoza is an older GLP-1, and its age is good news for cost: liraglutide is now available as an authorized generic, undercutting the brand. For many patients that generic is the simplest way to save.',
-      costRows: [
-        { situation: 'Authorized generic liraglutide', cost: 'Lower than brand', note: 'Usually the best-value route; ask the pharmacist' },
-        { situation: 'Commercial insurance + savings card', cost: 'As low as $0–$25/mo', note: 'Victoza savings; commercial only' },
-        { situation: 'Medicare Part D', cost: 'Plan cost-share', note: '$2,100 annual cap applies' },
-        { situation: 'Cash / no insurance (brand)', cost: '~$820/mo', note: 'Brand list price' },
+      "slug": "victoza",
+      "brand": "Victoza",
+      "generic": "liraglutide",
+      "drugClass": "GLP-1 receptor agonist",
+      "manufacturer": "Novo Nordisk",
+      "manufacturerUrl": "https://www.victoza.com",
+      "hub": "diabetes",
+      "conditions": [
+        "Type 2 diabetes"
       ],
-      copay: {
-        lead: 'The Victoza savings card can lower cost for commercially insured patients, but the authorized generic may be cheaper.',
-        body: 'The brand savings card is for **commercial insurance only** and cannot be used with Medicare or Medicaid. Before using it, ask your pharmacist to price the **authorized generic liraglutide** — for many patients it is the cheaper route.',
-        maxPerFill: 'Down to $0–$25/mo (brand)', maxPerYear: 'Annual cap applies',
-        eligibility: 'Commercial insurance only — **not** Medicare or Medicaid',
-        enrollUrl: 'https://www.victoza.com/savings',
-      },
-      medicare: {
-        negotiated: false, mfp: null,
-        body: 'Victoza has no Medicare-negotiated price. For 2026, Medicare patients pay their Part D plan cost-share, capped by the **$2,100 annual out-of-pocket maximum**. Where the authorized generic liraglutide is covered on a lower tier, a Part D plan may price it less.',
-      },
-      assistance: {
-        program: 'Novo Nordisk Patient Assistance Program', url: 'https://www.novocare.com',
-        body: 'Novo Nordisk provides Victoza free to uninsured, income-eligible patients through NovoCare. Proof of income is required.',
-      },
-      cash: 'Ask the pharmacist for the **authorized generic liraglutide** and price it with GoodRx or SingleCare — it is usually cheaper than brand Victoza. Request a 90-day supply. Income-eligible uninsured patients can apply to NovoCare.',
-      alternatives: 'Newer once-weekly GLP-1s (Ozempic, Trulicity) and the dual agonist Mounjaro are more convenient but mostly brand-only and pricier. For cost, generic liraglutide is attractive; for efficacy or dosing convenience, your prescriber may still prefer a newer agent.',
-      practice: 'Victoza quietly became one of the few GLP-1s with a generic, and many patients and even prescribers do not realise it. For someone paying cash or facing a high copay, asking specifically for authorized generic liraglutide is often the fastest saving in this whole category — though the once-daily injection is less convenient than the weekly options.',
-      faqs: [
-        { q: 'Is there a generic for Victoza?', a: 'Yes — an authorized generic liraglutide is available and usually cheaper than brand Victoza. Ask your pharmacist for it.' },
-        { q: 'How much is generic liraglutide?', a: 'It varies by pharmacy and discount card but is generally below the ~$820 brand list price. Price it with GoodRx or SingleCare.' },
-        { q: 'What does Victoza cost without insurance?', a: 'Brand Victoza is about $820 a month; the authorized generic is cheaper. Uninsured, income-eligible patients can get it free through NovoCare.' },
-        { q: 'Is Victoza as good as Ozempic?', a: 'They are both GLP-1s but different molecules and dosing (Victoza is daily, Ozempic weekly). Newer agents may lower blood sugar and weight more; which is right for you is a clinical decision.' },
-        { q: 'Can I use the Victoza card on Medicare?', a: 'No — commercial insurance only. Medicare patients use their plan and the $2,100 Part D cap.' },
+      "hasBiosimilar": true,
+      "listPriceText": "$820/mo (brand)",
+      "cardBlurb": "Once-daily GLP-1 for type 2 diabetes (liraglutide) — now available as a cheaper authorized generic.",
+      "title": "Victoza Cost 2026: Generic Liraglutide Price & Coupons | RxCostGuide",
+      "metaDesc": "Brand Victoza (liraglutide) lists around $820/month, but generic liraglutide is cheaper. See generic prices, the savings card, Medicare cost and patient assistance.",
+      "h1": "Victoza cost & generic liraglutide",
+      "lede": "Victoza (liraglutide) is a once-daily GLP-1 injection for type 2 diabetes — and, unlike newer GLP-1s, it now has a cheaper generic (authorized) liraglutide.",
+      "shortAnswer": "Branded Victoza lists around **$820 a month**. A cheaper **authorized generic liraglutide** is available and is usually the better-value route. Commercially insured patients may also use the Victoza savings card; Medicare patients pay plan cost-share under the $2,100 cap; the uninsured can apply to NovoCare.",
+      "intro": "Victoza is an older GLP-1, and its age is good news for cost: liraglutide is now available as an authorized generic, undercutting the brand. For many patients that generic is the simplest way to save.",
+      "costRows": [
+        {
+          "situation": "Authorized generic liraglutide",
+          "cost": "Lower than brand",
+          "note": "Usually the best-value route; ask the pharmacist"
+        },
+        {
+          "situation": "Commercial insurance + savings card",
+          "cost": "As low as $0–$25/mo",
+          "note": "Victoza savings; commercial only"
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Plan cost-share",
+          "note": "$2,100 annual cap applies"
+        },
+        {
+          "situation": "Cash / no insurance (brand)",
+          "cost": "~$820/mo",
+          "note": "Brand list price"
+        }
       ],
-      sources: [
-        { name: 'Victoza — official savings', url: 'https://www.victoza.com/savings' },
-        { name: 'FDA — Orange Book (liraglutide)', url: 'https://www.accessdata.fda.gov/scripts/cder/ob/' },
-        { name: 'NovoCare', url: 'https://www.novocare.com' },
+      "copay": {
+        "lead": "The Victoza savings card can lower cost for commercially insured patients, but the authorized generic may be cheaper.",
+        "body": "The brand savings card is for **commercial insurance only** and cannot be used with Medicare or Medicaid. Before using it, ask your pharmacist to price the **authorized generic liraglutide** — for many patients it is the cheaper route.",
+        "maxPerFill": "Down to $0–$25/mo (brand)",
+        "maxPerYear": "Annual cap applies",
+        "eligibility": "Commercial insurance only — **not** Medicare or Medicaid",
+        "enrollUrl": "https://www.victoza.com/savings"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Victoza has no Medicare-negotiated price. For 2026, Medicare patients pay their Part D plan cost-share, capped by the **$2,100 annual out-of-pocket maximum**. Where the authorized generic liraglutide is covered on a lower tier, a Part D plan may price it less."
+      },
+      "assistance": {
+        "program": "Novo Nordisk Patient Assistance Program",
+        "url": "https://www.novocare.com",
+        "body": "Novo Nordisk provides Victoza free to uninsured, income-eligible patients through NovoCare. Proof of income is required."
+      },
+      "cash": "Ask the pharmacist for the **authorized generic liraglutide** and price it with GoodRx or SingleCare — it is usually cheaper than brand Victoza. Request a 90-day supply. Income-eligible uninsured patients can apply to NovoCare.",
+      "alternatives": "Newer once-weekly GLP-1s (Ozempic, Trulicity) and the dual agonist Mounjaro are more convenient but mostly brand-only and pricier. For cost, generic liraglutide is attractive; for efficacy or dosing convenience, your prescriber may still prefer a newer agent.",
+      "practice": "Victoza quietly became one of the few GLP-1s with a generic, and many patients and even prescribers do not realise it. For someone paying cash or facing a high copay, asking specifically for authorized generic liraglutide is often the fastest saving in this whole category — though the once-daily injection is less convenient than the weekly options.",
+      "faqs": [
+        {
+          "q": "Is there a generic for Victoza?",
+          "a": "Yes — an authorized generic liraglutide is available and usually cheaper than brand Victoza. Ask your pharmacist for it."
+        },
+        {
+          "q": "How much is generic liraglutide?",
+          "a": "It varies by pharmacy and discount card but is generally below the ~$820 brand list price. Price it with GoodRx or SingleCare."
+        },
+        {
+          "q": "What does Victoza cost without insurance?",
+          "a": "Brand Victoza is about $820 a month; the authorized generic is cheaper. Uninsured, income-eligible patients can get it free through NovoCare."
+        },
+        {
+          "q": "Is Victoza as good as Ozempic?",
+          "a": "They are both GLP-1s but different molecules and dosing (Victoza is daily, Ozempic weekly). Newer agents may lower blood sugar and weight more; which is right for you is a clinical decision."
+        },
+        {
+          "q": "Can I use the Victoza card on Medicare?",
+          "a": "No — commercial insurance only. Medicare patients use their plan and the $2,100 Part D cap."
+        }
       ],
-      published: '2026-10-05',
+      "sources": [
+        {
+          "name": "Victoza — official savings",
+          "url": "https://www.victoza.com/savings"
+        },
+        {
+          "name": "FDA — Orange Book (liraglutide)",
+          "url": "https://www.accessdata.fda.gov/scripts/cder/ob/"
+        },
+        {
+          "name": "NovoCare",
+          "url": "https://www.novocare.com"
+        }
+      ],
+      "published": "2026-10-05"
     },
     {
-      slug: 'jardiance', brand: 'Jardiance', generic: 'empagliflozin', drugClass: 'SGLT2 inhibitor',
-      manufacturer: 'Boehringer Ingelheim / Lilly', manufacturerUrl: 'https://www.jardiance.com',
-      hub: 'diabetes', conditions: ['Type 2 diabetes', 'Heart failure', 'Chronic kidney disease'],
-      hasBiosimilar: false, listPriceText: '$640/mo',
-      cardBlurb: 'SGLT2 inhibitor for diabetes, heart failure and kidney disease. Medicare-negotiated price took effect January 2026.',
-      title: 'Jardiance Cost 2026: Price, Coupon & Copay Card (empagliflozin) | RxCostGuide',
-      metaDesc: 'Jardiance (empagliflozin) costs about $640/month at list price. See the 2026 Medicare-negotiated price (~$197), the Jardiance copay card, coupons and assistance.',
-      h1: 'Jardiance cost, coupon & copay card',
-      lede: 'Jardiance (empagliflozin) is an SGLT2 inhibitor used for type 2 diabetes, heart failure and chronic kidney disease — and one of the first drugs to get a Medicare-negotiated price in 2026.',
-      shortAnswer: 'Jardiance costs about **$640 a month** at list price. Commercially insured patients can pay **as little as $10 a month** with the Jardiance savings card (up to $100 per 30-day or $450 per 90-day supply). From **1 January 2026 the Medicare-negotiated price is about $197** per 30-day supply — a cut of roughly two-thirds.',
-      intro: 'Jardiance is taken indefinitely, so the annual figure is what matters. Its savings card is capped per fill, which makes 90-day prescriptions meaningfully cheaper than three monthly ones — the most reliably useful and least-known piece of advice in this category.',
-      costRows: [
-        { situation: 'Commercial insurance + savings card', cost: 'As low as $10/mo', note: 'Up to $100/30-day or $450/90-day; commercial only' },
-        { situation: 'Medicare Part D (2026)', cost: '~$197 / 30 days', note: 'Negotiated price, automatic at counter' },
-        { situation: 'Cash / no insurance', cost: '~$640/mo', note: 'List price; discount cards often lower' },
-        { situation: 'Patient assistance (BI Cares)', cost: '$0', note: 'If income-eligible and uninsured' },
+      "slug": "jardiance",
+      "brand": "Jardiance",
+      "generic": "empagliflozin",
+      "drugClass": "SGLT2 inhibitor",
+      "manufacturer": "Boehringer Ingelheim / Lilly",
+      "manufacturerUrl": "https://www.jardiance.com",
+      "hub": "diabetes",
+      "conditions": [
+        "Type 2 diabetes",
+        "Heart failure",
+        "Chronic kidney disease"
       ],
-      copay: {
-        lead: 'The Jardiance savings card can bring commercially insured patients to as little as $10 per month.',
-        body: 'The card covers up to **$100 per 30-day supply or $450 per 90-day supply**. Do the math: three monthly fills give you $300 of help; one 90-day fill gives you $450. Commercial insurance only — never Medicare or Medicaid.',
-        maxPerFill: '$100 per 30-day / $450 per 90-day', maxPerYear: 'Annual cap applies',
-        eligibility: 'Commercial insurance only — **not** Medicare, Medicaid, or government plans',
-        enrollUrl: 'https://www.jardiance.com/savings',
-      },
-      medicare: {
-        negotiated: true, mfp: 197, effective: '2026-01-01',
-        body: 'Jardiance was one of the first ten Medicare-negotiated drugs. From **1 January 2026 its Maximum Fair Price is about $197 per 30-day supply**, down from a list price near $573 — a 66% cut, applied automatically at the pharmacy for Part D members. The 2026 Part D out-of-pocket cap of $2,100 also applies.',
-      },
-      assistance: {
-        program: 'Boehringer Ingelheim Cares Foundation', url: 'https://www.bimycares.com',
-        body: 'Boehringer Ingelheim provides Jardiance free to uninsured, income-eligible patients through its Cares Foundation. The application requires proof of income and a prescription.',
-      },
-      cash: 'For cash payers, compare GoodRx and SingleCare against the pharmacy cash price. Always ask for a 90-day supply — it uses the savings card most efficiently and cuts dispensing costs. There is no generic empagliflozin widely available yet.',
-      alternatives: 'Farxiga (dapagliflozin) is the closest SGLT2 alternative, with a similar cost profile and its own 2026 negotiated price. See our [Jardiance vs Farxiga comparison](/diabetes/jardiance-vs-farxiga/). Older options like metformin are far cheaper but work differently; any switch is a clinical decision.',
-      practice: 'The 90-day tip is the one I repeat most. Diabetes savings cards nearly always cap the saving per fill, so a patient taking three separate monthly fills is quietly leaving money on the table versus one 90-day fill. Fewer fills also means fewer chances for a coverage lapse or a pharmacy stock-out — which, for a drug you take every day, matters.',
-      faqs: [
-        { q: 'How much does Jardiance cost with Medicare in 2026?', a: 'About $197 per 30-day supply — the Medicare-negotiated price, applied automatically at the pharmacy. Your total Part D out-of-pocket is also capped at $2,100 for the year.' },
-        { q: 'Is there a generic for Jardiance?', a: 'Not yet widely in the US. Until a generic empagliflozin arrives, the savings card (commercial insurance), the negotiated price (Medicare), or patient assistance (uninsured) are the main ways to lower cost.' },
-        { q: 'Why is a 90-day Jardiance supply cheaper?', a: 'The savings card covers up to $450 per 90-day fill but only $100 per 30-day fill. One 90-day fill gets you $450 of help; three monthly fills only $300. Fewer fills also cut dispensing fees.' },
-        { q: 'Can I use the Jardiance savings card on Medicare?', a: 'No. It is for commercial insurance only. Medicare patients rely on the negotiated price and the $2,100 Part D cap.' },
-        { q: 'What does Jardiance cost without insurance?', a: 'About $640 a month at list price. Uninsured, income-eligible patients can often get it free through the Boehringer Ingelheim Cares Foundation; otherwise compare discount cards.' },
+      "hasBiosimilar": false,
+      "listPriceText": "$640/mo",
+      "cardBlurb": "SGLT2 inhibitor for diabetes, heart failure and kidney disease. Medicare-negotiated price took effect January 2026.",
+      "title": "Jardiance Cost 2026: Price, Coupon & Copay Card (empagliflozin) | RxCostGuide",
+      "metaDesc": "Jardiance (empagliflozin) costs about $640/month at list price. See the 2026 Medicare-negotiated price (~$197), the Jardiance copay card, coupons and assistance.",
+      "h1": "Jardiance cost, coupon & copay card",
+      "lede": "Jardiance (empagliflozin) is an SGLT2 inhibitor used for type 2 diabetes, heart failure and chronic kidney disease — and one of the first drugs to get a Medicare-negotiated price in 2026.",
+      "shortAnswer": "Jardiance costs about **$640 a month** at list price. Commercially insured patients can pay **as little as $10 a month** with the Jardiance savings card (up to $100 per 30-day or $450 per 90-day supply). From **1 January 2026 the Medicare-negotiated price is about $197** per 30-day supply — a cut of roughly two-thirds.",
+      "intro": "Jardiance is taken indefinitely, so the annual figure is what matters. Its savings card is capped per fill, which makes 90-day prescriptions meaningfully cheaper than three monthly ones — the most reliably useful and least-known piece of advice in this category.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + savings card",
+          "cost": "As low as $10/mo",
+          "note": "Up to $100/30-day or $450/90-day; commercial only"
+        },
+        {
+          "situation": "Medicare Part D (2026)",
+          "cost": "~$197 / 30 days",
+          "note": "Negotiated price, automatic at counter"
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$640/mo",
+          "note": "List price; discount cards often lower"
+        },
+        {
+          "situation": "Patient assistance (BI Cares)",
+          "cost": "$0",
+          "note": "If income-eligible and uninsured"
+        }
       ],
-      sources: [
-        { name: 'Jardiance — official savings', url: 'https://www.jardiance.com/savings' },
-        { name: 'CMS — Medicare negotiated prices (2026)', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation' },
-        { name: 'BI Cares Foundation', url: 'https://www.bimycares.com' },
+      "copay": {
+        "lead": "The Jardiance savings card can bring commercially insured patients to as little as $10 per month.",
+        "body": "The card covers up to **$100 per 30-day supply or $450 per 90-day supply**. Do the math: three monthly fills give you $300 of help; one 90-day fill gives you $450. Commercial insurance only — never Medicare or Medicaid.",
+        "maxPerFill": "$100 per 30-day / $450 per 90-day",
+        "maxPerYear": "Annual cap applies",
+        "eligibility": "Commercial insurance only — **not** Medicare, Medicaid, or government plans",
+        "enrollUrl": "https://www.jardiance.com/savings"
+      },
+      "medicare": {
+        "negotiated": true,
+        "mfp": 197,
+        "effective": "2026-01-01",
+        "body": "Jardiance was one of the first ten Medicare-negotiated drugs. From **1 January 2026 its Maximum Fair Price is about $197 per 30-day supply**, down from a list price near $573 — a 66% cut, applied automatically at the pharmacy for Part D members. The 2026 Part D out-of-pocket cap of $2,100 also applies."
+      },
+      "assistance": {
+        "program": "Boehringer Ingelheim Cares Foundation",
+        "url": "https://www.bimycares.com",
+        "body": "Boehringer Ingelheim provides Jardiance free to uninsured, income-eligible patients through its Cares Foundation. The application requires proof of income and a prescription."
+      },
+      "cash": "For cash payers, compare GoodRx and SingleCare against the pharmacy cash price. Always ask for a 90-day supply — it uses the savings card most efficiently and cuts dispensing costs. There is no generic empagliflozin widely available yet.",
+      "alternatives": "Farxiga (dapagliflozin) is the closest SGLT2 alternative, with a similar cost profile and its own 2026 negotiated price. See our [Jardiance vs Farxiga comparison](/diabetes/jardiance-vs-farxiga/). Older options like metformin are far cheaper but work differently; any switch is a clinical decision.",
+      "practice": "The 90-day tip is the one I repeat most. Diabetes savings cards nearly always cap the saving per fill, so a patient taking three separate monthly fills is quietly leaving money on the table versus one 90-day fill. Fewer fills also means fewer chances for a coverage lapse or a pharmacy stock-out — which, for a drug you take every day, matters.",
+      "faqs": [
+        {
+          "q": "How much does Jardiance cost with Medicare in 2026?",
+          "a": "About $197 per 30-day supply — the Medicare-negotiated price, applied automatically at the pharmacy. Your total Part D out-of-pocket is also capped at $2,100 for the year."
+        },
+        {
+          "q": "Is there a generic for Jardiance?",
+          "a": "Not yet widely in the US. Until a generic empagliflozin arrives, the savings card (commercial insurance), the negotiated price (Medicare), or patient assistance (uninsured) are the main ways to lower cost."
+        },
+        {
+          "q": "Why is a 90-day Jardiance supply cheaper?",
+          "a": "The savings card covers up to $450 per 90-day fill but only $100 per 30-day fill. One 90-day fill gets you $450 of help; three monthly fills only $300. Fewer fills also cut dispensing fees."
+        },
+        {
+          "q": "Can I use the Jardiance savings card on Medicare?",
+          "a": "No. It is for commercial insurance only. Medicare patients rely on the negotiated price and the $2,100 Part D cap."
+        },
+        {
+          "q": "What does Jardiance cost without insurance?",
+          "a": "About $640 a month at list price. Uninsured, income-eligible patients can often get it free through the Boehringer Ingelheim Cares Foundation; otherwise compare discount cards."
+        }
       ],
-      published: '2026-09-22', modified: '2026-10-01',
+      "sources": [
+        {
+          "name": "Jardiance — official savings",
+          "url": "https://www.jardiance.com/savings"
+        },
+        {
+          "name": "CMS — Medicare negotiated prices (2026)",
+          "url": "https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation"
+        },
+        {
+          "name": "BI Cares Foundation",
+          "url": "https://www.bimycares.com"
+        }
+      ],
+      "published": "2026-09-22",
+      "modified": "2026-10-01"
     },
     {
-      slug: 'farxiga', brand: 'Farxiga', generic: 'dapagliflozin', drugClass: 'SGLT2 inhibitor',
-      manufacturer: 'AstraZeneca', manufacturerUrl: 'https://www.farxiga.com',
-      hub: 'diabetes', conditions: ['Type 2 diabetes', 'Heart failure', 'Chronic kidney disease'],
-      hasBiosimilar: false, listPriceText: '$600/mo',
-      cardBlurb: 'SGLT2 inhibitor for diabetes, heart failure and kidney disease. Medicare-negotiated price in 2026.',
-      title: 'Farxiga Cost 2026: Price, Coupon & Copay Card (dapagliflozin) | RxCostGuide',
-      metaDesc: 'Farxiga (dapagliflozin) costs about $600/month at list price. See the 2026 Medicare-negotiated price (~$178.50), the Farxiga savings card, coupons and assistance.',
-      h1: 'Farxiga cost, coupon & copay card',
-      lede: 'Farxiga (dapagliflozin) is an SGLT2 inhibitor for type 2 diabetes, heart failure and chronic kidney disease — and one of the first ten Medicare-negotiated drugs.',
-      shortAnswer: 'Farxiga costs about **$600 a month** at list price. Commercially insured patients can pay **as little as $0 a month** with the Farxiga savings card. From **1 January 2026 the Medicare-negotiated price is about $178.50** per 30-day supply.',
-      intro: 'Like other SGLT2 inhibitors, Farxiga is a long-term medication where the annual figure matters. Your insurance type decides the cheapest route, and the savings card is capped per fill — so 90-day supplies stretch it further.',
-      costRows: [
-        { situation: 'Commercial insurance + savings card', cost: 'As low as $0/mo', note: 'Farxiga Savings; commercial only' },
-        { situation: 'Medicare Part D (2026)', cost: '~$178.50 / 30 days', note: 'Negotiated price, automatic at counter' },
-        { situation: 'Cash / no insurance', cost: '~$600/mo', note: 'List price; discount cards often lower' },
-        { situation: 'Patient assistance (AZ&Me)', cost: '$0', note: 'If income-eligible and uninsured' },
+      "slug": "farxiga",
+      "brand": "Farxiga",
+      "generic": "dapagliflozin",
+      "drugClass": "SGLT2 inhibitor",
+      "manufacturer": "AstraZeneca",
+      "manufacturerUrl": "https://www.farxiga.com",
+      "hub": "diabetes",
+      "conditions": [
+        "Type 2 diabetes",
+        "Heart failure",
+        "Chronic kidney disease"
       ],
-      copay: {
-        lead: 'The Farxiga savings card can bring commercially insured patients to as little as $0 per month.',
-        body: 'Commercial insurance only — not valid with Medicare or Medicaid. An annual maximum applies, so 90-day fills use the card more efficiently. Enroll on the official Farxiga savings page.',
-        maxPerFill: 'Down to $0 per fill', maxPerYear: 'Annual savings cap applies',
-        eligibility: 'Commercial insurance only — **not** Medicare, Medicaid, or government plans',
-        enrollUrl: 'https://www.farxiga.com/savings',
-      },
-      medicare: {
-        negotiated: true, mfp: 178.5, effective: '2026-01-01',
-        body: 'Farxiga was one of the first ten Medicare-negotiated drugs. From **1 January 2026 its Maximum Fair Price is about $178.50 per 30-day supply**, down from roughly $556 — applied automatically at the pharmacy for Part D members, with the $2,100 Part D out-of-pocket cap on top.',
-      },
-      assistance: {
-        program: 'AZ&Me Prescription Savings Program', url: 'https://www.azandmeapp.com',
-        body: 'AstraZeneca provides Farxiga free to uninsured, income-eligible patients through the AZ&Me program. Proof of income is required.',
-      },
-      cash: 'Compare discount-card prices against the pharmacy cash price and ask for a 90-day supply. A generic dapagliflozin is beginning to reach the market; ask your pharmacist, as it will be the cheapest route once widely stocked.',
-      alternatives: 'Jardiance (empagliflozin) is the closest SGLT2 alternative — similar cost, also Medicare-negotiated in 2026. See our [Jardiance vs Farxiga comparison](/diabetes/jardiance-vs-farxiga/).',
-      practice: 'Farxiga and Jardiance are close enough that cost and coverage often decide between them. For a Medicare patient, Farxiga\'s negotiated price is slightly lower; for a commercial patient, the Farxiga card can reach $0. As always, confirm which your plan prefers before assuming — formulary placement can flip the maths.',
-      faqs: [
-        { q: 'How much is Farxiga with Medicare in 2026?', a: 'About $178.50 per 30-day supply — the negotiated price, applied automatically. The $2,100 Part D annual cap also applies.' },
-        { q: 'Is Farxiga cheaper than Jardiance?', a: 'On the 2026 Medicare price, slightly — Farxiga ~$178.50 vs Jardiance ~$197. For commercial patients both cards can reach near $0, so the practical difference is small.' },
-        { q: 'Is there a generic dapagliflozin?', a: 'A generic is beginning to reach the US market. Ask your pharmacist whether it is available, as it will be the cheapest option.' },
-        { q: 'Can I use the Farxiga card on Medicare?', a: 'No — commercial insurance only. Medicare patients use the negotiated price and Part D cap.' },
-        { q: 'What is the cheapest way to get Farxiga?', a: 'Commercial: the savings card (~$0). Medicare: the negotiated price plus the cap. Uninsured: AZ&Me patient assistance if income-eligible, or a discount card with a 90-day supply.' },
+      "hasBiosimilar": false,
+      "listPriceText": "$600/mo",
+      "cardBlurb": "SGLT2 inhibitor for diabetes, heart failure and kidney disease. Medicare-negotiated price in 2026.",
+      "title": "Farxiga Cost 2026: Price, Coupon & Copay Card (dapagliflozin) | RxCostGuide",
+      "metaDesc": "Farxiga (dapagliflozin) costs about $600/month at list price. See the 2026 Medicare-negotiated price (~$178.50), the Farxiga savings card, coupons and assistance.",
+      "h1": "Farxiga cost, coupon & copay card",
+      "lede": "Farxiga (dapagliflozin) is an SGLT2 inhibitor for type 2 diabetes, heart failure and chronic kidney disease — and one of the first ten Medicare-negotiated drugs.",
+      "shortAnswer": "Farxiga costs about **$600 a month** at list price. Commercially insured patients can pay **as little as $0 a month** with the Farxiga savings card. From **1 January 2026 the Medicare-negotiated price is about $178.50** per 30-day supply.",
+      "intro": "Like other SGLT2 inhibitors, Farxiga is a long-term medication where the annual figure matters. Your insurance type decides the cheapest route, and the savings card is capped per fill — so 90-day supplies stretch it further.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + savings card",
+          "cost": "As low as $0/mo",
+          "note": "Farxiga Savings; commercial only"
+        },
+        {
+          "situation": "Medicare Part D (2026)",
+          "cost": "~$178.50 / 30 days",
+          "note": "Negotiated price, automatic at counter"
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$600/mo",
+          "note": "List price; discount cards often lower"
+        },
+        {
+          "situation": "Patient assistance (AZ&Me)",
+          "cost": "$0",
+          "note": "If income-eligible and uninsured"
+        }
       ],
-      sources: [
-        { name: 'Farxiga — official savings', url: 'https://www.farxiga.com/savings' },
-        { name: 'CMS — Medicare negotiated prices (2026)', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation' },
-        { name: 'AZ&Me Prescription Savings', url: 'https://www.azandmeapp.com' },
+      "copay": {
+        "lead": "The Farxiga savings card can bring commercially insured patients to as little as $0 per month.",
+        "body": "Commercial insurance only — not valid with Medicare or Medicaid. An annual maximum applies, so 90-day fills use the card more efficiently. Enroll on the official Farxiga savings page.",
+        "maxPerFill": "Down to $0 per fill",
+        "maxPerYear": "Annual savings cap applies",
+        "eligibility": "Commercial insurance only — **not** Medicare, Medicaid, or government plans",
+        "enrollUrl": "https://www.farxiga.com/savings"
+      },
+      "medicare": {
+        "negotiated": true,
+        "mfp": 178.5,
+        "effective": "2026-01-01",
+        "body": "Farxiga was one of the first ten Medicare-negotiated drugs. From **1 January 2026 its Maximum Fair Price is about $178.50 per 30-day supply**, down from roughly $556 — applied automatically at the pharmacy for Part D members, with the $2,100 Part D out-of-pocket cap on top."
+      },
+      "assistance": {
+        "program": "AZ&Me Prescription Savings Program",
+        "url": "https://www.azandmeapp.com",
+        "body": "AstraZeneca provides Farxiga free to uninsured, income-eligible patients through the AZ&Me program. Proof of income is required."
+      },
+      "cash": "Compare discount-card prices against the pharmacy cash price and ask for a 90-day supply. A generic dapagliflozin is beginning to reach the market; ask your pharmacist, as it will be the cheapest route once widely stocked.",
+      "alternatives": "Jardiance (empagliflozin) is the closest SGLT2 alternative — similar cost, also Medicare-negotiated in 2026. See our [Jardiance vs Farxiga comparison](/diabetes/jardiance-vs-farxiga/).",
+      "practice": "Farxiga and Jardiance are close enough that cost and coverage often decide between them. For a Medicare patient, Farxiga's negotiated price is slightly lower; for a commercial patient, the Farxiga card can reach $0. As always, confirm which your plan prefers before assuming — formulary placement can flip the maths.",
+      "faqs": [
+        {
+          "q": "How much is Farxiga with Medicare in 2026?",
+          "a": "About $178.50 per 30-day supply — the negotiated price, applied automatically. The $2,100 Part D annual cap also applies."
+        },
+        {
+          "q": "Is Farxiga cheaper than Jardiance?",
+          "a": "On the 2026 Medicare price, slightly — Farxiga ~$178.50 vs Jardiance ~$197. For commercial patients both cards can reach near $0, so the practical difference is small."
+        },
+        {
+          "q": "Is there a generic dapagliflozin?",
+          "a": "A generic is beginning to reach the US market. Ask your pharmacist whether it is available, as it will be the cheapest option."
+        },
+        {
+          "q": "Can I use the Farxiga card on Medicare?",
+          "a": "No — commercial insurance only. Medicare patients use the negotiated price and Part D cap."
+        },
+        {
+          "q": "What is the cheapest way to get Farxiga?",
+          "a": "Commercial: the savings card (~$0). Medicare: the negotiated price plus the cap. Uninsured: AZ&Me patient assistance if income-eligible, or a discount card with a 90-day supply."
+        }
       ],
-      published: '2026-10-01',
+      "sources": [
+        {
+          "name": "Farxiga — official savings",
+          "url": "https://www.farxiga.com/savings"
+        },
+        {
+          "name": "CMS — Medicare negotiated prices (2026)",
+          "url": "https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation"
+        },
+        {
+          "name": "AZ&Me Prescription Savings",
+          "url": "https://www.azandmeapp.com"
+        }
+      ],
+      "published": "2026-10-01"
     },
     {
-      slug: 'mounjaro', brand: 'Mounjaro', generic: 'tirzepatide', drugClass: 'GIP/GLP-1 receptor agonist',
-      manufacturer: 'Eli Lilly', manufacturerUrl: 'https://www.mounjaro.com',
-      hub: 'diabetes', conditions: ['Type 2 diabetes'],
-      hasBiosimilar: false, listPriceText: '$1,080/mo',
-      cardBlurb: 'Dual GIP/GLP-1 injection for type 2 diabetes (tirzepatide). Zepbound is its weight-loss counterpart.',
-      title: 'Mounjaro Cost 2026: Price, Coupon & Savings Card (tirzepatide) | RxCostGuide',
-      metaDesc: 'Mounjaro (tirzepatide) costs about $1,080/month at list price. See the Mounjaro savings card, coupons, cost without insurance, self-pay vials and assistance.',
-      h1: 'Mounjaro cost, coupon & savings card',
-      lede: 'Mounjaro (tirzepatide) is a once-weekly injection for type 2 diabetes and one of the most-searched drug prices in the US.',
-      shortAnswer: 'Mounjaro costs about **$1,080 a month** at list price. Commercially insured patients with coverage can pay **as little as $25 a month** with the Mounjaro savings card; those whose commercial plan doesn\'t cover it may pay a capped amount instead. Mounjaro is in the **second Medicare negotiation cycle, with a negotiated price effective 2027** — not yet in 2026.',
-      intro: 'Mounjaro is the diabetes version of tirzepatide; Zepbound is the same molecule approved for weight loss. What you pay depends heavily on whether your commercial plan covers it, and Lilly has introduced lower-cost self-pay options that have shifted the picture.',
-      costRows: [
-        { situation: 'Commercial insurance (covered) + card', cost: 'As low as $25/mo', note: 'Mounjaro savings card' },
-        { situation: 'Commercial (not covered) + card', cost: 'Capped amount/mo', note: 'Higher cap when plan excludes it' },
-        { situation: 'Self-pay vials (LillyDirect)', cost: 'Lower than list', note: 'Single-dose vials, cash pay' },
-        { situation: 'Cash / no insurance (pens)', cost: '~$1,080/mo', note: 'List price' },
-        { situation: 'Medicare Part D', cost: 'Plan cost-share', note: 'Negotiated price effective 2027; $2,100 cap applies' },
+      "slug": "mounjaro",
+      "brand": "Mounjaro",
+      "generic": "tirzepatide",
+      "drugClass": "GIP/GLP-1 receptor agonist",
+      "manufacturer": "Eli Lilly",
+      "manufacturerUrl": "https://www.mounjaro.com",
+      "hub": "diabetes",
+      "conditions": [
+        "Type 2 diabetes"
       ],
-      copay: {
-        lead: 'The Mounjaro savings card can bring commercially insured patients to as little as $25 per month.',
-        body: 'If your commercial plan **covers** Mounjaro, the card can bring you to about $25 a month. If your commercial plan **does not** cover it, the card caps your monthly cost at a higher (but still reduced) figure. Commercial insurance only — never Medicare or Medicaid. Lilly also sells single-dose **self-pay vials through LillyDirect** at prices well below the pen list price, which can be the cheapest route for cash payers.',
-        maxPerFill: 'Down to $25/mo (if covered)', maxPerYear: 'Monthly and annual caps apply',
-        eligibility: 'Commercial insurance only — **not** Medicare or Medicaid',
-        enrollUrl: 'https://www.mounjaro.com/savings-resources',
-      },
-      medicare: {
-        negotiated: false, mfp: null,
-        body: 'Mounjaro (tirzepatide) is in the **second Medicare negotiation cycle**, with a negotiated price effective **1 January 2027** — so in 2026 Medicare patients pay their plan cost-share, capped by the $2,100 Part D out-of-pocket maximum. Note that Medicare Part D covers tirzepatide for **diabetes**, not for weight loss. Copay cards cannot be used with Medicare.',
-      },
-      assistance: {
-        program: 'Lilly Cares Foundation', url: 'https://www.lillycares.com',
-        body: 'Lilly Cares provides Mounjaro free to uninsured, income-eligible patients. LillyDirect self-pay vials are a separate, lower-cost cash option for those who don\'t qualify for free assistance.',
-      },
-      cash: 'For cash payers, the LillyDirect self-pay vials are usually far cheaper than paying list price for the pens — check current vial pricing on LillyDirect. Compare that against discount-card prices for the pens. If your income qualifies, Lilly Cares can provide it free.',
-      alternatives: 'Ozempic (semaglutide) is the main once-weekly alternative for diabetes; its Medicare-negotiated price arrives in 2027 too. For weight loss specifically, the same molecule is sold as Zepbound. See our [Mounjaro vs Ozempic comparison](/glp-1-weight-loss/mounjaro-vs-ozempic/).',
-      practice: 'These GIP/GLP-1 drugs are where I see the most confusion, because the same molecule has a diabetes brand and a weight-loss brand with completely different coverage. Medicare and most plans cover tirzepatide for diabetes (Mounjaro) far more readily than for weight loss (Zepbound). If cost or coverage seems strange, the first question is always: which indication is your prescription actually written for?',
-      faqs: [
-        { q: 'How much is Mounjaro without insurance?', a: 'About $1,080 a month at list price for the pens. Lilly\'s self-pay single-dose vials through LillyDirect are cheaper, and income-eligible patients may get it free through Lilly Cares.' },
-        { q: 'How much is Mounjaro with the savings card?', a: 'As little as $25 a month if your commercial plan covers it. If your commercial plan doesn\'t cover it, the card caps your cost at a higher but still-reduced amount. Not usable with Medicare or Medicaid.' },
-        { q: 'Is Mounjaro covered by Medicare?', a: 'Medicare Part D covers tirzepatide for type 2 diabetes (Mounjaro), subject to your plan. A Medicare-negotiated price takes effect in 2027. Medicare does not cover it for weight loss.' },
-        { q: 'What is the difference between Mounjaro and Zepbound?', a: 'They are the same molecule (tirzepatide). Mounjaro is approved for type 2 diabetes; Zepbound is approved for weight loss. Coverage and pricing differ by indication.' },
-        { q: 'Are Mounjaro self-pay vials cheaper?', a: 'Usually yes. Lilly sells single-dose vials through LillyDirect at prices well below the pen list price, which is often the cheapest cash route.' },
+      "hasBiosimilar": false,
+      "listPriceText": "$1,080/mo",
+      "cardBlurb": "Dual GIP/GLP-1 injection for type 2 diabetes (tirzepatide). Zepbound is its weight-loss counterpart.",
+      "title": "Mounjaro Cost 2026: Price, Coupon & Savings Card (tirzepatide) | RxCostGuide",
+      "metaDesc": "Mounjaro (tirzepatide) costs about $1,080/month at list price. See the Mounjaro savings card, coupons, cost without insurance, self-pay vials and assistance.",
+      "h1": "Mounjaro cost, coupon & savings card",
+      "lede": "Mounjaro (tirzepatide) is a once-weekly injection for type 2 diabetes and one of the most-searched drug prices in the US.",
+      "shortAnswer": "Mounjaro costs about **$1,080 a month** at list price. Commercially insured patients with coverage can pay **as little as $25 a month** with the Mounjaro savings card; those whose commercial plan doesn't cover it may pay a capped amount instead. Mounjaro is in the **second Medicare negotiation cycle, with a negotiated price effective 2027** — not yet in 2026.",
+      "intro": "Mounjaro is the diabetes version of tirzepatide; Zepbound is the same molecule approved for weight loss. What you pay depends heavily on whether your commercial plan covers it, and Lilly has introduced lower-cost self-pay options that have shifted the picture.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance (covered) + card",
+          "cost": "As low as $25/mo",
+          "note": "Mounjaro savings card"
+        },
+        {
+          "situation": "Commercial (not covered) + card",
+          "cost": "Capped amount/mo",
+          "note": "Higher cap when plan excludes it"
+        },
+        {
+          "situation": "Self-pay vials (LillyDirect)",
+          "cost": "Lower than list",
+          "note": "Single-dose vials, cash pay"
+        },
+        {
+          "situation": "Cash / no insurance (pens)",
+          "cost": "~$1,080/mo",
+          "note": "List price"
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Plan cost-share",
+          "note": "Negotiated price effective 2027; $2,100 cap applies"
+        }
       ],
-      sources: [
-        { name: 'Mounjaro — savings & resources', url: 'https://www.mounjaro.com/savings-resources' },
-        { name: 'LillyDirect', url: 'https://www.lillydirect.com' },
-        { name: 'Lilly Cares Foundation', url: 'https://www.lillycares.com' },
+      "copay": {
+        "lead": "The Mounjaro savings card can bring commercially insured patients to as little as $25 per month.",
+        "body": "If your commercial plan **covers** Mounjaro, the card can bring you to about $25 a month. If your commercial plan **does not** cover it, the card caps your monthly cost at a higher (but still reduced) figure. Commercial insurance only — never Medicare or Medicaid. Lilly also sells single-dose **self-pay vials through LillyDirect** at prices well below the pen list price, which can be the cheapest route for cash payers.",
+        "maxPerFill": "Down to $25/mo (if covered)",
+        "maxPerYear": "Monthly and annual caps apply",
+        "eligibility": "Commercial insurance only — **not** Medicare or Medicaid",
+        "enrollUrl": "https://www.mounjaro.com/savings-resources"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Mounjaro (tirzepatide) is in the **second Medicare negotiation cycle**, with a negotiated price effective **1 January 2027** — so in 2026 Medicare patients pay their plan cost-share, capped by the $2,100 Part D out-of-pocket maximum. Note that Medicare Part D covers tirzepatide for **diabetes**, not for weight loss. Copay cards cannot be used with Medicare."
+      },
+      "assistance": {
+        "program": "Lilly Cares Foundation",
+        "url": "https://www.lillycares.com",
+        "body": "Lilly Cares provides Mounjaro free to uninsured, income-eligible patients. LillyDirect self-pay vials are a separate, lower-cost cash option for those who don't qualify for free assistance."
+      },
+      "cash": "For cash payers, the LillyDirect self-pay vials are usually far cheaper than paying list price for the pens — check current vial pricing on LillyDirect. Compare that against discount-card prices for the pens. If your income qualifies, Lilly Cares can provide it free.",
+      "alternatives": "Ozempic (semaglutide) is the main once-weekly alternative for diabetes; its Medicare-negotiated price arrives in 2027 too. For weight loss specifically, the same molecule is sold as Zepbound. See our [Mounjaro vs Ozempic comparison](/glp-1-weight-loss/mounjaro-vs-ozempic/).",
+      "practice": "These GIP/GLP-1 drugs are where I see the most confusion, because the same molecule has a diabetes brand and a weight-loss brand with completely different coverage. Medicare and most plans cover tirzepatide for diabetes (Mounjaro) far more readily than for weight loss (Zepbound). If cost or coverage seems strange, the first question is always: which indication is your prescription actually written for?",
+      "faqs": [
+        {
+          "q": "How much is Mounjaro without insurance?",
+          "a": "About $1,080 a month at list price for the pens. Lilly's self-pay single-dose vials through LillyDirect are cheaper, and income-eligible patients may get it free through Lilly Cares."
+        },
+        {
+          "q": "How much is Mounjaro with the savings card?",
+          "a": "As little as $25 a month if your commercial plan covers it. If your commercial plan doesn't cover it, the card caps your cost at a higher but still-reduced amount. Not usable with Medicare or Medicaid."
+        },
+        {
+          "q": "Is Mounjaro covered by Medicare?",
+          "a": "Medicare Part D covers tirzepatide for type 2 diabetes (Mounjaro), subject to your plan. A Medicare-negotiated price takes effect in 2027. Medicare does not cover it for weight loss."
+        },
+        {
+          "q": "What is the difference between Mounjaro and Zepbound?",
+          "a": "They are the same molecule (tirzepatide). Mounjaro is approved for type 2 diabetes; Zepbound is approved for weight loss. Coverage and pricing differ by indication."
+        },
+        {
+          "q": "Are Mounjaro self-pay vials cheaper?",
+          "a": "Usually yes. Lilly sells single-dose vials through LillyDirect at prices well below the pen list price, which is often the cheapest cash route."
+        }
       ],
-      published: '2026-10-01',
+      "sources": [
+        {
+          "name": "Mounjaro — savings & resources",
+          "url": "https://www.mounjaro.com/savings-resources"
+        },
+        {
+          "name": "LillyDirect",
+          "url": "https://www.lillydirect.com"
+        },
+        {
+          "name": "Lilly Cares Foundation",
+          "url": "https://www.lillycares.com"
+        }
+      ],
+      "published": "2026-10-01"
     },
     {
-      slug: 'januvia', brand: 'Januvia', generic: 'sitagliptin', drugClass: 'DPP-4 inhibitor',
-      manufacturer: 'Merck', manufacturerUrl: 'https://www.januvia.com',
-      hub: 'diabetes', conditions: ['Type 2 diabetes'],
-      hasBiosimilar: false, listPriceText: '$620/mo',
-      cardBlurb: 'DPP-4 inhibitor for type 2 diabetes. Medicare-negotiated price in 2026; generic sitagliptin emerging.',
-      title: 'Januvia Cost 2026: Price, Coupon & Generic Sitagliptin | RxCostGuide',
-      metaDesc: 'Januvia (sitagliptin) costs about $620/month at list price. See the 2026 Medicare-negotiated price (~$113), generic sitagliptin, coupons and patient assistance.',
-      h1: 'Januvia cost, coupon & generic options',
-      lede: 'Januvia (sitagliptin) is a DPP-4 inhibitor for type 2 diabetes — one of the first ten Medicare-negotiated drugs, with generic sitagliptin beginning to arrive.',
-      shortAnswer: 'Branded Januvia costs about **$620 a month** at list price. From **1 January 2026 the Medicare-negotiated price is about $113** per 30-day supply. **Generic sitagliptin** is beginning to reach pharmacies and will be the cheapest route once widely stocked.',
-      intro: 'Januvia is a long-term diabetes medication. Two things reshape its cost in 2026: a Medicare-negotiated price, and the arrival of generic sitagliptin — which, where available, undercuts everything else.',
-      costRows: [
-        { situation: 'Generic sitagliptin + discount card', cost: 'Lower (varies)', note: 'Cheapest once widely stocked' },
-        { situation: 'Medicare Part D (2026)', cost: '~$113 / 30 days', note: 'Negotiated price, automatic at counter' },
-        { situation: 'Commercial insurance + savings card', cost: 'As low as $0/mo', note: 'Merck savings; commercial only' },
-        { situation: 'Cash / no insurance (brand)', cost: '~$620/mo', note: 'Brand list price' },
+      "slug": "januvia",
+      "brand": "Januvia",
+      "generic": "sitagliptin",
+      "drugClass": "DPP-4 inhibitor",
+      "manufacturer": "Merck",
+      "manufacturerUrl": "https://www.januvia.com",
+      "hub": "diabetes",
+      "conditions": [
+        "Type 2 diabetes"
       ],
-      copay: {
-        lead: 'The Merck Januvia savings card can bring commercially insured patients to as little as $0 per month on the brand.',
-        body: 'Commercial insurance only — not valid with Medicare or Medicaid. Note that if generic sitagliptin is available to you, it may be cheaper than the branded drug even with the card, so compare both.',
-        maxPerFill: 'Down to $0 per fill (brand)', maxPerYear: 'Annual cap applies',
-        eligibility: 'Commercial insurance only — **not** Medicare or Medicaid',
-        enrollUrl: 'https://www.januvia.com/savings',
-      },
-      medicare: {
-        negotiated: true, mfp: 113, effective: '2026-01-01',
-        body: 'Januvia was one of the first ten Medicare-negotiated drugs. From **1 January 2026 its Maximum Fair Price is about $113 per 30-day supply**, down from roughly $527 — applied automatically for Part D members, with the $2,100 annual cap. Where generic sitagliptin is stocked, a Part D plan may price it even lower.',
-      },
-      assistance: {
-        program: 'Merck Patient Assistance Program', url: 'https://www.merckhelps.com',
-        body: 'Merck provides Januvia free to uninsured, income-eligible patients through its patient-assistance program.',
-      },
-      cash: 'The biggest lever is the generic: ask your pharmacist for generic sitagliptin and price it with GoodRx or SingleCare. Request a 90-day supply. Older diabetes drugs like metformin are far cheaper still, if clinically appropriate for you.',
-      alternatives: 'Other DPP-4 inhibitors (Tradjenta) and SGLT2 inhibitors (Jardiance, Farxiga) are alternatives with different cost profiles. Metformin remains the inexpensive first-line option. Any switch is a clinical decision.',
-      practice: 'Januvia sits at an interesting moment — a negotiated Medicare price *and* an emerging generic at the same time. For most patients the generic will eventually win on price, but until it\'s reliably stocked, the negotiated price makes the brand very manageable on Medicare. Ask the pharmacist which is actually cheaper for you today; the answer is changing month to month.',
-      faqs: [
-        { q: 'Is there a generic for Januvia?', a: 'Generic sitagliptin is beginning to reach the US market. Where stocked, it is usually the cheapest option — ask your pharmacist.' },
-        { q: 'How much is Januvia on Medicare in 2026?', a: 'About $113 per 30-day supply — the negotiated price, applied automatically. The $2,100 Part D cap also applies.' },
-        { q: 'Can I use the Januvia savings card on Medicare?', a: 'No — commercial insurance only. Medicare patients use the negotiated price and Part D cap.' },
-        { q: 'What is the cheapest DPP-4 inhibitor?', a: 'Generic sitagliptin, where available, is typically the cheapest DPP-4 option. Compare it against your plan and discount-card prices.' },
-        { q: 'What does Januvia cost without insurance?', a: 'Branded Januvia is about $620 a month; generic sitagliptin is much less. Uninsured, income-eligible patients can apply to Merck\'s patient-assistance program for free brand.' },
+      "hasBiosimilar": false,
+      "listPriceText": "$620/mo",
+      "cardBlurb": "DPP-4 inhibitor for type 2 diabetes. Medicare-negotiated price in 2026; generic sitagliptin emerging.",
+      "title": "Januvia Cost 2026: Price, Coupon & Generic Sitagliptin | RxCostGuide",
+      "metaDesc": "Januvia (sitagliptin) costs about $620/month at list price. See the 2026 Medicare-negotiated price (~$113), generic sitagliptin, coupons and patient assistance.",
+      "h1": "Januvia cost, coupon & generic options",
+      "lede": "Januvia (sitagliptin) is a DPP-4 inhibitor for type 2 diabetes — one of the first ten Medicare-negotiated drugs, with generic sitagliptin beginning to arrive.",
+      "shortAnswer": "Branded Januvia costs about **$620 a month** at list price. From **1 January 2026 the Medicare-negotiated price is about $113** per 30-day supply. **Generic sitagliptin** is beginning to reach pharmacies and will be the cheapest route once widely stocked.",
+      "intro": "Januvia is a long-term diabetes medication. Two things reshape its cost in 2026: a Medicare-negotiated price, and the arrival of generic sitagliptin — which, where available, undercuts everything else.",
+      "costRows": [
+        {
+          "situation": "Generic sitagliptin + discount card",
+          "cost": "Lower (varies)",
+          "note": "Cheapest once widely stocked"
+        },
+        {
+          "situation": "Medicare Part D (2026)",
+          "cost": "~$113 / 30 days",
+          "note": "Negotiated price, automatic at counter"
+        },
+        {
+          "situation": "Commercial insurance + savings card",
+          "cost": "As low as $0/mo",
+          "note": "Merck savings; commercial only"
+        },
+        {
+          "situation": "Cash / no insurance (brand)",
+          "cost": "~$620/mo",
+          "note": "Brand list price"
+        }
       ],
-      sources: [
-        { name: 'Januvia — official savings', url: 'https://www.januvia.com/savings' },
-        { name: 'CMS — Medicare negotiated prices (2026)', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation' },
-        { name: 'Merck Helps (patient assistance)', url: 'https://www.merckhelps.com' },
+      "copay": {
+        "lead": "The Merck Januvia savings card can bring commercially insured patients to as little as $0 per month on the brand.",
+        "body": "Commercial insurance only — not valid with Medicare or Medicaid. Note that if generic sitagliptin is available to you, it may be cheaper than the branded drug even with the card, so compare both.",
+        "maxPerFill": "Down to $0 per fill (brand)",
+        "maxPerYear": "Annual cap applies",
+        "eligibility": "Commercial insurance only — **not** Medicare or Medicaid",
+        "enrollUrl": "https://www.januvia.com/savings"
+      },
+      "medicare": {
+        "negotiated": true,
+        "mfp": 113,
+        "effective": "2026-01-01",
+        "body": "Januvia was one of the first ten Medicare-negotiated drugs. From **1 January 2026 its Maximum Fair Price is about $113 per 30-day supply**, down from roughly $527 — applied automatically for Part D members, with the $2,100 annual cap. Where generic sitagliptin is stocked, a Part D plan may price it even lower."
+      },
+      "assistance": {
+        "program": "Merck Patient Assistance Program",
+        "url": "https://www.merckhelps.com",
+        "body": "Merck provides Januvia free to uninsured, income-eligible patients through its patient-assistance program."
+      },
+      "cash": "The biggest lever is the generic: ask your pharmacist for generic sitagliptin and price it with GoodRx or SingleCare. Request a 90-day supply. Older diabetes drugs like metformin are far cheaper still, if clinically appropriate for you.",
+      "alternatives": "Other DPP-4 inhibitors (Tradjenta) and SGLT2 inhibitors (Jardiance, Farxiga) are alternatives with different cost profiles. Metformin remains the inexpensive first-line option. Any switch is a clinical decision.",
+      "practice": "Januvia sits at an interesting moment — a negotiated Medicare price *and* an emerging generic at the same time. For most patients the generic will eventually win on price, but until it's reliably stocked, the negotiated price makes the brand very manageable on Medicare. Ask the pharmacist which is actually cheaper for you today; the answer is changing month to month.",
+      "faqs": [
+        {
+          "q": "Is there a generic for Januvia?",
+          "a": "Generic sitagliptin is beginning to reach the US market. Where stocked, it is usually the cheapest option — ask your pharmacist."
+        },
+        {
+          "q": "How much is Januvia on Medicare in 2026?",
+          "a": "About $113 per 30-day supply — the negotiated price, applied automatically. The $2,100 Part D cap also applies."
+        },
+        {
+          "q": "Can I use the Januvia savings card on Medicare?",
+          "a": "No — commercial insurance only. Medicare patients use the negotiated price and Part D cap."
+        },
+        {
+          "q": "What is the cheapest DPP-4 inhibitor?",
+          "a": "Generic sitagliptin, where available, is typically the cheapest DPP-4 option. Compare it against your plan and discount-card prices."
+        },
+        {
+          "q": "What does Januvia cost without insurance?",
+          "a": "Branded Januvia is about $620 a month; generic sitagliptin is much less. Uninsured, income-eligible patients can apply to Merck's patient-assistance program for free brand."
+        }
       ],
-      published: '2026-10-01',
+      "sources": [
+        {
+          "name": "Januvia — official savings",
+          "url": "https://www.januvia.com/savings"
+        },
+        {
+          "name": "CMS — Medicare negotiated prices (2026)",
+          "url": "https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation"
+        },
+        {
+          "name": "Merck Helps (patient assistance)",
+          "url": "https://www.merckhelps.com"
+        }
+      ],
+      "published": "2026-10-01"
     },
+    {
+      "slug": "tresiba",
+      "brand": "Tresiba",
+      "generic": "insulin degludec",
+      "drugClass": "Long-acting (basal) insulin",
+      "manufacturer": "Novo Nordisk",
+      "manufacturerUrl": "https://www.tresiba.com",
+      "hub": "diabetes",
+      "conditions": [
+        "Type 1 diabetes",
+        "Type 2 diabetes"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "varies by form; cash roughly $150–560/mo",
+      "cardBlurb": "Ultra-long-acting basal insulin (insulin degludec) taken once daily for type 1 and type 2 diabetes.",
+      "title": "Tresiba Cost 2026: Price, Coupon & Copay Card (insulin degludec) | RxCostGuide",
+      "metaDesc": "Tresiba cost in 2026: cash roughly $150–560/mo without insurance, or as little as $35 per 30-day supply with the savings card. Medicare and PAP options.",
+      "h1": "Tresiba cost, coupon & copay card",
+      "lede": "Tresiba (insulin degludec) is a once-daily, long-acting basal insulin from Novo Nordisk used to control blood sugar in adults and children with type 1 or type 2 diabetes.",
+      "shortAnswer": "Without insurance, Tresiba **varies by form; cash roughly $150–560/mo**. With commercial insurance, the Novo Nordisk savings offer can bring it down to **as little as $35 per 30-day supply**, and on Medicare, the federal **$35/month** insulin cap applies to covered insulin, with total Part D out-of-pocket costs capped at **$2,100** in 2026. A generic insulin degludec is also available and may cost less.",
+      "intro": "Tresiba provides steady background insulin over a full day and is injected once daily, usually alongside mealtime insulin in type 1 diabetes or with other glucose-lowering medicines in type 2 diabetes. What you pay depends mainly on your insurance type, your plan's formulary placement, and whether you use pens or vials. Because insulin is used every day, small differences in monthly cost add up quickly over a year.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + savings offer",
+          "cost": "as little as $35 per 30-day supply (commercial savings offer / MyInsulinRx)",
+          "note": "Savings of up to $65 off per fill; commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "$35/month federal insulin cap",
+          "note": "Applies to covered insulin; total 2026 Part D out-of-pocket spending is capped at $2,100. Copay cards cannot be used."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "varies by form; cash roughly $150–560/mo",
+          "note": "Price depends on pens vs. vials, dose, and pharmacy; ask about generic insulin degludec."
+        },
+        {
+          "situation": "Patient assistance",
+          "cost": "May be free for eligible patients",
+          "note": "Through the Novo Nordisk Patient Assistance Program; eligibility criteria apply."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $35 per 30-day supply of Tresiba.",
+        "body": "The Novo Nordisk Tresiba savings offer (also accessible via MyInsulinRx) lowers your out-of-pocket cost at the pharmacy when you have commercial or private insurance. It is not valid for people with Medicare, Medicaid, or other government insurance. Enroll online, then present the card information at your pharmacy with each fill.",
+        "maxPerFill": "up to $65 off per fill",
+        "maxPerYear": "Annual maximum not specified; check the official offer terms.",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.novocare.com/diabetes/products/tresiba/savings-offer.html"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Tresiba is not among the drugs with a Medicare-negotiated price. However, the federal $35/month insulin cap limits what Medicare Part D enrollees pay for covered insulin, and total Part D out-of-pocket drug spending is capped at $2,100 in 2026. Manufacturer copay cards cannot be used with Medicare, so Medicare patients should rely on the insulin cap or the Novo Nordisk Patient Assistance Program."
+      },
+      "assistance": {
+        "program": "Novo Nordisk Patient Assistance Program",
+        "url": "https://www.novocare.com/diabetes/help-with-costs/pap.html",
+        "body": "The Novo Nordisk Patient Assistance Program may provide Tresiba at no cost to eligible patients with limited income, including some who are uninsured or on Medicare. Applications typically require proof of income and a prescriber's signature; check the official site for current criteria."
+      },
+      "cash": "Without insurance, Tresiba varies by form; cash roughly $150–560/mo, so compare pharmacy prices and discount cards before filling. A generic insulin degludec is available and may be less expensive, and the Novo Nordisk Patient Assistance Program may help if your income qualifies.",
+      "alternatives": "A generic insulin degludec is available and may lower your cost. Other long-acting basal insulins exist as well; ask your prescriber whether a switch is appropriate, since dosing does not always convert one-to-one.",
+      "practice": "I tell patients that insulin should never be rationed because of cost; skipping basal insulin can lead to dangerous high blood sugar and, in type 1 diabetes, ketoacidosis. If you are commercially insured, enroll in the savings offer before your first fill, and if you are on Medicare, confirm your plan is applying the $35/month insulin cap. I also encourage patients to ask whether the generic insulin degludec is covered at a lower tier.",
+      "faqs": [
+        {
+          "q": "How much does Tresiba cost with the savings card?",
+          "a": "With commercial insurance, the Novo Nordisk savings offer can lower Tresiba to as little as $35 per 30-day supply, with savings of up to $65 off per fill. It is not valid for Medicare or Medicaid."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Tresiba?",
+          "a": "A generic insulin degludec is available and may cost less than brand-name Tresiba. There is no biosimilar listed. Ask your pharmacist or plan which version is covered at the lowest cost."
+        },
+        {
+          "q": "How much is Tresiba without insurance?",
+          "a": "The cash price varies by form; cash roughly $150–560/mo. Discount cards, the generic insulin degludec, and the Novo Nordisk Patient Assistance Program can help reduce costs."
+        },
+        {
+          "q": "How much does Tresiba cost on Medicare?",
+          "a": "Medicare Part D enrollees benefit from the federal $35/month insulin cap on covered insulin, and total Part D out-of-pocket costs are capped at $2,100 in 2026. Manufacturer copay cards cannot be used with Medicare."
+        },
+        {
+          "q": "How do I enroll in the Tresiba savings offer?",
+          "a": "Commercially insured patients can enroll at https://www.novocare.com/diabetes/products/tresiba/savings-offer.html and present the savings information at the pharmacy. Patients who don't qualify can check the Novo Nordisk Patient Assistance Program at https://www.novocare.com/diabetes/help-with-costs/pap.html."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Tresiba savings offer (official)",
+          "url": "https://www.novocare.com/diabetes/products/tresiba/savings-offer.html"
+        },
+        {
+          "name": "Novo Nordisk Patient Assistance Program",
+          "url": "https://www.novocare.com/diabetes/help-with-costs/pap.html"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    },
+    {
+      "slug": "kerendia",
+      "brand": "Kerendia",
+      "generic": "finerenone",
+      "drugClass": "Nonsteroidal mineralocorticoid receptor antagonist (oral, once daily)",
+      "manufacturer": "Bayer",
+      "manufacturerUrl": "https://www.kerendia-us.com",
+      "hub": "diabetes",
+      "conditions": [
+        "Chronic kidney disease associated with type 2 diabetes",
+        "Heart failure"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$707/mo",
+      "cardBlurb": "Once-daily nonsteroidal MRA tablet for chronic kidney disease with type 2 diabetes and for heart failure.",
+      "title": "Kerendia Cost 2026: Price, Coupon & Copay Card (finerenone) | RxCostGuide",
+      "metaDesc": "Kerendia (finerenone) costs ~$707/mo without insurance. See how the Kerendia Savings Card can cut copays to $0, plus Medicare and patient assistance options.",
+      "h1": "Kerendia cost, coupon & copay card",
+      "lede": "Kerendia (finerenone) is a once-daily oral nonsteroidal mineralocorticoid receptor antagonist from Bayer used to treat chronic kidney disease associated with type 2 diabetes and heart failure.",
+      "shortAnswer": "Kerendia has a list price of about **~$707/mo**. With commercial insurance, the Kerendia Savings Card can bring the cost to **as little as $0 per monthly prescription**, with savings of **up to $3,000/yr**. On Medicare Part D, the card cannot be used, but your total out-of-pocket drug spending is capped at **$2,100** in 2026, and uninsured or underinsured patients can apply to the Bayer US Patient Assistance Foundation.",
+      "intro": "Kerendia is taken as a tablet once daily, usually as a long-term therapy alongside other kidney- and heart-protective medications. Because it is a brand-name drug without a generic version, what you pay depends mainly on your insurance type, your plan's formulary tier and deductible, and whether you qualify for the manufacturer savings card or patient assistance.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Kerendia Savings Card",
+          "cost": "as little as $0 per monthly prescription with the Kerendia Savings Card",
+          "note": "Savings up to $3,000/yr; commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Annual out-of-pocket drug costs are capped at $2,100 in 2026; manufacturer copay cards cannot be used."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$707/mo",
+          "note": "Approximate list price; pharmacy cash prices and discount-card prices vary."
+        },
+        {
+          "situation": "Bayer US Patient Assistance Foundation",
+          "cost": "Depends on eligibility",
+          "note": "For eligible patients who meet the program's criteria; apply through the foundation."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 per monthly prescription with the Kerendia Savings Card.",
+        "body": "The Kerendia Savings Card is Bayer's copay program for people with commercial (private or employer) insurance. It can lower your out-of-pocket cost for each monthly prescription, with total savings of up to $3,000/yr. It cannot be used with Medicare, Medicaid, or other government insurance. Enroll through the official Kerendia savings and support page and present the card at your pharmacy.",
+        "maxPerFill": "Not specified; see program terms",
+        "maxPerYear": "up to $3,000/yr",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.kerendia-us.com/savings-and-support"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Kerendia is not among the drugs with a Medicare-negotiated price, so your cost depends on your Part D plan's formulary tier, deductible, and coinsurance. In 2026, total out-of-pocket spending on covered Part D drugs is capped at $2,100 per year, which limits costs for people on long-term brand-name therapy. Federal rules bar Medicare beneficiaries from using manufacturer copay cards such as the Kerendia Savings Card, but patients with limited income may qualify for Extra Help or for Bayer's patient assistance program."
+      },
+      "assistance": {
+        "program": "Bayer US Patient Assistance Foundation",
+        "url": "https://www.patientassistance.bayer.us/",
+        "body": "The Bayer US Patient Assistance Foundation helps eligible uninsured or underinsured patients get Bayer medicines, including Kerendia. Eligibility is based on the foundation's income and insurance criteria; your prescriber's office typically helps complete the application."
+      },
+      "cash": "Without insurance, Kerendia's list price is about ~$707/mo, and actual pharmacy cash prices vary. Pharmacy discount cards may lower the price somewhat, but the Bayer US Patient Assistance Foundation is usually the most meaningful option for uninsured patients who qualify. There is currently no generic finerenone, so ask your prescriber whether a lower-cost alternative is appropriate for your situation.",
+      "alternatives": "Older steroidal mineralocorticoid receptor antagonists such as spironolactone and eplerenone are available as generics, but they are not interchangeable with finerenone and have different evidence and side-effect profiles for these conditions. Any switch should be a decision made with your prescriber, who may also be using other kidney- and heart-protective drugs alongside Kerendia.",
+      "practice": "I tell patients that Kerendia is a long-term medication, so it's worth sorting out coverage up front—commercially insured patients should enroll in the savings card before the first fill, and Medicare patients should know their 2026 out-of-pocket costs are capped. I also remind them that their blood potassium and kidney function need to be checked before starting and periodically afterward, so they should keep those lab appointments. If cost is ever a barrier, tell your care team rather than skipping doses, because assistance options exist.",
+      "faqs": [
+        {
+          "q": "How much does Kerendia cost with the savings card?",
+          "a": "With commercial insurance, the Kerendia Savings Card can lower your cost to as little as $0 per monthly prescription, with savings of up to $3,000/yr. It is for commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Kerendia?",
+          "a": "No. There is currently no generic finerenone available in the US. Biosimilars apply only to biologic drugs, and Kerendia is a small-molecule tablet, so a biosimilar does not apply."
+        },
+        {
+          "q": "How much is Kerendia without insurance?",
+          "a": "Kerendia's list price is about ~$707/mo. Cash prices vary by pharmacy, and uninsured patients may qualify for help through the Bayer US Patient Assistance Foundation."
+        },
+        {
+          "q": "Does Medicare cover Kerendia, and can I use the copay card?",
+          "a": "Many Medicare Part D plans cover Kerendia, but your cost varies by plan. In 2026, annual out-of-pocket Part D drug costs are capped at $2,100. Medicare patients cannot use the Kerendia Savings Card, and Kerendia does not have a Medicare-negotiated price."
+        },
+        {
+          "q": "How do I enroll in the Kerendia Savings Card?",
+          "a": "Enroll through the official Kerendia savings and support page at https://www.kerendia-us.com/savings-and-support, then give the card information to your pharmacy when you fill your prescription."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Kerendia savings & support (official)",
+          "url": "https://www.kerendia-us.com/savings-and-support"
+        },
+        {
+          "name": "Bayer US Patient Assistance Foundation",
+          "url": "https://www.patientassistance.bayer.us/"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    }
   ],
-  comparisons: [
+  "comparisons": [
     {
-      name: 'Trulicity vs Ozempic', path: '/diabetes/trulicity-vs-ozempic/',
-      title: 'Trulicity vs Ozempic: Cost, Coverage & Which Is Cheaper (2026) | RxCostGuide',
-      metaDesc: 'Trulicity vs Ozempic compared on 2026 cost, savings cards, coverage and convenience — and which once-weekly GLP-1 is cheaper for your insurance.',
-      h1: 'Trulicity vs Ozempic: cost, coverage & which is right for you',
-      lede: 'Two once-weekly GLP-1 injections for type 2 diabetes, compared on what actually drives your out-of-pocket cost in 2026.',
-      shortAnswer: 'List prices are close — Trulicity about **$990/month**, Ozempic about **$970/month**. Both savings cards can reach **$25/month or less** for commercially insured patients whose plan covers the drug. Neither has a 2026 Medicare-negotiated price, though **Ozempic (semaglutide) gets one in 2027**. In practice, **which your plan places on a better formulary tier** decides the cost, not the sticker price.',
-      a: { name: 'Trulicity (dulaglutide)' }, b: { name: 'Ozempic (semaglutide)' },
-      rows: [
-        ['List price (per month)', '~$990', '~$970'],
-        ['Savings card (commercial)', 'As low as $25/mo', 'As low as $25/mo'],
-        ['Dosing', 'Once weekly, no mixing', 'Once weekly, dial pen'],
-        ['Medicare negotiated price', 'None scheduled', 'Effective 2027 (semaglutide)'],
-        ['Also used for weight loss?', 'No (diabetes only)', 'Same molecule as Wegovy'],
-        ['Generic available', 'No', 'No'],
-        ['Patient assistance', 'Lilly Cares', 'NovoCare / NNPAP'],
+      "name": "Trulicity vs Ozempic",
+      "path": "/diabetes/trulicity-vs-ozempic/",
+      "title": "Trulicity vs Ozempic: Cost, Coverage & Which Is Cheaper (2026) | RxCostGuide",
+      "metaDesc": "Trulicity vs Ozempic compared on 2026 cost, savings cards, coverage and convenience — and which once-weekly GLP-1 is cheaper for your insurance.",
+      "h1": "Trulicity vs Ozempic: cost, coverage & which is right for you",
+      "lede": "Two once-weekly GLP-1 injections for type 2 diabetes, compared on what actually drives your out-of-pocket cost in 2026.",
+      "shortAnswer": "List prices are close — Trulicity about **$990/month**, Ozempic about **$970/month**. Both savings cards can reach **$25/month or less** for commercially insured patients whose plan covers the drug. Neither has a 2026 Medicare-negotiated price, though **Ozempic (semaglutide) gets one in 2027**. In practice, **which your plan places on a better formulary tier** decides the cost, not the sticker price.",
+      "a": {
+        "name": "Trulicity (dulaglutide)"
+      },
+      "b": {
+        "name": "Ozempic (semaglutide)"
+      },
+      "rows": [
+        [
+          "List price (per month)",
+          "~$990",
+          "~$970"
+        ],
+        [
+          "Savings card (commercial)",
+          "As low as $25/mo",
+          "As low as $25/mo"
+        ],
+        [
+          "Dosing",
+          "Once weekly, no mixing",
+          "Once weekly, dial pen"
+        ],
+        [
+          "Medicare negotiated price",
+          "None scheduled",
+          "Effective 2027 (semaglutide)"
+        ],
+        [
+          "Also used for weight loss?",
+          "No (diabetes only)",
+          "Same molecule as Wegovy"
+        ],
+        [
+          "Generic available",
+          "No",
+          "No"
+        ],
+        [
+          "Patient assistance",
+          "Lilly Cares",
+          "NovoCare / NNPAP"
+        ]
       ],
-      sections: [
-        { h: 'When Trulicity tends to be the choice', body: 'Trulicity’s pen is often cited as the simplest to use — no dose dialing, a hidden needle, once weekly. For patients who find injections stressful, that simplicity matters. Cost-wise it is comparable to Ozempic, so coverage usually decides.' },
-        { h: 'When Ozempic tends to be the choice', body: 'Ozempic (semaglutide) tends to produce slightly greater A1c and weight reduction in trials, and it is the same molecule as Wegovy. From 2027 it also gains a Medicare-negotiated price. If your plan prefers it, or you may later want the weight-loss indication, it can be the pick.' },
-        { h: 'Which is cheaper for you?', body: '**Commercial insurance:** whichever your plan covers on the better tier — run both cards at the pharmacy. **Medicare:** similar today; Ozempic gains a negotiated price in 2027. **Uninsured:** similar list prices — apply to Lilly Cares (Trulicity) or NovoCare (Ozempic). Never switch GLP-1s for a small price gap without your prescriber.' },
+      "sections": [
+        {
+          "h": "When Trulicity tends to be the choice",
+          "body": "Trulicity’s pen is often cited as the simplest to use — no dose dialing, a hidden needle, once weekly. For patients who find injections stressful, that simplicity matters. Cost-wise it is comparable to Ozempic, so coverage usually decides."
+        },
+        {
+          "h": "When Ozempic tends to be the choice",
+          "body": "Ozempic (semaglutide) tends to produce slightly greater A1c and weight reduction in trials, and it is the same molecule as Wegovy. From 2027 it also gains a Medicare-negotiated price. If your plan prefers it, or you may later want the weight-loss indication, it can be the pick."
+        },
+        {
+          "h": "Which is cheaper for you?",
+          "body": "**Commercial insurance:** whichever your plan covers on the better tier — run both cards at the pharmacy. **Medicare:** similar today; Ozempic gains a negotiated price in 2027. **Uninsured:** similar list prices — apply to Lilly Cares (Trulicity) or NovoCare (Ozempic). Never switch GLP-1s for a small price gap without your prescriber."
+        }
       ],
-      faqs: [
-        { q: 'Is Trulicity or Ozempic cheaper?', a: 'List prices are nearly identical (~$990 vs ~$970), and both cards reach ~$25/month for covered commercial patients. The cheaper one is whichever your specific plan places on a better tier.' },
-        { q: 'Can I switch between Trulicity and Ozempic?', a: 'Only your prescriber should switch you. They are different molecules at different doses and not automatically interchangeable, though both are once-weekly GLP-1s.' },
-        { q: 'Does either have a Medicare-negotiated price?', a: 'Not in 2026. Ozempic (semaglutide) gains a negotiated price effective 2027; Trulicity (dulaglutide) has none scheduled.' },
+      "faqs": [
+        {
+          "q": "Is Trulicity or Ozempic cheaper?",
+          "a": "List prices are nearly identical (~$990 vs ~$970), and both cards reach ~$25/month for covered commercial patients. The cheaper one is whichever your specific plan places on a better tier."
+        },
+        {
+          "q": "Can I switch between Trulicity and Ozempic?",
+          "a": "Only your prescriber should switch you. They are different molecules at different doses and not automatically interchangeable, though both are once-weekly GLP-1s."
+        },
+        {
+          "q": "Does either have a Medicare-negotiated price?",
+          "a": "Not in 2026. Ozempic (semaglutide) gains a negotiated price effective 2027; Trulicity (dulaglutide) has none scheduled."
+        }
       ],
-      sources: [{ name: 'CMS — Medicare Drug Price Negotiation Program', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation' }],
-      published: '2026-10-05',
+      "sources": [
+        {
+          "name": "CMS — Medicare Drug Price Negotiation Program",
+          "url": "https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation"
+        }
+      ],
+      "published": "2026-10-05"
     },
     {
-      name: 'Jardiance vs Farxiga', path: '/diabetes/jardiance-vs-farxiga/',
-      title: 'Jardiance vs Farxiga: Cost, Coverage & Which Is Cheaper (2026) | RxCostGuide',
-      metaDesc: 'Jardiance vs Farxiga compared on 2026 cost, Medicare negotiated price, savings cards and coverage — and which SGLT2 inhibitor is cheaper for your insurance.',
-      h1: 'Jardiance vs Farxiga: cost, coverage & which is right for you',
-      lede: 'Two closely related SGLT2 inhibitors, compared on what actually drives your out-of-pocket cost in 2026.',
-      shortAnswer: 'At list price they are close — Jardiance about **$640/month**, Farxiga about **$600/month**. On Medicare, Farxiga\'s 2026 negotiated price (**~$178.50**) is a little lower than Jardiance\'s (**~$197**). For commercially insured patients, both cards can reach near **$0–$10**, so coverage placement on your plan usually decides it, not the sticker price.',
-      a: { name: 'Jardiance (empagliflozin)' }, b: { name: 'Farxiga (dapagliflozin)' },
-      rows: [
-        ['List price (30 days)', '~$640', '~$600'],
-        ['Medicare negotiated price (2026)', '~$197', '~$178.50'],
-        ['Savings card (commercial)', 'As low as $10/mo', 'As low as $0/mo'],
-        ['Card per-fill cap', '$100/30-day, $450/90-day', 'Annual cap'],
-        ['Approved uses', 'Diabetes, heart failure, CKD', 'Diabetes, heart failure, CKD'],
-        ['Generic available', 'Not yet', 'Emerging'],
-        ['Patient assistance', 'BI Cares', 'AZ&Me'],
+      "name": "Jardiance vs Farxiga",
+      "path": "/diabetes/jardiance-vs-farxiga/",
+      "title": "Jardiance vs Farxiga: Cost, Coverage & Which Is Cheaper (2026) | RxCostGuide",
+      "metaDesc": "Jardiance vs Farxiga compared on 2026 cost, Medicare negotiated price, savings cards and coverage — and which SGLT2 inhibitor is cheaper for your insurance.",
+      "h1": "Jardiance vs Farxiga: cost, coverage & which is right for you",
+      "lede": "Two closely related SGLT2 inhibitors, compared on what actually drives your out-of-pocket cost in 2026.",
+      "shortAnswer": "At list price they are close — Jardiance about **$640/month**, Farxiga about **$600/month**. On Medicare, Farxiga's 2026 negotiated price (**~$178.50**) is a little lower than Jardiance's (**~$197**). For commercially insured patients, both cards can reach near **$0–$10**, so coverage placement on your plan usually decides it, not the sticker price.",
+      "a": {
+        "name": "Jardiance (empagliflozin)"
+      },
+      "b": {
+        "name": "Farxiga (dapagliflozin)"
+      },
+      "rows": [
+        [
+          "List price (30 days)",
+          "~$640",
+          "~$600"
+        ],
+        [
+          "Medicare negotiated price (2026)",
+          "~$197",
+          "~$178.50"
+        ],
+        [
+          "Savings card (commercial)",
+          "As low as $10/mo",
+          "As low as $0/mo"
+        ],
+        [
+          "Card per-fill cap",
+          "$100/30-day, $450/90-day",
+          "Annual cap"
+        ],
+        [
+          "Approved uses",
+          "Diabetes, heart failure, CKD",
+          "Diabetes, heart failure, CKD"
+        ],
+        [
+          "Generic available",
+          "Not yet",
+          "Emerging"
+        ],
+        [
+          "Patient assistance",
+          "BI Cares",
+          "AZ&Me"
+        ]
       ],
-      sections: [
-        { h: 'When Jardiance tends to be the choice', body: 'Jardiance is often chosen on the strength of its specific cardiovascular and kidney trial evidence and its familiarity to prescribers. Its savings card\'s clear per-fill structure ($450 per 90-day fill) rewards 90-day prescriptions.' },
-        { h: 'When Farxiga tends to be the choice', body: 'Farxiga has a slightly lower 2026 Medicare price and a card that can reach $0 for commercial patients. If your plan places Farxiga on a better formulary tier, it may simply cost you less.' },
-        { h: 'Which is cheaper for you?', body: '**Medicare:** Farxiga is marginally cheaper on the negotiated price. **Commercial insurance:** whichever your plan places on the better tier — check both cards. **Uninsured:** similar list prices; apply to the manufacturer\'s assistance program, and watch for generic dapagliflozin, which may arrive first. Never switch SGLT2 inhibitors for a small price gap without your doctor.' },
+      "sections": [
+        {
+          "h": "When Jardiance tends to be the choice",
+          "body": "Jardiance is often chosen on the strength of its specific cardiovascular and kidney trial evidence and its familiarity to prescribers. Its savings card's clear per-fill structure ($450 per 90-day fill) rewards 90-day prescriptions."
+        },
+        {
+          "h": "When Farxiga tends to be the choice",
+          "body": "Farxiga has a slightly lower 2026 Medicare price and a card that can reach $0 for commercial patients. If your plan places Farxiga on a better formulary tier, it may simply cost you less."
+        },
+        {
+          "h": "Which is cheaper for you?",
+          "body": "**Medicare:** Farxiga is marginally cheaper on the negotiated price. **Commercial insurance:** whichever your plan places on the better tier — check both cards. **Uninsured:** similar list prices; apply to the manufacturer's assistance program, and watch for generic dapagliflozin, which may arrive first. Never switch SGLT2 inhibitors for a small price gap without your doctor."
+        }
       ],
-      faqs: [
-        { q: 'Is Jardiance or Farxiga cheaper on Medicare?', a: 'Farxiga\'s 2026 negotiated price (~$178.50) is slightly lower than Jardiance\'s (~$197) per 30-day supply. Both are far below their old list prices.' },
-        { q: 'Are Jardiance and Farxiga interchangeable?', a: 'They are the same class (SGLT2 inhibitors) with very similar effects, but they are different drugs and not automatically substitutable. Switching is a clinical decision for your doctor.' },
-        { q: 'Which has a generic first?', a: 'Generic dapagliflozin (Farxiga) is emerging first; generic empagliflozin (Jardiance) is not yet widely available. A generic is usually the cheapest option once stocked.' },
+      "faqs": [
+        {
+          "q": "Is Jardiance or Farxiga cheaper on Medicare?",
+          "a": "Farxiga's 2026 negotiated price (~$178.50) is slightly lower than Jardiance's (~$197) per 30-day supply. Both are far below their old list prices."
+        },
+        {
+          "q": "Are Jardiance and Farxiga interchangeable?",
+          "a": "They are the same class (SGLT2 inhibitors) with very similar effects, but they are different drugs and not automatically substitutable. Switching is a clinical decision for your doctor."
+        },
+        {
+          "q": "Which has a generic first?",
+          "a": "Generic dapagliflozin (Farxiga) is emerging first; generic empagliflozin (Jardiance) is not yet widely available. A generic is usually the cheapest option once stocked."
+        }
       ],
-      sources: [{ name: 'CMS — Medicare negotiated prices (2026)', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation' }],
-      published: '2026-10-01',
-    },
-  ],
+      "sources": [
+        {
+          "name": "CMS — Medicare negotiated prices (2026)",
+          "url": "https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation"
+        }
+      ],
+      "published": "2026-10-01"
+    }
+  ]
 };

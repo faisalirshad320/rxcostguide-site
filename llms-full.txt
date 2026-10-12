@@ -29,6 +29,21 @@ URL: https://rxcostguide.com/asthma-allergy-eczema/symbicort-cost/
 Class: ICS/LABA inhaler
 Short answer: Branded Symbicort costs about $350 a month at list price, but a generic budesonide/formoterol is available and cheaper — often the best route. Commercially insured patients can also use the Symbicort savings card; uninsured patients should compare the generic with a discount card.
 
+## Nucala (mepolizumab)
+URL: https://rxcostguide.com/asthma-allergy-eczema/nucala-cost/
+Class: IL-5 antagonist (subcutaneous, every 4 weeks)
+Short answer: Nucala's list price is ~$3,700 per dose (every 4 weeks), so few patients pay full price. With commercial insurance, the Nucala Co-pay Program can lower your cost to as little as $0 per prescription (annual maximum applies). On Medicare Part D, your out-of-pocket drug costs are capped at $2,100 in 2026, and Together with GSK may help eligible patients who are uninsured or underinsured.
+
+## Airsupra (albuterol/budesonide)
+URL: https://rxcostguide.com/asthma-allergy-eczema/airsupra-cost/
+Class: As-needed rescue inhaler (bronchodilator + inhaled steroid)
+Short answer: Airsupra has a list price of ~$500 per inhaler. With commercial insurance, you may pay as little as $0 per inhaler with the Airsupra Savings Card (annual maximum applies). On Medicare Part D, the card can't be used, but your 2026 out-of-pocket spending on covered drugs is capped at $2,100, and the AZ&Me Prescription Savings Program may help if you qualify.
+
+## Adbry (tralokinumab-ldrm)
+URL: https://rxcostguide.com/asthma-allergy-eczema/adbry-cost/
+Class: IL-13 inhibitor (subcutaneous, every 2 weeks)
+Short answer: Adbry has a list price of ~$2,000 per 2-syringe pack, so paying cash is expensive. With commercial insurance, you may pay as little as $0 per fill with the Adbry Copay Program. On Medicare Part D, the copay card cannot be used, but your total out-of-pocket drug costs are capped at $2,100 in 2026.
+
 ## Humira (adalimumab)
 URL: https://rxcostguide.com/autoimmune/humira-cost/
 Class: TNF inhibitor (biologic)
@@ -69,6 +84,41 @@ URL: https://rxcostguide.com/autoimmune/otezla-cost/
 Class: PDE4 inhibitor (oral)
 Short answer: Otezla costs about $4,200 a month at list price. Commercially insured patients can pay as little as $0 with the Otezla copay card. Otezla is in the second Medicare negotiation cycle, with a negotiated price effective 2027; until then Medicare patients rely on the $2,100 Part D cap.
 
+## Tremfya (guselkumab)
+URL: https://rxcostguide.com/autoimmune/tremfya-cost/
+Class: IL-23 inhibitor (subcutaneous, every 8 weeks)
+Short answer: Tremfya's list price is about ~$13,000 per dose (every 8 weeks maintenance), but people with commercial insurance can pay as little as $0 per dose with Tremfya withMe. If you have Medicare Part D, the copay card cannot be used, but your total out-of-pocket drug spending is capped at $2,100 in 2026. Uninsured or underinsured patients can apply to the Johnson & Johnson Patient Assistance Foundation (J&J withMe).
+
+## Benlysta (belimumab)
+URL: https://rxcostguide.com/autoimmune/benlysta-cost/
+Class: BLyS-specific inhibitor (weekly self-injection or IV)
+Short answer: Benlysta's list price is ~$1,300/wk SC (about $5,200/mo), but people with commercial insurance may pay as little as $0 per prescription with the Benlysta Co-pay Program (an annual maximum applies). On Medicare Part D, the copay card can't be used, but total out-of-pocket drug spending is capped at $2,100 in 2026. Uninsured or underinsured patients can apply for help through Together with GSK.
+
+## Orencia (abatacept)
+URL: https://rxcostguide.com/autoimmune/orencia-cost/
+Class: T-cell costimulation modulator (weekly self-injection or IV)
+Short answer: Orencia has a list price of ~$5,000+/mo, and there is no biosimilar or generic yet. With commercial insurance, the Orencia On Call Co-pay Card can lower your cost to as little as $5 per month (not $0), with up to $15,000/yr in support. On Medicare, copay cards are not allowed, but Part D out-of-pocket drug costs are capped at $2,100 in 2026, and the Bristol Myers Squibb Patient Assistance Foundation may help eligible patients.
+
+## Olumiant (baricitinib)
+URL: https://rxcostguide.com/autoimmune/olumiant-cost/
+Class: JAK inhibitor (oral, once daily)
+Short answer: Olumiant has a list price of about ~$5,500/mo (4 mg). If you have commercial insurance, the Olumiant Savings Card can bring your cost to $5 per 30-day fill (not $0), with benefits worth up to $10,600/yr, 13 fills. On Medicare Part D, the card cannot be used, but your 2026 out-of-pocket drug costs are capped at $2,100, and the Lilly Cares Foundation may help if you qualify.
+
+## Sotyktu (deucravacitinib)
+URL: https://rxcostguide.com/autoimmune/sotyktu-cost/
+Class: TYK2 inhibitor (oral, once daily)
+Short answer: Sotyktu has a list price of about ~$7,000/mo, but commercially insured patients can pay $0 per 30-day supply with the Sotyktu 360 Support Copay Program. Medicare Part D enrollees cannot use the copay card, but their out-of-pocket drug costs are capped at $2,100 in 2026. Uninsured or underinsured patients can apply to the Bristol Myers Squibb Patient Assistance Foundation.
+
+## Cyltezo (adalimumab-adbm)
+URL: https://rxcostguide.com/autoimmune/cyltezo-cost/
+Class: Adalimumab (Humira) biosimilar — TNF inhibitor (subcutaneous)
+Short answer: Cyltezo's list price is about ~$3,500 per 2-pen kit, which is below Humira's list price. With commercial insurance, you may pay as little as $0 per prescription through the CARECONNECT4ME Copay Program. On Medicare Part D, the copay card cannot be used, but your total out-of-pocket drug spending is capped at $2,100 in 2026.
+
+## Amjevita (adalimumab-atto)
+URL: https://rxcostguide.com/autoimmune/amjevita-cost/
+Class: Adalimumab (Humira) biosimilar — TNF inhibitor (subcutaneous)
+Short answer: Amjevita has a list price of ~$684 per 40 mg pen (biosimilar; varies). With commercial insurance, eligible patients may pay as little as $0 per monthly fill with Amjevita SupportPlus. On Medicare Part D, the copay card cannot be used, but your out-of-pocket drug spending is capped at $2,100 in 2026.
+
 ## Trulicity (dulaglutide)
 URL: https://rxcostguide.com/diabetes/trulicity-cost/
 Class: GLP-1 receptor agonist
@@ -103,6 +153,16 @@ Short answer: Mounjaro costs about $1,080 a month at list price. Commercially in
 URL: https://rxcostguide.com/diabetes/januvia-cost/
 Class: DPP-4 inhibitor
 Short answer: Branded Januvia costs about $620 a month at list price. From 1 January 2026 the Medicare-negotiated price is about $113 per 30-day supply. Generic sitagliptin is beginning to reach pharmacies and will be the cheapest route once widely stocked.
+
+## Tresiba (insulin degludec)
+URL: https://rxcostguide.com/diabetes/tresiba-cost/
+Class: Long-acting (basal) insulin
+Short answer: Without insurance, Tresiba varies by form; cash roughly $150–560/mo. With commercial insurance, the Novo Nordisk savings offer can bring it down to as little as $35 per 30-day supply, and on Medicare, the federal $35/month insulin cap applies to covered insulin, with total Part D out-of-pocket costs capped at $2,100 in 2026. A generic insulin degludec is also available and may cost less.
+
+## Kerendia (finerenone)
+URL: https://rxcostguide.com/diabetes/kerendia-cost/
+Class: Nonsteroidal mineralocorticoid receptor antagonist (oral, once daily)
+Short answer: Kerendia has a list price of about ~$707/mo. With commercial insurance, the Kerendia Savings Card can bring the cost to as little as $0 per monthly prescription, with savings of up to $3,000/yr. On Medicare Part D, the card cannot be used, but your total out-of-pocket drug spending is capped at $2,100 in 2026, and uninsured or underinsured patients can apply to the Bayer US Patient Assistance Foundation.
 
 ## Wegovy (semaglutide)
 URL: https://rxcostguide.com/glp-1-weight-loss/wegovy-cost/
@@ -189,6 +249,11 @@ URL: https://rxcostguide.com/hiv-hepatitis/mavyret-cost/
 Class: Hepatitis C direct-acting antiviral
 Short answer: Mavyret lists around $13,000 for an 8-week course at list price. Commercially insured patients can pay as little as $5 with the Mavyret copay card. Uninsured, income-eligible patients can get it free through AbbVie; Medicare patients are protected by the $2,100 Part D cap.
 
+## Vemlidy (tenofovir alafenamide)
+URL: https://rxcostguide.com/hiv-hepatitis/vemlidy-cost/
+Class: Nucleotide analogue for chronic hepatitis B (once daily)
+Short answer: Vemlidy has a list price of about ~$1,587/mo. With commercial insurance, the Vemlidy Support Path Copay Coupon can bring your cost to as little as $0 per prescription (up to $6,000/yr, no monthly limit). On Medicare Part D, the coupon can't be used, but your yearly out-of-pocket drug spending is capped at $2,100 in 2026, and Gilead Support Path may help if you are uninsured or underinsured.
+
 ## Vraylar (cariprazine)
 URL: https://rxcostguide.com/mental-health/vraylar-cost/
 Class: Atypical antipsychotic
@@ -219,6 +284,21 @@ URL: https://rxcostguide.com/mental-health/auvelity-cost/
 Class: Antidepressant (NMDA antagonist combination)
 Short answer: Auvelity costs about $1,000 a month at list price. Commercially insured patients can pay as little as $0 a month with the Auvelity savings card. There is no generic. Medicare patients cannot use the card and pay plan cost-share under the $2,100 Part D cap.
 
+## Ingrezza (valbenazine)
+URL: https://rxcostguide.com/mental-health/ingrezza-cost/
+Class: VMAT2 inhibitor (oral, once daily)
+Short answer: Ingrezza has a list price of about ~$7,900/mo. People with commercial insurance may pay as little as $0 per monthly fill with the Ingrezza Savings Program (annual maximum applies). Medicare Part D enrollees can't use the copay card, but their 2026 out-of-pocket drug costs are capped at $2,100 for the year. Uninsured or underinsured patients can ask about the INBRACE Support Program.
+
+## Qelbree (viloxazine)
+URL: https://rxcostguide.com/mental-health/qelbree-cost/
+Class: Non-stimulant ADHD medication (SNRI, oral once daily)
+Short answer: Qelbree has a list price of about ~$400/mo. With commercial insurance, the Qelbree Savings Card can lower your cost to as little as $20 per prescription (not $0), subject to program terms. On Medicare, the card cannot be used, but your 2026 Part D out-of-pocket drug costs are capped at $2,100 for the year.
+
+## Sublocade (buprenorphine extended-release)
+URL: https://rxcostguide.com/mental-health/sublocade-cost/
+Class: Monthly injectable for opioid use disorder
+Short answer: Sublocade has a list price of ~$1,800 per monthly injection. With commercial insurance, the Sublocade inSupport Copay Program can lower your cost to as little as $0 per injection, for up to 15 injections/yr, about $14,804/yr maximum. Copay cards cannot be used with Medicare, but Medicare Part D out-of-pocket drug costs are capped at $2,100 in 2026.
+
 ## Emgality (galcanezumab)
 URL: https://rxcostguide.com/migraine/emgality-cost/
 Class: CGRP monoclonal antibody (preventive)
@@ -248,4 +328,24 @@ Short answer: Ajovy costs about $700 a month at list price. Commercially insured
 URL: https://rxcostguide.com/migraine/aimovig-cost/
 Class: CGRP monoclonal antibody
 Short answer: Aimovig costs about $700 a month at list price. Commercially insured patients can pay as little as $0 with the Aimovig Ally copay program. Medicare patients pay plan cost-share up to the $2,100 Part D cap.
+
+## Ocrevus (ocrelizumab)
+URL: https://rxcostguide.com/multiple-sclerosis/ocrevus-cost/
+Class: CD20 monoclonal antibody (IV infusion every 6 months)
+Short answer: Ocrevus has a list price of ~$21,000 per infusion (about $42,000/yr), before infusion-center charges. With commercial insurance, you may pay as little as $0 per infusion with the Ocrevus Co-Pay Program, which covers up to $20,000/yr for drug plus infusion support. On Medicare, the copay card cannot be used, and because Ocrevus is a clinic-administered infusion it is usually billed under Part B rather than Part D, so the $2,100 2026 Part D out-of-pocket cap often does not apply; the Genentech Patient Foundation may help eligible patients who are uninsured or underinsured.
+
+## Kesimpta (ofatumumab)
+URL: https://rxcostguide.com/multiple-sclerosis/kesimpta-cost/
+Class: CD20 monoclonal antibody (monthly self-injection)
+Short answer: Kesimpta has a list price of about ~$9,900/mo, but most people with commercial insurance pay as little as $0 per month with the Kesimpta Access Card, which covers up to $18,000/yr. On Medicare Part D, the copay card can't be used, but your yearly out-of-pocket drug costs are capped at $2,100 in 2026. If you're uninsured or underinsured, the Novartis Patient Assistance Foundation may provide the drug for free if you qualify.
+
+## Vumerity (diroximel fumarate)
+URL: https://rxcostguide.com/multiple-sclerosis/vumerity-cost/
+Class: Oral fumarate (twice daily)
+Short answer: Vumerity has a list price of about ~$9,400/mo, but commercially insured patients may pay as little as $0 with the Vumerity Biogen Copay Program (annual limits apply). People with Medicare Part D cannot use the copay card, but their out-of-pocket drug costs are capped at $2,100 in 2026. Uninsured or underinsured patients can apply to Biogen Support Services for help.
+
+## Uplizna (inebilizumab-cdon)
+URL: https://rxcostguide.com/multiple-sclerosis/uplizna-cost/
+Class: CD19 monoclonal antibody (IV infusion every 6 months)
+Short answer: Uplizna's list price is about ~$138,000 per treatment course. With commercial insurance, the Amgen By Your Side Co-Pay Program can lower your cost to as little as $0 per dose (per-prescription limits apply). If you have Medicare, copay cards are not allowed. Because Uplizna is infused in a clinic, it is usually billed under Part B rather than Part D, so the $2,100 2026 Part D out-of-pocket cap applies only if your plan covers it under Part D. Patient assistance through Amgen By Your Side / Good Days may help if you qualify.
 
