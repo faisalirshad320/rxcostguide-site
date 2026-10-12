@@ -949,6 +949,105 @@ module.exports = {
       ],
       "published": "2026-10-13",
       "modified": "2026-10-13"
+    },
+    {
+      "slug": "basaglar",
+      "brand": "Basaglar",
+      "generic": "insulin glargine",
+      "drugClass": "Long-acting (basal) insulin (follow-on biologic)",
+      "manufacturer": "Eli Lilly",
+      "manufacturerUrl": "https://www.basaglar.com",
+      "hub": "diabetes",
+      "conditions": [
+        "Type 1 diabetes",
+        "Type 2 diabetes"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$327 per 15 mL (cash)",
+      "cardBlurb": "Basaglar is a once-daily long-acting insulin glargine from Eli Lilly used for type 1 and type 2 diabetes.",
+      "title": "Basaglar Cost 2026: Price, Coupon & Copay Card (insulin glargine) | RxCostGuide",
+      "metaDesc": "Basaglar (insulin glargine) costs ~$327 per 15 mL without insurance. See how Lilly's savings card can cut it to $35 per 30 days, plus Medicare tips.",
+      "h1": "Basaglar cost, coupon & copay card",
+      "lede": "Basaglar (insulin glargine) is a long-acting basal insulin made by Eli Lilly that helps control blood sugar in adults and children with type 1 diabetes and adults with type 2 diabetes.",
+      "shortAnswer": "Basaglar's cash price is about **~$327 per 15 mL (cash)**, but most people with commercial insurance or no insurance can pay **as little as $35 per 30-day supply with the Lilly Insulin Value Program (commercial or cash)**. On Medicare Part D, insulin is capped at **$35 per month** under federal law, and total 2026 Part D out-of-pocket spending is capped at **$2,100**. If you can't afford it, the **Lilly Cares Foundation** may help.",
+      "intro": "Basaglar is a basal insulin, usually injected once a day at the same time, that provides steady background insulin coverage. It is a follow-on version of insulin glargine, and your out-of-pocket cost depends mostly on your insurance type, your plan's formulary, and whether you use Lilly's savings program. Because the list price is high, using the right savings route matters more than the pharmacy you choose.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Lilly Insulin Value Program",
+          "cost": "as little as $35 per 30-day supply",
+          "note": "Program limits: up to $3,000/fill, $16,000/yr. Not for Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "$35 per month (federal insulin cap)",
+          "note": "Insulin is capped at $35/month; total 2026 Part D out-of-pocket costs are capped at $2,100. Manufacturer copay cards cannot be used."
+        },
+        {
+          "situation": "Cash / no insurance (list price)",
+          "cost": "~$327 per 15 mL (cash)",
+          "note": "Paying with the Lilly Insulin Value Program can lower this to as little as $35 per 30-day supply."
+        },
+        {
+          "situation": "Patient assistance (Lilly Cares Foundation)",
+          "cost": "May be no cost if eligible",
+          "note": "For people with limited income who meet program criteria; apply at lillycares.com."
+        }
+      ],
+      "copay": {
+        "lead": "With the Lilly Insulin Value Program, you may pay as little as $35 per 30-day supply with the Lilly Insulin Value Program (commercial or cash).",
+        "body": "Lilly's savings program lowers what you pay at the pharmacy counter for Basaglar. It is not available to people with Medicare or Medicaid, since federal rules bar manufacturer copay programs for government insurance. Enroll on Lilly's official site and show the savings information to your pharmacist when you fill your prescription.",
+        "maxPerFill": "up to $3,000/fill",
+        "maxPerYear": "$16,000/yr",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://insulins.lilly.com/lilly-insulin-value-program"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Basaglar is not among the drugs with a Medicare-negotiated price. However, Medicare Part D plans that cover insulin must limit your cost to $35 per month, and in 2026 your total out-of-pocket spending on covered Part D drugs is capped at $2,100 for the year. Manufacturer copay cards, including Lilly's savings program, cannot be used with Medicare, but the $35 monthly insulin cap applies automatically on covered insulin."
+      },
+      "assistance": {
+        "program": "Lilly Cares Foundation",
+        "url": "https://www.lillycares.com/",
+        "body": "The Lilly Cares Foundation is Eli Lilly's patient assistance program for people who cannot afford their Lilly medicines. Eligibility is based on income and insurance situation, and approved patients may receive Basaglar at no cost. Visit the official site to check eligibility and start an application with your prescriber."
+      },
+      "cash": "Without insurance, Basaglar's list price is about ~$327 per 15 mL (cash), but the Lilly Insulin Value Program can bring it to as little as $35 per 30-day supply. Pharmacy discount cards may also help, though Lilly's program is usually the better deal for insulin. If your income is limited, apply to the Lilly Cares Foundation, and ask your prescriber whether another insulin glargine product is cheaper for you.",
+      "alternatives": "Other long-acting insulin glargine products and other basal insulins are available, and your plan may prefer one over another. Ask your prescriber or pharmacist which basal insulin is preferred on your formulary before switching, since dosing may need adjustment.",
+      "practice": "I tell patients never to ration insulin because of cost; there is almost always a route to around $35 a month, whether through Lilly's program, the Medicare insulin cap, or Lilly Cares. I also remind them to check which basal insulin their plan prefers each year, because formularies change. If a pharmacy quotes a high price, ask the pharmacist to run the savings program or call your prescriber before leaving without your insulin.",
+      "faqs": [
+        {
+          "q": "How much does Basaglar cost with the Lilly savings card?",
+          "a": "With the Lilly Insulin Value Program, you may pay as little as $35 per 30-day supply with the Lilly Insulin Value Program (commercial or cash). The program has limits of up to $3,000/fill, $16,000/yr, and it cannot be used with Medicare or Medicaid."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Basaglar?",
+          "a": "There is no generic Basaglar. Basaglar itself is a follow-on version of insulin glargine, and there is no biosimilar of Basaglar. Ask your pharmacist whether another insulin glargine product is preferred on your plan."
+        },
+        {
+          "q": "How much is Basaglar without insurance?",
+          "a": "The cash list price is about ~$327 per 15 mL (cash). Using the Lilly Insulin Value Program can reduce this to as little as $35 per 30-day supply, and the Lilly Cares Foundation may help if your income is limited."
+        },
+        {
+          "q": "Does Medicare cover Basaglar, and what will I pay?",
+          "a": "If your Medicare Part D plan covers Basaglar, your cost is capped at $35 per month under the federal insulin cap. Total 2026 Part D out-of-pocket spending is capped at $2,100. Lilly's copay program cannot be used with Medicare."
+        },
+        {
+          "q": "How do I enroll in the Basaglar savings program?",
+          "a": "Enroll through Lilly's official page at https://insulins.lilly.com/lilly-insulin-value-program, then give the savings information to your pharmacy when you fill your prescription. The program is not available to people with Medicare or Medicaid."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Lilly Insulin Value Program (official)",
+          "url": "https://insulins.lilly.com/lilly-insulin-value-program"
+        },
+        {
+          "name": "Lilly Cares Foundation",
+          "url": "https://www.lillycares.com/"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
     }
   ],
   "comparisons": [

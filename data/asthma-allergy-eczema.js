@@ -811,6 +811,105 @@ module.exports = {
       ],
       "published": "2026-10-13",
       "modified": "2026-10-13"
+    },
+    {
+      "slug": "spiriva",
+      "brand": "Spiriva",
+      "generic": "tiotropium",
+      "drugClass": "Long-acting anticholinergic bronchodilator (inhaler)",
+      "manufacturer": "Boehringer Ingelheim",
+      "manufacturerUrl": "https://www.spiriva.com",
+      "hub": "asthma-allergy-eczema",
+      "conditions": [
+        "COPD maintenance",
+        "Asthma (Respimat)"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$285–346/mo cash",
+      "cardBlurb": "Once-daily tiotropium inhaler for COPD maintenance and, as Respimat, asthma.",
+      "title": "Spiriva Cost 2026: Price, Coupon & Copay Card (tiotropium) | RxCostGuide",
+      "metaDesc": "Spiriva (tiotropium) costs ~$285–346/mo cash. Pay $35 per 30-day fill with the Spiriva Savings Card, or try generic tiotropium and BI Cares assistance.",
+      "h1": "Spiriva cost, coupon & copay card",
+      "lede": "Spiriva (tiotropium) is a once-daily long-acting anticholinergic inhaler used for maintenance treatment of COPD and, in its Respimat form, asthma.",
+      "shortAnswer": "Without insurance, Spiriva runs about **~$285–346/mo cash**. With commercial insurance, the Spiriva Savings Card brings it to **$35 per 30-day fill** (not $0) for **up to 12 fills/yr**. On Medicare the card can't be used, but 2026 Part D out-of-pocket costs are capped at **$2,100**, and a generic tiotropium is available that may cost less.",
+      "intro": "Spiriva is taken every day as a maintenance inhaler, so its cost repeats every month rather than being a one-time expense. What you actually pay depends mostly on your insurance type, your plan's formulary tier and deductible, and whether a generic tiotropium is a suitable option for your device and condition. Because the brand list price is high, savings cards, assistance programs, and generic substitution can make a large difference.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Spiriva Savings Card",
+          "cost": "$35 per 30-day fill with the Spiriva Savings Card (not $0)",
+          "note": "Up to 12 fills/yr; commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Copay card not allowed; 2026 Part D out-of-pocket spending is capped at $2,100."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$285–346/mo cash",
+          "note": "Ask about generic tiotropium and pharmacy discount cards, which may lower the price."
+        },
+        {
+          "situation": "Patient assistance",
+          "cost": "May be free if eligible",
+          "note": "Apply through the BI Cares Patient Assistance Program; eligibility is set by the program."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients can pay $35 per 30-day fill with the Spiriva Savings Card — note that it is not $0.",
+        "body": "The Spiriva Savings Card from Boehringer Ingelheim lowers your out-of-pocket cost to $35 per 30-day fill, for up to 12 fills per year. It is for patients with commercial (private or employer) insurance only; people on Medicare or Medicaid cannot use it. Sign up on the official Boehringer Ingelheim savings page and show the card at your pharmacy.",
+        "maxPerFill": "$35 per 30-day fill with the Spiriva Savings Card (not $0)",
+        "maxPerYear": "up to 12 fills/yr",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://patient.boehringer-ingelheim.com/us/products/spiriva/copd/savings-and-support/sign-up-for-savings"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Spiriva is not on the list of Medicare-negotiated drugs, so there is no Maximum Fair Price. Coverage and cost-sharing vary by Part D plan, and manufacturer copay cards like the Spiriva Savings Card cannot be used with Medicare. In 2026, total Part D out-of-pocket spending is capped at $2,100, which limits annual costs for people on maintenance inhalers. Ask your plan whether generic tiotropium is covered at a lower tier."
+      },
+      "assistance": {
+        "program": "BI Cares Patient Assistance Program",
+        "url": "https://www.boehringer-ingelheim.com/us/our-responsibility/patient-assistance-program",
+        "body": "Boehringer Ingelheim's BI Cares Patient Assistance Program may provide Spiriva at no cost to eligible patients who are uninsured or underinsured. Eligibility requirements are set by the program, so check the official BI Cares page for current criteria and the application."
+      },
+      "cash": "Paying cash for brand Spiriva costs about ~$285–346/mo. A generic tiotropium is available and, along with pharmacy discount cards, may bring the price down; ask your pharmacist to compare. If you can't afford it, apply to the BI Cares Patient Assistance Program.",
+      "alternatives": "A generic tiotropium is available and may be a lower-cost substitute; other long-acting bronchodilators and combination maintenance inhalers are also options your clinician can consider based on your diagnosis and coverage.",
+      "practice": "I tell patients that Spiriva only works if it's used every day, so cost should never be the reason doses get skipped. I ask them to check whether generic tiotropium fits their prescription and device, and if they're commercially insured, to enroll in the savings card before their first fill. For Medicare patients, I remind them the card won't apply but the 2026 Part D cap limits their yearly spending.",
+      "faqs": [
+        {
+          "q": "How much is Spiriva with the savings card?",
+          "a": "With commercial insurance and the Spiriva Savings Card, you pay $35 per 30-day fill (not $0), for up to 12 fills per year."
+        },
+        {
+          "q": "Is there a generic Spiriva?",
+          "a": "Yes, a generic tiotropium is available. There is no biosimilar, since Spiriva is not a biologic. Ask your pharmacist or prescriber whether the generic is appropriate for your device and condition."
+        },
+        {
+          "q": "How much does Spiriva cost without insurance?",
+          "a": "The cash price is about ~$285–346/mo. Generic tiotropium, pharmacy discount cards, or the BI Cares Patient Assistance Program may lower your cost."
+        },
+        {
+          "q": "Does Medicare cover Spiriva, and can I use the copay card?",
+          "a": "Many Part D plans cover it, but cost varies by plan. The Spiriva Savings Card cannot be used with Medicare or Medicaid. In 2026, Part D out-of-pocket costs are capped at $2,100 per year."
+        },
+        {
+          "q": "How do I enroll in the Spiriva Savings Card?",
+          "a": "Sign up on Boehringer Ingelheim's official Spiriva savings page at https://patient.boehringer-ingelheim.com/us/products/spiriva/copd/savings-and-support/sign-up-for-savings. You must have commercial insurance."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Spiriva savings & support (official)",
+          "url": "https://patient.boehringer-ingelheim.com/us/products/spiriva/copd/savings-and-support/sign-up-for-savings"
+        },
+        {
+          "name": "BI Cares Patient Assistance Program",
+          "url": "https://www.boehringer-ingelheim.com/us/our-responsibility/patient-assistance-program"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
     }
   ],
   "comparisons": []

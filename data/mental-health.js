@@ -917,6 +917,204 @@ module.exports = {
       ],
       "published": "2026-10-13",
       "modified": "2026-10-13"
+    },
+    {
+      "slug": "austedo",
+      "brand": "Austedo",
+      "generic": "deutetrabenazine",
+      "drugClass": "VMAT2 inhibitor (oral)",
+      "manufacturer": "Teva",
+      "manufacturerUrl": "https://www.austedo.com",
+      "hub": "mental-health",
+      "conditions": [
+        "Tardive dyskinesia",
+        "Chorea of Huntington's disease"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$5,163+/mo",
+      "cardBlurb": "An oral VMAT2 inhibitor that reduces involuntary movements in tardive dyskinesia and Huntington's disease chorea.",
+      "title": "Austedo Cost 2026: Price, Coupon & Copay Card (deutetrabenazine) | RxCostGuide",
+      "metaDesc": "Austedo costs ~$5,163+/mo without insurance. See how the Teva copay card can cut costs to $0, plus Medicare Part D caps and patient assistance options.",
+      "h1": "Austedo cost, coupon & copay card",
+      "lede": "Austedo (deutetrabenazine) is an oral VMAT2 inhibitor used to treat tardive dyskinesia and the chorea of Huntington's disease in adults.",
+      "shortAnswer": "Austedo has a list price of **~$5,163+/mo**, but commercially insured patients may pay **as little as $0 per monthly fill with the Austedo Teva Shared Solutions Copay Program**. On Medicare Part D, copay cards are not allowed, but your out-of-pocket drug spending is capped at **$2,100 in 2026**. If you are uninsured or underinsured, the **Teva Cares Foundation** may be able to help.",
+      "intro": "Austedo is taken by mouth on a daily schedule to reduce the involuntary movements of tardive dyskinesia or Huntington's disease chorea, so it is typically a long-term, recurring cost. It is a brand-only drug with no generic currently available, and the dose is titrated to effect, which drives a high monthly list price. What you actually pay depends mostly on your insurance type, your plan's formulary tier, and whether you qualify for manufacturer support.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + copay card",
+          "cost": "As little as $0 per monthly fill",
+          "note": "With the Austedo Teva Shared Solutions Copay Program; an annual program maximum applies per prescription per year. Commercial insurance only."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan; capped at $2,100 out of pocket in 2026",
+          "note": "Copay cards cannot be used with Medicare. Austedo is not on the Medicare negotiated-price list."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$5,163+/mo",
+          "note": "Approximate list price; actual pharmacy cash prices vary."
+        },
+        {
+          "situation": "Patient assistance",
+          "cost": "Varies by eligibility",
+          "note": "The Teva Cares Foundation may help eligible uninsured or underinsured patients."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 per monthly fill with the Austedo Teva Shared Solutions Copay Program.",
+        "body": "The Austedo Teva Shared Solutions Copay Program helps lower out-of-pocket costs for patients whose prescription is covered by commercial or private insurance. Program benefits are subject to an annual maximum per prescription per year, so review the program terms when you enroll. The card cannot be used by patients with Medicare, Medicaid, or other government insurance.",
+        "maxPerFill": "as little as $0 per monthly fill",
+        "maxPerYear": "Annual program maximum applies per prescription per year — see program terms for the current limit",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.austedo.com/tardive-dyskinesia/support"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Austedo is not on the list of drugs with a Medicare negotiated price, so your cost depends on your Part D plan's formulary tier and coverage phase. In 2026, Part D out-of-pocket drug spending is capped at $2,100 per year, which limits what a high-cost medicine like Austedo can cost you annually. Federal rules bar manufacturer copay cards for Medicare beneficiaries, so the Teva copay program cannot be used; ask your plan about spreading costs over the year with the Medicare Prescription Payment Plan."
+      },
+      "assistance": {
+        "program": "Teva Cares Foundation",
+        "url": "https://www.tevacares.org/",
+        "body": "The Teva Cares Foundation is Teva's patient assistance program for people who cannot afford their medication. Eligibility generally depends on insurance status and household income, so check the foundation's website for current criteria and the application process."
+      },
+      "cash": "Without insurance, Austedo's list price is high at roughly ~$5,163+/mo, and pharmacy discount cards typically offer only modest savings on brand-only specialty drugs. Uninsured patients should apply to the Teva Cares Foundation first. It is also worth asking your prescriber whether another treatment option could be a lower-cost fit for your situation.",
+      "alternatives": "Other VMAT2 inhibitors are used for tardive dyskinesia and Huntington's disease chorea, including an older agent available as a generic for Huntington's chorea. Your prescriber can help weigh differences in dosing, side effects, and coverage.",
+      "practice": "I tell patients that the sticker price of Austedo rarely reflects what they will pay, so the first step is confirming their insurance type and enrolling in the copay program or applying for assistance before the first fill. Because the dose is adjusted gradually, I remind them that the monthly cost can change as we find the right dose. For patients with Huntington's disease, I also stress reporting any new depression or mood changes right away, since that is an important safety consideration with this medication.",
+      "faqs": [
+        {
+          "q": "How much does Austedo cost with the copay card?",
+          "a": "With commercial insurance, you may pay as little as $0 per monthly fill with the Austedo Teva Shared Solutions Copay Program. An annual program maximum applies per prescription per year."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Austedo?",
+          "a": "No. Austedo (deutetrabenazine) is a small-molecule drug, so biosimilars do not apply, and no generic version is currently available."
+        },
+        {
+          "q": "How much is Austedo without insurance?",
+          "a": "The list price is approximately ~$5,163+/mo. Uninsured patients may qualify for help through the Teva Cares Foundation."
+        },
+        {
+          "q": "Does Medicare cover Austedo, and can I use the copay card?",
+          "a": "Coverage and cost vary by Part D plan, and Austedo does not have a Medicare negotiated price. You cannot use the copay card with Medicare, but your 2026 Part D out-of-pocket spending is capped at $2,100."
+        },
+        {
+          "q": "How do I enroll in the Austedo copay program?",
+          "a": "Visit the official Austedo support page at https://www.austedo.com/tardive-dyskinesia/support to check eligibility and enroll. The program is for commercial insurance only, not Medicare or Medicaid."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Austedo support (official)",
+          "url": "https://www.austedo.com/tardive-dyskinesia/support"
+        },
+        {
+          "name": "Teva Cares Foundation",
+          "url": "https://www.tevacares.org/"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    },
+    {
+      "slug": "lybalvi",
+      "brand": "Lybalvi",
+      "generic": "olanzapine/samidorphan",
+      "drugClass": "Atypical antipsychotic combination (oral)",
+      "manufacturer": "Alkermes",
+      "manufacturerUrl": "https://www.lybalvi.com",
+      "hub": "mental-health",
+      "conditions": [
+        "Schizophrenia",
+        "Bipolar I disorder"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$1,697/mo",
+      "cardBlurb": "Once-daily oral olanzapine/samidorphan tablet for schizophrenia and bipolar I disorder.",
+      "title": "Lybalvi Cost 2026: Price, Coupon & Copay Card (olanzapine/samidorphan) | RxCostGuide",
+      "metaDesc": "Lybalvi costs ~$1,697/mo without insurance. With the co-pay card, pay $0 for 3 fills, then $20 per 30-day supply. Medicare and assistance options explained.",
+      "h1": "Lybalvi cost, coupon & copay card",
+      "lede": "Lybalvi (olanzapine/samidorphan) is a once-daily oral atypical antipsychotic combination from Alkermes for adults with schizophrenia or bipolar I disorder.",
+      "shortAnswer": "Lybalvi has a list price of about **~$1,697/mo** without insurance. With commercial insurance and the Lybalvi Co-pay Savings Program, you may pay **$0 for the first 3 fills, then $20 per 30-day supply** (**up to $450 off per fill**). On Medicare Part D, the card cannot be used, but your total out-of-pocket drug costs are capped at **$2,100 in 2026**.",
+      "intro": "Lybalvi combines olanzapine, a well-established antipsychotic, with samidorphan, an opioid antagonist added to help limit the weight gain associated with olanzapine. It is a brand-only product with no generic equivalent, so the list price is high and your actual cost depends mostly on your insurance type, your plan's formulary tier, and whether you qualify for the manufacturer's co-pay or support programs.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Lybalvi Co-pay Savings Program",
+          "cost": "$0 for the first 3 fills, then $20 per 30-day supply with the Lybalvi Co-pay Savings Program",
+          "note": "Up to $450 off per fill. Commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Co-pay card not allowed; annual out-of-pocket drug spending is capped at $2,100 in 2026."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$1,697/mo",
+          "note": "Approximate list price; pharmacy cash prices may vary."
+        },
+        {
+          "situation": "Patient assistance (Lybalvi Care Support)",
+          "cost": "Varies by eligibility",
+          "note": "Contact Lybalvi Care Support to review coverage and assistance options."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay $0 for the first 3 fills, then $20 per 30-day supply.",
+        "body": "The Lybalvi Co-pay Savings Program lowers out-of-pocket costs for patients with commercial (private or employer) insurance. It is not flat $0: the first 3 fills may cost $0, after which you pay $20 per 30-day supply, with the program covering up to $450 off per fill. If your plan's cost share exceeds the program maximum, you may owe the difference. The card cannot be used with Medicare, Medicaid, or other government insurance.",
+        "maxPerFill": "up to $450 off per fill",
+        "maxPerYear": "Not specified; see official program terms",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.lybalvi.com/bipolar-1-disorder/co-pay-savings-program"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Lybalvi is not among the drugs with a Medicare negotiated price. Coverage and cost sharing vary by Part D plan and formulary tier. Federal rules bar manufacturer co-pay cards for Medicare beneficiaries, but in 2026 Part D caps your total annual out-of-pocket drug costs at $2,100, and you can spread payments across the year through the Medicare Prescription Payment Plan."
+      },
+      "assistance": {
+        "program": "Lybalvi Care Support",
+        "url": "https://www.lybalvi.com/",
+        "body": "Lybalvi Care Support is the manufacturer's support program. It can help with insurance questions, prior authorization, and identifying savings or assistance options. Patients who are uninsured, underinsured, or on government insurance should contact the program directly to see what help is available."
+      },
+      "cash": "Without insurance, Lybalvi is expensive at roughly ~$1,697/mo, and pharmacy discount cards typically offer limited savings on brand-only drugs. Contact Lybalvi Care Support to ask about assistance, and talk with your prescriber about whether a lower-cost antipsychotic, such as generic olanzapine alone, could be clinically appropriate for you.",
+      "alternatives": "There is no generic version of Lybalvi, though olanzapine alone and several other atypical antipsychotics are available as lower-cost generics. Your prescriber can weigh effectiveness, metabolic side effects, and cost when considering alternatives.",
+      "practice": "I tell patients that the main reason to choose Lybalvi over plain olanzapine is to reduce weight gain, so cost should be weighed against that benefit together with their prescriber. Because samidorphan blocks opioids, I remind patients that Lybalvi must not be taken with opioid pain medicines or during opioid withdrawal, and to tell every clinician they see that they take it. If you have commercial insurance, enroll in the co-pay program before your first fill so the $0 fills aren't missed.",
+      "faqs": [
+        {
+          "q": "How much does Lybalvi cost with the co-pay card?",
+          "a": "With commercial insurance and the Lybalvi Co-pay Savings Program, you may pay $0 for the first 3 fills, then $20 per 30-day supply, with up to $450 off per fill. It is not flat $0 after the first 3 fills."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Lybalvi?",
+          "a": "No. Lybalvi (olanzapine/samidorphan) is available only as a brand-name product. Biosimilars apply to biologic drugs, not oral tablets like Lybalvi. Olanzapine alone is available as a generic, but it does not contain samidorphan."
+        },
+        {
+          "q": "How much does Lybalvi cost without insurance?",
+          "a": "The list price is about ~$1,697/mo. Actual cash prices can vary by pharmacy. Lybalvi Care Support may be able to help you explore assistance options."
+        },
+        {
+          "q": "Does Medicare cover Lybalvi, and can I use the co-pay card?",
+          "a": "Many Part D plans may cover Lybalvi, but cost sharing varies by plan. The co-pay card cannot be used with Medicare or Medicaid. In 2026, Part D caps your annual out-of-pocket drug costs at $2,100."
+        },
+        {
+          "q": "How do I enroll in the Lybalvi co-pay program?",
+          "a": "You can enroll on the official Lybalvi Co-pay Savings Program page at https://www.lybalvi.com/bipolar-1-disorder/co-pay-savings-program. You must have commercial insurance. Patients with Medicare or Medicaid are not eligible."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Lybalvi co-pay savings (official)",
+          "url": "https://www.lybalvi.com/bipolar-1-disorder/co-pay-savings-program"
+        },
+        {
+          "name": "Lybalvi Care Support",
+          "url": "https://www.lybalvi.com/"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
     }
   ],
   "comparisons": []

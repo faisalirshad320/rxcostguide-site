@@ -716,6 +716,202 @@ module.exports = {
       ],
       "published": "2026-10-13",
       "modified": "2026-10-13"
+    },
+    {
+      "slug": "isentress",
+      "brand": "Isentress",
+      "generic": "raltegravir",
+      "drugClass": "HIV-1 integrase strand transfer inhibitor",
+      "manufacturer": "Merck",
+      "manufacturerUrl": "https://www.isentress.com",
+      "hub": "hiv-hepatitis",
+      "conditions": [
+        "HIV-1 infection"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$2,090/mo (400 mg)",
+      "cardBlurb": "Isentress (raltegravir) is an integrase inhibitor used in combination therapy for HIV-1 infection.",
+      "title": "Isentress Cost 2026: Price, Coupon & Copay Card (raltegravir) | RxCostGuide",
+      "metaDesc": "Isentress (raltegravir) costs ~$2,090/mo without insurance. See how the Isentress Savings Coupon can cut copays to $0, plus Medicare and assistance options.",
+      "h1": "Isentress cost, coupon & copay card",
+      "lede": "Isentress (raltegravir) is an HIV-1 integrase strand transfer inhibitor from Merck, used together with other antiretroviral medicines to treat HIV-1 infection.",
+      "shortAnswer": "Isentress has a list price of about **~$2,090/mo (400 mg)**, but most commercially insured patients pay far less. With the Isentress Savings Coupon, eligible patients may pay **as little as $0 per prescription**, with the program covering **up to $6,800 total**. Medicare Part D enrollees can't use the coupon, but their out-of-pocket drug costs are capped at **$2,100** in 2026.",
+      "intro": "Isentress is taken every day as part of a combination antiretroviral regimen, so its cost adds up month after month for as long as treatment continues. What you actually pay depends mainly on your insurance type, your plan's formulary tier and deductible, and whether you qualify for the manufacturer coupon or Merck's patient assistance program. A generic raltegravir is FDA-approved but not widely available, so most patients still fill the brand-name product.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Isentress Savings Coupon",
+          "cost": "As little as $0 per prescription",
+          "note": "Up to $6,800 total. Commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Annual out-of-pocket drug costs capped at $2,100 in 2026. Manufacturer copay coupons cannot be used."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$2,090/mo (400 mg)",
+          "note": "Approximate list price; actual pharmacy cash prices can vary."
+        },
+        {
+          "situation": "Merck Patient Assistance Program",
+          "cost": "Reduced or no cost if eligible",
+          "note": "For qualifying patients; eligibility criteria apply. See merckhelps.com."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 per prescription with the Isentress Savings Coupon.",
+        "body": "The Isentress Savings Coupon is Merck's copay program for people whose Isentress is covered by private or employer-sponsored insurance. It lowers your out-of-pocket cost at the pharmacy, with total program benefits of up to $6,800 total. It cannot be used with Medicare, Medicaid, or other government insurance. Program terms can change, so confirm current details when you enroll.",
+        "maxPerFill": "Not specified; check current program terms",
+        "maxPerYear": "up to $6,800 total",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.isentress.com/"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Isentress is not among the drugs with a Medicare-negotiated price. Coverage and cost-sharing vary by Part D plan, but in 2026 total out-of-pocket spending on covered Part D drugs is capped at $2,100 for the year. Federal rules bar Medicare beneficiaries from using manufacturer copay coupons, including the Isentress Savings Coupon. People with limited income may qualify for Extra Help, and the Medicare Prescription Payment Plan can spread out-of-pocket costs into monthly payments."
+      },
+      "assistance": {
+        "program": "Merck Patient Assistance Program",
+        "url": "https://www.merckhelps.com",
+        "body": "The Merck Patient Assistance Program helps eligible patients who are uninsured or cannot afford their Merck medicines get them at reduced or no cost. Eligibility is based on factors such as income and insurance status. Applications typically require input from your prescriber, so ask your HIV care team to help you apply."
+      },
+      "cash": "Without insurance, Isentress lists at about ~$2,090/mo (400 mg), and pharmacy discount cards may lower the cash price somewhat. Uninsured patients should apply to the Merck Patient Assistance Program, and many people with HIV can also get help through state AIDS Drug Assistance Programs (ADAP) or Ryan White–funded clinics. A generic raltegravir is FDA-approved but not widely available, so ask your pharmacist whether it can be ordered.",
+      "alternatives": "Other integrase inhibitors and complete single-tablet HIV regimens may be options and are sometimes better covered by insurance plans. Any switch must be made by your HIV clinician, based on your viral load, resistance testing, and treatment history.",
+      "practice": "I tell patients that Isentress only works when it's taken consistently, so a gap in coverage is a medical problem, not just a billing problem. If you have commercial insurance, enroll in the savings coupon before your first fill; if you're uninsured, start the Merck assistance and ADAP applications right away rather than waiting. Never stop or ration your HIV medicine because of cost, and call your care team first so we can find a solution together.",
+      "faqs": [
+        {
+          "q": "How much does Isentress cost with the savings coupon?",
+          "a": "Eligible patients with commercial insurance may pay as little as $0 per prescription with the Isentress Savings Coupon, with benefits of up to $6,800 total. The coupon is not valid for Medicare or Medicaid."
+        },
+        {
+          "q": "Is there a generic version of Isentress?",
+          "a": "A generic raltegravir is FDA-approved but not widely available, so most patients still receive brand-name Isentress. Ask your pharmacist whether the generic can be ordered for you."
+        },
+        {
+          "q": "How much is Isentress without insurance?",
+          "a": "The list price of Isentress is about ~$2,090/mo (400 mg). Uninsured patients can apply to the Merck Patient Assistance Program at merckhelps.com and may also qualify for their state's AIDS Drug Assistance Program."
+        },
+        {
+          "q": "Does Medicare cover Isentress, and can I use the coupon?",
+          "a": "Many Medicare Part D plans cover Isentress, but cost-sharing varies by plan. Manufacturer copay coupons can't be used with Medicare, but your 2026 out-of-pocket costs for covered Part D drugs are capped at $2,100. Isentress does not have a Medicare-negotiated price."
+        },
+        {
+          "q": "How do I enroll in the Isentress Savings Coupon?",
+          "a": "Visit the official Isentress site at https://www.isentress.com/ to check eligibility and enroll. You must have commercial insurance; Medicare and Medicaid patients are not eligible."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Isentress savings (official)",
+          "url": "https://www.isentress.com/"
+        },
+        {
+          "name": "Merck Patient Assistance Program",
+          "url": "https://www.merckhelps.com"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    },
+    {
+      "slug": "cabenuva",
+      "brand": "Cabenuva",
+      "generic": "cabotegravir/rilpivirine",
+      "drugClass": "Long-acting injectable HIV-1 regimen (monthly or every 2 months)",
+      "manufacturer": "ViiV Healthcare",
+      "manufacturerUrl": "https://www.cabenuva.com",
+      "hub": "hiv-hepatitis",
+      "conditions": [
+        "HIV-1 infection"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$4,769–7,150 per injection set",
+      "cardBlurb": "Long-acting cabotegravir/rilpivirine injections given monthly or every 2 months as a complete HIV-1 regimen.",
+      "title": "Cabenuva Cost 2026: Price, Coupon & Copay Card (cabotegravir/rilpivirine) | RxCostGuide",
+      "metaDesc": "Cabenuva cost 2026: ~$4,769–7,150 per injection set without insurance. ViiV savings card can cut it to as little as $0, plus Medicare and assistance tips.",
+      "h1": "Cabenuva cost, coupon & copay card",
+      "lede": "Cabenuva (cabotegravir/rilpivirine) is a long-acting injectable regimen given by a healthcare provider monthly or every 2 months to treat HIV-1 infection in eligible people whose virus is already suppressed.",
+      "shortAnswer": "Cabenuva's list price is about **~$4,769–7,150 per injection set**, but commercially insured patients can pay **as little as $0 per prescription with the ViiV Connect Savings Program** (**up to $13,000/yr plus $100/treatment administration**). If Cabenuva is covered under your Medicare Part D plan, your 2026 out-of-pocket drug costs are capped at **$2,100**, and uninsured or underinsured patients can apply to **ViiV Connect** for assistance.",
+      "intro": "Cabenuva replaces daily HIV pills with injections given in a clinic, either once a month or every 2 months, for people who are virologically suppressed on a stable regimen. Cost is driven by the high per-injection list price, how often you are dosed, whether your plan covers it under the pharmacy or medical benefit, and clinic administration charges.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + ViiV Connect Savings Program",
+          "cost": "as little as $0 per prescription",
+          "note": "Up to $13,000/yr plus $100/treatment administration; commercial insurance only."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan; capped at $2,100 out of pocket in 2026",
+          "note": "Copay cards cannot be used; Cabenuva is not a negotiated Medicare drug. Coverage may run through Part B instead, depending on how it is supplied and billed."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$4,769–7,150 per injection set",
+          "note": "List price; administration fees may be extra."
+        },
+        {
+          "situation": "Patient assistance (ViiV Connect)",
+          "cost": "Depends on eligibility",
+          "note": "Apply at https://www.viivconnect.com if uninsured, underinsured, or on Medicare."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients can pay as little as $0 per prescription with the ViiV Connect Savings Program.",
+        "body": "The ViiV Connect Savings Program helps cover out-of-pocket costs for Cabenuva, with a benefit of up to $13,000/yr plus $100/treatment administration to help with the cost of getting your injections. It is for commercial insurance only and cannot be used with Medicare, Medicaid, or other government insurance.",
+        "maxPerFill": "Not separately specified per fill; see program terms",
+        "maxPerYear": "up to $13,000/yr plus $100/treatment administration",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.cabenuva.com/savings-and-support/cabenuva-support/"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Cabenuva has not been selected for Medicare drug price negotiation, so there is no Maximum Fair Price. If it is covered under your Part D plan, your total out-of-pocket drug spending is capped at $2,100 in 2026, and you can ask about spreading costs over the year with the Medicare Prescription Payment Plan. Because it is administered in a clinic, some patients have it covered under Part B instead, where the Part D cap does not apply. Manufacturer copay cards are barred on Medicare, but ViiV Connect may be able to help eligible beneficiaries."
+      },
+      "assistance": {
+        "program": "ViiV Connect",
+        "url": "https://www.viivconnect.com",
+        "body": "ViiV Connect is ViiV Healthcare's access and support program. It can help you check your insurance coverage and may provide Cabenuva at reduced or no cost to eligible patients who are uninsured or underinsured, including some Medicare beneficiaries. Eligibility rules apply, so apply with your HIV care team."
+      },
+      "cash": "Without insurance, Cabenuva's list price is high at about ~$4,769–7,150 per injection set, and retail discount cards typically make little difference for a clinic-administered specialty drug. Your best option is to apply to ViiV Connect for patient assistance and ask your clinic about Ryan White/ADAP programs, which commonly cover HIV medicines. If injections are not affordable, ask your clinician about effective daily oral regimens, some of which cost much less.",
+      "alternatives": "There is no generic or biosimilar version of Cabenuva. Alternatives are daily oral HIV-1 regimens, including single-tablet options. Your HIV clinician can help you choose based on resistance history, coverage, and preference.",
+      "practice": "I tell patients that Cabenuva only works if you show up for every injection on schedule, so we plan the visits as carefully as the paperwork. Before the first dose, I have the clinic confirm whether the plan covers it under the pharmacy or medical benefit, because that determines both your copay and whether the savings program applies. If coverage stalls, I'd rather keep you on a suppressive oral regimen than risk a gap that could lead to resistance.",
+      "faqs": [
+        {
+          "q": "How much does Cabenuva cost with the copay card?",
+          "a": "With commercial insurance, you may pay as little as $0 per prescription with the ViiV Connect Savings Program. It covers up to $13,000/yr plus $100/treatment administration."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Cabenuva?",
+          "a": "No. There is no generic or biosimilar version of Cabenuva available. Patients who need lower-cost options can talk with their clinician about daily oral HIV regimens."
+        },
+        {
+          "q": "How much is Cabenuva without insurance?",
+          "a": "The list price is about ~$4,769–7,150 per injection set, and administration fees may be extra. Uninsured patients should apply to ViiV Connect at https://www.viivconnect.com for possible assistance."
+        },
+        {
+          "q": "Does Medicare cover Cabenuva, and can I use the copay card?",
+          "a": "Medicare may cover Cabenuva under Part D or Part B, depending on how it is supplied and billed. Under Part D, your 2026 out-of-pocket drug costs are capped at $2,100. The copay card cannot be used with Medicare or Medicaid, but ViiV Connect may help eligible beneficiaries."
+        },
+        {
+          "q": "How do I enroll in the Cabenuva savings program?",
+          "a": "Enroll through the official Cabenuva savings and support page at https://www.cabenuva.com/savings-and-support/cabenuva-support/. You must have commercial insurance, and your clinic can often help with enrollment."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Cabenuva savings & support (official)",
+          "url": "https://www.cabenuva.com/savings-and-support/cabenuva-support/"
+        },
+        {
+          "name": "ViiV Connect",
+          "url": "https://www.viivconnect.com"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
     }
   ],
   "comparisons": [

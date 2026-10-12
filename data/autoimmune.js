@@ -1555,6 +1555,398 @@ module.exports = {
           "a": "You can enroll through the official Amjevita SupportPlus page at https://www.amjevita.com/amjevita-copay-card. You must have commercial insurance; Medicare and Medicaid patients are not eligible."
         }
       ]
+    },
+    {
+      "slug": "simlandi",
+      "brand": "Simlandi",
+      "generic": "adalimumab-ryvk",
+      "drugClass": "Adalimumab (Humira) biosimilar — interchangeable TNF inhibitor (SC)",
+      "manufacturer": "Teva (Alvotech)",
+      "manufacturerUrl": "https://www.simlandi.com",
+      "hub": "autoimmune",
+      "conditions": [
+        "Rheumatoid arthritis",
+        "Psoriatic arthritis",
+        "Ankylosing spondylitis",
+        "Crohn's disease",
+        "Ulcerative colitis",
+        "Plaque psoriasis"
+      ],
+      "hasBiosimilar": true,
+      "listPriceText": "~$551 per kit (biosimilar; below Humira)",
+      "sources": [
+        {
+          "name": "Simlandi Savings Program (official)",
+          "url": "https://www.simlandi.com/savings-program"
+        },
+        {
+          "name": "Simlandi (official)",
+          "url": "https://www.simlandi.com"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "cardBlurb": "An interchangeable Humira biosimilar for inflammatory arthritis, IBD, and plaque psoriasis, with a list price below Humira.",
+      "title": "Simlandi Cost 2026: Price, Coupon & Copay Card (adalimumab-ryvk) | RxCostGuide",
+      "metaDesc": "Simlandi (adalimumab-ryvk) cost in 2026: list price ~$551 per kit, savings card for as little as $0, cost without insurance, Medicare and assistance options.",
+      "h1": "Simlandi cost, coupon & copay card",
+      "lede": "Simlandi (adalimumab-ryvk) is an interchangeable biosimilar of Humira, a self-injected TNF inhibitor for adults and eligible patients with rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, Crohn's disease, ulcerative colitis, and plaque psoriasis.",
+      "shortAnswer": "Simlandi's list price is **~$551 per kit (biosimilar; below Humira)**. With commercial insurance, the Simlandi Savings Program can bring your cost to **as little as $0 per prescription**, subject to program terms. On Medicare Part D, the copay card cannot be used, but your annual out-of-pocket drug costs are capped at **$2,100 in 2026**.",
+      "intro": "Simlandi is used the same way as Humira: it is injected under the skin to calm the overactive immune response behind several autoimmune conditions, usually as long-term maintenance therapy. Because it is an interchangeable biosimilar, pharmacists may be able to substitute it for Humira where state law allows. What you actually pay depends mostly on your insurance type, your plan's formulary placement and deductible, and whether you can use the manufacturer savings program.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Simlandi Savings Program",
+          "cost": "as little as $0 per prescription with the Simlandi Savings Program",
+          "note": "Commercial insurance only — not Medicare or Medicaid; program terms apply."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan; out-of-pocket capped at $2,100 in 2026",
+          "note": "Copay cards cannot be used with Medicare. Simlandi is not a Medicare-negotiated drug."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$551 per kit (biosimilar; below Humira)",
+          "note": "This is the list price; actual pharmacy cash prices may differ. Compare pharmacies and discount cards."
+        },
+        {
+          "situation": "Patient assistance",
+          "cost": "No manufacturer free-drug PAP listed",
+          "note": "Independent foundations (e.g. HealthWell) may help, depending on fund availability and eligibility."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 per prescription with the Simlandi Savings Program.",
+        "body": "The Simlandi Savings Program is the manufacturer's copay assistance for patients whose prescriptions are covered by commercial or private insurance. Enrollment is done through the official Simlandi website, and the card is then presented at the pharmacy along with your insurance. Benefit limits and other conditions are set by the program, so review the current terms when you enroll. It cannot be used by patients with Medicare, Medicaid, or other government insurance.",
+        "maxPerFill": "program terms apply",
+        "maxPerYear": "program terms apply",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.simlandi.com/savings-program"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Simlandi is not among the drugs with a Medicare-negotiated price. Coverage and cost-sharing vary by Part D plan, but in 2026 your total out-of-pocket spending on covered Part D drugs is capped at $2,100 for the year. Federal rules bar manufacturer copay cards, including the Simlandi Savings Program, for people with Medicare. You may be able to spread costs across the year with the Medicare Prescription Payment Plan, and independent foundations may offer additional help."
+      },
+      "assistance": null,
+      "cash": "Without insurance, Simlandi's list price is ~$551 per kit (biosimilar; below Humira), and actual pharmacy cash prices can vary. Ask several pharmacies for a cash quote and check prescription discount cards. Independent foundations (e.g. HealthWell) may help with costs, but there is no manufacturer free-drug program listed. Because Simlandi is already a lower-cost biosimilar, other adalimumab biosimilars are the main comparison point, and prices differ among them.",
+      "alternatives": "Simlandi is one of several adalimumab biosimilars that work like Humira. Other biosimilars, or different classes of biologic and targeted therapies, may be preferred by your insurer's formulary, so ask your prescriber which option your plan covers best.",
+      "practice": "I tell patients that an interchangeable biosimilar like Simlandi uses the same active molecule and works the same way as Humira, so a switch is usually about cost and coverage rather than a change in treatment. I also remind them to check which adalimumab product their plan prefers before the first fill, since formulary placement often matters more than list price. Anyone with commercial insurance should enroll in the savings program before picking up the prescription.",
+      "faqs": [
+        {
+          "q": "How much does Simlandi cost with the copay card?",
+          "a": "With commercial insurance, the Simlandi Savings Program can lower your cost to as little as $0 per prescription. Program terms apply, and the card cannot be used with Medicare or Medicaid."
+        },
+        {
+          "q": "Is Simlandi a generic or biosimilar of Humira?",
+          "a": "Simlandi (adalimumab-ryvk) is an interchangeable biosimilar of Humira. Biologics like adalimumab do not have true generics; biosimilars are the equivalent lower-cost option. The \"interchangeable\" designation means a pharmacist may substitute it for Humira where state law allows."
+        },
+        {
+          "q": "How much is Simlandi without insurance?",
+          "a": "The list price is ~$551 per kit (biosimilar; below Humira). Actual cash prices vary by pharmacy, so compare quotes and check discount cards. Independent foundations (e.g. HealthWell) may also help; no manufacturer free-drug program is listed."
+        },
+        {
+          "q": "Does Medicare cover Simlandi, and what will I pay?",
+          "a": "Coverage and cost-sharing depend on your Part D plan. Simlandi does not have a Medicare-negotiated price. In 2026, your out-of-pocket spending on covered Part D drugs is capped at $2,100 for the year. The manufacturer copay card cannot be used with Medicare."
+        },
+        {
+          "q": "How do I enroll in the Simlandi Savings Program?",
+          "a": "Enroll online at https://www.simlandi.com/savings-program. You must have commercial insurance; Medicare and Medicaid patients are not eligible. After enrolling, give the card information to your pharmacy along with your insurance."
+        }
+      ]
+    },
+    {
+      "slug": "inflectra",
+      "brand": "Inflectra",
+      "generic": "infliximab-dyyb",
+      "drugClass": "Infliximab (Remicade) biosimilar — TNF inhibitor (IV infusion)",
+      "manufacturer": "Pfizer",
+      "manufacturerUrl": "https://www.inflectra.com",
+      "hub": "autoimmune",
+      "conditions": [
+        "Rheumatoid arthritis",
+        "Crohn's disease",
+        "Ulcerative colitis",
+        "Ankylosing spondylitis",
+        "Psoriatic arthritis",
+        "Plaque psoriasis"
+      ],
+      "hasBiosimilar": true,
+      "listPriceText": "~$932 per 100 mg vial (biosimilar)",
+      "cardBlurb": "Inflectra is an IV-infused biosimilar of Remicade (infliximab) used for several autoimmune and inflammatory conditions.",
+      "title": "Inflectra Cost 2026: Price, Coupon & Copay Card (infliximab-dyyb) | RxCostGuide",
+      "metaDesc": "Inflectra (infliximab-dyyb) cost in 2026: ~$932 per 100 mg vial without insurance, plus how the Pfizer enCompass copay card can cut costs to as little as $0.",
+      "h1": "Inflectra cost, coupon & copay card",
+      "lede": "Inflectra (infliximab-dyyb) is a Pfizer biosimilar of Remicade, an IV-infused TNF inhibitor used for rheumatoid arthritis, Crohn's disease, ulcerative colitis, ankylosing spondylitis, psoriatic arthritis and plaque psoriasis.",
+      "shortAnswer": "Inflectra's list price is about **~$932 per 100 mg vial (biosimilar)**, and most infusions need more than one vial, plus facility and administration fees. With commercial insurance, the **Inflectra Pfizer enCompass Co-Pay Program** can bring your cost to **as little as $0 per prescription**, with a program maximum of **$3,000–$12,000/yr**. Medicare patients cannot use the co-pay card; because Inflectra is an infusion, it is usually billed under Medicare Part B, so the **$2,100** 2026 Part D out-of-pocket cap generally does not apply to it.",
+      "intro": "Inflectra is given as an intravenous infusion in a clinic, hospital outpatient department or infusion center, usually on a loading schedule followed by maintenance doses. The total cost depends on your weight-based dose (which sets how many vials you need), the infusion site's administration and facility charges, and your insurance plan's deductible and coinsurance. Because it is a biosimilar, some insurers prefer it over the reference product, Remicade.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + co-pay card",
+          "cost": "As little as $0 per prescription",
+          "note": "Through the Inflectra Pfizer enCompass Co-Pay Program; program maximum $3,000–$12,000/yr. Commercial insurance only."
+        },
+        {
+          "situation": "Medicare",
+          "cost": "Varies by plan",
+          "note": "Infusions are usually billed under Part B, so the $2,100 2026 Part D cap generally does not apply. Co-pay cards cannot be used with Medicare."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$932 per 100 mg vial (biosimilar)",
+          "note": "List price for the drug alone; most doses need multiple vials, and infusion-center fees are extra."
+        },
+        {
+          "situation": "Patient assistance",
+          "cost": "Not available",
+          "note": "No manufacturer free-drug patient-assistance program is listed for Inflectra."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 per prescription with the Inflectra Pfizer enCompass Co-Pay Program.",
+        "body": "The program helps cover out-of-pocket drug costs for eligible patients with commercial or private insurance, up to an annual program maximum. It is not available to patients with Medicare, Medicaid or other government insurance. Ask your infusion center whether the program also applies to administration costs, and check the official program site for current terms.",
+        "maxPerFill": null,
+        "maxPerYear": "$3,000–$12,000/yr",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.pfizerencompass.com/patient/inflectra/copay-support"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Inflectra has not been selected for Medicare drug price negotiation. Because it is infused in a clinical setting, it is usually covered under Medicare Part B rather than Part D, so your cost depends on Part B coinsurance and any supplemental (Medigap) or Medicare Advantage coverage. The $2,100 2026 Part D out-of-pocket cap applies only to Part D drugs and generally will not limit Inflectra costs. Federal rules bar manufacturer co-pay cards for Medicare patients."
+      },
+      "assistance": null,
+      "cash": "Without insurance, the list price is about ~$932 per 100 mg vial (biosimilar), and infusion facility and administration fees are added on top. Because Inflectra is given in a clinic rather than picked up at a retail pharmacy, pharmacy discount cards usually do not apply; ask the infusion center for a self-pay estimate and about payment plans or financial assistance. Comparing prices across infusion sites can make a meaningful difference.",
+      "alternatives": "Inflectra is itself a lower-cost biosimilar of Remicade; the reference product and other infliximab products may be options depending on your insurer's preferred list. Other TNF inhibitors and advanced therapies exist, and your prescriber can help choose one your plan covers.",
+      "practice": "I tell patients to ask for a benefits verification before the first infusion, because the site of care can change the bill as much as the drug itself. I also remind commercially insured patients to enroll in the co-pay program before treatment starts, and Medicare patients to review their Part B and supplemental coverage instead, since co-pay cards do not apply to them.",
+      "faqs": [
+        {
+          "q": "How much does Inflectra cost with the co-pay card?",
+          "a": "With commercial insurance, the Inflectra Pfizer enCompass Co-Pay Program can lower your cost to as little as $0 per prescription, up to a program maximum of $3,000–$12,000/yr."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Inflectra?",
+          "a": "Inflectra is itself a biosimilar of Remicade (infliximab). Biologic drugs do not have traditional generics; biosimilars serve that role."
+        },
+        {
+          "q": "How much does Inflectra cost without insurance?",
+          "a": "The list price is about ~$932 per 100 mg vial (biosimilar). Most doses require more than one vial, and infusion facility and administration fees are extra, so the total per infusion is higher."
+        },
+        {
+          "q": "Does Medicare cover Inflectra, and can I use the co-pay card?",
+          "a": "Inflectra is usually covered under Medicare Part B because it is infused in a clinic, so the $2,100 2026 Part D cap generally does not apply. The co-pay card cannot be used with Medicare or Medicaid."
+        },
+        {
+          "q": "How do I enroll in the Inflectra co-pay program?",
+          "a": "Enroll through Pfizer enCompass at https://www.pfizerencompass.com/patient/inflectra/copay-support. You must have commercial insurance; Medicare and Medicaid patients are not eligible."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Inflectra enCompass co-pay (official)",
+          "url": "https://www.pfizerencompass.com/patient/inflectra/copay-support"
+        },
+        {
+          "name": "Inflectra (official)",
+          "url": "https://www.inflectra.com"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    },
+    {
+      "slug": "kevzara",
+      "brand": "Kevzara",
+      "generic": "sarilumab",
+      "drugClass": "IL-6 receptor antagonist (self-injection)",
+      "manufacturer": "Sanofi and Regeneron",
+      "manufacturerUrl": "https://www.kevzara.com",
+      "hub": "autoimmune",
+      "conditions": [
+        "Rheumatoid arthritis",
+        "Polymyalgia rheumatica"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$2,094 per dose (every 2 weeks)",
+      "cardBlurb": "Self-injected IL-6 receptor blocker for rheumatoid arthritis and polymyalgia rheumatica.",
+      "title": "Kevzara Cost 2026: Price, Coupon & Copay Card (sarilumab) | RxCostGuide",
+      "metaDesc": "Kevzara (sarilumab) costs ~$2,094 per dose without insurance. See how the KevzaraConnect Copay Card may lower it to $0/month, plus Medicare and assistance tips.",
+      "h1": "Kevzara cost, coupon & copay card",
+      "lede": "Kevzara (sarilumab) is a self-injected IL-6 receptor antagonist used to treat adults with rheumatoid arthritis and polymyalgia rheumatica.",
+      "shortAnswer": "Kevzara has a list price of **~$2,094 per dose (every 2 weeks)**, so the cash cost is high. With commercial insurance, the KevzaraConnect Copay Card can bring your cost down to **as little as $0 per month** (**up to $15,000/yr, 12 uses**). On Medicare Part D, copay cards can't be used, but your annual out-of-pocket drug spending is capped at **$2,100 in 2026**.",
+      "intro": "Kevzara is a biologic given as a subcutaneous injection every 2 weeks, typically for people whose rheumatoid arthritis has not responded well enough to other treatments, or for polymyalgia rheumatica when steroids alone are not enough. Because it is a brand-name biologic with no biosimilar, its list price is high, and what you actually pay depends mostly on your insurance type, your plan's specialty-drug tier, and whether you can use the manufacturer's copay card.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + KevzaraConnect Copay Card",
+          "cost": "as little as $0 per month with the KevzaraConnect Copay Card",
+          "note": "up to $15,000/yr, 12 uses. Commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Out-of-pocket drug costs are capped at $2,100 in 2026. Copay cards cannot be used with Medicare."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$2,094 per dose (every 2 weeks)",
+          "note": "List price; actual pharmacy cash price may vary."
+        },
+        {
+          "situation": "Patient assistance (KevzaraConnect)",
+          "cost": "Varies by eligibility",
+          "note": "Contact KevzaraConnect to see whether you qualify for support."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 per month with the KevzaraConnect Copay Card.",
+        "body": "The KevzaraConnect Copay Card helps cover out-of-pocket costs for Kevzara for people with commercial (private or employer) insurance. The program benefit is up to $15,000/yr, 12 uses. It is not available to people with Medicare, Medicaid, or other government insurance. Enroll through the official KevzaraConnect copay card page before your first fill so the card can be applied at the specialty pharmacy.",
+        "maxPerFill": "Not specified by the program (limited to 12 uses per year)",
+        "maxPerYear": "up to $15,000/yr, 12 uses",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.kevzara.com/ra/resources/kevzaraconnect-copay-card"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Kevzara is not among the drugs with a Medicare-negotiated price, so your cost depends on your Part D plan's formulary and tier. In 2026, Medicare Part D caps total out-of-pocket drug spending at $2,100 per year, which limits what you pay for a high-cost biologic like Kevzara. Federal rules bar manufacturer copay cards for Medicare patients, but you may be able to spread costs across the year with the Medicare Prescription Payment Plan or check eligibility for Extra Help."
+      },
+      "assistance": {
+        "program": "KevzaraConnect",
+        "url": "https://www.kevzara.com/",
+        "body": "KevzaraConnect is the manufacturer's support program for Kevzara. It can help with insurance verification, copay support for eligible commercially insured patients, and information about other financial assistance options for people who are uninsured or underinsured. Eligibility rules apply, so contact the program directly to review your situation."
+      },
+      "cash": "Without insurance, Kevzara's list price is ~$2,094 per dose (every 2 weeks), and pharmacy discount cards usually offer limited savings on specialty biologics. Your best first step is to contact KevzaraConnect about financial assistance. You can also ask your rheumatologist whether a lower-cost treatment option is appropriate for you.",
+      "alternatives": "There is no biosimilar for Kevzara. Alternatives may include another IL-6 receptor antagonist, other biologic or targeted oral therapies for rheumatoid arthritis, or conventional DMARDs, and your rheumatologist can help compare cost and coverage on your plan.",
+      "practice": "I tell patients to enroll in the copay card and confirm prior authorization before the first shipment, because specialty biologics are often delayed by paperwork rather than cost. I also remind them that Kevzara requires periodic blood work, such as blood counts, liver tests, and lipids, so keeping lab appointments helps avoid treatment interruptions. If you switch to Medicare, plan ahead because the copay card will no longer apply.",
+      "faqs": [
+        {
+          "q": "How much does Kevzara cost with the copay card?",
+          "a": "With commercial insurance, you may pay as little as $0 per month with the KevzaraConnect Copay Card. The benefit is up to $15,000/yr, 12 uses."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Kevzara?",
+          "a": "No. There is currently no generic or biosimilar version of Kevzara (sarilumab)."
+        },
+        {
+          "q": "How much does Kevzara cost without insurance?",
+          "a": "The list price is ~$2,094 per dose (every 2 weeks). If you are uninsured, contact KevzaraConnect to ask about financial assistance."
+        },
+        {
+          "q": "Does Medicare cover Kevzara, and can I use the copay card?",
+          "a": "Many Medicare Part D plans cover Kevzara, but your cost varies by plan. Out-of-pocket drug costs are capped at $2,100 in 2026. The KevzaraConnect Copay Card cannot be used with Medicare or Medicaid."
+        },
+        {
+          "q": "How do I enroll in the KevzaraConnect Copay Card?",
+          "a": "Enroll online at https://www.kevzara.com/ra/resources/kevzaraconnect-copay-card. You must have commercial insurance; Medicare and Medicaid patients are not eligible."
+        }
+      ],
+      "sources": [
+        {
+          "name": "KevzaraConnect copay card (official)",
+          "url": "https://www.kevzara.com/ra/resources/kevzaraconnect-copay-card"
+        },
+        {
+          "name": "KevzaraConnect",
+          "url": "https://www.kevzara.com/"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    },
+    {
+      "slug": "vtama",
+      "brand": "Vtama",
+      "generic": "tapinarof",
+      "drugClass": "Topical aryl hydrocarbon receptor agonist (cream)",
+      "manufacturer": "Organon (Dermavant)",
+      "manufacturerUrl": "https://vtama.com",
+      "hub": "autoimmune",
+      "conditions": [
+        "Plaque psoriasis",
+        "Atopic dermatitis (eczema)"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$1,556 per 60 g tube",
+      "cardBlurb": "A nonsteroidal topical cream for plaque psoriasis and atopic dermatitis (eczema).",
+      "title": "Vtama Cost 2026: Price, Coupon & Copay Card (tapinarof) | RxCostGuide",
+      "metaDesc": "Vtama (tapinarof) costs ~$1,556 per 60 g tube without insurance. See how the Vtama Savings Card can cut commercial copays to as little as $0 to $35.",
+      "h1": "Vtama cost, coupon & copay card",
+      "lede": "Vtama (tapinarof) is a nonsteroidal topical cream that activates the aryl hydrocarbon receptor and is used to treat plaque psoriasis and atopic dermatitis (eczema).",
+      "shortAnswer": "Vtama has a list price of **~$1,556 per 60 g tube**. People with commercial insurance may pay **as little as $0 to $35 per prescription with the Vtama Savings Card (commercial)**, subject to program terms. On Medicare Part D, the savings card cannot be used, but out-of-pocket drug costs are capped at **$2,100 in 2026**.",
+      "intro": "Vtama is applied directly to affected skin and offers a nonsteroidal option for people with plaque psoriasis or eczema. Because it is a brand-name cream with a high list price, what you actually pay depends mainly on your insurance coverage, your plan's formulary placement, and whether you qualify for the manufacturer's savings card. The amount of cream you need, which depends on how much skin is affected, also affects how often you refill.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Vtama Savings Card",
+          "cost": "as little as $0 to $35 per prescription with the Vtama Savings Card (commercial)",
+          "note": "Commercial insurance only — not Medicare or Medicaid. Program terms apply."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Savings card not allowed. Out-of-pocket drug costs are capped at $2,100 in 2026."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$1,556 per 60 g tube",
+          "note": "List price. Pharmacy cash prices can differ."
+        },
+        {
+          "situation": "Patient assistance program",
+          "cost": "Not available",
+          "note": "No manufacturer free-drug patient-assistance program is listed."
+        }
+      ],
+      "copay": {
+        "lead": "The Vtama Savings Card can lower your cost to as little as $0 to $35 per prescription if you have commercial insurance.",
+        "body": "The Vtama Savings Card is the manufacturer's copay program for people with commercial (private or employer) insurance. It is not available to anyone with Medicare, Medicaid, or other government insurance. Program terms apply, so review the current terms on the official enrollment page before you fill.",
+        "maxPerFill": "as little as $0 to $35 per prescription with the Vtama Savings Card (commercial)",
+        "maxPerYear": "program terms apply",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://vtama.com/plaque-psoriasis/download/savings-card/"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Vtama has not been selected for Medicare drug price negotiation, so there is no negotiated maximum fair price. Coverage and cost-sharing vary by Part D plan. In 2026, total out-of-pocket spending on covered Part D drugs is capped at $2,100 per year. Federal rules bar manufacturer copay cards for Medicare beneficiaries, so the Vtama Savings Card cannot be used."
+      },
+      "assistance": null,
+      "cash": "Without insurance, Vtama costs about ~$1,556 per 60 g tube at list price. Prescription discount cards may lower the pharmacy cash price, and it is worth comparing prices across pharmacies. Because no manufacturer free-drug program is listed, ask your prescriber whether a lower-cost topical treatment could be appropriate for you.",
+      "alternatives": "Other topical options for plaque psoriasis and eczema include corticosteroids, vitamin D analogues, calcineurin inhibitors, and other nonsteroidal creams. Several of these are available as lower-cost generics. Your prescriber can help weigh cost against effectiveness and side effects.",
+      "practice": "I tell patients to check their formulary before the first fill, because brand-name topicals like Vtama often require prior authorization or step therapy. If you have commercial insurance, enroll in the savings card before you go to the pharmacy, not after. If you are on Medicare, plan around the annual out-of-pocket cap and ask your prescriber whether a covered alternative would cost less.",
+      "faqs": [
+        {
+          "q": "How much does Vtama cost with the savings card?",
+          "a": "With commercial insurance, the Vtama Savings Card can bring your cost to as little as $0 to $35 per prescription. Program terms apply."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Vtama?",
+          "a": "Vtama is a small-molecule cream, not a biologic, so biosimilars do not apply. Ask your pharmacist whether a generic tapinarof is available."
+        },
+        {
+          "q": "How much is Vtama without insurance?",
+          "a": "The list price is about ~$1,556 per 60 g tube. Discount cards and comparing pharmacy prices may lower what you pay. No manufacturer free-drug program is listed."
+        },
+        {
+          "q": "Does Medicare cover Vtama, and can I use the savings card?",
+          "a": "Coverage varies by Part D plan. The savings card cannot be used with Medicare or Medicaid. In 2026, Part D out-of-pocket costs are capped at $2,100 per year."
+        },
+        {
+          "q": "How do I sign up for the Vtama Savings Card?",
+          "a": "Enroll through the official page at https://vtama.com/plaque-psoriasis/download/savings-card/. You must have commercial insurance to be eligible."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Vtama savings card (official)",
+          "url": "https://vtama.com/plaque-psoriasis/download/savings-card/"
+        },
+        {
+          "name": "Vtama (official)",
+          "url": "https://vtama.com"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
     }
   ],
   "comparisons": [

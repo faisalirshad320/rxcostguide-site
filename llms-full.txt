@@ -44,6 +44,11 @@ URL: https://rxcostguide.com/asthma-allergy-eczema/adbry-cost/
 Class: IL-13 inhibitor (subcutaneous, every 2 weeks)
 Short answer: Adbry has a list price of ~$2,000 per 2-syringe pack, so paying cash is expensive. With commercial insurance, you may pay as little as $0 per fill with the Adbry Copay Program. On Medicare Part D, the copay card cannot be used, but your total out-of-pocket drug costs are capped at $2,100 in 2026.
 
+## Spiriva (tiotropium)
+URL: https://rxcostguide.com/asthma-allergy-eczema/spiriva-cost/
+Class: Long-acting anticholinergic bronchodilator (inhaler)
+Short answer: Without insurance, Spiriva runs about ~$285–346/mo cash. With commercial insurance, the Spiriva Savings Card brings it to $35 per 30-day fill (not $0) for up to 12 fills/yr. On Medicare the card can't be used, but 2026 Part D out-of-pocket costs are capped at $2,100, and a generic tiotropium is available that may cost less.
+
 ## Humira (adalimumab)
 URL: https://rxcostguide.com/autoimmune/humira-cost/
 Class: TNF inhibitor (biologic)
@@ -119,6 +124,26 @@ URL: https://rxcostguide.com/autoimmune/amjevita-cost/
 Class: Adalimumab (Humira) biosimilar — TNF inhibitor (subcutaneous)
 Short answer: Amjevita has a list price of ~$684 per 40 mg pen (biosimilar; varies). With commercial insurance, eligible patients may pay as little as $0 per monthly fill with Amjevita SupportPlus. On Medicare Part D, the copay card cannot be used, but your out-of-pocket drug spending is capped at $2,100 in 2026.
 
+## Simlandi (adalimumab-ryvk)
+URL: https://rxcostguide.com/autoimmune/simlandi-cost/
+Class: Adalimumab (Humira) biosimilar — interchangeable TNF inhibitor (SC)
+Short answer: Simlandi's list price is ~$551 per kit (biosimilar; below Humira). With commercial insurance, the Simlandi Savings Program can bring your cost to as little as $0 per prescription, subject to program terms. On Medicare Part D, the copay card cannot be used, but your annual out-of-pocket drug costs are capped at $2,100 in 2026.
+
+## Inflectra (infliximab-dyyb)
+URL: https://rxcostguide.com/autoimmune/inflectra-cost/
+Class: Infliximab (Remicade) biosimilar — TNF inhibitor (IV infusion)
+Short answer: Inflectra's list price is about ~$932 per 100 mg vial (biosimilar), and most infusions need more than one vial, plus facility and administration fees. With commercial insurance, the Inflectra Pfizer enCompass Co-Pay Program can bring your cost to as little as $0 per prescription, with a program maximum of $3,000–$12,000/yr. Medicare patients cannot use the co-pay card; because Inflectra is an infusion, it is usually billed under Medicare Part B, so the $2,100 2026 Part D out-of-pocket cap generally does not apply to it.
+
+## Kevzara (sarilumab)
+URL: https://rxcostguide.com/autoimmune/kevzara-cost/
+Class: IL-6 receptor antagonist (self-injection)
+Short answer: Kevzara has a list price of ~$2,094 per dose (every 2 weeks), so the cash cost is high. With commercial insurance, the KevzaraConnect Copay Card can bring your cost down to as little as $0 per month (up to $15,000/yr, 12 uses). On Medicare Part D, copay cards can't be used, but your annual out-of-pocket drug spending is capped at $2,100 in 2026.
+
+## Vtama (tapinarof)
+URL: https://rxcostguide.com/autoimmune/vtama-cost/
+Class: Topical aryl hydrocarbon receptor agonist (cream)
+Short answer: Vtama has a list price of ~$1,556 per 60 g tube. People with commercial insurance may pay as little as $0 to $35 per prescription with the Vtama Savings Card (commercial), subject to program terms. On Medicare Part D, the savings card cannot be used, but out-of-pocket drug costs are capped at $2,100 in 2026.
+
 ## Trulicity (dulaglutide)
 URL: https://rxcostguide.com/diabetes/trulicity-cost/
 Class: GLP-1 receptor agonist
@@ -163,6 +188,21 @@ Short answer: Without insurance, Tresiba varies by form; cash roughly $150–560
 URL: https://rxcostguide.com/diabetes/kerendia-cost/
 Class: Nonsteroidal mineralocorticoid receptor antagonist (oral, once daily)
 Short answer: Kerendia has a list price of about ~$707/mo. With commercial insurance, the Kerendia Savings Card can bring the cost to as little as $0 per monthly prescription, with savings of up to $3,000/yr. On Medicare Part D, the card cannot be used, but your total out-of-pocket drug spending is capped at $2,100 in 2026, and uninsured or underinsured patients can apply to the Bayer US Patient Assistance Foundation.
+
+## Basaglar (insulin glargine)
+URL: https://rxcostguide.com/diabetes/basaglar-cost/
+Class: Long-acting (basal) insulin (follow-on biologic)
+Short answer: Basaglar's cash price is about ~$327 per 15 mL (cash), but most people with commercial insurance or no insurance can pay as little as $35 per 30-day supply with the Lilly Insulin Value Program (commercial or cash). On Medicare Part D, insulin is capped at $35 per month under federal law, and total 2026 Part D out-of-pocket spending is capped at $2,100. If you can't afford it, the Lilly Cares Foundation may help.
+
+## Miebo (perfluorohexyloctane)
+URL: https://rxcostguide.com/eye-care/miebo-cost/
+Class: Ophthalmic solution for dry eye (eye drop)
+Short answer: Miebo has a list price of about ~$1,352 per bottle, but commercially insured patients can pay as little as $0 per prescription with the Miebo Copay Card, and uninsured patients can pay about $225 through the same program. Medicare Part D patients cannot use the copay card, but their yearly out-of-pocket drug costs are capped at $2,100 in 2026. Patients with limited income may also qualify for the Bausch + Lomb Patient Assistance Program.
+
+## Eylea (aflibercept)
+URL: https://rxcostguide.com/eye-care/eylea-cost/
+Class: Anti-VEGF injection (intravitreal)
+Short answer: Eylea has a list price of ~$1,999 per injection, before the clinic's administration fees. With commercial insurance, the Eylea4U Commercial Copay Card can bring your cost down to as little as $0 per treatment, with assistance of up to $20,000/yr plus $1,000 administration. Medicare usually covers Eylea under Part B because it is given in the doctor's office, so the $2,100 2026 Part D out-of-pocket cap generally does not apply. Medicare and Medicaid patients cannot use the copay card but may qualify for EYLEA4U Patient Assistance.
 
 ## Wegovy (semaglutide)
 URL: https://rxcostguide.com/glp-1-weight-loss/wegovy-cost/
@@ -219,6 +259,11 @@ URL: https://rxcostguide.com/heart-blood-thinners/pradaxa-cost/
 Class: Direct thrombin inhibitor anticoagulant
 Short answer: Branded Pradaxa costs about $550 a month at list price, but generic dabigatran is available and much cheaper — often well under $100 a month with a discount card. Commercially insured patients can also use the Pradaxa savings card.
 
+## Camzyos (mavacamten)
+URL: https://rxcostguide.com/heart-blood-thinners/camzyos-cost/
+Class: Cardiac myosin inhibitor (oral) — REMS program
+Short answer: Camzyos has a list price of about ~$8,537/mo before insurance. With commercial insurance, the Camzyos Co-pay Program can lower your cost to $10 per monthly prescription (not $0), subject to monthly and annual limits. On Medicare Part D, the copay card cannot be used, but your 2026 out-of-pocket drug costs are capped at $2,100 for the year.
+
 ## Descovy (emtricitabine/tenofovir alafenamide)
 URL: https://rxcostguide.com/hiv-hepatitis/descovy-cost/
 Class: HIV NRTI backbone / PrEP
@@ -253,6 +298,31 @@ Short answer: Mavyret lists around $13,000 for an 8-week course at list price. C
 URL: https://rxcostguide.com/hiv-hepatitis/vemlidy-cost/
 Class: Nucleotide analogue for chronic hepatitis B (once daily)
 Short answer: Vemlidy has a list price of about ~$1,587/mo. With commercial insurance, the Vemlidy Support Path Copay Coupon can bring your cost to as little as $0 per prescription (up to $6,000/yr, no monthly limit). On Medicare Part D, the coupon can't be used, but your yearly out-of-pocket drug spending is capped at $2,100 in 2026, and Gilead Support Path may help if you are uninsured or underinsured.
+
+## Isentress (raltegravir)
+URL: https://rxcostguide.com/hiv-hepatitis/isentress-cost/
+Class: HIV-1 integrase strand transfer inhibitor
+Short answer: Isentress has a list price of about ~$2,090/mo (400 mg), but most commercially insured patients pay far less. With the Isentress Savings Coupon, eligible patients may pay as little as $0 per prescription, with the program covering up to $6,800 total. Medicare Part D enrollees can't use the coupon, but their out-of-pocket drug costs are capped at $2,100 in 2026.
+
+## Cabenuva (cabotegravir/rilpivirine)
+URL: https://rxcostguide.com/hiv-hepatitis/cabenuva-cost/
+Class: Long-acting injectable HIV-1 regimen (monthly or every 2 months)
+Short answer: Cabenuva's list price is about ~$4,769–7,150 per injection set, but commercially insured patients can pay as little as $0 per prescription with the ViiV Connect Savings Program (up to $13,000/yr plus $100/treatment administration). If Cabenuva is covered under your Medicare Part D plan, your 2026 out-of-pocket drug costs are capped at $2,100, and uninsured or underinsured patients can apply to ViiV Connect for assistance.
+
+## Veozah (fezolinetant)
+URL: https://rxcostguide.com/menopause-womens-health/veozah-cost/
+Class: NK3 receptor antagonist (oral) for menopausal hot flashes
+Short answer: Veozah has a list price of about ~$578/mo. People with commercial insurance can use the Veozah Savings Card to pay $0 for the first month, then $30 per monthly refill, with a program maximum of up to $4,000/yr. The card cannot be used with Medicare or Medicaid, but Medicare Part D out-of-pocket drug costs are capped at $2,100 in 2026.
+
+## Myfembree (relugolix/estradiol/norethindrone)
+URL: https://rxcostguide.com/menopause-womens-health/myfembree-cost/
+Class: GnRH antagonist combination (oral)
+Short answer: Myfembree has a list price of about ~$1,302/mo, and there is no generic or biosimilar. If you have commercial insurance, the Myfembree Copay Assistance Program can lower your cost to $5 per prescription (not $0), with a benefit of up to $5,000/yr. On Medicare Part D, the copay card can't be used, but your total out-of-pocket drug costs are capped at $2,100 in 2026.
+
+## Tymlos (abaloparatide)
+URL: https://rxcostguide.com/menopause-womens-health/tymlos-cost/
+Class: Parathyroid hormone-related protein analog (self-injection)
+Short answer: Tymlos has a list price of about ~$2,935/mo, but commercially insured patients may pay as little as $0 per month with the Tymlos Savings Card, subject to a limit of 12 fills/yr and an annual cap. On Medicare Part D, the copay card cannot be used, but 2026 out-of-pocket drug costs are capped at $2,100 for the year. Patients without adequate coverage can apply to Radius Assist, the manufacturer's patient assistance program.
 
 ## Vraylar (cariprazine)
 URL: https://rxcostguide.com/mental-health/vraylar-cost/
@@ -299,6 +369,16 @@ URL: https://rxcostguide.com/mental-health/sublocade-cost/
 Class: Monthly injectable for opioid use disorder
 Short answer: Sublocade has a list price of ~$1,800 per monthly injection. With commercial insurance, the Sublocade inSupport Copay Program can lower your cost to as little as $0 per injection, for up to 15 injections/yr, about $14,804/yr maximum. Copay cards cannot be used with Medicare, but Medicare Part D out-of-pocket drug costs are capped at $2,100 in 2026.
 
+## Austedo (deutetrabenazine)
+URL: https://rxcostguide.com/mental-health/austedo-cost/
+Class: VMAT2 inhibitor (oral)
+Short answer: Austedo has a list price of ~$5,163+/mo, but commercially insured patients may pay as little as $0 per monthly fill with the Austedo Teva Shared Solutions Copay Program. On Medicare Part D, copay cards are not allowed, but your out-of-pocket drug spending is capped at $2,100 in 2026. If you are uninsured or underinsured, the Teva Cares Foundation may be able to help.
+
+## Lybalvi (olanzapine/samidorphan)
+URL: https://rxcostguide.com/mental-health/lybalvi-cost/
+Class: Atypical antipsychotic combination (oral)
+Short answer: Lybalvi has a list price of about ~$1,697/mo without insurance. With commercial insurance and the Lybalvi Co-pay Savings Program, you may pay $0 for the first 3 fills, then $20 per 30-day supply (up to $450 off per fill). On Medicare Part D, the card cannot be used, but your total out-of-pocket drug costs are capped at $2,100 in 2026.
+
 ## Emgality (galcanezumab)
 URL: https://rxcostguide.com/migraine/emgality-cost/
 Class: CGRP monoclonal antibody (preventive)
@@ -329,6 +409,11 @@ URL: https://rxcostguide.com/migraine/aimovig-cost/
 Class: CGRP monoclonal antibody
 Short answer: Aimovig costs about $700 a month at list price. Commercially insured patients can pay as little as $0 with the Aimovig Ally copay program. Medicare patients pay plan cost-share up to the $2,100 Part D cap.
 
+## Reyvow (lasmiditan)
+URL: https://rxcostguide.com/migraine/reyvow-cost/
+Class: Ditan (5-HT1F agonist) for acute migraine (oral)
+Short answer: Reyvow has a list price of about ~$730 per 8 tablets. With commercial insurance, the Reyvow Savings Card can bring the cost to as little as $0 per 30-day supply, with savings of up to $3,400/yr, 14 fills. Copay cards cannot be used with Medicare, but Part D out-of-pocket costs are capped at $2,100 in 2026, and uninsured patients may qualify for help from the Lilly Cares Foundation.
+
 ## Ocrevus (ocrelizumab)
 URL: https://rxcostguide.com/multiple-sclerosis/ocrevus-cost/
 Class: CD20 monoclonal antibody (IV infusion every 6 months)
@@ -348,4 +433,54 @@ Short answer: Vumerity has a list price of about ~$9,400/mo, but commercially in
 URL: https://rxcostguide.com/multiple-sclerosis/uplizna-cost/
 Class: CD19 monoclonal antibody (IV infusion every 6 months)
 Short answer: Uplizna's list price is about ~$138,000 per treatment course. With commercial insurance, the Amgen By Your Side Co-Pay Program can lower your cost to as little as $0 per dose (per-prescription limits apply). If you have Medicare, copay cards are not allowed. Because Uplizna is infused in a clinic, it is usually billed under Part B rather than Part D, so the $2,100 2026 Part D out-of-pocket cap applies only if your plan covers it under Part D. Patient assistance through Amgen By Your Side / Good Days may help if you qualify.
+
+## Cabometyx (cabozantinib)
+URL: https://rxcostguide.com/oncology/cabometyx-cost/
+Class: Multikinase (VEGFR/MET) inhibitor (oral, once daily)
+Short answer: Cabometyx has a list price of about ~$26,470/mo without insurance. With commercial insurance, you may pay as little as $0 per month with the Cabometyx EASE Co-pay Program. On Medicare Part D, the copay card cannot be used, but your out-of-pocket drug costs are capped at $2,100 in 2026, and the Exelixis Access Services (EASE) Patient Assistance Program may help eligible patients.
+
+## Orgovyx (relugolix)
+URL: https://rxcostguide.com/oncology/orgovyx-cost/
+Class: GnRH receptor antagonist (oral, once daily)
+Short answer: Orgovyx has a list price of about ~$2,787/mo before insurance. With commercial insurance, the Orgovyx Copay Assistance Program can bring your cost down to as little as $10 per month (not $0), with a maximum benefit of up to $10,000/yr, 12 uses. On Medicare Part D, the copay card cannot be used, but your out-of-pocket drug costs are capped at $2,100 for 2026.
+
+## Kisqali (ribociclib)
+URL: https://rxcostguide.com/oncology/kisqali-cost/
+Class: CDK4/6 inhibitor (oral)
+Short answer: Kisqali's list price is about ~$15,000/mo (dose-dependent) before insurance. With commercial insurance, you may pay as little as $0 per prescription with the Kisqali $0 Co-Pay Plus Offer (an annual savings limit applies). On Medicare Part D, your out-of-pocket drug spending is capped at $2,100 in 2026, and the Novartis Patient Assistance Foundation may help eligible patients who are uninsured or underinsured.
+
+## Nubeqa (darolutamide)
+URL: https://rxcostguide.com/oncology/nubeqa-cost/
+Class: Androgen receptor inhibitor (oral)
+Short answer: Nubeqa has a list price of about ~$14,758/mo. With commercial insurance, you may pay as little as $0 per prescription with the Nubeqa $0 Co-pay Program, which covers up to $25,000/yr. On Medicare Part D, the card cannot be used, but your 2026 out-of-pocket drug costs are capped at $2,100, and Bayer's patient assistance foundation may help eligible patients.
+
+## Scemblix (asciminib)
+URL: https://rxcostguide.com/oncology/scemblix-cost/
+Class: BCR-ABL1 (STAMP) inhibitor (oral)
+Short answer: Scemblix has a list price of about ~$21,854/mo before insurance. With commercial insurance, the Scemblix Co-Pay Plus offer can bring your cost to as little as $0 per prescription, with savings of up to $15,000/yr. On Medicare Part D, copay cards can't be used, but your out-of-pocket drug costs are capped at $2,100 in 2026, and the Novartis Patient Assistance Foundation may help if you qualify.
+
+## Tagrisso (osimertinib)
+URL: https://rxcostguide.com/oncology/tagrisso-cost/
+Class: EGFR tyrosine kinase inhibitor (oral)
+Short answer: Tagrisso has a list price of ~$18,278/mo, but commercially insured patients may pay as little as $0 per month with the Tagrisso Access 360 Co-pay Program (monthly and annual limits apply). People with Medicare Part D cannot use the copay card, but their 2026 out-of-pocket drug costs are capped at $2,100 for the year, and uninsured or underinsured patients can apply to the AZ&Me Prescription Savings Program.
+
+## Verzenio (abemaciclib)
+URL: https://rxcostguide.com/oncology/verzenio-cost/
+Class: CDK4/6 inhibitor (oral)
+Short answer: Verzenio has a list price of about ~$18,000/mo, but most commercially insured patients pay far less: the Verzenio Savings Card can bring the cost down to as little as $0 per 28-day prescription, with a program maximum of up to $10,600/yr. On Medicare Part D, the savings card cannot be used, but out-of-pocket drug costs are capped at $2,100 for 2026. Uninsured or underinsured patients can apply to the Lilly Cares Foundation.
+
+## Xtandi (enzalutamide)
+URL: https://rxcostguide.com/oncology/xtandi-cost/
+Class: Androgen receptor inhibitor (oral)
+Short answer: Xtandi has a list price of about ~$15,000/mo, but commercially insured patients may pay as little as $0 per month with the Xtandi Patient Savings Program, which covers up to $7,000/yr. On Medicare Part D, the copay card cannot be used, but 2026 out-of-pocket drug costs are capped at $2,100 for the year. Uninsured or underinsured patients can apply to Astellas Pharma Support Solutions for help.
+
+## Ibrance (palbociclib)
+URL: https://rxcostguide.com/oncology/ibrance-cost/
+Class: CDK4/6 inhibitor (oral)
+Short answer: Ibrance has a list price of about ~$13,200/mo, but commercially insured patients may pay as little as $0 per prescription with the Ibrance Pfizer Oncology Together Co-pay Card (up to $10,000/yr, 12 uses). People with Medicare Part D can't use the copay card, but their out-of-pocket drug costs are capped at $2,100 for 2026. Uninsured or underinsured patients can apply to Pfizer Oncology Together for help.
+
+## Lupron Depot (leuprolide acetate)
+URL: https://rxcostguide.com/oncology/lupron-cost/
+Class: GnRH agonist (injectable depot)
+Short answer: Lupron Depot's list price is about ~$1,855–13,216 per injection (dosing-interval dependent). With commercial insurance, you may pay as little as $10 per dose for endometriosis with the Lupron Depot Savings Card (commercial). Medicare patients cannot use the card. Because Lupron Depot is given in a clinic, Medicare usually covers it under Part B, so the $2,100 2026 Part D out-of-pocket cap often does not apply. Patients without adequate coverage can apply to myAbbVie Assist.
 

@@ -1,297 +1,808 @@
 module.exports = {
-  hub: {
-    slug: 'migraine', name: 'Migraine',
-    title: 'Migraine Drug Costs 2026 — Nurtec, Ubrelvy, Qulipta, Ajovy, Aimovig | RxCostGuide',
-    metaDesc: 'What Nurtec, Ubrelvy, Qulipta, Ajovy and Aimovig cost in 2026, with copay cards, coupons, cost without insurance and patient-assistance programs.',
-    h1: 'What migraine medications cost, and how to pay less',
-    lede: 'Modern migraine drugs — the CGRP gepants and antibodies — are highly effective but expensive without help. For most commercially insured patients, the manufacturer copay card is the difference between $0 and hundreds of dollars a month.',
-    shortAnswer: 'Branded migraine drugs run roughly **$700 to $1,100 a month** at list price. Commercially insured patients can almost always pay **as little as $0** with the manufacturer copay card. Medicare patients rely on Part D coverage and the **$2,100 out-of-pocket cap**; uninsured patients should look at patient assistance.',
-    modified: '2026-10-05',
-    comparisons: [
-      { title: 'Nurtec vs Ubrelvy: cost & coverage', url: '/migraine/nurtec-vs-ubrelvy/' },
+  "hub": {
+    "slug": "migraine",
+    "name": "Migraine",
+    "title": "Migraine Drug Costs 2026 — Nurtec, Ubrelvy, Qulipta, Ajovy, Aimovig | RxCostGuide",
+    "metaDesc": "What Nurtec, Ubrelvy, Qulipta, Ajovy and Aimovig cost in 2026, with copay cards, coupons, cost without insurance and patient-assistance programs.",
+    "h1": "What migraine medications cost, and how to pay less",
+    "lede": "Modern migraine drugs — the CGRP gepants and antibodies — are highly effective but expensive without help. For most commercially insured patients, the manufacturer copay card is the difference between $0 and hundreds of dollars a month.",
+    "shortAnswer": "Branded migraine drugs run roughly **$700 to $1,100 a month** at list price. Commercially insured patients can almost always pay **as little as $0** with the manufacturer copay card. Medicare patients rely on Part D coverage and the **$2,100 out-of-pocket cap**; uninsured patients should look at patient assistance.",
+    "modified": "2026-10-05",
+    "comparisons": [
+      {
+        "title": "Nurtec vs Ubrelvy: cost & coverage",
+        "url": "/migraine/nurtec-vs-ubrelvy/"
+      }
     ],
-    sections: [
-      { h: 'Acute vs preventive — and why it matters for cost', body: 'Migraine drugs split into **acute** (taken at onset — Nurtec, Ubrelvy) and **preventive** (taken regularly — Qulipta, Ajovy, Aimovig). Acute drugs are often limited by "quantity limits" per month, which affects both coverage and cost. Nurtec is unusual in being approved for both.' },
-      { h: 'Copay cards do the heavy lifting', body: 'Every branded drug on this page has a manufacturer copay card that can bring commercially insured patients to $0. As always, these are barred for Medicare and Medicaid patients — the most common reason a card is declined.' },
+    "sections": [
+      {
+        "h": "Acute vs preventive — and why it matters for cost",
+        "body": "Migraine drugs split into **acute** (taken at onset — Nurtec, Ubrelvy) and **preventive** (taken regularly — Qulipta, Ajovy, Aimovig). Acute drugs are often limited by \"quantity limits\" per month, which affects both coverage and cost. Nurtec is unusual in being approved for both."
+      },
+      {
+        "h": "Copay cards do the heavy lifting",
+        "body": "Every branded drug on this page has a manufacturer copay card that can bring commercially insured patients to $0. As always, these are barred for Medicare and Medicaid patients — the most common reason a card is declined."
+      }
     ],
-    sources: [{ name: 'Medicare.gov — help with drug costs', url: 'https://www.medicare.gov/basics/costs/help/drug-costs' }],
+    "sources": [
+      {
+        "name": "Medicare.gov — help with drug costs",
+        "url": "https://www.medicare.gov/basics/costs/help/drug-costs"
+      }
+    ]
   },
-  drugs: [
+  "drugs": [
     {
-      slug: 'emgality', brand: 'Emgality', generic: 'galcanezumab', drugClass: 'CGRP monoclonal antibody (preventive)',
-      manufacturer: 'Eli Lilly', manufacturerUrl: 'https://www.emgality.com',
-      hub: 'migraine', conditions: ['Migraine prevention', 'Episodic cluster headache'],
-      hasBiosimilar: false, listPriceText: '$700/mo',
-      cardBlurb: 'Once-monthly self-injected CGRP antibody for migraine prevention; first month often free for commercial insurance.',
-      title: 'Emgality Cost 2026: Price, Coupon & Savings Card (galcanezumab) | RxCostGuide',
-      metaDesc: 'Emgality (galcanezumab) costs about $700/month at list price. See the Emgality savings card ($0 for commercial insurance), coupons, Medicare cost and patient assistance.',
-      h1: 'Emgality cost, coupon & savings card',
-      lede: 'Emgality (galcanezumab) is a once-monthly self-injected CGRP antibody for migraine prevention and for episodic cluster headache.',
-      shortAnswer: 'Emgality costs about **$700 a month** at list price. Commercially insured patients can often get the **first month free and then pay $0** with the Emgality savings card. There is **no biosimilar**. Medicare patients pay plan cost-share under the $2,100 Part D cap; the uninsured can apply to Lilly Cares.',
-      intro: 'Emgality is a preventive migraine treatment, taken once a month to reduce how often migraines happen — different from the acute gepants (Nurtec, Ubrelvy) you take when an attack starts. Insurers usually require you to have tried cheaper preventives first.',
-      costRows: [
-        { situation: 'Commercial insurance + savings card', cost: 'As low as $0/mo', note: 'Often first month free; commercial only' },
-        { situation: 'Medicare Part D', cost: 'Plan cost-share', note: '$2,100 annual out-of-pocket cap applies' },
-        { situation: 'Cash / no insurance', cost: '~$700/mo', note: 'List price; discount cards often lower' },
-        { situation: 'Patient assistance (Lilly Cares)', cost: '$0', note: 'If income-eligible and uninsured' },
+      "slug": "emgality",
+      "brand": "Emgality",
+      "generic": "galcanezumab",
+      "drugClass": "CGRP monoclonal antibody (preventive)",
+      "manufacturer": "Eli Lilly",
+      "manufacturerUrl": "https://www.emgality.com",
+      "hub": "migraine",
+      "conditions": [
+        "Migraine prevention",
+        "Episodic cluster headache"
       ],
-      copay: {
-        lead: 'The Emgality savings card can bring commercially insured patients to as little as $0 per month.',
-        body: 'Commercial insurance only — not valid with Medicare or Medicaid. The program commonly covers the first month in full, then a low or $0 copay. An annual maximum applies. Prior authorization is usually required.',
-        maxPerFill: 'Down to $0/mo', maxPerYear: 'Annual cap applies',
-        eligibility: 'Commercial insurance only — **not** Medicare, Medicaid or government plans',
-        enrollUrl: 'https://www.emgality.com/savings',
-      },
-      medicare: {
-        negotiated: false, mfp: null,
-        body: 'Emgality has no Medicare-negotiated price. For 2026, Medicare patients pay their Part D plan cost-share, capped by the **$2,100 annual out-of-pocket maximum**. Copay cards cannot be used with Medicare. Plans typically require step therapy (trying cheaper preventives first).',
-      },
-      assistance: {
-        program: 'Lilly Cares Foundation', url: 'https://www.lillycares.com',
-        body: 'Lilly provides Emgality free to uninsured, income-eligible patients through Lilly Cares. Proof of income and a prescription are required.',
-      },
-      cash: 'There is no generic or biosimilar galcanezumab, so cash payers should use the savings card if commercially insured, apply to Lilly Cares if uninsured, or ask about cheaper oral preventives (topiramate, propranolol, amitriptyline are inexpensive generics). Other CGRP antibodies (Aimovig, Ajovy) have similar prices and their own cards.',
-      alternatives: 'Other CGRP antibodies — [Aimovig](/migraine/aimovig-cost/) and [Ajovy](/migraine/ajovy-cost/) — are comparable preventives with their own savings cards. Oral gepants like [Qulipta](/migraine/qulipta-cost/) also prevent migraine. Cheap generic preventives (topiramate, propranolol, amitriptyline) are usually tried first. Clinical choice is your neurologist’s.',
-      practice: 'With the CGRP antibodies the prices are close enough that the deciding factors are usually your insurer’s preferred brand and the step-therapy hoops. I tell patients to let the prescriber’s office drive the prior authorization and to lean on the manufacturer card, because out of pocket these can be $0 for commercial patients — the paperwork, not the price, is the real obstacle.',
-      faqs: [
-        { q: 'How much is Emgality with the savings card?', a: 'Often the first month is free and then $0 for commercially insured patients. The card cannot be used with Medicare or Medicaid.' },
-        { q: 'Is there a generic for Emgality?', a: 'No — galcanezumab is a biologic with no biosimilar yet. Cheaper generic oral preventives (topiramate, propranolol, amitriptyline) are alternatives your doctor may try first.' },
-        { q: 'What does Emgality cost without insurance?', a: 'About $700 a month at list price. Uninsured, income-eligible patients can get it free through Lilly Cares.' },
-        { q: 'Is Emgality the same as Nurtec?', a: 'No. Emgality is a monthly injection to prevent migraines; Nurtec is an oral gepant used to treat attacks (and, at a different schedule, to prevent them). They work differently.' },
-        { q: 'Can I use the Emgality card on Medicare?', a: 'No — commercial insurance only. Medicare patients pay plan cost-share under the $2,100 Part D cap.' },
+      "hasBiosimilar": false,
+      "listPriceText": "$700/mo",
+      "cardBlurb": "Once-monthly self-injected CGRP antibody for migraine prevention; first month often free for commercial insurance.",
+      "title": "Emgality Cost 2026: Price, Coupon & Savings Card (galcanezumab) | RxCostGuide",
+      "metaDesc": "Emgality (galcanezumab) costs about $700/month at list price. See the Emgality savings card ($0 for commercial insurance), coupons, Medicare cost and patient assistance.",
+      "h1": "Emgality cost, coupon & savings card",
+      "lede": "Emgality (galcanezumab) is a once-monthly self-injected CGRP antibody for migraine prevention and for episodic cluster headache.",
+      "shortAnswer": "Emgality costs about **$700 a month** at list price. Commercially insured patients can often get the **first month free and then pay $0** with the Emgality savings card. There is **no biosimilar**. Medicare patients pay plan cost-share under the $2,100 Part D cap; the uninsured can apply to Lilly Cares.",
+      "intro": "Emgality is a preventive migraine treatment, taken once a month to reduce how often migraines happen — different from the acute gepants (Nurtec, Ubrelvy) you take when an attack starts. Insurers usually require you to have tried cheaper preventives first.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + savings card",
+          "cost": "As low as $0/mo",
+          "note": "Often first month free; commercial only"
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Plan cost-share",
+          "note": "$2,100 annual out-of-pocket cap applies"
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$700/mo",
+          "note": "List price; discount cards often lower"
+        },
+        {
+          "situation": "Patient assistance (Lilly Cares)",
+          "cost": "$0",
+          "note": "If income-eligible and uninsured"
+        }
       ],
-      sources: [
-        { name: 'Emgality — official savings', url: 'https://www.emgality.com/savings' },
-        { name: 'Lilly Cares Foundation', url: 'https://www.lillycares.com' },
+      "copay": {
+        "lead": "The Emgality savings card can bring commercially insured patients to as little as $0 per month.",
+        "body": "Commercial insurance only — not valid with Medicare or Medicaid. The program commonly covers the first month in full, then a low or $0 copay. An annual maximum applies. Prior authorization is usually required.",
+        "maxPerFill": "Down to $0/mo",
+        "maxPerYear": "Annual cap applies",
+        "eligibility": "Commercial insurance only — **not** Medicare, Medicaid or government plans",
+        "enrollUrl": "https://www.emgality.com/savings"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Emgality has no Medicare-negotiated price. For 2026, Medicare patients pay their Part D plan cost-share, capped by the **$2,100 annual out-of-pocket maximum**. Copay cards cannot be used with Medicare. Plans typically require step therapy (trying cheaper preventives first)."
+      },
+      "assistance": {
+        "program": "Lilly Cares Foundation",
+        "url": "https://www.lillycares.com",
+        "body": "Lilly provides Emgality free to uninsured, income-eligible patients through Lilly Cares. Proof of income and a prescription are required."
+      },
+      "cash": "There is no generic or biosimilar galcanezumab, so cash payers should use the savings card if commercially insured, apply to Lilly Cares if uninsured, or ask about cheaper oral preventives (topiramate, propranolol, amitriptyline are inexpensive generics). Other CGRP antibodies (Aimovig, Ajovy) have similar prices and their own cards.",
+      "alternatives": "Other CGRP antibodies — [Aimovig](/migraine/aimovig-cost/) and [Ajovy](/migraine/ajovy-cost/) — are comparable preventives with their own savings cards. Oral gepants like [Qulipta](/migraine/qulipta-cost/) also prevent migraine. Cheap generic preventives (topiramate, propranolol, amitriptyline) are usually tried first. Clinical choice is your neurologist’s.",
+      "practice": "With the CGRP antibodies the prices are close enough that the deciding factors are usually your insurer’s preferred brand and the step-therapy hoops. I tell patients to let the prescriber’s office drive the prior authorization and to lean on the manufacturer card, because out of pocket these can be $0 for commercial patients — the paperwork, not the price, is the real obstacle.",
+      "faqs": [
+        {
+          "q": "How much is Emgality with the savings card?",
+          "a": "Often the first month is free and then $0 for commercially insured patients. The card cannot be used with Medicare or Medicaid."
+        },
+        {
+          "q": "Is there a generic for Emgality?",
+          "a": "No — galcanezumab is a biologic with no biosimilar yet. Cheaper generic oral preventives (topiramate, propranolol, amitriptyline) are alternatives your doctor may try first."
+        },
+        {
+          "q": "What does Emgality cost without insurance?",
+          "a": "About $700 a month at list price. Uninsured, income-eligible patients can get it free through Lilly Cares."
+        },
+        {
+          "q": "Is Emgality the same as Nurtec?",
+          "a": "No. Emgality is a monthly injection to prevent migraines; Nurtec is an oral gepant used to treat attacks (and, at a different schedule, to prevent them). They work differently."
+        },
+        {
+          "q": "Can I use the Emgality card on Medicare?",
+          "a": "No — commercial insurance only. Medicare patients pay plan cost-share under the $2,100 Part D cap."
+        }
       ],
-      published: '2026-10-05',
+      "sources": [
+        {
+          "name": "Emgality — official savings",
+          "url": "https://www.emgality.com/savings"
+        },
+        {
+          "name": "Lilly Cares Foundation",
+          "url": "https://www.lillycares.com"
+        }
+      ],
+      "published": "2026-10-05"
     },
     {
-      slug: 'nurtec', brand: 'Nurtec ODT', generic: 'rimegepant', drugClass: 'CGRP receptor antagonist (gepant)',
-      manufacturer: 'Pfizer', manufacturerUrl: 'https://www.nurtec.com', hub: 'migraine',
-      conditions: ['Acute migraine', 'Migraine prevention'], hasBiosimilar: false, listPriceText: '$1,000/mo',
-      cardBlurb: 'Oral gepant for both acute and preventive migraine.',
-      title: 'Nurtec ODT Cost 2026: Price, Coupon & Copay Card (rimegepant) | RxCostGuide',
-      metaDesc: 'Nurtec ODT (rimegepant) costs about $1,000/month at list price. See the Nurtec copay card ($0 for commercial insurance), coupons, Medicare cost and assistance.',
-      h1: 'Nurtec ODT cost, coupon & copay card',
-      lede: 'Nurtec ODT (rimegepant) is an oral CGRP gepant approved for both stopping migraines and preventing them.',
-      shortAnswer: 'Nurtec ODT costs about **$1,000 a month** at list price. Commercially insured patients can pay **as little as $0** with the Nurtec Savings Card. Medicare patients pay plan cost-share up to the **$2,100 Part D cap**.',
-      intro: 'Nurtec is unusual in treating migraine both acutely and preventively, which affects how many doses your plan authorizes per month. The cheapest route depends entirely on your insurance type.',
-      costRows: [
-        { situation: 'Commercial insurance + copay card', cost: 'As low as $0/mo', note: 'Nurtec Savings Card; commercial only' },
-        { situation: 'Medicare Part D', cost: 'Plan cost-share', note: 'Capped at $2,100/yr' },
-        { situation: 'Cash / no insurance', cost: '~$1,000/mo', note: 'List price; varies by quantity' },
-        { situation: 'Patient assistance (Pfizer)', cost: '$0', note: 'If income-eligible and uninsured' },
+      "slug": "nurtec",
+      "brand": "Nurtec ODT",
+      "generic": "rimegepant",
+      "drugClass": "CGRP receptor antagonist (gepant)",
+      "manufacturer": "Pfizer",
+      "manufacturerUrl": "https://www.nurtec.com",
+      "hub": "migraine",
+      "conditions": [
+        "Acute migraine",
+        "Migraine prevention"
       ],
-      copay: {
-        lead: 'The Nurtec Savings Card can bring commercially insured patients to as little as $0 per month.',
-        body: 'Commercial insurance only — not valid with Medicare or Medicaid. Because Nurtec can be used both acutely and preventively, watch your plan\'s monthly quantity limit, which caps how many tablets are covered.',
-        maxPerFill: 'Down to $0/mo', maxPerYear: 'Annual and quantity limits apply',
-        eligibility: 'Commercial insurance only — **not** Medicare or Medicaid',
-        enrollUrl: 'https://www.nurtec.com/savings',
+      "hasBiosimilar": false,
+      "listPriceText": "$1,000/mo",
+      "cardBlurb": "Oral gepant for both acute and preventive migraine.",
+      "title": "Nurtec ODT Cost 2026: Price, Coupon & Copay Card (rimegepant) | RxCostGuide",
+      "metaDesc": "Nurtec ODT (rimegepant) costs about $1,000/month at list price. See the Nurtec copay card ($0 for commercial insurance), coupons, Medicare cost and assistance.",
+      "h1": "Nurtec ODT cost, coupon & copay card",
+      "lede": "Nurtec ODT (rimegepant) is an oral CGRP gepant approved for both stopping migraines and preventing them.",
+      "shortAnswer": "Nurtec ODT costs about **$1,000 a month** at list price. Commercially insured patients can pay **as little as $0** with the Nurtec Savings Card. Medicare patients pay plan cost-share up to the **$2,100 Part D cap**.",
+      "intro": "Nurtec is unusual in treating migraine both acutely and preventively, which affects how many doses your plan authorizes per month. The cheapest route depends entirely on your insurance type.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + copay card",
+          "cost": "As low as $0/mo",
+          "note": "Nurtec Savings Card; commercial only"
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Plan cost-share",
+          "note": "Capped at $2,100/yr"
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$1,000/mo",
+          "note": "List price; varies by quantity"
+        },
+        {
+          "situation": "Patient assistance (Pfizer)",
+          "cost": "$0",
+          "note": "If income-eligible and uninsured"
+        }
+      ],
+      "copay": {
+        "lead": "The Nurtec Savings Card can bring commercially insured patients to as little as $0 per month.",
+        "body": "Commercial insurance only — not valid with Medicare or Medicaid. Because Nurtec can be used both acutely and preventively, watch your plan's monthly quantity limit, which caps how many tablets are covered.",
+        "maxPerFill": "Down to $0/mo",
+        "maxPerYear": "Annual and quantity limits apply",
+        "eligibility": "Commercial insurance only — **not** Medicare or Medicaid",
+        "enrollUrl": "https://www.nurtec.com/savings"
       },
-      medicare: { negotiated: false, mfp: null, body: 'Nurtec is not on the Medicare negotiated-price list. Part D members pay plan cost-share up to the $2,100 annual out-of-pocket cap. Copay cards cannot be used with Medicare.' },
-      assistance: { program: 'Pfizer Patient Assistance Program', url: 'https://www.pfizerrxpathways.com', body: 'Pfizer RxPathways provides Nurtec free to uninsured, income-eligible patients.' },
-      cash: 'Without insurance, compare discount-card prices and apply to Pfizer RxPathways if income-eligible. Because cost scales with quantity, ask your prescriber whether an acute-only or lower-frequency regimen fits your migraine pattern.',
-      alternatives: 'Ubrelvy (ubrogepant) is a comparable acute gepant; Qulipta (atogepant) is the preventive gepant from the same family. Which fits depends on whether you need acute relief, prevention, or both.',
-      practice: 'Quantity limits trip up more migraine patients than price does. A copay card can make the drug $0, but if the plan only authorizes eight tablets a month and you need more, that limit — not the sticker price — is your real constraint. Sorting the quantity limit with your prescriber usually matters more than the coupon.',
-      faqs: [
-        { q: 'How much is Nurtec without insurance?', a: 'About $1,000 a month at list price, though it varies with how many tablets you use. Uninsured, income-eligible patients can apply to Pfizer RxPathways for free medication.' },
-        { q: 'How do I get Nurtec for $0?', a: 'With commercial insurance, the Nurtec Savings Card can bring your cost to as little as $0. It cannot be used with Medicare or Medicaid.' },
-        { q: 'Does Medicare cover Nurtec?', a: 'Generally yes under Part D, subject to your plan and often prior authorization. You pay plan cost-share up to the $2,100 annual cap; the copay card is not usable on Medicare.' },
-        { q: 'Can Nurtec be used for prevention?', a: 'Yes — Nurtec is approved for both acute treatment and prevention of migraine, which is unusual among these drugs. Your covered quantity depends on your plan.' },
-        { q: 'Is there a generic for Nurtec?', a: 'Not yet. Until a generic rimegepant arrives, the copay card (commercial), Part D (Medicare), or patient assistance (uninsured) are the main ways to lower cost.' },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Nurtec is not on the Medicare negotiated-price list. Part D members pay plan cost-share up to the $2,100 annual out-of-pocket cap. Copay cards cannot be used with Medicare."
+      },
+      "assistance": {
+        "program": "Pfizer Patient Assistance Program",
+        "url": "https://www.pfizerrxpathways.com",
+        "body": "Pfizer RxPathways provides Nurtec free to uninsured, income-eligible patients."
+      },
+      "cash": "Without insurance, compare discount-card prices and apply to Pfizer RxPathways if income-eligible. Because cost scales with quantity, ask your prescriber whether an acute-only or lower-frequency regimen fits your migraine pattern.",
+      "alternatives": "Ubrelvy (ubrogepant) is a comparable acute gepant; Qulipta (atogepant) is the preventive gepant from the same family. Which fits depends on whether you need acute relief, prevention, or both.",
+      "practice": "Quantity limits trip up more migraine patients than price does. A copay card can make the drug $0, but if the plan only authorizes eight tablets a month and you need more, that limit — not the sticker price — is your real constraint. Sorting the quantity limit with your prescriber usually matters more than the coupon.",
+      "faqs": [
+        {
+          "q": "How much is Nurtec without insurance?",
+          "a": "About $1,000 a month at list price, though it varies with how many tablets you use. Uninsured, income-eligible patients can apply to Pfizer RxPathways for free medication."
+        },
+        {
+          "q": "How do I get Nurtec for $0?",
+          "a": "With commercial insurance, the Nurtec Savings Card can bring your cost to as little as $0. It cannot be used with Medicare or Medicaid."
+        },
+        {
+          "q": "Does Medicare cover Nurtec?",
+          "a": "Generally yes under Part D, subject to your plan and often prior authorization. You pay plan cost-share up to the $2,100 annual cap; the copay card is not usable on Medicare."
+        },
+        {
+          "q": "Can Nurtec be used for prevention?",
+          "a": "Yes — Nurtec is approved for both acute treatment and prevention of migraine, which is unusual among these drugs. Your covered quantity depends on your plan."
+        },
+        {
+          "q": "Is there a generic for Nurtec?",
+          "a": "Not yet. Until a generic rimegepant arrives, the copay card (commercial), Part D (Medicare), or patient assistance (uninsured) are the main ways to lower cost."
+        }
       ],
-      sources: [{ name: 'Nurtec — savings (official)', url: 'https://www.nurtec.com/savings' }, { name: 'Pfizer RxPathways', url: 'https://www.pfizerrxpathways.com' }],
-      published: '2026-09-20', modified: '2026-10-01',
+      "sources": [
+        {
+          "name": "Nurtec — savings (official)",
+          "url": "https://www.nurtec.com/savings"
+        },
+        {
+          "name": "Pfizer RxPathways",
+          "url": "https://www.pfizerrxpathways.com"
+        }
+      ],
+      "published": "2026-09-20",
+      "modified": "2026-10-01"
     },
     {
-      slug: 'ubrelvy', brand: 'Ubrelvy', generic: 'ubrogepant', drugClass: 'CGRP receptor antagonist (gepant)',
-      manufacturer: 'AbbVie', manufacturerUrl: 'https://www.ubrelvy.com', hub: 'migraine',
-      conditions: ['Acute migraine'], hasBiosimilar: false, listPriceText: '$1,000/mo',
-      cardBlurb: 'Oral gepant for stopping migraine attacks.',
-      title: 'Ubrelvy Cost 2026: Price, Coupon & Copay Card (ubrogepant) | RxCostGuide',
-      metaDesc: 'Ubrelvy (ubrogepant) costs about $1,000/month at list price. See the Ubrelvy copay card ($0 for commercial insurance), coupons, Medicare cost and assistance.',
-      h1: 'Ubrelvy cost, coupon & copay card',
-      lede: 'Ubrelvy (ubrogepant) is an oral CGRP gepant taken to stop a migraine attack once it starts.',
-      shortAnswer: 'Ubrelvy costs about **$1,000 a month** at list price (cost scales with how many tablets you use). Commercially insured patients can pay **as little as $0** with the Ubrelvy Savings Card. Medicare patients pay plan cost-share up to the **$2,100 cap**.',
-      intro: 'Ubrelvy is an acute-only migraine drug — taken at onset, not daily. Because it\'s dosed per attack, your plan\'s monthly quantity limit and your copay card together determine what you actually pay.',
-      costRows: [
-        { situation: 'Commercial insurance + copay card', cost: 'As low as $0/mo', note: 'Ubrelvy Savings; commercial only' },
-        { situation: 'Medicare Part D', cost: 'Plan cost-share', note: 'Capped at $2,100/yr' },
-        { situation: 'Cash / no insurance', cost: '~$1,000/mo', note: 'List price; varies by quantity' },
-        { situation: 'Patient assistance (AbbVie)', cost: '$0', note: 'If income-eligible and uninsured' },
+      "slug": "ubrelvy",
+      "brand": "Ubrelvy",
+      "generic": "ubrogepant",
+      "drugClass": "CGRP receptor antagonist (gepant)",
+      "manufacturer": "AbbVie",
+      "manufacturerUrl": "https://www.ubrelvy.com",
+      "hub": "migraine",
+      "conditions": [
+        "Acute migraine"
       ],
-      copay: {
-        lead: 'The Ubrelvy Savings Card can bring commercially insured patients to as little as $0 per month.',
-        body: 'Commercial insurance only — not valid with Medicare or Medicaid. Ubrelvy is acute-only, so plans set a monthly quantity limit; the card covers your share up to that limit and an annual maximum.',
-        maxPerFill: 'Down to $0/mo', maxPerYear: 'Annual and quantity limits apply',
-        eligibility: 'Commercial insurance only — **not** Medicare or Medicaid',
-        enrollUrl: 'https://www.ubrelvy.com/ubrelvy-cost',
+      "hasBiosimilar": false,
+      "listPriceText": "$1,000/mo",
+      "cardBlurb": "Oral gepant for stopping migraine attacks.",
+      "title": "Ubrelvy Cost 2026: Price, Coupon & Copay Card (ubrogepant) | RxCostGuide",
+      "metaDesc": "Ubrelvy (ubrogepant) costs about $1,000/month at list price. See the Ubrelvy copay card ($0 for commercial insurance), coupons, Medicare cost and assistance.",
+      "h1": "Ubrelvy cost, coupon & copay card",
+      "lede": "Ubrelvy (ubrogepant) is an oral CGRP gepant taken to stop a migraine attack once it starts.",
+      "shortAnswer": "Ubrelvy costs about **$1,000 a month** at list price (cost scales with how many tablets you use). Commercially insured patients can pay **as little as $0** with the Ubrelvy Savings Card. Medicare patients pay plan cost-share up to the **$2,100 cap**.",
+      "intro": "Ubrelvy is an acute-only migraine drug — taken at onset, not daily. Because it's dosed per attack, your plan's monthly quantity limit and your copay card together determine what you actually pay.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + copay card",
+          "cost": "As low as $0/mo",
+          "note": "Ubrelvy Savings; commercial only"
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Plan cost-share",
+          "note": "Capped at $2,100/yr"
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$1,000/mo",
+          "note": "List price; varies by quantity"
+        },
+        {
+          "situation": "Patient assistance (AbbVie)",
+          "cost": "$0",
+          "note": "If income-eligible and uninsured"
+        }
+      ],
+      "copay": {
+        "lead": "The Ubrelvy Savings Card can bring commercially insured patients to as little as $0 per month.",
+        "body": "Commercial insurance only — not valid with Medicare or Medicaid. Ubrelvy is acute-only, so plans set a monthly quantity limit; the card covers your share up to that limit and an annual maximum.",
+        "maxPerFill": "Down to $0/mo",
+        "maxPerYear": "Annual and quantity limits apply",
+        "eligibility": "Commercial insurance only — **not** Medicare or Medicaid",
+        "enrollUrl": "https://www.ubrelvy.com/ubrelvy-cost"
       },
-      medicare: { negotiated: false, mfp: null, body: 'Ubrelvy is not on the Medicare negotiated-price list. Part D members pay plan cost-share up to the $2,100 annual cap. Copay cards cannot be used with Medicare.' },
-      assistance: { program: 'AbbVie myAbbVie Assist', url: 'https://www.abbvie.com/patients/patient-assistance.html', body: 'AbbVie provides Ubrelvy free to uninsured, income-eligible patients through myAbbVie Assist.' },
-      cash: 'Without insurance, compare discount cards and apply to myAbbVie Assist if income-eligible. Ask your prescriber how many tablets you realistically need per month, since cost tracks quantity directly.',
-      alternatives: 'Nurtec ODT (rimegepant) is a comparable gepant that also works preventively. Older triptans (sumatriptan) are inexpensive generics for acute migraine and worth discussing if cost is the priority.',
-      practice: 'For acute migraine, I always mention that generic triptans exist and cost very little. The gepants like Ubrelvy are genuinely better tolerated for many people, but if someone is uninsured and struggling, a generic triptan may control attacks at a fraction of the price. It\'s a conversation worth having with the prescriber before assuming you need the newest drug.',
-      faqs: [
-        { q: 'How much is Ubrelvy without insurance?', a: 'About $1,000 a month at list price, depending on how many tablets you use. Income-eligible uninsured patients can get it free through myAbbVie Assist.' },
-        { q: 'How do I get Ubrelvy cheaper?', a: 'With commercial insurance, the Ubrelvy Savings Card can bring you to as little as $0. On Medicare, rely on Part D and the $2,100 cap. Uninsured: myAbbVie Assist or discount cards.' },
-        { q: 'Does Medicare cover Ubrelvy?', a: 'Generally under Part D, subject to plan and quantity limits. The copay card cannot be used with Medicare.' },
-        { q: 'Is Ubrelvy better than a triptan?', a: 'Gepants like Ubrelvy suit people who can\'t take triptans or don\'t respond to them, but generic triptans are far cheaper. Which is right is a clinical decision for your doctor.' },
-        { q: 'Is there a generic for Ubrelvy?', a: 'Not yet. The copay card, Part D, or patient assistance are the main cost levers until a generic ubrogepant arrives.' },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Ubrelvy is not on the Medicare negotiated-price list. Part D members pay plan cost-share up to the $2,100 annual cap. Copay cards cannot be used with Medicare."
+      },
+      "assistance": {
+        "program": "AbbVie myAbbVie Assist",
+        "url": "https://www.abbvie.com/patients/patient-assistance.html",
+        "body": "AbbVie provides Ubrelvy free to uninsured, income-eligible patients through myAbbVie Assist."
+      },
+      "cash": "Without insurance, compare discount cards and apply to myAbbVie Assist if income-eligible. Ask your prescriber how many tablets you realistically need per month, since cost tracks quantity directly.",
+      "alternatives": "Nurtec ODT (rimegepant) is a comparable gepant that also works preventively. Older triptans (sumatriptan) are inexpensive generics for acute migraine and worth discussing if cost is the priority.",
+      "practice": "For acute migraine, I always mention that generic triptans exist and cost very little. The gepants like Ubrelvy are genuinely better tolerated for many people, but if someone is uninsured and struggling, a generic triptan may control attacks at a fraction of the price. It's a conversation worth having with the prescriber before assuming you need the newest drug.",
+      "faqs": [
+        {
+          "q": "How much is Ubrelvy without insurance?",
+          "a": "About $1,000 a month at list price, depending on how many tablets you use. Income-eligible uninsured patients can get it free through myAbbVie Assist."
+        },
+        {
+          "q": "How do I get Ubrelvy cheaper?",
+          "a": "With commercial insurance, the Ubrelvy Savings Card can bring you to as little as $0. On Medicare, rely on Part D and the $2,100 cap. Uninsured: myAbbVie Assist or discount cards."
+        },
+        {
+          "q": "Does Medicare cover Ubrelvy?",
+          "a": "Generally under Part D, subject to plan and quantity limits. The copay card cannot be used with Medicare."
+        },
+        {
+          "q": "Is Ubrelvy better than a triptan?",
+          "a": "Gepants like Ubrelvy suit people who can't take triptans or don't respond to them, but generic triptans are far cheaper. Which is right is a clinical decision for your doctor."
+        },
+        {
+          "q": "Is there a generic for Ubrelvy?",
+          "a": "Not yet. The copay card, Part D, or patient assistance are the main cost levers until a generic ubrogepant arrives."
+        }
       ],
-      sources: [{ name: 'Ubrelvy — cost (official)', url: 'https://www.ubrelvy.com/ubrelvy-cost' }, { name: 'myAbbVie Assist', url: 'https://www.abbvie.com/patients/patient-assistance.html' }],
-      published: '2026-10-01',
+      "sources": [
+        {
+          "name": "Ubrelvy — cost (official)",
+          "url": "https://www.ubrelvy.com/ubrelvy-cost"
+        },
+        {
+          "name": "myAbbVie Assist",
+          "url": "https://www.abbvie.com/patients/patient-assistance.html"
+        }
+      ],
+      "published": "2026-10-01"
     },
     {
-      slug: 'qulipta', brand: 'Qulipta', generic: 'atogepant', drugClass: 'CGRP receptor antagonist (gepant)',
-      manufacturer: 'AbbVie', manufacturerUrl: 'https://www.qulipta.com', hub: 'migraine',
-      conditions: ['Migraine prevention'], hasBiosimilar: false, listPriceText: '$1,100/mo',
-      cardBlurb: 'Daily oral gepant for migraine prevention.',
-      title: 'Qulipta Cost 2026: Price, Coupon & Copay Card (atogepant) | RxCostGuide',
-      metaDesc: 'Qulipta (atogepant) costs about $1,100/month at list price. See the Qulipta copay card ($0 for commercial insurance), coupons, Medicare cost and patient assistance.',
-      h1: 'Qulipta cost, coupon & copay card',
-      lede: 'Qulipta (atogepant) is a once-daily oral gepant taken to prevent migraines.',
-      shortAnswer: 'Qulipta costs about **$1,100 a month** at list price. Commercially insured patients can pay **as little as $0** with the Qulipta copay card. Medicare patients pay plan cost-share up to the **$2,100 Part D cap**.',
-      intro: 'Qulipta is a preventive, taken daily rather than at attack onset. As an oral CGRP option it competes with the injectable antibodies (Ajovy, Aimovig) — the choice often comes down to coverage and whether you prefer a daily pill or a monthly injection.',
-      costRows: [
-        { situation: 'Commercial insurance + copay card', cost: 'As low as $0/mo', note: 'Qulipta Complete; commercial only' },
-        { situation: 'Medicare Part D', cost: 'Plan cost-share', note: 'Capped at $2,100/yr' },
-        { situation: 'Cash / no insurance', cost: '~$1,100/mo', note: 'List price' },
-        { situation: 'Patient assistance (AbbVie)', cost: '$0', note: 'If income-eligible and uninsured' },
+      "slug": "qulipta",
+      "brand": "Qulipta",
+      "generic": "atogepant",
+      "drugClass": "CGRP receptor antagonist (gepant)",
+      "manufacturer": "AbbVie",
+      "manufacturerUrl": "https://www.qulipta.com",
+      "hub": "migraine",
+      "conditions": [
+        "Migraine prevention"
       ],
-      copay: {
-        lead: 'The Qulipta copay card can bring commercially insured patients to as little as $0 per month.',
-        body: 'Commercial insurance only — not valid with Medicare or Medicaid. An annual maximum applies. Preventive migraine drugs often require prior authorization showing other preventives were tried first.',
-        maxPerFill: 'Down to $0/mo', maxPerYear: 'Annual cap applies',
-        eligibility: 'Commercial insurance only — **not** Medicare or Medicaid',
-        enrollUrl: 'https://www.qulipta.com/savings',
+      "hasBiosimilar": false,
+      "listPriceText": "$1,100/mo",
+      "cardBlurb": "Daily oral gepant for migraine prevention.",
+      "title": "Qulipta Cost 2026: Price, Coupon & Copay Card (atogepant) | RxCostGuide",
+      "metaDesc": "Qulipta (atogepant) costs about $1,100/month at list price. See the Qulipta copay card ($0 for commercial insurance), coupons, Medicare cost and patient assistance.",
+      "h1": "Qulipta cost, coupon & copay card",
+      "lede": "Qulipta (atogepant) is a once-daily oral gepant taken to prevent migraines.",
+      "shortAnswer": "Qulipta costs about **$1,100 a month** at list price. Commercially insured patients can pay **as little as $0** with the Qulipta copay card. Medicare patients pay plan cost-share up to the **$2,100 Part D cap**.",
+      "intro": "Qulipta is a preventive, taken daily rather than at attack onset. As an oral CGRP option it competes with the injectable antibodies (Ajovy, Aimovig) — the choice often comes down to coverage and whether you prefer a daily pill or a monthly injection.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + copay card",
+          "cost": "As low as $0/mo",
+          "note": "Qulipta Complete; commercial only"
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Plan cost-share",
+          "note": "Capped at $2,100/yr"
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$1,100/mo",
+          "note": "List price"
+        },
+        {
+          "situation": "Patient assistance (AbbVie)",
+          "cost": "$0",
+          "note": "If income-eligible and uninsured"
+        }
+      ],
+      "copay": {
+        "lead": "The Qulipta copay card can bring commercially insured patients to as little as $0 per month.",
+        "body": "Commercial insurance only — not valid with Medicare or Medicaid. An annual maximum applies. Preventive migraine drugs often require prior authorization showing other preventives were tried first.",
+        "maxPerFill": "Down to $0/mo",
+        "maxPerYear": "Annual cap applies",
+        "eligibility": "Commercial insurance only — **not** Medicare or Medicaid",
+        "enrollUrl": "https://www.qulipta.com/savings"
       },
-      medicare: { negotiated: false, mfp: null, body: 'Qulipta is not on the Medicare negotiated-price list. Part D members pay plan cost-share up to the $2,100 annual cap. Copay cards cannot be used with Medicare.' },
-      assistance: { program: 'AbbVie myAbbVie Assist', url: 'https://www.abbvie.com/patients/patient-assistance.html', body: 'AbbVie provides Qulipta free to uninsured, income-eligible patients through myAbbVie Assist.' },
-      cash: 'Without insurance, compare discount cards and apply to myAbbVie Assist if income-eligible. Because Qulipta competes with cheaper generic preventives (like topiramate or propranolol), ask your prescriber whether a generic preventive is worth trying first if cost is a concern.',
-      alternatives: 'Ajovy and Aimovig are monthly injectable CGRP preventives — same goal, different route. Generic oral preventives (topiramate, propranolol, amitriptyline) are far cheaper and are usually required first by insurers.',
-      practice: 'Preventive migraine care is where prior authorization bites hardest. Insurers almost always want to see that a cheap generic preventive was tried before they\'ll cover Qulipta. If your prescription is stuck, that documented step-therapy history is nearly always the missing piece — not the price.',
-      faqs: [
-        { q: 'How much is Qulipta without insurance?', a: 'About $1,100 a month at list price. Income-eligible uninsured patients can get it free through myAbbVie Assist.' },
-        { q: 'How do I get Qulipta for $0?', a: 'With commercial insurance, the Qulipta copay card can bring you to as little as $0 a month. Not usable with Medicare or Medicaid.' },
-        { q: 'Does Medicare cover Qulipta?', a: 'Generally under Part D with prior authorization. You pay plan cost-share up to the $2,100 cap; the copay card is not usable on Medicare.' },
-        { q: 'Qulipta or Ajovy — which is cheaper?', a: 'Both copay cards can reach $0 for commercial patients, so cost is usually a wash; the real difference is a daily pill (Qulipta) versus a monthly injection (Ajovy). Coverage on your plan often decides it.' },
-        { q: 'Do I have to try other drugs first?', a: 'Usually yes. Insurers typically require step therapy — documented trials of cheaper generic preventives — before covering Qulipta.' },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Qulipta is not on the Medicare negotiated-price list. Part D members pay plan cost-share up to the $2,100 annual cap. Copay cards cannot be used with Medicare."
+      },
+      "assistance": {
+        "program": "AbbVie myAbbVie Assist",
+        "url": "https://www.abbvie.com/patients/patient-assistance.html",
+        "body": "AbbVie provides Qulipta free to uninsured, income-eligible patients through myAbbVie Assist."
+      },
+      "cash": "Without insurance, compare discount cards and apply to myAbbVie Assist if income-eligible. Because Qulipta competes with cheaper generic preventives (like topiramate or propranolol), ask your prescriber whether a generic preventive is worth trying first if cost is a concern.",
+      "alternatives": "Ajovy and Aimovig are monthly injectable CGRP preventives — same goal, different route. Generic oral preventives (topiramate, propranolol, amitriptyline) are far cheaper and are usually required first by insurers.",
+      "practice": "Preventive migraine care is where prior authorization bites hardest. Insurers almost always want to see that a cheap generic preventive was tried before they'll cover Qulipta. If your prescription is stuck, that documented step-therapy history is nearly always the missing piece — not the price.",
+      "faqs": [
+        {
+          "q": "How much is Qulipta without insurance?",
+          "a": "About $1,100 a month at list price. Income-eligible uninsured patients can get it free through myAbbVie Assist."
+        },
+        {
+          "q": "How do I get Qulipta for $0?",
+          "a": "With commercial insurance, the Qulipta copay card can bring you to as little as $0 a month. Not usable with Medicare or Medicaid."
+        },
+        {
+          "q": "Does Medicare cover Qulipta?",
+          "a": "Generally under Part D with prior authorization. You pay plan cost-share up to the $2,100 cap; the copay card is not usable on Medicare."
+        },
+        {
+          "q": "Qulipta or Ajovy — which is cheaper?",
+          "a": "Both copay cards can reach $0 for commercial patients, so cost is usually a wash; the real difference is a daily pill (Qulipta) versus a monthly injection (Ajovy). Coverage on your plan often decides it."
+        },
+        {
+          "q": "Do I have to try other drugs first?",
+          "a": "Usually yes. Insurers typically require step therapy — documented trials of cheaper generic preventives — before covering Qulipta."
+        }
       ],
-      sources: [{ name: 'Qulipta — savings (official)', url: 'https://www.qulipta.com/savings' }, { name: 'myAbbVie Assist', url: 'https://www.abbvie.com/patients/patient-assistance.html' }],
-      published: '2026-10-01',
+      "sources": [
+        {
+          "name": "Qulipta — savings (official)",
+          "url": "https://www.qulipta.com/savings"
+        },
+        {
+          "name": "myAbbVie Assist",
+          "url": "https://www.abbvie.com/patients/patient-assistance.html"
+        }
+      ],
+      "published": "2026-10-01"
     },
     {
-      slug: 'ajovy', brand: 'Ajovy', generic: 'fremanezumab', drugClass: 'CGRP monoclonal antibody',
-      manufacturer: 'Teva', manufacturerUrl: 'https://www.ajovy.com', hub: 'migraine',
-      conditions: ['Migraine prevention'], hasBiosimilar: false, listPriceText: '$700/mo',
-      cardBlurb: 'Monthly or quarterly injectable CGRP antibody for migraine prevention.',
-      title: 'Ajovy Cost 2026: Price, Coupon & Copay Card (fremanezumab) | RxCostGuide',
-      metaDesc: 'Ajovy (fremanezumab) costs about $700/month at list price. See the Ajovy copay card ($0 for commercial insurance), coupons, Medicare cost and patient assistance.',
-      h1: 'Ajovy cost, coupon & copay card',
-      lede: 'Ajovy (fremanezumab) is an injectable CGRP antibody for migraine prevention, dosed monthly or quarterly.',
-      shortAnswer: 'Ajovy costs about **$700 a month** at list price. Commercially insured patients can pay **as little as $0** with the Ajovy copay card. Medicare patients pay plan cost-share up to the **$2,100 Part D cap**.',
-      intro: 'Ajovy is a preventive antibody you inject yourself, with a quarterly dosing option that some patients prefer. Like the other preventives, coverage usually requires prior authorization, and the copay card carries commercially insured patients to $0.',
-      costRows: [
-        { situation: 'Commercial insurance + copay card', cost: 'As low as $0/mo', note: 'Ajovy copay; commercial only' },
-        { situation: 'Medicare Part D', cost: 'Plan cost-share', note: 'Capped at $2,100/yr' },
-        { situation: 'Cash / no insurance', cost: '~$700/mo', note: 'List price per monthly dose' },
-        { situation: 'Patient assistance (Teva)', cost: '$0', note: 'If income-eligible and uninsured' },
+      "slug": "ajovy",
+      "brand": "Ajovy",
+      "generic": "fremanezumab",
+      "drugClass": "CGRP monoclonal antibody",
+      "manufacturer": "Teva",
+      "manufacturerUrl": "https://www.ajovy.com",
+      "hub": "migraine",
+      "conditions": [
+        "Migraine prevention"
       ],
-      copay: {
-        lead: 'The Ajovy copay card can bring commercially insured patients to as little as $0 per month.',
-        body: 'Commercial insurance only — not valid with Medicare or Medicaid. A quarterly dosing option means one injection every three months, which some patients find simpler; the card applies either way, up to an annual maximum.',
-        maxPerFill: 'Down to $0/mo', maxPerYear: 'Annual cap applies',
-        eligibility: 'Commercial insurance only — **not** Medicare or Medicaid',
-        enrollUrl: 'https://www.ajovy.com/savings',
+      "hasBiosimilar": false,
+      "listPriceText": "$700/mo",
+      "cardBlurb": "Monthly or quarterly injectable CGRP antibody for migraine prevention.",
+      "title": "Ajovy Cost 2026: Price, Coupon & Copay Card (fremanezumab) | RxCostGuide",
+      "metaDesc": "Ajovy (fremanezumab) costs about $700/month at list price. See the Ajovy copay card ($0 for commercial insurance), coupons, Medicare cost and patient assistance.",
+      "h1": "Ajovy cost, coupon & copay card",
+      "lede": "Ajovy (fremanezumab) is an injectable CGRP antibody for migraine prevention, dosed monthly or quarterly.",
+      "shortAnswer": "Ajovy costs about **$700 a month** at list price. Commercially insured patients can pay **as little as $0** with the Ajovy copay card. Medicare patients pay plan cost-share up to the **$2,100 Part D cap**.",
+      "intro": "Ajovy is a preventive antibody you inject yourself, with a quarterly dosing option that some patients prefer. Like the other preventives, coverage usually requires prior authorization, and the copay card carries commercially insured patients to $0.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + copay card",
+          "cost": "As low as $0/mo",
+          "note": "Ajovy copay; commercial only"
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Plan cost-share",
+          "note": "Capped at $2,100/yr"
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$700/mo",
+          "note": "List price per monthly dose"
+        },
+        {
+          "situation": "Patient assistance (Teva)",
+          "cost": "$0",
+          "note": "If income-eligible and uninsured"
+        }
+      ],
+      "copay": {
+        "lead": "The Ajovy copay card can bring commercially insured patients to as little as $0 per month.",
+        "body": "Commercial insurance only — not valid with Medicare or Medicaid. A quarterly dosing option means one injection every three months, which some patients find simpler; the card applies either way, up to an annual maximum.",
+        "maxPerFill": "Down to $0/mo",
+        "maxPerYear": "Annual cap applies",
+        "eligibility": "Commercial insurance only — **not** Medicare or Medicaid",
+        "enrollUrl": "https://www.ajovy.com/savings"
       },
-      medicare: { negotiated: false, mfp: null, body: 'Ajovy is not on the Medicare negotiated-price list. Part D members pay plan cost-share up to the $2,100 annual cap. Copay cards cannot be used with Medicare.' },
-      assistance: { program: 'Teva Shared Solutions / Teva Cares Foundation', url: 'https://www.tevacares.org', body: 'Teva provides Ajovy free to uninsured, income-eligible patients through the Teva Cares Foundation.' },
-      cash: 'Without insurance, compare discount cards and apply to the Teva Cares Foundation if income-eligible. The quarterly dosing option can reduce the number of fills, which may lower total cost slightly for cash payers.',
-      alternatives: 'Aimovig (erenumab) and Emgality (galcanezumab) are comparable monthly CGRP antibodies; Qulipta is the oral alternative. All aim to prevent migraine — the choice is about route, dosing and what your plan covers.',
-      practice: 'The quarterly option is a genuinely useful, underused feature. A patient who dislikes monthly injections can dose Ajovy every three months. It doesn\'t change the copay-card economics much, but for adherence and convenience it\'s worth asking your prescriber about.',
-      faqs: [
-        { q: 'How much is Ajovy without insurance?', a: 'About $700 per monthly dose at list price. Income-eligible uninsured patients can get it free through the Teva Cares Foundation.' },
-        { q: 'How do I get Ajovy for $0?', a: 'With commercial insurance, the Ajovy copay card can bring you to as little as $0. Not usable with Medicare or Medicaid.' },
-        { q: 'Does Medicare cover Ajovy?', a: 'Generally under Part D with prior authorization. You pay plan cost-share up to the $2,100 cap; the copay card is not usable on Medicare.' },
-        { q: 'Can Ajovy be dosed quarterly?', a: 'Yes — Ajovy offers a quarterly option (one dose every three months) as well as monthly, which some patients find more convenient.' },
-        { q: 'Ajovy, Aimovig or Emgality — which is cheapest?', a: 'All three copay cards can reach $0 for commercial patients, so cost is usually similar; coverage on your specific plan and dosing preference decide it.' },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Ajovy is not on the Medicare negotiated-price list. Part D members pay plan cost-share up to the $2,100 annual cap. Copay cards cannot be used with Medicare."
+      },
+      "assistance": {
+        "program": "Teva Shared Solutions / Teva Cares Foundation",
+        "url": "https://www.tevacares.org",
+        "body": "Teva provides Ajovy free to uninsured, income-eligible patients through the Teva Cares Foundation."
+      },
+      "cash": "Without insurance, compare discount cards and apply to the Teva Cares Foundation if income-eligible. The quarterly dosing option can reduce the number of fills, which may lower total cost slightly for cash payers.",
+      "alternatives": "Aimovig (erenumab) and Emgality (galcanezumab) are comparable monthly CGRP antibodies; Qulipta is the oral alternative. All aim to prevent migraine — the choice is about route, dosing and what your plan covers.",
+      "practice": "The quarterly option is a genuinely useful, underused feature. A patient who dislikes monthly injections can dose Ajovy every three months. It doesn't change the copay-card economics much, but for adherence and convenience it's worth asking your prescriber about.",
+      "faqs": [
+        {
+          "q": "How much is Ajovy without insurance?",
+          "a": "About $700 per monthly dose at list price. Income-eligible uninsured patients can get it free through the Teva Cares Foundation."
+        },
+        {
+          "q": "How do I get Ajovy for $0?",
+          "a": "With commercial insurance, the Ajovy copay card can bring you to as little as $0. Not usable with Medicare or Medicaid."
+        },
+        {
+          "q": "Does Medicare cover Ajovy?",
+          "a": "Generally under Part D with prior authorization. You pay plan cost-share up to the $2,100 cap; the copay card is not usable on Medicare."
+        },
+        {
+          "q": "Can Ajovy be dosed quarterly?",
+          "a": "Yes — Ajovy offers a quarterly option (one dose every three months) as well as monthly, which some patients find more convenient."
+        },
+        {
+          "q": "Ajovy, Aimovig or Emgality — which is cheapest?",
+          "a": "All three copay cards can reach $0 for commercial patients, so cost is usually similar; coverage on your specific plan and dosing preference decide it."
+        }
       ],
-      sources: [{ name: 'Ajovy — savings (official)', url: 'https://www.ajovy.com/savings' }, { name: 'Teva Cares Foundation', url: 'https://www.tevacares.org' }],
-      published: '2026-10-01',
+      "sources": [
+        {
+          "name": "Ajovy — savings (official)",
+          "url": "https://www.ajovy.com/savings"
+        },
+        {
+          "name": "Teva Cares Foundation",
+          "url": "https://www.tevacares.org"
+        }
+      ],
+      "published": "2026-10-01"
     },
     {
-      slug: 'aimovig', brand: 'Aimovig', generic: 'erenumab', drugClass: 'CGRP monoclonal antibody',
-      manufacturer: 'Amgen', manufacturerUrl: 'https://www.aimovig.com', hub: 'migraine',
-      conditions: ['Migraine prevention'], hasBiosimilar: false, listPriceText: '$700/mo',
-      cardBlurb: 'Monthly injectable CGRP antibody for migraine prevention.',
-      title: 'Aimovig Cost 2026: Price, Coupon & Copay Card (erenumab) | RxCostGuide',
-      metaDesc: 'Aimovig (erenumab) costs about $700/month at list price. See the Aimovig copay card ($0 for commercial insurance), coupons, Medicare cost and patient assistance.',
-      h1: 'Aimovig cost, coupon & copay card',
-      lede: 'Aimovig (erenumab) is a once-monthly injectable CGRP antibody for migraine prevention.',
-      shortAnswer: 'Aimovig costs about **$700 a month** at list price. Commercially insured patients can pay **as little as $0** with the Aimovig Ally copay program. Medicare patients pay plan cost-share up to the **$2,100 Part D cap**.',
-      intro: 'Aimovig was the first CGRP antibody approved for migraine prevention. It\'s a monthly self-injection, and like its peers it usually needs prior authorization, with the copay program bringing commercially insured patients to $0.',
-      costRows: [
-        { situation: 'Commercial insurance + copay program', cost: 'As low as $0/mo', note: 'Aimovig Ally; commercial only' },
-        { situation: 'Medicare Part D', cost: 'Plan cost-share', note: 'Capped at $2,100/yr' },
-        { situation: 'Cash / no insurance', cost: '~$700/mo', note: 'List price per monthly dose' },
-        { situation: 'Patient assistance (Amgen)', cost: '$0', note: 'If income-eligible and uninsured' },
+      "slug": "aimovig",
+      "brand": "Aimovig",
+      "generic": "erenumab",
+      "drugClass": "CGRP monoclonal antibody",
+      "manufacturer": "Amgen",
+      "manufacturerUrl": "https://www.aimovig.com",
+      "hub": "migraine",
+      "conditions": [
+        "Migraine prevention"
       ],
-      copay: {
-        lead: 'The Aimovig Ally copay program can bring commercially insured patients to as little as $0 per month.',
-        body: 'Commercial insurance only — not valid with Medicare or Medicaid. Aimovig Ally also helps with benefits investigation and prior authorization, which these preventives typically require.',
-        maxPerFill: 'Down to $0/mo', maxPerYear: 'Annual cap applies',
-        eligibility: 'Commercial insurance only — **not** Medicare or Medicaid',
-        enrollUrl: 'https://www.aimovig.com/save-and-support',
+      "hasBiosimilar": false,
+      "listPriceText": "$700/mo",
+      "cardBlurb": "Monthly injectable CGRP antibody for migraine prevention.",
+      "title": "Aimovig Cost 2026: Price, Coupon & Copay Card (erenumab) | RxCostGuide",
+      "metaDesc": "Aimovig (erenumab) costs about $700/month at list price. See the Aimovig copay card ($0 for commercial insurance), coupons, Medicare cost and patient assistance.",
+      "h1": "Aimovig cost, coupon & copay card",
+      "lede": "Aimovig (erenumab) is a once-monthly injectable CGRP antibody for migraine prevention.",
+      "shortAnswer": "Aimovig costs about **$700 a month** at list price. Commercially insured patients can pay **as little as $0** with the Aimovig Ally copay program. Medicare patients pay plan cost-share up to the **$2,100 Part D cap**.",
+      "intro": "Aimovig was the first CGRP antibody approved for migraine prevention. It's a monthly self-injection, and like its peers it usually needs prior authorization, with the copay program bringing commercially insured patients to $0.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + copay program",
+          "cost": "As low as $0/mo",
+          "note": "Aimovig Ally; commercial only"
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Plan cost-share",
+          "note": "Capped at $2,100/yr"
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$700/mo",
+          "note": "List price per monthly dose"
+        },
+        {
+          "situation": "Patient assistance (Amgen)",
+          "cost": "$0",
+          "note": "If income-eligible and uninsured"
+        }
+      ],
+      "copay": {
+        "lead": "The Aimovig Ally copay program can bring commercially insured patients to as little as $0 per month.",
+        "body": "Commercial insurance only — not valid with Medicare or Medicaid. Aimovig Ally also helps with benefits investigation and prior authorization, which these preventives typically require.",
+        "maxPerFill": "Down to $0/mo",
+        "maxPerYear": "Annual cap applies",
+        "eligibility": "Commercial insurance only — **not** Medicare or Medicaid",
+        "enrollUrl": "https://www.aimovig.com/save-and-support"
       },
-      medicare: { negotiated: false, mfp: null, body: 'Aimovig is not on the Medicare negotiated-price list. Part D members pay plan cost-share up to the $2,100 annual cap. Copay programs cannot be used with Medicare.' },
-      assistance: { program: 'Amgen Safety Net Foundation', url: 'https://www.amgensafetynetfoundation.com', body: 'Amgen provides Aimovig free to uninsured, income-eligible patients through its Safety Net Foundation.' },
-      cash: 'Without insurance, apply to the Amgen Safety Net Foundation if income-eligible, or compare discount cards. As with all CGRP preventives, insurers usually require documented trials of cheaper generic preventives first.',
-      alternatives: 'Ajovy and Emgality are comparable monthly CGRP antibodies (Ajovy also offers quarterly dosing); Qulipta is the oral option. Generic oral preventives are the inexpensive first-line choice insurers typically require.',
-      practice: 'Aimovig Ally, like Amgen\'s other support programs, is genuinely useful for the paperwork, not just the copay. These preventives fail to get approved far more often over missing step-therapy documentation than over price. Let the manufacturer\'s support team help your clinic push the prior authorization through — that\'s what it\'s there for.',
-      faqs: [
-        { q: 'How much is Aimovig without insurance?', a: 'About $700 per monthly dose at list price. Income-eligible uninsured patients can get it free through the Amgen Safety Net Foundation.' },
-        { q: 'How do I get Aimovig for $0?', a: 'With commercial insurance, the Aimovig Ally program can bring you to as little as $0. Not usable with Medicare or Medicaid.' },
-        { q: 'Does Medicare cover Aimovig?', a: 'Generally under Part D with prior authorization. You pay plan cost-share up to the $2,100 cap; copay programs are not usable on Medicare.' },
-        { q: 'Which CGRP antibody is best?', a: 'Aimovig, Ajovy and Emgality are all effective monthly preventives; response varies by individual, and the choice is your doctor\'s. On cost, all copay programs can reach $0 for commercial patients.' },
-        { q: 'Do I need to try other preventives first?', a: 'Usually yes — insurers typically require documented trials of cheaper generic preventives before covering Aimovig.' },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Aimovig is not on the Medicare negotiated-price list. Part D members pay plan cost-share up to the $2,100 annual cap. Copay programs cannot be used with Medicare."
+      },
+      "assistance": {
+        "program": "Amgen Safety Net Foundation",
+        "url": "https://www.amgensafetynetfoundation.com",
+        "body": "Amgen provides Aimovig free to uninsured, income-eligible patients through its Safety Net Foundation."
+      },
+      "cash": "Without insurance, apply to the Amgen Safety Net Foundation if income-eligible, or compare discount cards. As with all CGRP preventives, insurers usually require documented trials of cheaper generic preventives first.",
+      "alternatives": "Ajovy and Emgality are comparable monthly CGRP antibodies (Ajovy also offers quarterly dosing); Qulipta is the oral option. Generic oral preventives are the inexpensive first-line choice insurers typically require.",
+      "practice": "Aimovig Ally, like Amgen's other support programs, is genuinely useful for the paperwork, not just the copay. These preventives fail to get approved far more often over missing step-therapy documentation than over price. Let the manufacturer's support team help your clinic push the prior authorization through — that's what it's there for.",
+      "faqs": [
+        {
+          "q": "How much is Aimovig without insurance?",
+          "a": "About $700 per monthly dose at list price. Income-eligible uninsured patients can get it free through the Amgen Safety Net Foundation."
+        },
+        {
+          "q": "How do I get Aimovig for $0?",
+          "a": "With commercial insurance, the Aimovig Ally program can bring you to as little as $0. Not usable with Medicare or Medicaid."
+        },
+        {
+          "q": "Does Medicare cover Aimovig?",
+          "a": "Generally under Part D with prior authorization. You pay plan cost-share up to the $2,100 cap; copay programs are not usable on Medicare."
+        },
+        {
+          "q": "Which CGRP antibody is best?",
+          "a": "Aimovig, Ajovy and Emgality are all effective monthly preventives; response varies by individual, and the choice is your doctor's. On cost, all copay programs can reach $0 for commercial patients."
+        },
+        {
+          "q": "Do I need to try other preventives first?",
+          "a": "Usually yes — insurers typically require documented trials of cheaper generic preventives before covering Aimovig."
+        }
       ],
-      sources: [{ name: 'Aimovig — save and support (official)', url: 'https://www.aimovig.com/save-and-support' }, { name: 'Amgen Safety Net Foundation', url: 'https://www.amgensafetynetfoundation.com' }],
-      published: '2026-10-01',
+      "sources": [
+        {
+          "name": "Aimovig — save and support (official)",
+          "url": "https://www.aimovig.com/save-and-support"
+        },
+        {
+          "name": "Amgen Safety Net Foundation",
+          "url": "https://www.amgensafetynetfoundation.com"
+        }
+      ],
+      "published": "2026-10-01"
     },
+    {
+      "slug": "reyvow",
+      "brand": "Reyvow",
+      "generic": "lasmiditan",
+      "drugClass": "Ditan (5-HT1F agonist) for acute migraine (oral)",
+      "manufacturer": "Eli Lilly",
+      "manufacturerUrl": "https://reyvow.lilly.com",
+      "hub": "migraine",
+      "conditions": [
+        "Acute treatment of migraine"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$730 per 8 tablets",
+      "cardBlurb": "Oral 5-HT1F agonist (ditan) taken at the onset of a migraine attack to relieve pain and associated symptoms.",
+      "title": "Reyvow Cost 2026: Price, Coupon & Copay Card (lasmiditan) | RxCostGuide",
+      "metaDesc": "Reyvow (lasmiditan) costs ~$730 per 8 tablets without insurance. See how the Reyvow Savings Card offers as little as $0, plus Medicare and Lilly Cares options.",
+      "h1": "Reyvow cost, coupon & copay card",
+      "lede": "Reyvow (lasmiditan) is an oral ditan from Eli Lilly used for the acute treatment of migraine, with or without aura, in adults.",
+      "shortAnswer": "Reyvow has a list price of about **~$730 per 8 tablets**. With commercial insurance, the Reyvow Savings Card can bring the cost to **as little as $0 per 30-day supply**, with savings of **up to $3,400/yr, 14 fills**. Copay cards cannot be used with Medicare, but Part D out-of-pocket costs are capped at **$2,100** in 2026, and uninsured patients may qualify for help from the Lilly Cares Foundation.",
+      "intro": "Reyvow is taken as a single dose when a migraine attack starts and is used as needed rather than daily, so your cost depends largely on how many attacks you treat each month. As a brand-name drug and a Schedule V controlled substance, it often requires prior authorization or step therapy, which can affect what you pay. Your insurance type, formulary tier, and deductible status are the main drivers of out-of-pocket cost.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Reyvow Savings Card",
+          "cost": "as little as $0 per 30-day supply with the Reyvow Savings Card (commercial)",
+          "note": "Savings up to $3,400/yr, 14 fills. Commercial insurance only."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Copay cards not allowed; 2026 Part D out-of-pocket costs are capped at $2,100."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$730 per 8 tablets",
+          "note": "List price; pharmacy cash prices and discount-card prices vary."
+        },
+        {
+          "situation": "Patient assistance (Lilly Cares Foundation)",
+          "cost": "May be available at no cost to eligible patients",
+          "note": "Income and eligibility criteria apply; check the program for current medications covered."
+        }
+      ],
+      "copay": {
+        "lead": "The Reyvow Savings Card can lower your cost to as little as $0 per 30-day supply if you have commercial insurance.",
+        "body": "The Savings Card from Eli Lilly is for patients with commercial (private or employer) insurance. Savings are limited to up to $3,400/yr, 14 fills, after which you pay your plan's normal cost-sharing. It cannot be used with Medicare, Medicaid, or other government insurance. Enroll on the official Reyvow savings page and present the card at your pharmacy with your insurance.",
+        "maxPerFill": "Not specified; see program terms",
+        "maxPerYear": "up to $3,400/yr, 14 fills",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://reyvow.lilly.com/savings-support"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Reyvow is not among the drugs with a Medicare-negotiated price. Coverage and cost-sharing vary by Part D plan, and prior authorization may be required. Manufacturer copay cards are barred for Medicare patients, but in 2026 your total Part D out-of-pocket spending is capped at $2,100 per year, and the Medicare Prescription Payment Plan can spread those costs into monthly payments."
+      },
+      "assistance": {
+        "program": "Lilly Cares Foundation",
+        "url": "https://www.lillycares.com/",
+        "body": "The Lilly Cares Foundation is Eli Lilly's patient assistance program, which provides medication at no cost to eligible patients who meet income and insurance criteria. Check the program website for the current list of covered medications and application requirements; your prescriber's office typically helps complete the application."
+      },
+      "cash": "Without insurance, Reyvow's list price is high at about ~$730 per 8 tablets, and pharmacy cash prices vary. Prescription discount cards may lower the price at some pharmacies, and the Lilly Cares Foundation may help if you meet income criteria. Ask your clinician whether a generic acute migraine medicine, such as a generic triptan, is appropriate, as these are usually far less expensive.",
+      "alternatives": "Other acute migraine options include triptans, many of which are available as lower-cost generics, and gepants (CGRP receptor antagonists). Which is suitable depends on your cardiovascular history, prior response, and insurance formulary.",
+      "practice": "I tell patients that Reyvow is useful when triptans are not tolerated or are best avoided, since it does not act by constricting blood vessels. I also stress that they should not drive or operate machinery for at least 8 hours after a dose, even if they feel fine, because dizziness and sleepiness are common. Because it is a Schedule V controlled substance and often needs prior authorization, I suggest getting the savings card and insurance approval sorted before the first attack.",
+      "faqs": [
+        {
+          "q": "How much does Reyvow cost with the savings card?",
+          "a": "With commercial insurance, the Reyvow Savings Card can lower your cost to as little as $0 per 30-day supply, with savings of up to $3,400/yr, 14 fills."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Reyvow?",
+          "a": "Reyvow is a small-molecule tablet, so biosimilars do not apply. It is generally dispensed as the brand-name product; ask your pharmacist whether any lower-cost version is available to you."
+        },
+        {
+          "q": "How much is Reyvow without insurance?",
+          "a": "The list price is about ~$730 per 8 tablets. Cash prices vary by pharmacy, discount cards may help, and eligible patients can apply to the Lilly Cares Foundation for assistance."
+        },
+        {
+          "q": "Does Medicare cover Reyvow?",
+          "a": "Coverage depends on your Part D plan, and prior authorization may be required. Reyvow does not have a Medicare-negotiated price, and the copay card cannot be used, but 2026 Part D out-of-pocket costs are capped at $2,100."
+        },
+        {
+          "q": "How do I enroll in the Reyvow Savings Card?",
+          "a": "Visit the official Reyvow savings page at https://reyvow.lilly.com/savings-support to sign up, then give the card details to your pharmacy. It is for commercial insurance only — not Medicare or Medicaid."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reyvow savings & support (official)",
+          "url": "https://reyvow.lilly.com/savings-support"
+        },
+        {
+          "name": "Lilly Cares Foundation",
+          "url": "https://www.lillycares.com/"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    }
   ],
-  comparisons: [
+  "comparisons": [
     {
-      name: 'Nurtec vs Ubrelvy', path: '/migraine/nurtec-vs-ubrelvy/',
-      title: 'Nurtec vs Ubrelvy: Cost, Coverage & Which Is Right (2026) | RxCostGuide',
-      metaDesc: 'Nurtec ODT vs Ubrelvy compared on 2026 cost, copay cards, acute vs preventive use and coverage — and which gepant is cheaper for your insurance.',
-      h1: 'Nurtec vs Ubrelvy: cost, coverage & which is right for you',
-      lede: 'Two oral gepants for migraine, compared on cost, coverage and the key clinical difference — one also prevents migraines, the other only treats attacks.',
-      shortAnswer: 'List prices are similar — both around **$1,000 a month**. Both reach **$0** for commercially insured patients with their copay cards, and neither has a generic. The real difference is use: **Nurtec treats attacks and can prevent them** (every-other-day dosing), while **Ubrelvy treats attacks only**. Coverage and that dual use usually decide it, not price.',
-      a: { name: 'Nurtec ODT (rimegepant)' }, b: { name: 'Ubrelvy (ubrogepant)' },
-      rows: [
-        ['Use', 'Acute + preventive', 'Acute only'],
-        ['Form', 'Orally dissolving tablet', 'Tablet'],
-        ['List price', '~$1,000/mo', '~$1,000/mo'],
-        ['Copay card (commercial)', 'As low as $0', 'As low as $0'],
-        ['Maker', 'Pfizer', 'AbbVie'],
-        ['Generic available', 'No', 'No'],
-        ['Medicare negotiated price', 'No', 'No'],
+      "name": "Nurtec vs Ubrelvy",
+      "path": "/migraine/nurtec-vs-ubrelvy/",
+      "title": "Nurtec vs Ubrelvy: Cost, Coverage & Which Is Right (2026) | RxCostGuide",
+      "metaDesc": "Nurtec ODT vs Ubrelvy compared on 2026 cost, copay cards, acute vs preventive use and coverage — and which gepant is cheaper for your insurance.",
+      "h1": "Nurtec vs Ubrelvy: cost, coverage & which is right for you",
+      "lede": "Two oral gepants for migraine, compared on cost, coverage and the key clinical difference — one also prevents migraines, the other only treats attacks.",
+      "shortAnswer": "List prices are similar — both around **$1,000 a month**. Both reach **$0** for commercially insured patients with their copay cards, and neither has a generic. The real difference is use: **Nurtec treats attacks and can prevent them** (every-other-day dosing), while **Ubrelvy treats attacks only**. Coverage and that dual use usually decide it, not price.",
+      "a": {
+        "name": "Nurtec ODT (rimegepant)"
+      },
+      "b": {
+        "name": "Ubrelvy (ubrogepant)"
+      },
+      "rows": [
+        [
+          "Use",
+          "Acute + preventive",
+          "Acute only"
+        ],
+        [
+          "Form",
+          "Orally dissolving tablet",
+          "Tablet"
+        ],
+        [
+          "List price",
+          "~$1,000/mo",
+          "~$1,000/mo"
+        ],
+        [
+          "Copay card (commercial)",
+          "As low as $0",
+          "As low as $0"
+        ],
+        [
+          "Maker",
+          "Pfizer",
+          "AbbVie"
+        ],
+        [
+          "Generic available",
+          "No",
+          "No"
+        ],
+        [
+          "Medicare negotiated price",
+          "No",
+          "No"
+        ]
       ],
-      sections: [
-        { h: 'When Nurtec tends to be the choice', body: 'Nurtec’s advantage is versatility: the same drug can stop an attack and, taken every other day, help prevent migraines — useful for people who want one medicine for both. It dissolves on the tongue without water, which some patients prefer during an attack with nausea.' },
-        { h: 'When Ubrelvy tends to be the choice', body: 'Ubrelvy is purely an acute treatment, and some patients and insurers prefer it for that focused role; a second dose can be taken in a day if needed. For someone who only needs to treat occasional attacks, it is a clean fit, and the copay card makes it $0 for commercial patients.' },
-        { h: 'Which is cheaper for you?', body: '**Commercial insurance:** both reach $0 with their cards — your plan’s preferred gepant decides. **Medicare:** neither is negotiated; both are covered subject to formulary under the $2,100 cap, and cards cannot be used. **Uninsured:** similar list prices; check each manufacturer’s assistance program. If you need both acute and preventive coverage from one drug, Nurtec’s dual role may be the deciding factor.' },
+      "sections": [
+        {
+          "h": "When Nurtec tends to be the choice",
+          "body": "Nurtec’s advantage is versatility: the same drug can stop an attack and, taken every other day, help prevent migraines — useful for people who want one medicine for both. It dissolves on the tongue without water, which some patients prefer during an attack with nausea."
+        },
+        {
+          "h": "When Ubrelvy tends to be the choice",
+          "body": "Ubrelvy is purely an acute treatment, and some patients and insurers prefer it for that focused role; a second dose can be taken in a day if needed. For someone who only needs to treat occasional attacks, it is a clean fit, and the copay card makes it $0 for commercial patients."
+        },
+        {
+          "h": "Which is cheaper for you?",
+          "body": "**Commercial insurance:** both reach $0 with their cards — your plan’s preferred gepant decides. **Medicare:** neither is negotiated; both are covered subject to formulary under the $2,100 cap, and cards cannot be used. **Uninsured:** similar list prices; check each manufacturer’s assistance program. If you need both acute and preventive coverage from one drug, Nurtec’s dual role may be the deciding factor."
+        }
       ],
-      faqs: [
-        { q: 'Is Nurtec or Ubrelvy cheaper?', a: 'List prices are similar (~$1,000/month) and both reach $0 for commercially insured patients with their copay cards. The cheaper one is whichever your plan prefers.' },
-        { q: 'What is the main difference between Nurtec and Ubrelvy?', a: 'Nurtec can both treat migraine attacks and prevent them (every-other-day dosing); Ubrelvy only treats attacks. Both are oral gepants.' },
-        { q: 'Can I take both Nurtec and Ubrelvy?', a: 'They are the same class, so they are not usually combined. Which one — or whether to pair an acute gepant with a separate preventive — is a decision for your prescriber.' },
+      "faqs": [
+        {
+          "q": "Is Nurtec or Ubrelvy cheaper?",
+          "a": "List prices are similar (~$1,000/month) and both reach $0 for commercially insured patients with their copay cards. The cheaper one is whichever your plan prefers."
+        },
+        {
+          "q": "What is the main difference between Nurtec and Ubrelvy?",
+          "a": "Nurtec can both treat migraine attacks and prevent them (every-other-day dosing); Ubrelvy only treats attacks. Both are oral gepants."
+        },
+        {
+          "q": "Can I take both Nurtec and Ubrelvy?",
+          "a": "They are the same class, so they are not usually combined. Which one — or whether to pair an acute gepant with a separate preventive — is a decision for your prescriber."
+        }
       ],
-      sources: [{ name: 'RxCostGuide — Nurtec and Ubrelvy pages', url: 'https://rxcostguide.com/migraine/' }],
-      published: '2026-10-05',
-    },
-  ],
+      "sources": [
+        {
+          "name": "RxCostGuide — Nurtec and Ubrelvy pages",
+          "url": "https://rxcostguide.com/migraine/"
+        }
+      ],
+      "published": "2026-10-05"
+    }
+  ]
 };
