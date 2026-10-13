@@ -742,6 +742,102 @@ module.exports = {
       ],
       "published": "2026-10-13",
       "modified": "2026-10-13"
+    },
+    {
+      "slug": "praluent",
+      "brand": "Praluent",
+      "generic": "alirocumab",
+      "drugClass": "PCSK9 inhibitor (self-injection)",
+      "manufacturer": "Regeneron and Sanofi",
+      "manufacturerUrl": "https://www.praluent.com",
+      "hub": "heart-blood-thinners",
+      "conditions": [
+        "High LDL cholesterol",
+        "Cardiovascular risk reduction",
+        "Heterozygous familial hypercholesterolemia"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$530+ per 2-pen pack",
+      "cardBlurb": "Praluent (alirocumab) is a self-injected PCSK9 inhibitor that lowers LDL cholesterol and cardiovascular risk.",
+      "title": "Praluent Cost 2026: Price, Coupon & Copay Card (alirocumab) | RxCostGuide",
+      "metaDesc": "Praluent (alirocumab) cost in 2026: ~$530+ per 2-pen pack without insurance, or $50/month with the MyPraluent Copay Card. Medicare and savings tips inside.",
+      "h1": "Praluent cost, coupon & copay card",
+      "lede": "Praluent (alirocumab) is a self-injected PCSK9 inhibitor used to lower LDL cholesterol and reduce cardiovascular risk in adults, including those with heterozygous familial hypercholesterolemia.",
+      "shortAnswer": "Without insurance, Praluent's list price is **~$530+ per 2-pen pack**. With commercial insurance, the MyPraluent Copay Card can bring your cost to **$50 per month** (not $0), with the card covering **up to $3,500/yr**. On Medicare, the copay card can't be used, but your Part D out-of-pocket drug spending is capped at **$2,100** in 2026.",
+      "intro": "Praluent is a prefilled pen that patients inject under the skin at home, usually added when a statin alone hasn't lowered LDL cholesterol enough or can't be tolerated. Because it is a brand-name biologic with no biosimilar, the list price is high, and what you actually pay depends mostly on your insurance type, your plan's formulary tier, and whether prior authorization is approved.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + MyPraluent Copay Card",
+          "cost": "$50 per month with the MyPraluent Copay Card (not $0)",
+          "note": "Card covers up to $3,500/yr. Commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Copay card not allowed. Annual Part D out-of-pocket costs are capped at $2,100 in 2026."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$530+ per 2-pen pack",
+          "note": "List price; pharmacy discount cards may lower the cash price somewhat."
+        },
+        {
+          "situation": "Manufacturer patient assistance",
+          "cost": "No program listed",
+          "note": "No manufacturer patient-assistance program is listed for Praluent."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients can pay $50 per month with the MyPraluent Copay Card (not $0).",
+        "body": "The MyPraluent Copay Card lowers your out-of-pocket cost for Praluent to $50 per month when you have commercial (private or employer) insurance. Note that this is a $50 copay, not a $0 copay. The card's support is capped at up to $3,500/yr; once that limit is reached, you pay your plan's regular cost-sharing for the rest of the year. Your plan still needs to cover Praluent, so prior authorization may be required first. The card cannot be used with Medicare, Medicaid, or other government insurance.",
+        "maxPerFill": null,
+        "maxPerYear": "up to $3,500/yr",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.praluent.com/s/starting-and-paying-for-praluent-rx"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Praluent is not among the drugs with a Medicare-negotiated price, so your cost depends on your Part D plan's formulary tier and cost-sharing, and prior authorization is common. In 2026, Part D out-of-pocket drug spending is capped at $2,100 for the year, which limits your total annual exposure. Federal rules bar manufacturer copay cards for Medicare beneficiaries, so the MyPraluent Copay Card cannot be used. If cost is a barrier, ask your plan about spreading payments across the year and whether you qualify for Extra Help."
+      },
+      "assistance": null,
+      "cash": "Without insurance, Praluent's list price is ~$530+ per 2-pen pack, and no manufacturer patient-assistance program is listed. Pharmacy discount cards may reduce the cash price somewhat, so compare prices across pharmacies. For many patients, lower-cost generic cholesterol medicines are worth discussing with a prescriber before or alongside a PCSK9 inhibitor.",
+      "alternatives": "Another PCSK9 inhibitor may be preferred on your plan's formulary, and generic options such as statins and ezetimibe are much less expensive first-line or add-on choices. Ask your prescriber which option your insurance covers best.",
+      "practice": "I tell patients to check their plan's formulary and get prior authorization approved before the first fill, because Praluent's coverage often hinges on documenting statin use or intolerance. I also remind commercially insured patients that the copay card brings the cost to $50 a month, not zero, and that the card's annual maximum can run out. Medicare patients should plan around the $2,100 annual Part D cap rather than expecting a coupon to help.",
+      "faqs": [
+        {
+          "q": "How much does Praluent cost with the copay card?",
+          "a": "With commercial insurance, the MyPraluent Copay Card brings Praluent to $50 per month (not $0). The card covers up to $3,500/yr; after that, you pay your plan's standard cost-sharing."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Praluent?",
+          "a": "No. There is currently no generic or biosimilar version of Praluent (alirocumab), so it is available only as the brand-name product."
+        },
+        {
+          "q": "How much is Praluent without insurance?",
+          "a": "The list price is ~$530+ per 2-pen pack. No manufacturer patient-assistance program is listed, so uninsured patients should compare pharmacy discount card prices and ask their prescriber about lower-cost alternatives."
+        },
+        {
+          "q": "Does Medicare cover Praluent, and can I use the copay card?",
+          "a": "Many Part D plans cover Praluent, often with prior authorization, and your cost varies by plan. Praluent does not have a Medicare-negotiated price. The copay card cannot be used with Medicare or Medicaid, but your 2026 Part D out-of-pocket spending is capped at $2,100."
+        },
+        {
+          "q": "How do I enroll in the MyPraluent Copay Card?",
+          "a": "You can enroll through the official Praluent site at https://www.praluent.com/s/starting-and-paying-for-praluent-rx. You must have commercial insurance; Medicare and Medicaid patients are not eligible."
+        }
+      ],
+      "sources": [
+        {
+          "name": "MyPraluent Copay Card (official)",
+          "url": "https://www.praluent.com/s/starting-and-paying-for-praluent-rx"
+        },
+        {
+          "name": "Praluent (official)",
+          "url": "https://www.praluent.com"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
     }
   ],
   "comparisons": [

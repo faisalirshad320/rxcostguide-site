@@ -910,6 +910,104 @@ module.exports = {
       ],
       "published": "2026-10-13",
       "modified": "2026-10-13"
+    },
+    {
+      "slug": "breztri",
+      "brand": "Breztri Aerosphere",
+      "generic": "budesonide/glycopyrrolate/formoterol",
+      "drugClass": "Triple-therapy inhaler (ICS/LAMA/LABA)",
+      "manufacturer": "AstraZeneca",
+      "manufacturerUrl": "https://www.breztri.com",
+      "hub": "asthma-allergy-eczema",
+      "conditions": [
+        "COPD maintenance"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$377 per inhaler",
+      "cardBlurb": "A twice-daily triple-therapy inhaler (inhaled steroid, LAMA and LABA) for COPD maintenance.",
+      "title": "Breztri Aerosphere Cost 2026: Price, Coupon & Copay Card (budesonide/glycopyrrolate/formoterol) | RxCostGuide",
+      "metaDesc": "Breztri Aerosphere cost in 2026: ~$377 per inhaler without insurance, or as little as $0 with the Breztri Zero Pay Card. Medicare and assistance options.",
+      "h1": "Breztri Aerosphere cost, coupon & copay card",
+      "lede": "Breztri Aerosphere (budesonide/glycopyrrolate/formoterol) is a triple-therapy maintenance inhaler from AstraZeneca for adults with COPD.",
+      "shortAnswer": "Breztri Aerosphere has a list price of about **~$377 per inhaler** without insurance. With commercial insurance, the Breztri Zero Pay Card can lower your cost to **as little as $0 per 30-day supply**. On Medicare Part D, the copay card cannot be used, but your total yearly out-of-pocket drug spending is capped at **$2,100 in 2026**. Lower-income patients may qualify for AstraZeneca's AZ&Me Prescription Savings Program.",
+      "intro": "Breztri combines an inhaled corticosteroid (budesonide), a long-acting muscarinic antagonist (glycopyrrolate) and a long-acting beta-agonist (formoterol) in one inhaler used every day to help prevent COPD symptoms and flare-ups. It is a maintenance medicine, not a rescue inhaler. Because it is a brand-name drug with no generic, what you pay depends mainly on your insurance type, your plan's formulary tier and deductible, and whether you can use the manufacturer's savings card.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Breztri Zero Pay Card",
+          "cost": "As little as $0 per 30-day supply",
+          "note": "Commercial insurance only — not Medicare or Medicaid. Program terms apply per prescription."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Copay card not allowed; out-of-pocket drug costs capped at $2,100 in 2026."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$377 per inhaler",
+          "note": "List price; pharmacy cash prices and discount-card prices vary."
+        },
+        {
+          "situation": "Patient assistance (AZ&Me Prescription Savings Program)",
+          "cost": "Varies; may be reduced or no cost if eligible",
+          "note": "For patients who meet program income and insurance criteria."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 per 30-day supply with the Breztri Zero Pay Card.",
+        "body": "The Breztri Zero Pay Card is AstraZeneca's copay savings program for people with commercial (private or employer) insurance. It is applied at the pharmacy to reduce your out-of-pocket cost for each prescription. The card cannot be used with Medicare, Medicaid or other government insurance. Program terms and limits apply and may change, so confirm details when you enroll.",
+        "maxPerFill": "per prescription",
+        "maxPerYear": "Not specified",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.azpatientsupport.com/home/commercially-insured.html?brand=BREZTRI&role=Patient"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Breztri Aerosphere does not have a Medicare negotiated (maximum fair) price. What you pay under Part D depends on your plan's formulary tier, deductible and coinsurance, so it varies by plan. In 2026, total out-of-pocket spending on covered Part D drugs is capped at $2,100 for the year, which limits costs for people on expensive brand-name inhalers. Federal rules bar Medicare beneficiaries from using manufacturer copay cards such as the Breztri Zero Pay Card, but patients with limited income may still apply for AstraZeneca's patient assistance program or Extra Help (Low-Income Subsidy)."
+      },
+      "assistance": {
+        "program": "AZ&Me Prescription Savings Program",
+        "url": "https://www.azandmeapp.com/",
+        "body": "AstraZeneca's AZ&Me Prescription Savings Program helps eligible patients who are uninsured, underinsured or on Medicare and who meet income requirements get AstraZeneca medicines at reduced or no cost. Eligibility rules and required documents are listed on the program website, and your prescriber's office can often help with the application."
+      },
+      "cash": "Without insurance, Breztri's list price is about ~$377 per inhaler, and because it is used every day, the cost adds up quickly. Pharmacy discount cards may lower the cash price somewhat, so compare prices between pharmacies, and check whether you qualify for the AZ&Me Prescription Savings Program. If cost remains a barrier, ask your clinician whether a different maintenance inhaler regimen might be more affordable for you.",
+      "alternatives": "Other options for COPD maintenance include other once- or twice-daily triple-therapy inhalers, or separate inhalers combining a steroid/LABA with a LAMA; which option is cheapest depends heavily on your plan's formulary. Talk with your clinician before switching, as inhaler devices and dosing differ.",
+      "practice": "I tell patients that Breztri only works if it's used every day, twice a day, even when they feel well — it is not a rescue inhaler, so they still need a fast-acting inhaler for sudden symptoms. Because it contains a steroid, I remind them to rinse their mouth with water and spit after each use to lower the risk of thrush. On the cost side, I suggest checking your plan's formulary before the first fill, and if you have commercial insurance, activating the savings card before you reach the pharmacy counter.",
+      "faqs": [
+        {
+          "q": "How much does Breztri cost with the savings card?",
+          "a": "If you have commercial insurance, you may pay as little as $0 per 30-day supply with the Breztri Zero Pay Card. The card is not available for people on Medicare or Medicaid, and program terms apply."
+        },
+        {
+          "q": "Is there a generic version of Breztri Aerosphere?",
+          "a": "No. Breztri Aerosphere (budesonide/glycopyrrolate/formoterol) is available only as a brand-name inhaler from AstraZeneca, with no generic currently available in the US."
+        },
+        {
+          "q": "How much is Breztri without insurance?",
+          "a": "The list price is about ~$377 per inhaler. Actual cash prices vary by pharmacy, and discount cards or AstraZeneca's AZ&Me Prescription Savings Program may lower your cost if you qualify."
+        },
+        {
+          "q": "Does Medicare cover Breztri, and can I use the copay card?",
+          "a": "Many Medicare Part D plans cover Breztri, but your cost varies by plan. Medicare patients cannot use the Breztri Zero Pay Card. In 2026, Part D out-of-pocket drug costs are capped at $2,100 for the year, and low-income patients may qualify for AZ&Me or Extra Help."
+        },
+        {
+          "q": "How do I enroll in the Breztri Zero Pay Card?",
+          "a": "Commercially insured patients can enroll through AstraZeneca's patient support site at https://www.azpatientsupport.com/home/commercially-insured.html?brand=BREZTRI&role=Patient. After enrolling, give the card information to your pharmacy when you fill your prescription."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Breztri Zero Pay Card (official)",
+          "url": "https://www.azpatientsupport.com/home/commercially-insured.html?brand=BREZTRI&role=Patient"
+        },
+        {
+          "name": "AZ&Me Prescription Savings Program",
+          "url": "https://www.azandmeapp.com/"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
     }
   ],
   "comparisons": []

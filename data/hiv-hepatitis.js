@@ -912,6 +912,300 @@ module.exports = {
       ],
       "published": "2026-10-13",
       "modified": "2026-10-13"
+    },
+    {
+      "slug": "apretude",
+      "brand": "Apretude",
+      "generic": "cabotegravir extended-release",
+      "drugClass": "Long-acting injectable HIV PrEP (every 2 months)",
+      "manufacturer": "ViiV Healthcare",
+      "manufacturerUrl": "https://www.apretude.com",
+      "hub": "hiv-hepatitis",
+      "conditions": [
+        "HIV pre-exposure prophylaxis (PrEP)"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$4,242 per injection",
+      "sources": [
+        {
+          "name": "Apretude cost & support (official)",
+          "url": "https://apretude.com/cost-and-support/"
+        },
+        {
+          "name": "ViiV Connect",
+          "url": "https://www.viivconnect.com"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13",
+      "cardBlurb": "Long-acting cabotegravir injection given every 2 months to help prevent HIV.",
+      "title": "Apretude Cost 2026: Price, Coupon & Copay Card (cabotegravir extended-release) | RxCostGuide",
+      "metaDesc": "Apretude costs ~$4,242 per injection without insurance. See how the ViiV Connect Savings Program can cut your copay to $0, plus Medicare and assistance options.",
+      "h1": "Apretude cost, coupon & copay card",
+      "lede": "Apretude (cabotegravir extended-release) is a long-acting injection given every 2 months by a healthcare provider to lower the risk of acquiring HIV in adults and adolescents who are HIV-negative.",
+      "shortAnswer": "Apretude has a high list price of about **~$4,242 per injection**. With commercial insurance, the ViiV Connect Savings Program can bring your cost to **$0 per prescription**, covering **up to $7,850/yr plus $50/treatment administration**. Medicare and Medicaid patients cannot use the copay card, but Medicare covers PrEP, and any Part D drug costs count toward the **$2,100** out-of-pocket cap in 2026. Uninsured patients can apply to ViiV Connect for help.",
+      "intro": "Apretude replaces a daily PrEP pill with a clinic-administered injection every 2 months. You need an HIV test before starting and before each injection. Cost is driven by the high per-injection list price, how your plan covers PrEP, and whether you are billed separately for the visit to give the shot.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + ViiV Connect Savings Program",
+          "cost": "$0 per prescription with the ViiV Connect Savings Program",
+          "note": "Covers up to $7,850/yr plus $50/treatment administration. Commercial insurance only."
+        },
+        {
+          "situation": "Medicare",
+          "cost": "Varies by plan",
+          "note": "Copay cards are not allowed. Any Part D drug spending counts toward the $2,100 out-of-pocket cap in 2026."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$4,242 per injection",
+          "note": "List price. Clinic administration fees may be extra."
+        },
+        {
+          "situation": "Patient assistance (ViiV Connect)",
+          "cost": "Low or no cost if eligible",
+          "note": "Based on income and insurance status. Apply at viivconnect.com."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients can lower their Apretude cost to $0 per prescription with the ViiV Connect Savings Program.",
+        "body": "The program covers the drug and also helps with the cost of having the injection given, up to $7,850/yr plus $50/treatment administration. It applies to commercial (private or employer) insurance only. People with Medicare, Medicaid, or other government coverage cannot use it. Enroll before your first injection so the clinic or pharmacy can apply the benefit at billing.",
+        "maxPerFill": "Not specified; see program terms",
+        "maxPerYear": "up to $7,850/yr plus $50/treatment administration",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://apretude.com/cost-and-support/"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Apretude is not on Medicare's negotiated drug price list, so there is no maximum fair price. Medicare covers HIV PrEP, including injectable PrEP, but coverage details and cost sharing depend on how your plan and clinic bill it. Confirm with your plan before your first injection. If it is billed under Part D, your out-of-pocket spending is capped at $2,100 in 2026. Federal rules bar manufacturer copay cards for Medicare beneficiaries, though ViiV Connect patient assistance may still be an option."
+      },
+      "assistance": {
+        "program": "ViiV Connect",
+        "url": "https://www.viivconnect.com",
+        "body": "ViiV Connect is ViiV Healthcare's patient support program. It helps with coverage questions, benefits verification, and access to medication. Eligible uninsured or underinsured patients may receive Apretude at low or no cost. Eligibility depends on income and insurance status, so check the current criteria on the ViiV Connect website."
+      },
+      "cash": "Without insurance, Apretude has a high list price of about ~$4,242 per injection, and clinic administration fees may be extra. Retail discount cards usually help little with clinic-administered injectables, so applying to ViiV Connect is the most practical option. Daily oral PrEP, which has lower-cost generic options, is a much cheaper alternative if paying cash.",
+      "alternatives": "Other PrEP options include daily oral tablets, some available as lower-cost generics, and other long-acting injectable PrEP products. Ask your clinician which option fits your HIV risk, adherence preferences, and coverage.",
+      "practice": "I tell patients that most private plans cover PrEP, and the ViiV Connect card usually brings Apretude to $0. Your clinic or pharmacy will need to run benefits verification before your first injection. I also remind them that the injection only works if it is given on schedule every 2 months, after a negative HIV test each time. Missed visits lead to delays and extra paperwork. If cost or scheduling becomes a barrier, switching to daily oral PrEP is far better than stopping PrEP altogether.",
+      "faqs": [
+        {
+          "q": "How much does Apretude cost with the copay card?",
+          "a": "With commercial insurance, the ViiV Connect Savings Program can lower your cost to $0 per prescription. It covers up to $7,850/yr plus $50/treatment administration. Enroll at https://apretude.com/cost-and-support/."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Apretude?",
+          "a": "No. There is no generic or biosimilar version of Apretude (cabotegravir extended-release). It is available only as the brand-name product from ViiV Healthcare."
+        },
+        {
+          "q": "How much does Apretude cost without insurance?",
+          "a": "The list price is about ~$4,242 per injection, given every 2 months, and clinic administration fees may be extra. Uninsured patients should apply to ViiV Connect (https://www.viivconnect.com) for possible low- or no-cost access."
+        },
+        {
+          "q": "Does Medicare cover Apretude, and can I use the copay card?",
+          "a": "Medicare covers HIV PrEP, including injectable PrEP, but your cost depends on your plan and how the injection is billed. If it is billed under Part D, out-of-pocket costs are capped at $2,100 in 2026. The copay card cannot be used with Medicare or Medicaid. ViiV Connect patient assistance may still help."
+        },
+        {
+          "q": "How do I enroll in the Apretude savings program?",
+          "a": "If you have commercial insurance, enroll in the ViiV Connect Savings Program at https://apretude.com/cost-and-support/ before your first injection. Then give the savings information to your clinic or pharmacy so it is applied at billing."
+        }
+      ]
+    },
+    {
+      "slug": "delstrigo",
+      "brand": "Delstrigo",
+      "generic": "doravirine/lamivudine/tenofovir disoproxil fumarate",
+      "drugClass": "HIV-1 single-tablet regimen (daily)",
+      "manufacturer": "Merck",
+      "manufacturerUrl": "https://www.delstrigo.com",
+      "hub": "hiv-hepatitis",
+      "conditions": [
+        "HIV-1 infection"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$2,812/mo",
+      "cardBlurb": "Once-daily, single-tablet HIV-1 regimen from Merck combining doravirine, lamivudine, and tenofovir disoproxil fumarate.",
+      "title": "Delstrigo Cost 2026: Price, Coupon & Copay Card (doravirine/lamivudine/tenofovir disoproxil fumarate) | RxCostGuide",
+      "metaDesc": "Delstrigo costs ~$2,812/mo without insurance. Commercially insured patients may pay as little as $0 with the savings coupon. See Medicare and PAP help.",
+      "h1": "Delstrigo cost, coupon & copay card",
+      "lede": "Delstrigo (doravirine/lamivudine/tenofovir disoproxil fumarate) is a complete, once-daily single-tablet regimen used to treat HIV-1 infection in adults.",
+      "shortAnswer": "Delstrigo has a list price of **~$2,812/mo**. With commercial insurance, you may pay **as little as $0 per prescription with the Delstrigo Savings Coupon** (**up to $6,800 total**). On Medicare Part D, the coupon can't be used, but your yearly out-of-pocket drug costs are capped at **$2,100 in 2026**. Uninsured or underinsured patients can apply to the Merck Patient Assistance Program.",
+      "intro": "Delstrigo is taken as one tablet once daily and is intended to be continued long term to keep HIV-1 suppressed, so its cost recurs every month. Because it is a brand-name combination with no generic equivalent, what you actually pay depends mostly on your insurance type, your plan's formulary tier and deductible, and whether you qualify for manufacturer savings or assistance.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Delstrigo Savings Coupon",
+          "cost": "as little as $0 per prescription with the Delstrigo Savings Coupon",
+          "note": "Program maximum up to $6,800 total. Commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan; out-of-pocket capped at $2,100 in 2026",
+          "note": "Manufacturer copay coupons cannot be used with Medicare. Costs depend on your plan's tier and deductible."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$2,812/mo (list price)",
+          "note": "Pharmacy cash prices vary; discount cards may lower the price somewhat."
+        },
+        {
+          "situation": "Merck Patient Assistance Program",
+          "cost": "Reduced or no cost if eligible",
+          "note": "Eligibility-based; apply at https://www.merckhelps.com."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 per prescription with the Delstrigo Savings Coupon.",
+        "body": "The Delstrigo Savings Coupon from Merck helps cover out-of-pocket costs for patients whose commercial (private or employer) insurance covers Delstrigo. The benefit is up to $6,800 total, so patients with high deductibles or coinsurance should track how much of the benefit has been used. The coupon is not valid with Medicare, Medicaid, or other government insurance. Enrollment and full terms are available on the official Delstrigo website.",
+        "maxPerFill": "Not specified; see program terms at https://www.delstrigo.com",
+        "maxPerYear": "up to $6,800 total",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.delstrigo.com"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Delstrigo is not among the drugs with a Medicare-negotiated price. It may be covered under Medicare Part D, with costs that vary by plan, formulary tier, and deductible. In 2026, Part D out-of-pocket spending on covered drugs is capped at $2,100 for the year, which limits total annual exposure. Federal rules bar manufacturer copay coupons, including the Delstrigo Savings Coupon, for Medicare beneficiaries; patients who cannot afford their share can ask about the Merck Patient Assistance Program or spreading payments over the year through their Part D plan."
+      },
+      "assistance": {
+        "program": "Merck Patient Assistance Program",
+        "url": "https://www.merckhelps.com",
+        "body": "The Merck Patient Assistance Program may provide Delstrigo at reduced or no cost to eligible patients who are uninsured or cannot afford their medication. Eligibility is generally based on income and insurance status; review requirements and apply at merckhelps.com, often with help from your prescriber's office."
+      },
+      "cash": "Without insurance, Delstrigo has a list price of ~$2,812/mo, and pharmacy cash prices can vary. Prescription discount cards may reduce the cash price somewhat, but the Merck Patient Assistance Program is usually the most meaningful option for uninsured patients. Ask your clinician whether other HIV-1 regimens on your plan's formulary or available through assistance programs would be appropriate and more affordable.",
+      "alternatives": "Several other single-tablet and multi-tablet HIV-1 regimens exist, and their costs and coverage vary by plan. Any switch should be decided with your HIV clinician based on resistance testing, kidney and bone health, hepatitis B status, and drug interactions.",
+      "practice": "I tell patients that the most expensive outcome with an HIV regimen is a gap in therapy, so plan refills ahead and never let your supply run out while sorting out insurance or coupon issues. If you have commercial insurance, enroll in the savings coupon before your first fill and keep an eye on how much of the total benefit you've used, especially if you have a high deductible. If you're on Medicare or uninsured, start the Merck Patient Assistance Program application early, since paperwork can take time.",
+      "faqs": [
+        {
+          "q": "How much does Delstrigo cost with the savings coupon?",
+          "a": "Commercially insured patients may pay as little as $0 per prescription with the Delstrigo Savings Coupon, up to $6,800 total. The coupon is for commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "q": "Is there a generic version of Delstrigo?",
+          "a": "No. Delstrigo is available only as a brand-name product from Merck, and there is no generic equivalent of this combination tablet."
+        },
+        {
+          "q": "How much is Delstrigo without insurance?",
+          "a": "The list price is ~$2,812/mo. Cash prices vary by pharmacy, and discount cards may lower the price somewhat. Uninsured patients should consider applying to the Merck Patient Assistance Program at https://www.merckhelps.com."
+        },
+        {
+          "q": "Does Medicare cover Delstrigo, and can I use the coupon?",
+          "a": "Delstrigo may be covered under Medicare Part D, with costs varying by plan. The Delstrigo Savings Coupon cannot be used with Medicare, but Part D out-of-pocket costs are capped at $2,100 in 2026. Delstrigo does not have a Medicare-negotiated price."
+        },
+        {
+          "q": "How do I enroll in the Delstrigo Savings Coupon?",
+          "a": "Visit the official Delstrigo website at https://www.delstrigo.com to review eligibility and enroll. You must have commercial insurance; patients with Medicare or Medicaid are not eligible."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Delstrigo (official)",
+          "url": "https://www.delstrigo.com"
+        },
+        {
+          "name": "Merck Patient Assistance Program",
+          "url": "https://www.merckhelps.com"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    },
+    {
+      "slug": "symtuza",
+      "brand": "Symtuza",
+      "generic": "darunavir/cobicistat/emtricitabine/tenofovir alafenamide",
+      "drugClass": "HIV-1 single-tablet regimen (daily)",
+      "manufacturer": "Janssen (Johnson & Johnson)",
+      "manufacturerUrl": "https://www.symtuza.com",
+      "hub": "hiv-hepatitis",
+      "conditions": [
+        "HIV-1 infection"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$4,615/mo",
+      "cardBlurb": "A once-daily, boosted protease inhibitor–based complete single-tablet regimen for HIV-1.",
+      "title": "Symtuza Cost 2026: Price, Coupon & Copay Card (darunavir/cobicistat/emtricitabine/tenofovir alafenamide) | RxCostGuide",
+      "metaDesc": "Symtuza list price is ~$4,615/mo without insurance. See how the withMe Savings Program can cut your copay to $0, plus Medicare and patient assistance options.",
+      "h1": "Symtuza cost, coupon & copay card",
+      "lede": "Symtuza (darunavir/cobicistat/emtricitabine/tenofovir alafenamide) is a once-daily single-tablet complete regimen for treating HIV-1 infection in eligible adults and adolescents.",
+      "shortAnswer": "Symtuza has a list price of about **~$4,615/mo**, but most people with commercial insurance pay **$0 per fill with the Symtuza withMe Savings Program** (benefit **up to $12,500/yr**). On Medicare Part D, the copay card can't be used, but your out-of-pocket drug costs are capped at **$2,100** in 2026. Uninsured or underinsured patients can apply to the **Johnson & Johnson Patient Assistance Foundation**.",
+      "intro": "Symtuza combines four antiretroviral medicines in one tablet taken once daily with food, giving a complete HIV-1 regimen without a separate pill burden. Because it's a brand-only combination product taken indefinitely, the monthly list price is high, and what you actually pay depends mostly on your insurance type, plan formulary tier, and whether you use manufacturer savings or assistance programs.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + withMe Savings Program",
+          "cost": "$0 per fill with the Symtuza withMe Savings Program",
+          "note": "Program benefit up to $12,500/yr; commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Annual out-of-pocket Part D drug costs are capped at $2,100 in 2026; manufacturer copay cards can't be used."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$4,615/mo",
+          "note": "Approximate list price; actual pharmacy cash price may vary."
+        },
+        {
+          "situation": "Patient assistance (Johnson & Johnson Patient Assistance Foundation)",
+          "cost": "Varies; may be no cost if eligible",
+          "note": "For qualifying uninsured or underinsured patients; income and other criteria apply."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay $0 per fill with the Symtuza withMe Savings Program.",
+        "body": "The Symtuza withMe Savings Program covers out-of-pocket costs for eligible patients with commercial or private insurance, up to $12,500/yr. It cannot be used with Medicare, Medicaid, or other government-funded insurance. Enroll online through Johnson & Johnson's withMe site, then present the card details at your pharmacy with each fill.",
+        "maxPerFill": "$0 per fill with the Symtuza withMe Savings Program",
+        "maxPerYear": "up to $12,500/yr",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.jnjwithme.com/patient/symtuza/cost-support/"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Symtuza is not among the drugs with a Medicare-negotiated price. Coverage and cost-sharing vary by Part D plan, but in 2026 your total out-of-pocket spending on covered Part D drugs is capped at $2,100 for the year. Federal rules bar manufacturer copay cards for Medicare beneficiaries, so the withMe Savings Program can't be used; ask your plan about spreading costs across the year, and check whether you qualify for Extra Help or the J&J Patient Assistance Foundation."
+      },
+      "assistance": {
+        "program": "Johnson & Johnson Patient Assistance Foundation",
+        "url": "https://www.jnjwithme.com/",
+        "body": "The Johnson & Johnson Patient Assistance Foundation may provide Symtuza at no cost to eligible patients who are uninsured or underinsured and meet income requirements. Your HIV care team or a social worker can help you complete the application and gather proof of income."
+      },
+      "cash": "Without insurance, Symtuza's list price is about ~$4,615/mo, and pharmacy discount cards typically reduce brand-only HIV regimens only modestly. Applying to the Johnson & Johnson Patient Assistance Foundation is usually the most effective route, and your state AIDS Drug Assistance Program (ADAP) may also cover HIV medicines. Ask your clinician whether a lower-cost regimen that suits your treatment history is an option.",
+      "alternatives": "Other single-tablet HIV-1 regimens and multi-pill combinations exist, and some may be less expensive depending on your formulary; the right choice depends on your resistance profile, kidney function, drug interactions, and prior treatment, so any switch should be made with your HIV clinician.",
+      "practice": "I tell patients to enroll in the withMe Savings Program before their first fill so cost never becomes a reason to miss doses, since consistent daily adherence is what keeps HIV suppressed. Because cobicistat boosts levels of many other medicines, I also remind them to share every prescription, over-the-counter product, and supplement with their pharmacist. If insurance changes, especially a move to Medicare, call the pharmacy and care team right away, because the copay card stops applying.",
+      "faqs": [
+        {
+          "q": "How much does Symtuza cost with the copay card?",
+          "a": "With commercial insurance, eligible patients may pay $0 per fill with the Symtuza withMe Savings Program, with a program benefit of up to $12,500/yr."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Symtuza?",
+          "a": "No. There is no generic version of the Symtuza combination tablet, and biosimilars don't apply because Symtuza is a small-molecule drug, not a biologic."
+        },
+        {
+          "q": "How much does Symtuza cost without insurance?",
+          "a": "Symtuza's list price is about ~$4,615/mo. Uninsured patients should apply to the Johnson & Johnson Patient Assistance Foundation, which may provide the drug at no cost to those who qualify."
+        },
+        {
+          "q": "Does Medicare cover Symtuza, and can I use the copay card?",
+          "a": "Many Medicare Part D plans cover Symtuza, with cost-sharing that varies by plan, and 2026 out-of-pocket Part D costs are capped at $2,100. The withMe copay card can't be used with Medicare or Medicaid. Symtuza does not have a Medicare-negotiated price."
+        },
+        {
+          "q": "How do I enroll in the Symtuza withMe Savings Program?",
+          "a": "Enroll online at https://www.jnjwithme.com/patient/symtuza/cost-support/. You must have commercial insurance; Medicare and Medicaid patients are not eligible."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Symtuza withMe cost support (official)",
+          "url": "https://www.jnjwithme.com/patient/symtuza/cost-support/"
+        },
+        {
+          "name": "J&J withMe",
+          "url": "https://www.jnjwithme.com/"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
     }
   ],
   "comparisons": [

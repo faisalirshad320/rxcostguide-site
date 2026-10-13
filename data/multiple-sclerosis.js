@@ -420,6 +420,203 @@ module.exports = {
       ],
       "published": "2026-10-13",
       "modified": "2026-10-13"
+    },
+    {
+      "slug": "tysabri",
+      "brand": "Tysabri",
+      "generic": "natalizumab",
+      "drugClass": "Integrin receptor antagonist (IV infusion) — REMS",
+      "manufacturer": "Biogen",
+      "manufacturerUrl": "https://www.tysabri.com",
+      "hub": "multiple-sclerosis",
+      "conditions": [
+        "Relapsing MS",
+        "Crohn's disease"
+      ],
+      "hasBiosimilar": true,
+      "listPriceText": "~$8,681 per infusion",
+      "cardBlurb": "An IV infusion therapy for relapsing MS and Crohn's disease, given under a safety program because of the risk of a rare brain infection (PML).",
+      "title": "Tysabri Cost 2026: Price, Coupon & Copay Card (natalizumab) | RxCostGuide",
+      "metaDesc": "Tysabri (natalizumab) list price is ~$8,681 per infusion without insurance. See how the Biogen copay card may cut it to $0, plus Medicare and assistance tips.",
+      "h1": "Tysabri cost, coupon & copay card",
+      "lede": "Tysabri (natalizumab) is an IV infusion that treats relapsing multiple sclerosis and moderate-to-severe Crohn's disease in adults.",
+      "shortAnswer": "Tysabri's list price is **~$8,681 per infusion**, but commercially insured patients may pay **as little as $0 with the Tysabri Biogen Copay Program**. Because Tysabri is infused in a clinic, Medicare usually covers it under Part B rather than Part D, so the **$2,100** 2026 Part D out-of-pocket cap generally does not apply. Patients without coverage can contact **Biogen Support Services** for help, and a natalizumab biosimilar (Tyruko) is also available.",
+      "intro": "Tysabri is given as an IV infusion at an infusion center, and it can only be prescribed through a restricted safety (REMS) program because of the risk of progressive multifocal leukoencephalopathy (PML). The total cost depends on the drug's high list price, how often you receive infusions, and whether your plan bills it as a medical (infusion) benefit or a pharmacy benefit. Separate infusion-center facility and administration fees can add to what you pay, and these vary by site and plan.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Biogen Copay Program",
+          "cost": "As little as $0",
+          "note": "With the Tysabri Biogen Copay Program; program maximum applies per prescription per year. Commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare",
+          "cost": "Varies by plan",
+          "note": "Usually covered under Part B as a clinic-administered infusion, so your Part B coinsurance and any supplemental coverage determine cost. The $2,100 2026 cap applies to Part D drugs only. Copay cards cannot be used."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$8,681 per infusion",
+          "note": "List price for the drug alone; infusion-center facility and administration fees are extra and vary."
+        },
+        {
+          "situation": "Patient assistance",
+          "cost": "Varies by eligibility",
+          "note": "Apply through Biogen Support Services if you are uninsured or underinsured."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 with the Tysabri Biogen Copay Program.",
+        "body": "The Biogen copay program helps cover out-of-pocket costs for Tysabri for eligible patients with commercial (employer or marketplace) insurance. A program maximum applies per prescription per year, so check the program terms for current limits. It cannot be used with Medicare, Medicaid, or other government insurance.",
+        "maxPerFill": "See program terms",
+        "maxPerYear": "Program maximum applies per prescription per year (see program terms)",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://biogencopayprogram.com/Home/Enrollment?br=tysabri"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Tysabri was not selected for Medicare drug price negotiation, so there is no negotiated maximum fair price. Because it is infused in a clinic, Medicare usually covers Tysabri under Part B, where your cost depends on Part B coinsurance and any Medigap or Medicare Advantage coverage. The $2,100 2026 Part D out-of-pocket cap applies only to drugs covered under Part D. Federal rules bar manufacturer copay cards for Medicare beneficiaries, but Biogen Support Services or independent charitable foundations may be able to help."
+      },
+      "assistance": {
+        "program": "Biogen Support Services",
+        "url": "https://www.biogenoptions.com/en_us/home/biogen-support-services/overview.html",
+        "body": "Biogen Support Services helps patients with insurance benefit checks, prior authorization support, and financial assistance options for Tysabri. Uninsured or underinsured patients, including some who cannot use the copay card, should contact the program to see what help they may qualify for."
+      },
+      "cash": "Without insurance, Tysabri has a high list price of ~$8,681 per infusion, plus separate infusion-center fees. Retail pharmacy discount cards usually offer little help for clinic-administered infusions like this one, so contacting Biogen Support Services about patient assistance is typically the most useful first step. Ask your neurologist or gastroenterologist whether the natalizumab biosimilar Tyruko is covered or priced lower in your situation.",
+      "alternatives": "A natalizumab biosimilar (Tyruko) is available, and other disease-modifying therapies for relapsing MS and advanced therapies for Crohn's disease may be options depending on your history and JCV antibody status. Coverage and out-of-pocket costs vary by plan, so compare options with your specialist and insurer.",
+      "practice": "I tell patients that the sticker price of Tysabri rarely reflects what they will actually pay, because most commercial plans cover it and the Biogen copay program can bring costs down substantially. Before the first infusion, I recommend calling both your insurer and the infusion center to ask whether it is billed under the medical or pharmacy benefit and what facility fees apply. I also remind patients on Medicare that copay cards are off-limits, so they should ask about Biogen Support Services and charitable foundations early, before bills arrive.",
+      "faqs": [
+        {
+          "q": "How much does Tysabri cost with the copay card?",
+          "a": "Commercially insured patients may pay as little as $0 with the Tysabri Biogen Copay Program. A program maximum applies per prescription per year, and the card cannot be used with Medicare or Medicaid."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Tysabri?",
+          "a": "There is no generic, but a natalizumab biosimilar (Tyruko) is available. Ask your doctor and insurer whether it is covered and whether it would cost you less."
+        },
+        {
+          "q": "How much does Tysabri cost without insurance?",
+          "a": "The list price is ~$8,681 per infusion, and infusion-center facility and administration fees are extra. Uninsured patients should contact Biogen Support Services about financial assistance."
+        },
+        {
+          "q": "Does Medicare cover Tysabri?",
+          "a": "Yes, Medicare usually covers Tysabri under Part B because it is infused in a clinic, and your cost depends on your Part B coinsurance and supplemental coverage. The $2,100 2026 Part D cap applies only to Part D drugs, Tysabri was not selected for Medicare price negotiation, and manufacturer copay cards cannot be used with Medicare."
+        },
+        {
+          "q": "How do I enroll in the Tysabri copay program?",
+          "a": "You can enroll online at https://biogencopayprogram.com/Home/Enrollment?br=tysabri if you have commercial insurance. For other help, including benefit checks and assistance options, contact Biogen Support Services at https://www.biogenoptions.com/en_us/home/biogen-support-services/overview.html."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Tysabri Biogen Copay Program (official)",
+          "url": "https://biogencopayprogram.com/Home/Enrollment?br=tysabri"
+        },
+        {
+          "name": "Biogen Support Services",
+          "url": "https://www.biogenoptions.com/en_us/home/biogen-support-services/overview.html"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    },
+    {
+      "slug": "copaxone",
+      "brand": "Copaxone",
+      "generic": "glatiramer acetate",
+      "drugClass": "Immunomodulator (self-injection)",
+      "manufacturer": "Teva",
+      "manufacturerUrl": "https://www.copaxone.com",
+      "hub": "multiple-sclerosis",
+      "conditions": [
+        "Relapsing MS"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$6,500–7,000/mo",
+      "cardBlurb": "Self-injected immunomodulator for relapsing multiple sclerosis; a generic glatiramer acetate is available.",
+      "title": "Copaxone Cost 2026: Price, Coupon & Copay Card (glatiramer acetate) | RxCostGuide",
+      "metaDesc": "Copaxone cost 2026: list price ~$6,500–7,000/mo without insurance. Copay card can cut it to as little as $0. Medicare, generic & assistance options explained.",
+      "h1": "Copaxone cost, coupon & copay card",
+      "lede": "Copaxone (glatiramer acetate) is a self-injected immunomodulator from Teva used to treat adults with relapsing forms of multiple sclerosis.",
+      "shortAnswer": "Copaxone has a list price of about **~$6,500–7,000/mo** without insurance. With commercial insurance, the Copaxone Co-Pay Solutions card can bring your cost down to **as little as $0 per prescription** (annual limits apply). On Medicare Part D, the card can't be used, but your out-of-pocket drug costs are capped at **$2,100** in 2026. A generic glatiramer acetate is also available.",
+      "intro": "Copaxone is a disease-modifying therapy for relapsing MS that patients inject under the skin at home on a regular, ongoing schedule. Because it is taken long-term, the high monthly list price adds up quickly, and what you actually pay depends heavily on your insurance type, your plan's formulary, and whether it prefers the brand or the generic.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Copaxone Co-Pay Solutions card",
+          "cost": "As little as $0 per prescription",
+          "note": "Annual limits apply. Commercial insurance only — not Medicare or Medicaid."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Out-of-pocket drug costs are capped at $2,100 in 2026. Manufacturer copay cards cannot be used."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$6,500–7,000/mo",
+          "note": "Approximate list price; a generic glatiramer acetate is available and may cost less."
+        },
+        {
+          "situation": "Patient assistance (Shared Solutions, Teva)",
+          "cost": "Varies by eligibility",
+          "note": "Teva's Shared Solutions program can help eligible patients with access and affordability."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 per prescription with Copaxone Co-Pay Solutions.",
+        "body": "The Copaxone Co-Pay Solutions program helps cover out-of-pocket costs for eligible patients whose commercial or private insurance covers Copaxone. Annual limits apply, so check the program terms for your plan year. The card cannot be used with Medicare, Medicaid, or other government insurance.",
+        "maxPerFill": "Not specified — see program terms",
+        "maxPerYear": "annual limits apply",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.copaxone.com/shared-solutions/copay-assistance"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Copaxone has not been selected for Medicare drug price negotiation, so there is no Maximum Fair Price. Coverage and cost-sharing vary by Part D plan, but in 2026 your total out-of-pocket spending on covered Part D drugs is capped at $2,100 for the year. Federal rules bar manufacturer copay cards for Medicare beneficiaries, so ask about Teva's Shared Solutions program or whether your plan prefers the generic."
+      },
+      "assistance": {
+        "program": "Shared Solutions (Teva)",
+        "url": "https://www.copaxone.com/shared-solutions",
+        "body": "Shared Solutions is Teva's patient support program for Copaxone. It can help with insurance questions, copay assistance enrollment, and affordability options for eligible patients, including those who are uninsured or underinsured. Contact the program directly to confirm eligibility."
+      },
+      "cash": "Without insurance, Copaxone's list price is high at roughly ~$6,500–7,000/mo. Ask your doctor whether the generic glatiramer acetate is appropriate, compare pharmacy discount card prices, and contact Teva's Shared Solutions program to see if you qualify for assistance.",
+      "alternatives": "A generic glatiramer acetate is available and is often preferred by insurers. Other disease-modifying therapies for relapsing MS exist, including oral and infusion options, and your neurologist can help weigh cost, coverage, and fit.",
+      "practice": "I tell patients to check early whether their plan covers brand Copaxone or prefers generic glatiramer acetate, because that single formulary detail often matters most for their monthly cost. If you have commercial insurance, enroll in the copay program before your first fill. If you're on Medicare, remember the 2026 out-of-pocket cap and call Shared Solutions rather than trying to use a coupon.",
+      "faqs": [
+        {
+          "q": "How much does Copaxone cost with the copay card?",
+          "a": "With commercial insurance, the Copaxone Co-Pay Solutions card can lower your cost to as little as $0 per prescription. Annual limits apply."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Copaxone?",
+          "a": "Yes, a generic glatiramer acetate is available. There is no biosimilar, because glatiramer acetate is not regulated as a biologic."
+        },
+        {
+          "q": "How much is Copaxone without insurance?",
+          "a": "The approximate list price is ~$6,500–7,000/mo. Uninsured patients can ask about the generic, compare discount card prices, and contact Teva's Shared Solutions program for help."
+        },
+        {
+          "q": "Does Medicare cover Copaxone, and can I use the copay card?",
+          "a": "Many Medicare Part D plans cover glatiramer acetate, though costs vary by plan. Your out-of-pocket drug costs are capped at $2,100 in 2026. The copay card cannot be used with Medicare or Medicaid. Copaxone has not been selected for Medicare price negotiation."
+        },
+        {
+          "q": "How do I enroll in the Copaxone copay program?",
+          "a": "Enroll through the official Copaxone copay assistance page at https://www.copaxone.com/shared-solutions/copay-assistance. You must have commercial insurance. For broader support, visit Shared Solutions at https://www.copaxone.com/shared-solutions."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Copaxone copay assistance (official)",
+          "url": "https://www.copaxone.com/shared-solutions/copay-assistance"
+        },
+        {
+          "name": "Shared Solutions (Teva)",
+          "url": "https://www.copaxone.com/shared-solutions"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
     }
   ],
   "comparisons": []

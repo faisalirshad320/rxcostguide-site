@@ -1947,6 +1947,401 @@ module.exports = {
       ],
       "published": "2026-10-13",
       "modified": "2026-10-13"
+    },
+    {
+      "slug": "bimzelx",
+      "brand": "Bimzelx",
+      "generic": "bimekizumab",
+      "drugClass": "IL-17A/IL-17F inhibitor (self-injection)",
+      "manufacturer": "UCB",
+      "manufacturerUrl": "https://www.bimzelx.com",
+      "hub": "autoimmune",
+      "conditions": [
+        "Plaque psoriasis",
+        "Psoriatic arthritis",
+        "Ankylosing spondylitis",
+        "Hidradenitis suppurativa"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$8,165 per dose",
+      "cardBlurb": "Bimzelx (bimekizumab) is a self-injected IL-17A/IL-17F inhibitor for psoriasis, psoriatic arthritis, ankylosing spondylitis, and hidradenitis suppurativa.",
+      "title": "Bimzelx Cost 2026: Price, Coupon & Copay Card (bimekizumab) | RxCostGuide",
+      "metaDesc": "Bimzelx costs ~$8,165 per dose without insurance. The savings card can lower your copay to as little as $5 per dose. Medicare & UCBCares help inside.",
+      "h1": "Bimzelx cost, coupon & copay card",
+      "lede": "Bimzelx (bimekizumab) is a self-injected biologic from UCB that blocks both IL-17A and IL-17F. It is used for adults with plaque psoriasis, psoriatic arthritis, ankylosing spondylitis, or hidradenitis suppurativa.",
+      "shortAnswer": "Bimzelx has a list price of **~$8,165 per dose**, but commercially insured patients can pay **as little as $5 per dose** with the Bimzelx Savings Program (not $0). Medicare Part D patients cannot use the copay card, but their 2026 out-of-pocket drug costs are capped at **$2,100**. Uninsured or underinsured patients can apply to **UCBCares** for financial assistance.",
+      "intro": "Bimzelx is a self-administered injection prescribed by dermatologists and rheumatologists for chronic inflammatory conditions, usually after other treatments have been tried. Because it is a brand-only biologic with no biosimilar, the list price is high. What you actually pay depends mainly on your insurance type, your plan's formulary and prior-authorization rules, and whether you qualify for the manufacturer's savings or assistance programs.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Bimzelx Savings Program",
+          "cost": "As little as $5 per dose",
+          "note": "Not $0. Commercial insurance only; program terms apply."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Annual out-of-pocket drug costs are capped at $2,100 in 2026. Copay card not allowed."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$8,165 per dose",
+          "note": "List price; the pharmacy's actual cash price may differ."
+        },
+        {
+          "situation": "Patient assistance (UCBCares)",
+          "cost": "Depends on eligibility",
+          "note": "UCB's financial assistance program for qualifying patients."
+        }
+      ],
+      "copay": {
+        "lead": "With commercial insurance, the Bimzelx Savings Program can lower your cost to as little as $5 per dose (not $0).",
+        "body": "The Bimzelx Savings Program is UCB's copay support for patients whose commercial or employer insurance covers Bimzelx. It is not available to people with Medicare, Medicaid, or other government insurance. Your plan may still require prior authorization before the card can be applied, so enroll early and ask your prescriber's office to help with coverage paperwork.",
+        "maxPerFill": "as little as $5 per dose with the Bimzelx Savings Program (not $0)",
+        "maxPerYear": "program terms apply",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.bimzelx.com/bimzelx-navigate-benefits"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Bimzelx is not among the drugs with a Medicare negotiated price, so there is no maximum fair price for it. Coverage and cost-sharing vary by Part D plan, but in 2026 your total annual out-of-pocket spending on covered Part D drugs is capped at $2,100. Federal rules bar manufacturer copay cards for Medicare beneficiaries, so the Bimzelx Savings Program cannot be used. Medicare patients who still cannot afford treatment can check whether they qualify for UCBCares."
+      },
+      "assistance": {
+        "program": "UCBCares",
+        "url": "https://www.ucb-usa.com/Patients/Financial-Assistance",
+        "body": "UCBCares is UCB's patient support and financial assistance program. Patients who are uninsured, underinsured, or unable to afford Bimzelx may qualify for help. Eligibility depends on program criteria, so review the requirements and apply through the UCBCares website, ideally with help from your prescriber's office."
+      },
+      "cash": "Without insurance, Bimzelx has a list price of about $8,165 per dose, which puts it out of reach for most people paying cash. Pharmacy discount cards typically save little on specialty biologics like this one, so applying to UCBCares is usually the better first step. If cost remains a barrier, ask your prescriber whether a different covered biologic or a non-biologic therapy is an option.",
+      "alternatives": "There is no generic or biosimilar for Bimzelx. Depending on your condition and coverage, your clinician may consider other biologics, such as other IL-17 inhibitors, IL-23 inhibitors, or TNF inhibitors, some of which may be preferred on your plan's formulary.",
+      "practice": "I tell patients to start the savings program enrollment and the prior-authorization process at the same time, because a pending approval is the most common reason a first fill is delayed. I also remind them that the card brings the cost down to $5 per dose, not $0, and that it only works with commercial insurance. Anyone on Medicare should plan around the 2026 out-of-pocket cap and ask about UCBCares instead.",
+      "faqs": [
+        {
+          "q": "How much does Bimzelx cost with the savings card?",
+          "a": "With commercial insurance, the Bimzelx Savings Program can lower your cost to as little as $5 per dose. It is not $0, and program terms apply."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Bimzelx?",
+          "a": "No. Bimzelx (bimekizumab) is only available as the brand-name product from UCB, and no biosimilar is currently available."
+        },
+        {
+          "q": "How much is Bimzelx without insurance?",
+          "a": "The list price is about $8,165 per dose. If you are uninsured, you can apply for financial assistance through UCBCares at https://www.ucb-usa.com/Patients/Financial-Assistance."
+        },
+        {
+          "q": "Does Medicare cover Bimzelx, and can I use the copay card?",
+          "a": "Part D coverage and cost-sharing vary by plan, and Bimzelx does not have a Medicare negotiated price. In 2026, out-of-pocket costs for covered Part D drugs are capped at $2,100. Medicare patients cannot use the Bimzelx Savings Program, which is for commercial insurance only."
+        },
+        {
+          "q": "How do I enroll in the Bimzelx Savings Program?",
+          "a": "Enroll through the official Bimzelx Navigate Benefits page at https://www.bimzelx.com/bimzelx-navigate-benefits. You must have commercial insurance; people with Medicare or Medicaid are not eligible."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Bimzelx Navigate Benefits (official)",
+          "url": "https://www.bimzelx.com/bimzelx-navigate-benefits"
+        },
+        {
+          "name": "UCBCares",
+          "url": "https://www.ucb-usa.com/Patients/Financial-Assistance"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    },
+    {
+      "slug": "opzelura",
+      "brand": "Opzelura",
+      "generic": "ruxolitinib (topical)",
+      "drugClass": "Topical JAK inhibitor (cream)",
+      "manufacturer": "Incyte",
+      "manufacturerUrl": "https://www.opzelura.com",
+      "hub": "autoimmune",
+      "conditions": [
+        "Atopic dermatitis (eczema)",
+        "Nonsegmental vitiligo"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$2,094 per 60 g tube",
+      "cardBlurb": "A prescription JAK inhibitor cream used for eczema (atopic dermatitis) and nonsegmental vitiligo.",
+      "title": "Opzelura Cost 2026: Price, Coupon & Copay Card (ruxolitinib (topical)) | RxCostGuide",
+      "metaDesc": "Opzelura cost in 2026: ~$2,094 per 60 g tube without insurance. See the copay savings card (as little as $0), Medicare Part D costs & IncyteCARES help.",
+      "h1": "Opzelura cost, coupon & copay card",
+      "lede": "Opzelura (ruxolitinib cream) is a topical JAK inhibitor from Incyte, prescribed for atopic dermatitis (eczema) and nonsegmental vitiligo.",
+      "shortAnswer": "Opzelura has a list price of **~$2,094 per 60 g tube**. With commercial insurance, you may pay **as little as $0 per tube with the Opzelura Copay Savings Program**. On Medicare Part D, the card can't be used, but your total out-of-pocket drug costs are capped at **$2,100** in 2026. If you can't afford it, **IncyteCARES for Opzelura** may be able to help.",
+      "intro": "Opzelura is a cream applied to affected skin. It is used for atopic dermatitis and for repigmentation in nonsegmental vitiligo. Your cost depends mainly on your insurance type, your plan's formulary tier and prior authorization rules, and how many tubes you need, which depends on how much skin you treat. There is no generic or biosimilar, so the brand list price drives most out-of-pocket costs.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + copay card",
+          "cost": "as little as $0 per tube with the Opzelura Copay Savings Program",
+          "note": "Commercial insurance only, not Medicare or Medicaid. Can be used once per 25 days. Program terms and limits apply."
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Total out-of-pocket drug costs are capped at $2,100 in 2026. Copay cards can't be used."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$2,094 per 60 g tube",
+          "note": "List price. Pharmacy cash prices may differ, and discount cards may lower the price somewhat."
+        },
+        {
+          "situation": "Patient assistance (IncyteCARES for Opzelura)",
+          "cost": "May be reduced or free if eligible",
+          "note": "For eligible patients who are uninsured or underinsured. Apply through IncyteCARES."
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 per tube with the Opzelura Copay Savings Program.",
+        "body": "The Opzelura Copay Savings Program from Incyte lowers what you pay at the pharmacy when you have commercial (private or employer) insurance. The program can be used once per 25 days. It isn't available to people with Medicare, Medicaid, or other government insurance. Your plan may still need a prior authorization before Opzelura is covered. The card then reduces your remaining copay or coinsurance.",
+        "maxPerFill": "once per 25 days",
+        "maxPerYear": "Not stated; see program terms",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.opzelura.com/atopic-dermatitis/copay-savings-program"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Opzelura isn't one of the drugs with a Medicare-negotiated price, so your Part D cost depends on your plan's formulary tier and coinsurance. In 2026, total Part D out-of-pocket drug spending is capped at $2,100 a year, which limits your yearly cost if your plan covers it. Federal rules bar manufacturer copay cards for Medicare patients. If you have Medicare and can't afford it, ask about IncyteCARES for Opzelura or the Medicare Prescription Payment Plan, which spreads costs across monthly payments."
+      },
+      "assistance": {
+        "program": "IncyteCARES for Opzelura",
+        "url": "https://www.incytecares.com/dermatology-opzelura/",
+        "body": "IncyteCARES for Opzelura is Incyte's patient support program. It helps with insurance benefits checks and prior authorization support. It also offers financial assistance options, including help for eligible uninsured or underinsured patients. Eligibility and income criteria apply, so check the IncyteCARES site or ask your dermatology office to start an application."
+      },
+      "cash": "Without insurance, Opzelura is expensive at a list price of ~$2,094 per 60 g tube. Pharmacy discount cards may lower the cash price a little. For most uninsured patients, though, applying to IncyteCARES for Opzelura is the more meaningful option. There is no generic version. Ask your clinician whether a lower-cost topical treatment could be appropriate for your condition.",
+      "alternatives": "There is no generic or biosimilar version of Opzelura. Depending on the condition, alternatives may include generic topical corticosteroids, topical calcineurin inhibitors, other nonsteroidal topicals, phototherapy, or systemic therapies. Your clinician can help weigh cost against effectiveness and safety.",
+      "practice": "I tell patients to apply only a thin layer to the affected areas. That follows the label and safety guidance, and it also makes each tube last longer, which matters at this price. I also suggest checking prior authorization status before the first fill, because a denial or delay is the most common reason people face a surprise bill at the pharmacy. For commercially insured patients, I recommend enrolling in the copay program before going to the pharmacy. For Medicare patients, I point them to IncyteCARES.",
+      "faqs": [
+        {
+          "q": "How much does Opzelura cost with the copay card?",
+          "a": "With commercial insurance, you may pay as little as $0 per tube with the Opzelura Copay Savings Program. The card can be used once per 25 days, and program terms apply."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Opzelura?",
+          "a": "No. There is currently no generic or biosimilar for Opzelura (ruxolitinib cream), so only the brand-name product is available."
+        },
+        {
+          "q": "How much is Opzelura without insurance?",
+          "a": "The list price is ~$2,094 per 60 g tube. Discount cards may lower the cash price somewhat. Uninsured patients should look into IncyteCARES for Opzelura for financial assistance."
+        },
+        {
+          "q": "Does Medicare cover Opzelura, and can I use the copay card?",
+          "a": "Coverage and cost vary by Part D plan. Medicare patients can't use the manufacturer copay card. In 2026, your total Part D out-of-pocket costs are capped at $2,100 for the year, and IncyteCARES may offer extra help if you qualify."
+        },
+        {
+          "q": "How do I enroll in the Opzelura Copay Savings Program?",
+          "a": "You can enroll online at https://www.opzelura.com/atopic-dermatitis/copay-savings-program. You must have commercial insurance; the program is not available with Medicare or Medicaid. After enrolling, give the card information to your pharmacy when you fill your prescription."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Opzelura copay savings (official)",
+          "url": "https://www.opzelura.com/atopic-dermatitis/copay-savings-program"
+        },
+        {
+          "name": "IncyteCARES",
+          "url": "https://www.incytecares.com/dermatology-opzelura/"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    },
+    {
+      "slug": "xeljanz",
+      "brand": "Xeljanz",
+      "generic": "tofacitinib",
+      "drugClass": "JAK inhibitor (oral)",
+      "manufacturer": "Pfizer",
+      "manufacturerUrl": "https://www.xeljanz.com",
+      "hub": "autoimmune",
+      "conditions": [
+        "Rheumatoid arthritis",
+        "Psoriatic arthritis",
+        "Ulcerative colitis",
+        "Ankylosing spondylitis"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$4,500–6,300/mo",
+      "cardBlurb": "Oral JAK inhibitor for rheumatoid arthritis, psoriatic arthritis, ulcerative colitis, and ankylosing spondylitis.",
+      "title": "Xeljanz Cost 2026: Price, Coupon & Copay Card (tofacitinib) | RxCostGuide",
+      "metaDesc": "Xeljanz (tofacitinib) costs ~$4,500–6,300/mo without insurance. The Xeljanz Co-Pay Savings Card may cut it to as little as $0. Medicare & generic info.",
+      "h1": "Xeljanz cost, coupon & copay card",
+      "lede": "Xeljanz (tofacitinib) is an oral JAK inhibitor from Pfizer used to treat adults with rheumatoid arthritis, psoriatic arthritis, ulcerative colitis, and ankylosing spondylitis.",
+      "shortAnswer": "Xeljanz has a list price of about **~$4,500–6,300/mo**. With commercial insurance, the Xeljanz Co-Pay Savings Card can bring your cost down to **as little as $0 per month** (annual maximum applies). On Medicare Part D, copay cards are not allowed, but your out-of-pocket drug costs are capped at **$2,100 in 2026**. A generic tofacitinib is also available and may be a lower-cost option.",
+      "intro": "Xeljanz is a pill taken by mouth, which sets it apart from the many injectable or infused biologics used for the same autoimmune conditions. Your actual cost depends mostly on your insurance type, your plan's formulary tier and prior-authorization rules, and whether you qualify for the manufacturer's copay card. Because a generic tofacitinib is available, some plans may prefer or require it over the brand.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Xeljanz Co-Pay Savings Card",
+          "cost": "as little as $0 per month",
+          "note": "annual maximum applies; commercial insurance only"
+        },
+        {
+          "situation": "Medicare Part D",
+          "cost": "Varies by plan",
+          "note": "Out-of-pocket drug costs capped at $2,100 in 2026; copay card cannot be used"
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$4,500–6,300/mo",
+          "note": "List price; a generic tofacitinib is available and may cost less"
+        },
+        {
+          "situation": "Patient assistance",
+          "cost": "Not available",
+          "note": "No manufacturer free-drug patient-assistance program is listed"
+        }
+      ],
+      "copay": {
+        "lead": "Commercially insured patients may pay as little as $0 per month with the Xeljanz Co-Pay Savings Card.",
+        "body": "Pfizer's Xeljanz Co-Pay Savings Card helps cover out-of-pocket costs for eligible patients with commercial (private or employer) insurance. The card is not valid for people with Medicare, Medicaid, or other government insurance. An annual maximum applies, so check the program terms to see how much support you can receive over the year.",
+        "maxPerFill": null,
+        "maxPerYear": "annual maximum applies",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://xeljanz.pfizerpro.com/r/coverage-support/patient-affordability"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Xeljanz is not among the drugs with a Medicare negotiated price. Coverage and cost-sharing vary by Part D plan, but in 2026 your total out-of-pocket spending on covered Part D drugs is capped at $2,100. Federal rules bar Medicare beneficiaries from using manufacturer copay cards, so the Xeljanz Co-Pay Savings Card cannot be applied. Ask your plan whether generic tofacitinib is covered at a lower tier."
+      },
+      "assistance": null,
+      "cash": "Without insurance, Xeljanz is expensive, with a list price of ~$4,500–6,300/mo. A generic tofacitinib is available and is typically worth comparing, and pharmacy discount cards may lower the cash price depending on the pharmacy. No manufacturer free-drug patient-assistance program is listed, so ask your prescriber and pharmacist about the most affordable option.",
+      "alternatives": "Generic tofacitinib contains the same active ingredient as Xeljanz and may cost less. Other JAK inhibitors and biologic therapies are also used for these conditions; your clinician can help weigh effectiveness, safety, and coverage.",
+      "practice": "I tell patients to check two things before their first fill: whether their plan covers brand Xeljanz or prefers generic tofacitinib, and whether a prior authorization is needed. If you have commercial insurance, enroll in the copay card before you pick up the prescription so the savings apply right away. If you're on Medicare, remember the card won't work, but the 2026 out-of-pocket cap limits how much you'll pay over the year.",
+      "faqs": [
+        {
+          "q": "How much does Xeljanz cost with the copay card?",
+          "a": "With commercial insurance, you may pay as little as $0 per month with the Xeljanz Co-Pay Savings Card. An annual maximum applies."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Xeljanz?",
+          "a": "Yes, a generic tofacitinib is available. There is no biosimilar, because Xeljanz is a small-molecule pill rather than a biologic. Ask your pharmacist or plan whether the generic is covered and how its price compares."
+        },
+        {
+          "q": "How much is Xeljanz without insurance?",
+          "a": "The list price of Xeljanz is about ~$4,500–6,300/mo. Generic tofacitinib and pharmacy discount cards may lower your cash cost. No manufacturer free-drug patient-assistance program is listed."
+        },
+        {
+          "q": "Does Medicare cover Xeljanz, and can I use the copay card?",
+          "a": "Many Medicare Part D plans cover Xeljanz, but cost-sharing varies by plan. Your out-of-pocket Part D drug costs are capped at $2,100 in 2026. The copay card cannot be used with Medicare or Medicaid."
+        },
+        {
+          "q": "How do I enroll in the Xeljanz Co-Pay Savings Card?",
+          "a": "You can enroll through Pfizer's official patient affordability page at https://xeljanz.pfizerpro.com/r/coverage-support/patient-affordability. You must have commercial insurance; Medicare and Medicaid patients are not eligible."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Xeljanz copay savings (official)",
+          "url": "https://xeljanz.pfizerpro.com/r/coverage-support/patient-affordability"
+        },
+        {
+          "name": "Xeljanz savings & support",
+          "url": "https://www.xeljanz.com/savings-and-support"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
+    },
+    {
+      "slug": "saphnelo",
+      "brand": "Saphnelo",
+      "generic": "anifrolumab",
+      "drugClass": "Type I interferon receptor antagonist (IV infusion)",
+      "manufacturer": "AstraZeneca",
+      "manufacturerUrl": "https://www.saphnelo.com",
+      "hub": "autoimmune",
+      "conditions": [
+        "Systemic lupus erythematosus"
+      ],
+      "hasBiosimilar": false,
+      "listPriceText": "~$5,483 per infusion",
+      "cardBlurb": "IV infusion that blocks type I interferon signaling to help control systemic lupus erythematosus.",
+      "title": "Saphnelo Cost 2026: Price, Coupon & Copay Card (anifrolumab) | RxCostGuide",
+      "metaDesc": "Saphnelo (anifrolumab) costs ~$5,483 per infusion without insurance. Access 360 copay card: as little as $0. Plus Medicare and assistance options.",
+      "h1": "Saphnelo cost, coupon & copay card",
+      "lede": "Saphnelo (anifrolumab) is an intravenous type I interferon receptor antagonist used for adults with moderate to severe systemic lupus erythematosus who are already on standard lupus therapy.",
+      "shortAnswer": "Saphnelo has a list price of about **~$5,483 per infusion**, before clinic administration fees. With commercial insurance, the Saphnelo Access 360 Co-pay Program can bring your cost to **as little as $0 per infusion**, with assistance of **up to $16,500/yr plus $150/infusion administration**. Medicare usually covers clinic-given infusions like Saphnelo under Part B, so the **$2,100** 2026 Part D out-of-pocket cap generally does not apply, and uninsured or underinsured patients can apply to the **AZ&Me Prescription Savings Program**.",
+      "intro": "Saphnelo is given as an IV infusion in a clinic or infusion center on a recurring schedule, added to standard lupus treatment. It is not a pill you pick up at the pharmacy. Your total cost depends on the drug price, infusion-center administration charges, and whether your plan bills it under the medical benefit, as well as your deductible and coinsurance. Because it is a brand-only biologic with no biosimilar, the list price is high and insurance coverage, often with prior authorization, matters a great deal.",
+      "costRows": [
+        {
+          "situation": "Commercial insurance + Saphnelo Access 360 Co-pay Program",
+          "cost": "As little as $0 per infusion",
+          "note": "Up to $16,500/yr plus $150/infusion administration. Commercial insurance only."
+        },
+        {
+          "situation": "Medicare (usually Part B for clinic infusions)",
+          "cost": "Varies by plan",
+          "note": "Clinic-administered infusions are typically billed under Part B, so the $2,100 2026 Part D cap generally does not apply. Copay cards cannot be used."
+        },
+        {
+          "situation": "Cash / no insurance",
+          "cost": "~$5,483 per infusion",
+          "note": "List price. Infusion-center administration fees are extra."
+        },
+        {
+          "situation": "Patient assistance (AZ&Me Prescription Savings Program)",
+          "cost": "Reduced cost if eligible",
+          "note": "For eligible uninsured or underinsured patients. Check the program site for current criteria."
+        }
+      ],
+      "copay": {
+        "lead": "With commercial insurance, you may pay as little as $0 per infusion with the Saphnelo Access 360 Co-pay Program.",
+        "body": "The Saphnelo Access 360 Co-pay Program helps commercially insured patients cover out-of-pocket costs for the drug. It also helps with infusion administration costs, up to $16,500/yr plus $150/infusion administration. The program is for commercial insurance only. People with Medicare, Medicaid, or other government coverage cannot use it. Enroll through AstraZeneca's patient support site, and ask your infusion center to bill the program after your insurance processes the claim.",
+        "maxPerFill": "Not separately stated (plus $150/infusion administration)",
+        "maxPerYear": "up to $16,500/yr plus $150/infusion administration",
+        "eligibility": "Commercial insurance only — not Medicare or Medicaid",
+        "enrollUrl": "https://www.azpatientsupport.com/home/commercially-insured.html?brand=SAPHNELO&role=Patient"
+      },
+      "medicare": {
+        "negotiated": false,
+        "mfp": null,
+        "body": "Saphnelo is not among the drugs with a Medicare-negotiated price. Because it is given by infusion in a clinic, Medicare usually covers it under Part B rather than Part D. Your share is therefore Part B coinsurance after the deductible, which supplemental coverage such as Medigap may help pay. The $2,100 2026 Part D out-of-pocket cap applies only to Part D–covered drugs, so it generally does not limit costs for clinic-administered Saphnelo. Federal rules bar manufacturer copay cards for Medicare patients, but you may still apply for AstraZeneca's patient assistance program."
+      },
+      "assistance": {
+        "program": "AZ&Me Prescription Savings Program",
+        "url": "https://www.azandmeapp.com/",
+        "body": "AstraZeneca's AZ&Me Prescription Savings Program helps eligible patients who have no insurance or cannot afford their medicines. Eligibility depends on factors such as income and coverage status, so check the program site or ask your rheumatology office for help applying."
+      },
+      "cash": "Without insurance, Saphnelo costs about ~$5,483 per infusion, and infusion-center administration fees are added on top. Retail pharmacy discount cards rarely help with clinic-administered infusions, so the AZ&Me Prescription Savings Program is usually the most useful option for uninsured patients. If cost remains a barrier, ask your rheumatologist whether other lupus treatments would be appropriate.",
+      "alternatives": "Saphnelo has no generic or biosimilar. Other lupus treatments include standard oral therapies and other biologic medications, and your rheumatologist can help weigh their effectiveness, coverage, and cost against Saphnelo for your situation.",
+      "practice": "I tell patients that the price of Saphnelo depends heavily on where it is infused and how it is billed. Hospital-based infusion centers often charge more than office-based ones. I recommend enrolling in the Access 360 program before your first infusion if you have commercial insurance, and confirming that prior authorization is approved. If you have Medicare, ask your plan how Part B coinsurance will apply, since the copay card is not an option.",
+      "faqs": [
+        {
+          "q": "How much does Saphnelo cost with the copay card?",
+          "a": "With commercial insurance, the Saphnelo Access 360 Co-pay Program can lower your cost to as little as $0 per infusion. The program covers up to $16,500/yr plus $150/infusion administration."
+        },
+        {
+          "q": "Is there a generic or biosimilar for Saphnelo?",
+          "a": "No. Saphnelo (anifrolumab) is available only as a brand-name biologic, and no biosimilar is available."
+        },
+        {
+          "q": "How much is Saphnelo without insurance?",
+          "a": "The list price is about ~$5,483 per infusion, and infusion administration fees are extra. Uninsured patients can apply to the AZ&Me Prescription Savings Program for help."
+        },
+        {
+          "q": "Does Medicare cover Saphnelo, and can I use the copay card?",
+          "a": "Medicare usually covers clinic-given infusions like Saphnelo under Part B, so your cost depends on your Part B coinsurance and any supplemental coverage. The $2,100 2026 Part D cap generally does not apply to it. Manufacturer copay cards cannot be used with Medicare, but you may apply to AZ&Me."
+        },
+        {
+          "q": "How do I enroll in the Saphnelo copay program?",
+          "a": "Commercially insured patients can enroll through AstraZeneca's patient support site at https://www.azpatientsupport.com/home/commercially-insured.html?brand=SAPHNELO&role=Patient. Ask your infusion center to bill the program after your insurance pays its share."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Saphnelo Access 360 copay (official)",
+          "url": "https://www.azpatientsupport.com/home/commercially-insured.html?brand=SAPHNELO&role=Patient"
+        },
+        {
+          "name": "AZ&Me Prescription Savings Program",
+          "url": "https://www.azandmeapp.com/"
+        }
+      ],
+      "published": "2026-10-13",
+      "modified": "2026-10-13"
     }
   ],
   "comparisons": [
